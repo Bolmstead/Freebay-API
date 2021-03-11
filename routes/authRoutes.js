@@ -4,7 +4,7 @@
 
 const jsonschema = require("jsonschema");
 
-const User = require("../models/UserModelsssssss");
+const User = require("../models/UserModel");
 const express = require("express");
 const router = new express.Router();
 const { createToken } = require("../helpers/tokens");

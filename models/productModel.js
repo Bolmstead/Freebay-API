@@ -324,7 +324,7 @@ class Product {
     return endingSoonResult.rows
   }
 }
-
+//asdf
 
 
 module.exports = Product;

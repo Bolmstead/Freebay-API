@@ -7,8 +7,8 @@ const {
   UnauthorizedError,
   ForbiddenError,
 } = require("../expressError");
-const User = require("./UserModel");
-const Product = require("./ProductModel");
+const User = require("./UserModelsssssss");
+const Product = require("./ProductModelsssssss");
 const Notification = require("./NotificationModel");
 
 const { BCRYPT_WORK_FACTOR } = require("../config.js");

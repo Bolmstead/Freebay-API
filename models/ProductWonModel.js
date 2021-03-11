@@ -6,7 +6,7 @@ const {
   BadRequestError,
   UnauthorizedError,
 } = require("../expressError");
-const Product = require("./productModel");
+const Product = require("./aasdfasdf");
 const HighestBid = require("./HighestBidModel");
 const Notification = require("./NotificationModel");
 

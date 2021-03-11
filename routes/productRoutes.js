@@ -12,7 +12,7 @@ const { authenticateJWT,
   ensureLoggedInAndCorrectUser 
 } = require("../middleware/auth");
 const User = require("../models/userModel");
-const Product = require("../models/productModel");
+const Product = require("../models/aasdfasdf");
 const ProductWon = require("../models/ProductWonModel");
 const HighestBid = require("../models/HighestBidModel");
 // const productNewSchema = require("../schemas/productNew.json");

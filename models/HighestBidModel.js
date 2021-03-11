@@ -8,7 +8,7 @@ const {
   ForbiddenError,
 } = require("../expressError");
 const User = require("./UserModel");
-const Product = require("./aasdfasdf");
+const Product = require("./productModel");
 const Notification = require("./NotificationModel");
 
 const { BCRYPT_WORK_FACTOR } = require("../config.js");

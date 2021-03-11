@@ -11,8 +11,8 @@ const { authenticateJWT,
   ensureLoggedIn, 
   ensureLoggedInAndCorrectUser 
 } = require("../middleware/auth");
-const User = require("../models/userModel");
-const Product = require("../models/productModel");
+const User = require("../models/UserModel");
+const Product = require("../models/ProductModel");
 const ProductWon = require("../models/ProductWonModel");
 const HighestBid = require("../models/HighestBidModel");
 // const productNewSchema = require("../schemas/productNew.json");

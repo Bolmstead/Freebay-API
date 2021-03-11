@@ -2,7 +2,7 @@
 
 const db = require("../db.js");
 const { BadRequestError, NotFoundError } = require("../expressError");
-const Company = require("./productModel.js");
+const Company = require("./ProductModel.js");
 const {
   commonBeforeAll,
   commonBeforeEach,

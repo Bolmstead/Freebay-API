@@ -55,6 +55,7 @@ router.get("/auctionsEndingSoon", async function (req, res, next) {
 
 router.get("/getWhatsTrending", async function (req, res, next) {
   try {
+    await Product.checkProductsForAuctionEnded();
     const products = await Product.getWhatsTrending();
     return res.json( products );
   } catch (err) {
@@ -100,7 +101,6 @@ router.post("/:productId/bid/:amount", async function (req, res, next) {
 });
 
 
- // FIX!!! USER IS UNDEFINED
 router.post("/:productId/winner", async function (req, res, next) {
   try {
     user = res.local.user

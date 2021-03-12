@@ -127,7 +127,7 @@ class Product {
     }
 
 
-    // Logic to determine if a product is still in auction. If not, add product to products_won for the highest bidder. If auction ended and no bidder, only set product's auction_ended column to true.
+    // Logic to determine if a product's auction_end_dt has passed. If so, add product to products_won for the highest bidder. If auction ended and no bidder, only set product's auction_ended column to true.
     const currentDateTime = Date.parse(new Date());
     console.log("currentDateTime",currentDateTime)
 
@@ -201,7 +201,7 @@ class Product {
       // console.log("p.email",p.email)
 
         if(product.bidderEmail) {
-          ProductsWon.wonProduct(product.id, product.Name, product.bidderEmail, product.currentBid)
+          ProductWon.wonProduct(product.id, product.Name, product.bidderEmail, product.currentBid)
         } else {
           Product.auctionEnded(product.id)
         }
@@ -323,8 +323,51 @@ class Product {
 
     return endingSoonResult.rows
   }
-}
-//asdf
 
+  static async checkProductsForAuctionEnded() {
+    const result = await db.query(
+      `SELECT products.id,
+              products.name,
+              products.category,
+              products.sub_category AS "subCategory",
+              products.description,
+              products.condition,
+              products.rating,
+              products.num_of_ratings AS "numOfRatings",
+              products.image_url AS "imageUrl",
+              products.starting_bid AS "startingBid",
+              products.auction_end_dt AS "auctionEndDt",
+              products.bid_count AS "bidCount",
+              products.auction_ended AS "auctionEnded",
+              users.email AS "bidderEmail",
+              users.first_name AS "bidderFirstName",
+              users.last_name AS "bidderLastName",
+              users.username AS "bidderUsername",
+              highest_bids.bid_price AS "bidPrice"
+      FROM products
+      FULL OUTER JOIN highest_bids ON products.id = highest_bids.product_id
+      FULL OUTER JOIN users ON highest_bids.user_email = users.email
+      WHERE auction_ended=false 
+      AND bid_count > 0`
+    );
+
+    const currentDateTime = Date.parse(new Date())
+    
+    for ( const p of result.rows) {
+      const endDt = new Date(p.auctionEndDt)
+      if ((currentDateTime - Date.parse(endDt)) > 0){
+        console.log("product's auction ended")
+          if(p.bidderEmail) {
+            ProductWon.wonProduct(p.id, p.name, p.bidderEmail, p.bidPrice)
+          } else {
+            Product.auctionEnded(p.id)
+          }
+      } else {
+        console.log("product still up for auction")
+      }
+    }
+    return result.rows
+  }
+}
 
 module.exports = Product;

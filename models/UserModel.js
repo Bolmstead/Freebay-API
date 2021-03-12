@@ -37,14 +37,17 @@ class User {
        WHERE email = $1`,
     [email],
     );
+    console.log("authenticate result", result)
     const user = result.rows[0];
+    console.log("authenticate user", user)
 
+    
     if (user) {
       // compare hashed password to a new hash from password
       const isValid = await bcrypt.compare(password, user.password);
       if (isValid === true) {
         delete user.password;
-        User.dailyReward(user)
+        await User.dailyReward(user)
         return user;
       }
     }
@@ -95,7 +98,7 @@ class User {
     }
     const user = result.rows[0];
 
-    Notification.addNotification(user["email"], `You have created a freeBay account! As a welcome gift, we have deposited $100 Freebay bucks into your account!`, "gift" )
+    Notification.addNotification(user["email"], `Welcome to freeBay! As a gift, we've deposited $100 freeBay bucks into your account!`, "gift" )
     return user;
   }
 
@@ -224,11 +227,42 @@ class User {
   }
 
   static async dailyReward(user) {
-    let previousLogin = user.lastLogin
+    let lastLogin = user.lastLogin
     let updateLastLoginResult = await User.updateLastLogin(user.email)
     let currentLogin = updateLastLoginResult.rows[0].lastLogin
 
-    let daysPassed;
+    console.log("lastLogin", lastLogin.getDate())
+    console.log("currentLogin", currentLogin.getDate())
+
+    console.log("lastLogin", lastLogin.getMonth())
+    console.log("currentLogin", currentLogin.getMonth())
+
+    console.log("lastLogin", lastLogin.getFullYear())
+    console.log("currentLogin", currentLogin.getFullYear())
+
+    function datesAreOnSameDay (oldLogin, newLogin) {
+      if (oldLogin.getFullYear() === newLogin.getFullYear() && 
+          oldLogin.getMonth() === newLogin.getMonth() &&
+          oldLogin.getDate() === newLogin.getDate()) 
+          { 
+        return true
+      } else {
+       return false
+      }
+    }
+
+    const sameDay = datesAreOnSameDay(lastLogin, currentLogin)
+
+    console.log("sameDay", sameDay)
+    if (!sameDay) {
+      let increaseBalanceResult = await User.increaseBalance(100,user.email)
+      
+      console.log("")
+
+      let addNotificationResult = await Notification.addNotification(user.email,"Welcome back! Here's $100 freeBay bucks","gift")
+      console.log("increaseBalanceResult", increaseBalanceResult)
+      console.log("addNotificationResult", addNotificationResult)
+    }
 
     // if (currentLogin.getFullYear() === previousLogin.getFullYear()){
     //   if (currentLogin.getMonth() === previousLogin.getMonth()) {

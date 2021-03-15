@@ -177,7 +177,7 @@ class Product {
             products.bid_count AS "bidCount",
             products.auction_ended AS "auctionEnded",
             highest_bids.user_email AS "bidderEmail",
-            highest_bids.bid_price AS "currentBid",
+            highest_bids.bid_price AS "bidPrice",
             users.username AS "bidderUsername"
     FROM products
     FULL OUTER JOIN highest_bids ON products.id = highest_bids.product_id
@@ -201,7 +201,7 @@ class Product {
       // console.log("p.email",p.email)
 
         if(product.bidderEmail) {
-          ProductWon.wonProduct(product.id, product.Name, product.bidderEmail, product.currentBid)
+          ProductWon.wonProduct(product.id, product.Name, product.bidderEmail, product.bidPrice)
         } else {
           Product.auctionEnded(product.id)
         }

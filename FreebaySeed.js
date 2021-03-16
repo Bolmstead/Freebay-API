@@ -108,10 +108,5 @@ class SeedProducts{
 }
 
 
-// Product.addRating(785, 5)
-// Product.get(785)
-
-SeedProducts.seedProducts()
-
 
 

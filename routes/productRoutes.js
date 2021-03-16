@@ -15,6 +15,8 @@ const User = require("../models/UserModel");
 const Product = require("../models/ProductModel");
 const ProductWon = require("../models/ProductWonModel");
 const HighestBid = require("../models/HighestBidModel");
+const FreebaySeed = require("../FreebaySeed");
+
 // const productNewSchema = require("../schemas/productNew.json");
 // const productUpdateSchema = require("../schemas/productUpdate.json");
 // const productSearchSchema = require("../schemas/productSearch.json");
@@ -111,6 +113,16 @@ router.post("/:productId/winner", async function (req, res, next) {
   }
 
 });
+
+router.post("/SEEDALLPRODUCTS", async function (req, res, next) {
+  try {
+    const products = await FreebaySeed.wonProduct(req.params.productId, user.email);
+    return res.json("Successfully seeded products to database!");
+  } catch (err) {
+    return next(err);
+  }
+});
+
 
 
 module.exports = router;

@@ -54,7 +54,8 @@ class ProductsWon {
         FULL OUTER JOIN products ON products_won.product_id = products.id
         FULL OUTER JOIN users ON products_won.user_email = users.email
         WHERE products.auction_ended = true AND bid_price > 1
-        ORDER BY products_won.datetime DESC`);
+        ORDER BY products_won.datetime DESC
+        LIMIT 4`);
 
     if (!winsFeedRes) throw new BadRequestError(`Unable to getHighestBids in userModel.js`);
 

@@ -108,5 +108,6 @@ class SeedProducts{
 }
 
 
+module.exports = SeedProducts;
 
 

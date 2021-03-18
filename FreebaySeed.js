@@ -31,9 +31,6 @@ class SeedProducts{
   }
 
   static async seedProducts() {
-    console.log("products1 in FreebaySeed.js", products1)
-    console.log("products2 in FreebaySeed.js", products2)
-    console.log("products3 in FreebaySeed.js", products3)
 
     for (let i = 0; i < products1.length; i++) {
       console.log("products1[i]",products1[i])

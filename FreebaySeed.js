@@ -14,7 +14,7 @@ class SeedProducts{
   static randomCondition(){
     const conditions = ["Brand New", "New - Open Box", "Good", "Used"]
     const condition = conditions[(Math.floor(Math.random() * 4))]
-    console.log("condition",condition)
+    console.log("condition in FreebaySeed.js",condition)
     return condition
   }
 
@@ -31,22 +31,32 @@ class SeedProducts{
   }
 
   static async seedProducts() {
+    console.log("products1 in FreebaySeed.js", products1)
+    console.log("products2 in FreebaySeed.js", products2)
+    console.log("products3 in FreebaySeed.js", products3)
+
     for (let i = 0; i < products1.length; i++) {
       console.log(i)
       const {item, category, sub_category, description, image_1, market_price} = products1[i]
 
       // Create Random DateTime object
       let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 5), new Date())
-      console.log("auction_end_dt", auction_end_dt)
+      console.log("auction_end_dt in FreebaySeed.js", auction_end_dt)
 
       // Create starting price as half of the product's actual price
       let starting_bid = Math.round(market_price * .5)
       starting_bid = Math.round(100*starting_bid)/100
+      console.log("starting_bid in FreebaySeed.js", starting_bid)
+
 
       // Grab random rating, number of ratings, and condition
       const num_of_ratings = SeedProducts.randomNumberOfRatings()
       const rating = SeedProducts.randomRating()
       const condition = SeedProducts.randomCondition()
+      console.log("num_of_ratings in FreebaySeed.js", num_of_ratings)
+      console.log("rating in FreebaySeed.js", rating)
+      console.log("condition in FreebaySeed.js", condition)
+
 
 
       const valuesArray =

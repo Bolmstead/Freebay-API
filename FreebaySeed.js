@@ -36,7 +36,7 @@ class SeedProducts{
     console.log("products3 in FreebaySeed.js", products3)
 
     for (let i = 0; i < products1.length; i++) {
-      console.log(i)
+      console.log("products1[i]",products1[i])
       const {item, category, sub_category, description, image_1, market_price} = products1[i]
 
       // Create Random DateTime object

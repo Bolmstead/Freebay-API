@@ -4,18 +4,17 @@ const db = require("../db");
 const {
   NotFoundError,
   BadRequestError,
-  UnauthorizedError,
 } = require("../expressError");
 const Product = require("./ProductModel");
 const HighestBid = require("./HighestBidModel");
 const Notification = require("./NotificationModel");
 
-const { BCRYPT_WORK_FACTOR } = require("../config.js");
-
+/** Related functions for products_won. */
 
 class ProductsWon {
-  // When a user wins a product
+  // Method to be executed when a user wins a product
   static async wonProduct(productId, productName, userEmail, bidPrice ){
+    // Insert into products_won table 
     const productWonRes = await db.query(
     `INSERT INTO products_won (product_id, user_email, bid_price)
     VALUES ($1, $2, $3)
@@ -23,17 +22,20 @@ class ProductsWon {
 
     if (!productWonRes) throw new NotFoundError(`Winning Product not added to Products Won table`);
 
+    // Delete the previous highest bid on product
     HighestBid.deleteBid(productId)
+    // Set the auction_ended value on the product to true
     Product.auctionEnded(productId)
+    // Send win confirmation notification to winner 
     Notification.addNotification(userEmail, `Congrats! You won the auction for a ${productName}!`, "win", productId)
-
-    console.log("productWonRes from addProductWon()", productWonRes)
 
     return productWonRes;
 
   }
 
+  // Method to grab the product and bidder information of productss that most recently have been won.
   static async getWinsFeed() {
+    // Only query products that have a bid and the auction has ended
     const winsFeedRes = await db.query(
       `SELECT products.id,
               products.name,
@@ -58,8 +60,6 @@ class ProductsWon {
         LIMIT 4`);
 
     if (!winsFeedRes) throw new BadRequestError(`Unable to getHighestBids in userModel.js`);
-
-    // console.log("getHighestBids in userModel.js", winsFeedRes)
 
     return winsFeedRes.rows
     }

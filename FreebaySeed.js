@@ -31,6 +31,7 @@ class SeedProducts{
   }
 
   static async seedProducts() {
+    
 
     for (let i = 0; i < products1.length; i++) {
       console.log("[i]",[i])

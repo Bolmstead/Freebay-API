@@ -41,7 +41,7 @@ function authenticateJWT(req, res, next) {
 
 function ensureLoggedIn(req, res, next) {
   try {
-    // console.log("res.locals.user", res.locals.user)
+    console.log("res.locals.user", res.locals.user)
     console.log("ensureLoggedIn middleware")
     if (!res.locals.user) throw new UnauthorizedError();
     return next();
@@ -58,7 +58,7 @@ function ensureLoggedIn(req, res, next) {
 
 function ensureLoggedInAndCorrectUser(req, res, next) {
   try {
-    // console.log("res.locals.user", res.locals.user)
+    console.log("res.locals.user", res.locals.user)
     console.log("ensureLoggedInAndCorrectUser middleware")
     const user = res.locals.user;
     if (!(user && (user.email === req.params.username))) {

@@ -1,12 +1,7 @@
-"use strict";
-
 /** Routes for products. */
 
 // const jsonschema = require("jsonschema");
 const express = require("express");
-
-const { BadRequestError } = require("../expressError");
-// const { ensureAdmin } = require("../middleware/auth");
 const { authenticateJWT, 
   ensureLoggedIn, 
   ensureLoggedInAndCorrectUser 
@@ -17,13 +12,10 @@ const ProductWon = require("../models/ProductWonModel");
 const HighestBid = require("../models/HighestBidModel");
 const SeedProducts = require("../FreebaySeed");
 
-// const productNewSchema = require("../schemas/productNew.json");
-// const productUpdateSchema = require("../schemas/productUpdate.json");
-// const productSearchSchema = require("../schemas/productSearch.json");
-
 const router = new express.Router();
 
-
+// route grabs all information of a group of products.
+// search query can be passed to the route to specify which products to pull
 router.get("/", async function (req, res, next) {
   try {
     const q = req.query;
@@ -35,6 +27,8 @@ router.get("/", async function (req, res, next) {
 
 });
 
+// grabs user information and product name of products 
+// that most recently been won
 router.get("/recentWinners", async function (req, res, next) {
   try {
     const winners = await ProductWon.getWinsFeed();
@@ -45,16 +39,8 @@ router.get("/recentWinners", async function (req, res, next) {
 
 });
 
-router.get("/auctionsEndingSoon", async function (req, res, next) {
-  try {
-    const products = await Product.getAuctionsEndingSoon();
-    return res.json( products );
-  } catch (err) {
-    return next(err);
-  }
-
-});
-
+// called to grab product and bidder information 
+// of products that are trending
 router.get("/getWhatsTrending", async function (req, res, next) {
   try {
     await Product.checkProductsForAuctionEnded();
@@ -66,6 +52,8 @@ router.get("/getWhatsTrending", async function (req, res, next) {
 
 });
 
+// Seeds all products to database.
+// Only to be called once at projects deployment
 router.get("/SEEDALLPRODUCTS", async function (req, res, next) {
   try {
     const products = await SeedProducts.seedProducts();
@@ -76,6 +64,7 @@ router.get("/SEEDALLPRODUCTS", async function (req, res, next) {
   }
 });
 
+// Grabs information about the product and bidder
 router.get("/:id", async function (req, res, next) {
   try {
     const product = await Product.getProductAndBid(req.params.id);
@@ -87,20 +76,16 @@ router.get("/:id", async function (req, res, next) {
 });
 
 
-
+// Route for submitting bid on product
 router.post("/:productId/bid/:amount", async function (req, res, next) {
   try {
+    // grab the user saved in local storage and pull information of that user from API
     const localsUser = res.locals.user;
-    const user = await User.get(localsUser["username"])
+    const user = await User.get(localsUser.username)
 
     const productId = req.params.productId;
     const newBid = req.params.amount;
     const product = await Product.getProductAndBid(productId);
-
-
-    if (product.highestBid > newBid) {
-      throw new BadRequestError(errs);
-    }
 
     await HighestBid.updateBid(product, user, newBid)
 
@@ -111,7 +96,7 @@ router.post("/:productId/bid/:amount", async function (req, res, next) {
 
 });
 
-
+// Called when user has won a product's auction
 router.post("/:productId/winner", async function (req, res, next) {
   try {
     user = res.local.user

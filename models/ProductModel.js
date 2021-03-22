@@ -104,45 +104,49 @@ class Product {
     whereExpressions.push(`auction_ended = false`);
     query += " WHERE " + whereExpressions.join(" AND ");
 
-    query += paginationQuery
-    
-    const productsResult = await db.query(query, queryValues);
+    const allProductsResult = await db.query(query, queryValues);
 
-    if(!productsResult) {
-      throw new BadRequestError(`Unable to make request for products in Products.getProducts()`);
+    if(!allProductsResult) {
+      throw new BadRequestError(`Unable to make request for all products in Products.getProducts()`);
     }
 
-    // Create query of the total count of products that fit product search query.
-    // Number to be used on the frontend to disable/enable next and previous page buttons
-    const totalProductsQuery = 
-    "SELECT COUNT(*) FROM products" + " WHERE " + whereExpressions.join(" AND ");
+    // total number of products. To be used on frontend to disable/enable 
+    // next and previous page buttons
+    let numOfProducts = allProductsResult.rows.length
+    console.log("numOfProducts",numOfProducts)
 
-    const findTotalProducts = await db.query(totalProductsQuery, queryValues);
-    const numOfProducts = findTotalProducts.rows[0]
-
-
-    if(!findTotalProducts) {
-      throw new BadRequestError(`Unable to make request for products in Products.getProducts()`);
-    }
-
-
+    let numOfAuctionsEnded = 0;
     const currentDateTime = Date.parse(new Date());
-
-    for ( const p of productsResult.rows) {
+    for ( const p of allProductsResult.rows) {
       const endDt = new Date(p.auctionEndDt)
       if ((currentDateTime - Date.parse(endDt)) > 0){
-          if(p.bidderEmail) {
-            ProductWon.wonProduct(p.id, p.name, p.bidderEmail, p.bidPrice)
-          } else {
-            Product.auctionEnded(p.id)
-          }
+        if(p.bidderEmail) {
+          ProductWon.wonProduct(p.id, p.name, p.bidderEmail, p.bidPrice)
+        } else {
+          Product.auctionEnded(p.id)
+        }
+        numOfAuctionsEnded += 1
+
       } 
     }
-    
+
+    // get new total number of products in which their auctions have not ended by 
+    // subtracting the number of auctions ended from the total numOfProducts
+    numOfProducts = numOfProducts - numOfAuctionsEnded
+    console.log("numOfProducts",numOfProducts)
+
+
+    const queryWithPagination = query + paginationQuery
+    const paginatedProductsResult = await db.query(queryWithPagination, queryValues);
+
+    if(!paginatedProductsResult) {
+      throw new BadRequestError(`Unable to make request for products in Products.getProducts()`);
+    }
+
     // Create object containing the products and the number of total products 
     const productsAndCount = {
-      products: productsResult.rows,
-      count: numOfProducts.count
+      products: paginatedProductsResult.rows,
+      count: numOfProducts
     }
     return productsAndCount;
   }
@@ -230,7 +234,7 @@ class Product {
         FULL OUTER JOIN users ON highest_bids.user_email = users.email
         WHERE products.auction_ended = false
         ORDER BY products.bid_count DESC
-        LIMIT 3`
+        LIMIT 4`
     )
     if (!endingSoonResult) throw new BadRequestError(`unable to grab latest highest bids`);
 

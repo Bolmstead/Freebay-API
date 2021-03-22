@@ -7,14 +7,13 @@ const products3 = require("./products_3");
 const db = require("./db");
 
 
-/** Related functions for companies. */
+/** Method to seed all products into database */
 
 class SeedProducts{
 
   static randomCondition(){
     const conditions = ["Brand New", "New - Open Box", "Good", "Used"]
     const condition = conditions[(Math.floor(Math.random() * 4))]
-    console.log("condition in FreebaySeed.js",condition)
     return condition
   }
 
@@ -23,9 +22,9 @@ class SeedProducts{
   }
 
   static randomRating() {
-    return (Math.floor(Math.random() * 50)) / 10
+    return (Math.floor(Math.random() * 5))
   }
-
+  
   static randomNumberOfRatings() {
     return (Math.floor(Math.random() * 1111))
   }
@@ -42,8 +41,8 @@ class SeedProducts{
       let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 5), new Date())
       console.log("auction_end_dt in FreebaySeed.js", auction_end_dt)
 
-      // Create starting price as half of the product's actual price
-      let starting_bid = Math.round(market_price * .5)
+      // Create starting price as 2/3 of the product's actual price
+      let starting_bid = Math.round(market_price * .66)
       starting_bid = Math.round(100*starting_bid)/100
       console.log("starting_bid in FreebaySeed.js", starting_bid)
 

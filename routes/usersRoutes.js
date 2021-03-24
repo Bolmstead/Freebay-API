@@ -1,8 +1,5 @@
 /** Routes for users. */
-const jsonschema = require("jsonschema");
-
 const express = require("express");
-const { ensureCorrectUserOrAdmin, ensureAdmin } = require("../middleware/auth");
 const User = require("../models/UserModel");
 const Notification = require("../models/NotificationModel");
 

@@ -1,8 +1,5 @@
 const db = require("../db");
-const {
-  BadRequestError,
-  ForbiddenError,
-} = require("../expressError");
+const { BadRequestError, ForbiddenError } = require("../expressError");
 const User = require("./UserModel");
 const Notification = require("./NotificationModel");
 
@@ -12,9 +9,8 @@ const Notification = require("./NotificationModel");
 class HighestBids {
 
   // Method to execute when a user submits a product bid. 
-
   static async updateBid(product, user, newBid ) {
-    const {bidderEmail, currentBid, currentBidderUsername} = product
+    const {bidderEmail, currentBid } = product
 
     // Shorten product name for better display
     const productName = product.name.substring(0, 50) + "..."
@@ -70,6 +66,7 @@ class HighestBids {
 
   static async addBid(productId, userEmail, newBid) {
     // add bid from the highest_bids table
+    console.log("productId, userEmail, newBid", productId, userEmail, newBid)
     const addHighestBidder = await db.query(
       `INSERT INTO highest_bids (product_id, user_email, bid_price)
       VALUES ($1, $2, $3)
@@ -78,14 +75,14 @@ class HighestBids {
   }
 
   static async addToBidCount(productId) {
-    // Increase product's bid count by one in products table
-      const result = await db.query(`UPDATE products 
-                        SET bid_count = (bid_count + 1)
-                        WHERE id = $1`,[productId]);
-      if (!result) throw new BadRequestError(
-            `Bid not added to count: ${productId}`);
-      return result;
-    }
+  // Increase product's bid count by one in products table
+    const result = await db.query(`UPDATE products 
+                      SET bid_count = (bid_count + 1)
+                      WHERE id = $1`,[productId]);
+    if (!result) throw new BadRequestError(
+          `Bid not added to count: ${productId}`);
+    return result;
+  }
 
   static async getBidsFeed() {
     // Grab information on products with the most recent bids if the product's auction has not ended
@@ -109,7 +106,8 @@ class HighestBids {
         FULL OUTER JOIN products ON highest_bids.product_id = products.id
         FULL OUTER JOIN users ON highest_bids.user_email = users.email
         WHERE products.auction_ended = false AND bid_price > 1
-        ORDER BY highest_bids.datetime DESC`);
+        ORDER BY highest_bids.datetime DESC
+        LIMIT 4`);
 
     if (!bidsFeedRes) throw new BadRequestError(`Undable to getHighestBids in userModel.js`);
 

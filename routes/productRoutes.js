@@ -2,10 +2,7 @@
 
 // const jsonschema = require("jsonschema");
 const express = require("express");
-const { authenticateJWT, 
-  ensureLoggedIn, 
-  ensureLoggedInAndCorrectUser 
-} = require("../middleware/auth");
+const { authenticateJWT } = require("../middleware/auth");
 const User = require("../models/UserModel");
 const Product = require("../models/ProductModel");
 const ProductWon = require("../models/ProductWonModel");
@@ -28,7 +25,7 @@ router.get("/", async function (req, res, next) {
 });
 
 // grabs user information and product name of products 
-// that most recently been won
+// that have most recently been won
 router.get("/recentWinners", async function (req, res, next) {
   try {
     const winners = await ProductWon.getWinsFeed();
@@ -40,11 +37,10 @@ router.get("/recentWinners", async function (req, res, next) {
 });
 
 // called to grab product and bidder information 
-// of products that are trending
-router.get("/getWhatsTrending", async function (req, res, next) {
+// of products that have most recently been bidded on
+router.get("/recentBidders", async function (req, res, next) {
   try {
-    await Product.checkProductsForAuctionEnded();
-    const products = await Product.getWhatsTrending();
+    const products = await Product.recentBidders();
     return res.json( products );
   } catch (err) {
     return next(err);

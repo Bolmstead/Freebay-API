@@ -8,8 +8,8 @@ const ProductWon = require("./ProductWonModel");
 /** Related functions for products. */
 
 class Product {
-  // Grabs products (along with each bidder's information) based on search query passed in.
-  // Utilizes pagination with a max of 24 in each query. 
+  // Grabs products and their bidder info based on search query parameters.
+  // Utilizes pagination with a max number of products in each query. 
   static async getProducts(q) {
     let query = `SELECT products.id,
                         products.name,
@@ -33,17 +33,17 @@ class Product {
                 FULL OUTER JOIN highest_bids ON products.id = highest_bids.product_id
                 FULL OUTER JOIN users ON highest_bids.user_email = users.email`;
 
-    // whereExpressions, queryValues, and paginationQuery will be inserted into query
+    // whereExpressions, queryValues, and paginationQuery that will be inserted into query
     let whereExpressions = [];
     let queryValues = []; 
     let paginationQuery = " limit 24 OFFSET ";
 
     let { page, name, category, subCategory, description, condition, 
       rating, numOfRatings, auctionEndDt} = q;
+
     let numberOfProductsPerPage = 24
 
-    // Number to be placed in the OFFSET portion of query to 
-    // determine the correct products a user should see.
+    // Number to be placed in the OFFSET portion of query.
     let offsetNumber;
 
     // If page is not defined in query, set offset number to zero.
@@ -51,7 +51,7 @@ class Product {
       offsetNumber = 0
     }
     else {
-      // Otherwise set page to integer and determine how many 
+      // Otherwise convert page to integer and determine how many 
       // products user has seen to offset query.
       let pageNum = parseInt(page)
       offsetNumber = (pageNum - 1) * numberOfProductsPerPage
@@ -59,7 +59,8 @@ class Product {
 
     paginationQuery += offsetNumber
 
-    // For each possible search term, add to whereExpressions and queryValues to grab desired products.
+    // For each possible search term, add to whereExpressions and 
+    // queryValues to grab desired products.
     if (name !== undefined) {
       queryValues.push(`%${name}%`);
       whereExpressions.push(`name ILIKE $${queryValues.length}`);
@@ -100,42 +101,44 @@ class Product {
       whereExpressions.push(`auction_end_dt >= $${queryValues.length}`);
     }
 
-
+    // add only products that are in auction to query along 
+    // with the where expressions
     whereExpressions.push(`auction_ended = false`);
     query += " WHERE " + whereExpressions.join(" AND ");
 
+    // Send query for ALL products (without pagination). Total amount of products
+    // will be used in frontend in order to disable/endable next and previous page buttons
     const allProductsResult = await db.query(query, queryValues);
-
     if(!allProductsResult) {
       throw new BadRequestError(`Unable to make request for all products in Products.getProducts()`);
     }
-
-    // total number of products. To be used on frontend to disable/enable 
-    // next and previous page buttons
     let numOfProducts = allProductsResult.rows.length
-    console.log("numOfProducts",numOfProducts)
 
+    // Loop through ALL products to determine if the product's auction has ended.
+    // If so, run appropriate method.
     let numOfAuctionsEnded = 0;
     const currentDateTime = Date.parse(new Date());
     for ( const p of allProductsResult.rows) {
       const endDt = new Date(p.auctionEndDt)
       if ((currentDateTime - Date.parse(endDt)) > 0){
+        // If a product has a bidder
         if(p.bidderEmail) {
-          ProductWon.wonProduct(p.id, p.name, p.bidderEmail, p.bidPrice)
+          ProductWon.newWin(p.id, p.name, p.bidderEmail, p.bidPrice)
         } else {
           Product.auctionEnded(p.id)
         }
+        // Number of auctions ended will be subtracted from the numOfProducts to get
+        // the accurate number of total products still in auction
         numOfAuctionsEnded += 1
 
       } 
     }
 
-    // get new total number of products in which their auctions have not ended by 
-    // subtracting the number of auctions ended from the total numOfProducts
+    // get new total number of products in auction. Will be used to help frontend
+    // disable/endable the next/previous page buttons in a product list
     numOfProducts = numOfProducts - numOfAuctionsEnded
-    console.log("numOfProducts",numOfProducts)
 
-
+    // Send query with pagination
     const queryWithPagination = query + paginationQuery
     const paginatedProductsResult = await db.query(queryWithPagination, queryValues);
 
@@ -143,7 +146,7 @@ class Product {
       throw new BadRequestError(`Unable to make request for products in Products.getProducts()`);
     }
 
-    // Create object containing the products and the number of total products 
+    // Return object with the paginated results and total number of products in auction
     const productsAndCount = {
       products: paginatedProductsResult.rows,
       count: numOfProducts
@@ -152,13 +155,11 @@ class Product {
   }
 
   /** Given a product id, return data about product and its bidder.
-   *
-   * Throws NotFoundError if not found.
-   **/
+   * Throws NotFoundError if not found.**/
 
   static async getProductAndBid(id) {
-    const productRes = await db.query( 
-    `SELECT products.id,
+    const query =     
+        `SELECT products.id,
             products.name,
             products.category,
             products.sub_category AS "subCategory",
@@ -174,27 +175,17 @@ class Product {
             highest_bids.user_email AS "bidderEmail",
             highest_bids.bid_price AS "bidPrice",
             users.username AS "bidderUsername"
-    FROM products
-    FULL OUTER JOIN highest_bids ON products.id = highest_bids.product_id
-    FULL OUTER JOIN users ON highest_bids.user_email = users.email
-    WHERE id = $1`,
-        [id]);
+        FROM products
+        FULL OUTER JOIN highest_bids ON products.id = highest_bids.product_id
+        FULL OUTER JOIN users ON highest_bids.user_email = users.email
+        WHERE id = $1`
 
-    if (!productRes) throw new BadRequestError(`Unable to get product`);
+    const productResult = await db.query(query, [id]);
+
+    if (!productResult) throw new BadRequestError(`Unable to get product`);
     
-    const product = productRes.rows[0]
-    const currentDateTime = Date.parse(new Date());
-    const endDt = new Date(product.auctionEndDt)
+    const product = productResult.rows[0]
 
-    // If the auction end time has passed, add to the products_won table if product has a bid.
-    // If no bid, just set the auction_ended to true
-    if ((Date.parse(endDt) - currentDateTime) < 0){
-        if(product.bidderEmail) {
-          ProductWon.wonProduct(product.id, product.Name, product.bidderEmail, product.bidPrice)
-        } else {
-          Product.auctionEnded(product.id)
-        }
-    } 
     return product;
   }
 
@@ -208,8 +199,9 @@ class Product {
     if (!auctionEndedResult) throw new BadRequestError(`productauctionEnded boolean value unchanged ${auctionEndedResult}`);
   }
 
-  // Get products with the highest bids
-  static async getWhatsTrending() {
+  // Get products with the most recent bids
+  static async recentBidders() {
+    // Send query to grab 4 most recent bidded products
     const endingSoonResult = await db.query(
       `SELECT products.id,
               products.name,
@@ -228,12 +220,13 @@ class Product {
               users.first_name AS "bidderFirstName",
               users.last_name AS "bidderLastName",
               users.username AS "bidderUsername",
-              highest_bids.bid_price AS "bidPrice"
+              highest_bids.bid_price AS "bidPrice",
+        highest_bids.datetime
         FROM products
         FULL OUTER JOIN highest_bids ON products.id = highest_bids.product_id
         FULL OUTER JOIN users ON highest_bids.user_email = users.email
-        WHERE products.auction_ended = false
-        ORDER BY products.bid_count DESC
+        WHERE products.auction_ended = false AND products.bid_count > 0
+        ORDER BY highest_bids.datetime DESC
         LIMIT 4`
     )
     if (!endingSoonResult) throw new BadRequestError(`unable to grab latest highest bids`);
@@ -241,9 +234,10 @@ class Product {
     return endingSoonResult.rows
   }
 
-  // Grab all products that auction has not ended and have a bid. If any grabbed 
-  // product's auction ended datetime has passed, set the auction_ended value to true.
-  static async checkProductsForAuctionEnded() {
+  // Grab all products with a bid (and auction_ended=true) and
+  // execute the ProductWon.newWin method on a product if its ending 
+  // auction time has passed
+  static async hasAuctionEndedForBiddedProducts() {
     const result = await db.query(
       `SELECT products.id,
               products.name,
@@ -272,20 +266,15 @@ class Product {
 
     const currentDateTime = Date.parse(new Date())
 
-    // for each product grabbed, if product has bidder, execute the wonProduct method.
-    // Otherwise, set the product's auction_ended column to true
     for ( const p of result.rows) {
-      const endDt = new Date(p.auctionEndDt)
-      if ((currentDateTime - Date.parse(endDt)) > 0){
-        if(p.bidderEmail) {
-          ProductWon.wonProduct(p.id, p.name, p.bidderEmail, p.bidPrice)
-        } else {
-          Product.auctionEnded(p.id)
-        }
+      const endingDateTime = new Date(p.auctionEndDt)
+      if ((currentDateTime - Date.parse(endingDateTime)) > 0){
+        ProductWon.newWin(p.id, p.name, p.bidderEmail, p.bidPrice)
       }
     }
     return result.rows
   }
+
 }
 
 module.exports = Product;

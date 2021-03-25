@@ -52,7 +52,7 @@ router.get("/recentBidders", async function (req, res, next) {
 // Only to be called once at projects deployment
 router.get("/SEEDALLPRODUCTS", async function (req, res, next) {
   try {
-    const products = await SeedProducts.seedProducts();
+    const products = await SeedProducts.seed();
     console.log("products",products)
     return res.json("Successfully seeded products to database!");
   } catch (err) {
@@ -82,6 +82,7 @@ router.post("/:productId/bid/:amount", async function (req, res, next) {
     const productId = req.params.productId;
     const newBid = req.params.amount;
     const product = await Product.getProductAndBid(productId);
+    console.log("product in /:productId/bid/:amount", product)
 
     await HighestBid.updateBid(product, user, newBid)
 

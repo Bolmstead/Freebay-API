@@ -151,6 +151,7 @@ class Product {
       products: paginatedProductsResult.rows,
       count: numOfProducts
     }
+    console.log("productsAndCount", productsAndCount)
     return productsAndCount;
   }
 

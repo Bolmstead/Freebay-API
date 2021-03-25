@@ -1,6 +1,5 @@
 const db = require("../db");
 const { BadRequestError, ForbiddenError } = require("../expressError");
-const User = require("./UserModel");
 const Notification = require("./NotificationModel");
 
 
@@ -10,21 +9,27 @@ class HighestBids {
 
   // Method to execute when a user submits a product bid. 
   static async updateBid(product, user, newBid ) {
-    const {bidderEmail, currentBid } = product
+    console.log("product in HighestBids.updateBid: ",product)
+    console.log("user in HighestBids.updateBid: ",user)
+    console.log("newBid in HighestBids.updateBid: ",newBid)
+
+    const {bidderEmail, bidPrice, name } = product
 
     // Shorten product name for better display
-    const productName = product.name.substring(0, 50) + "..."
-
-    // If product already has a bid placed
-    if (currentBid) {
+    console.log("product", product)
+    console.log("bidPrice", bidPrice)
+    // If product already has a bid placedc
+    if (bidPrice) {
 
       // convert bid strings to integers
-      const currentBidInteger = parseInt(currentBid)
+      const currentBidInteger = parseInt(bidPrice)
       const newBidInteger = parseInt(newBid)
 
       if (newBidInteger > user.balance) {
         throw new ForbiddenError(`Insufficient funds`);
       }
+      console.log("newBidInteger", newBidInteger)
+      console.log("currentBidInteger", currentBidInteger)
 
       // If the new bid is greater than the current bid
       if (newBidInteger > currentBidInteger) {
@@ -34,25 +39,24 @@ class HighestBids {
 
         // If previous bidder is not the same as the new bidder, send notification to previous bidder
         if( bidderEmail !== user.email) {
-          Notification.addNotification(bidderEmail, `You have been outbid by ${user.username} for the ${productName}`, "outbid", product.id )
+          Notification.addNotification(bidderEmail, `You have been outbid by ${user.username} for the ${name}`, "outbid", product.id )
         } 
 
         // Refill previous bidder's balance by previous bid amount
         await User.increaseBalance(currentBidInteger, bidderEmail)
 
       } else {
-        throw new BadRequestError(`Your bid of ${newBid} is not higher than the previous bid of ${currentBid}`);
+        throw new BadRequestError(`Your bid of ${newBid} is not higher than the previous bid of ${bidPrice}`);
       }
     }
 
     // Add the highest bidder email and price to highest_bids table
-    HighestBids.addBid(product.id, user.email, newBid);
+    // Also decreases user's balance by the bid amount 
+    HighestBids.addBidAndDecreaseBalance(product.id, user.email, newBid,);
     // Add 1 to the product's bid count
     HighestBids.addToBidCount(product.id);
-    // Reduce the new bidder's balance by the bid amount
-    User.decreaseBalance(newBid, user.email);
     // Send notification to the new bidder to confirm a bid has been placed
-    Notification.addNotification(user.email, `You have placed a bid on ${productName}`, "bid", product.id)
+    Notification.addNotification(user.email, `You have placed a bid on ${name}`, "bid", product.id)
   }
 
   static async deleteBid(id) {
@@ -64,7 +68,7 @@ class HighestBids {
     if (!result) throw new BadRequestError(`product not deleted!`);
   }
 
-  static async addBid(productId, userEmail, newBid) {
+  static async addBidAndDecreaseBalance(productId, userEmail, newBid) {
     // add bid from the highest_bids table
     console.log("productId, userEmail, newBid", productId, userEmail, newBid)
     const addHighestBidder = await db.query(
@@ -72,6 +76,14 @@ class HighestBids {
       VALUES ($1, $2, $3)
       RETURNING product_id AS "productId", user_email AS "newBidderEmail", bid_price AS "bidPrice"`, [productId, userEmail, newBid]);
     if (!addHighestBidder) throw new BadRequestError(`product not added!`);
+
+    const decreaseBalanceResult = await db.query(
+      `UPDATE users 
+        SET balance = balance - $1
+        WHERE email = $2`,[newBid, userEmail]);
+    if (!decreaseBalanceResult) throw new BadRequestError(
+    `Balance not lowered by ${newBid} for user:  ${userEmail}`
+    );
   }
 
   static async addToBidCount(productId) {

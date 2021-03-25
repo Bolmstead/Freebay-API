@@ -2,7 +2,6 @@
 
 const db = require("../db");
 const { NotFoundError, BadRequestError } = require("../expressError");
-const Product = require("./ProductModel");
 const HighestBid = require("./HighestBidModel");
 const Notification = require("./NotificationModel");
 
@@ -12,6 +11,11 @@ class ProductsWon {
 
   // Method to be executed when a user wins a product
   static async newWin(productId, productName, userEmail, bidPrice){
+
+    console.log("productId in ProductsWon.newWin",productId)
+    console.log("productName in ProductsWon.newWin",productName)
+    console.log("userEmail in ProductsWon.newWin",userEmail)
+    console.log("bidPrice in ProductsWon.newWin",bidPrice)
 
     // Insert into products_won table 
     const productWonRes = await db.query(
@@ -27,7 +31,12 @@ class ProductsWon {
     // Delete the previous highest bid on product
     HighestBid.deleteBid(productId)
     // Set the auction_ended value on the product to true
-    Product.auctionEnded(productId)
+    const auctionEndedResult = await db.query(
+      `UPDATE products 
+        SET auction_ended = true
+        WHERE id = $1`,[productId]);
+
+    if (!auctionEndedResult) throw new BadRequestError(`productauctionEnded boolean value unchanged ${auctionEndedResult}`);
     // Send win confirmation notification to winner 
     Notification.addNotification(
       userEmail, `Congrats! You won the auction for a ${productName}!`, "win", productId

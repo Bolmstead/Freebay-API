@@ -18,18 +18,24 @@ class SeedProducts{
   }
 
   static randomDate(start, end) {
-    return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+    console.log("start",start)
+    console.log("end",end)
+    console.log("end.getTime() - start.getTime()",(end.getTime() - start.getTime()))
+
+    let currentDateTime = new Date()
+
+    return new Date(currentDateTime.getTime() + Math.random() * (36400000));
   }
 
   static randomRating() {
-    return (Math.floor(Math.random() * 5))
+    return ((Math.floor(Math.random() * 4))+2)
   }
   
   static randomNumberOfRatings() {
     return (Math.floor(Math.random() * 1111))
   }
 
-  static async seedProducts() {
+  static async seed() {
     
 
     for (let i = 0; i < products1.length; i++) {
@@ -38,7 +44,7 @@ class SeedProducts{
       const {item, category, sub_category, description, image_1, market_price} = products1[i]
 
       // Create Random DateTime object
-      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 5), new Date())
+      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
       console.log("auction_end_dt in FreebaySeed.js", auction_end_dt)
 
       // Create starting price as 2/3 of the product's actual price
@@ -69,7 +75,7 @@ class SeedProducts{
       const {item, category, sub_category, description, image_1, market_price} = products2[i]
 
       // Create Random DateTime object
-      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 5), new Date())
+      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
       console.log("auction_end_dt", auction_end_dt)
 
       // Create starting price as half of the product's actual price
@@ -93,7 +99,7 @@ class SeedProducts{
       const {item, category, sub_category, description, image_1, market_price} = products3[i]
 
       // Create Random DateTime object
-      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 5), new Date())
+      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
       console.log("auction_end_dt", auction_end_dt) 
 
       // Create starting price as half of the product's actual price
@@ -114,7 +120,6 @@ class SeedProducts{
       }
     }
 }
-
 
 module.exports = SeedProducts;
 

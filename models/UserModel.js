@@ -164,7 +164,7 @@ class User {
     for ( const p of highestBidsRes.rows) {
       const endingDateTime = new Date(p.auctionEndDt)
       if ((currentDateTime - Date.parse(endingDateTime)) > 0){
-        ProductWon.newWin(p.id, p.name, p.bidderEmail, p.bidPrice)
+        ProductWon.newWin(p.id, p.name, email, p.bidPrice)
         userWonABid = true
       }
     }

@@ -50,7 +50,7 @@ router.get("/recentBidders", async function (req, res, next) {
 
 // Seeds all products to database.
 // Only to be called once at projects deployment
-router.get("/SEEDALLPRODUCTS", async function (req, res, next) {
+router.post("/SEEDALLPRODUCTS", async function (req, res, next) {
   try {
     const products = await SeedProducts.seed();
     console.log("products",products)

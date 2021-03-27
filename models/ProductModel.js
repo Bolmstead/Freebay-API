@@ -40,6 +40,7 @@ class Product {
 
     let { page, name, category, subCategory, description, condition, 
       rating, numOfRatings, auctionEndDt} = q;
+    console.log("subCategory", subCategory)
 
     let numberOfProductsPerPage = 24
 
@@ -72,7 +73,7 @@ class Product {
     }
 
     if (subCategory !== undefined) {
-      queryValues.push(`%${subCategory}%`);
+      queryValues.push(`${subCategory}%`);
       whereExpressions.push(`sub_category ILIKE $${queryValues.length}`);
     }
 
@@ -105,6 +106,7 @@ class Product {
     // with the where expressions
     whereExpressions.push(`auction_ended = false`);
     query += " WHERE " + whereExpressions.join(" AND ");
+    console.log("query", query)
 
     // Send query for ALL products (without pagination). Total amount of products
     // will be used in frontend in order to disable/endable next and previous page buttons

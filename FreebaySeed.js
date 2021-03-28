@@ -7,8 +7,6 @@ const products3 = require("./products_3");
 const db = require("./db");
 
 
-/** Method to seed all products into database */
-
 class SeedProducts{
 
   static randomCondition(){
@@ -35,6 +33,7 @@ class SeedProducts{
     return (Math.floor(Math.random() * 1111))
   }
 
+  /** Method to seed all products into database */
   static async seed() {
     
 
@@ -118,6 +117,8 @@ class SeedProducts{
       }
     }
 }
+
+SeedProducts.seed()
 
 module.exports = SeedProducts;
 

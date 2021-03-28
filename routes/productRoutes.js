@@ -48,18 +48,6 @@ router.get("/recentBidders", async function (req, res, next) {
 
 });
 
-// Seeds all products to database.
-// Only to be called once at projects deployment
-router.get("/SEEDALLPRODUCTS", async function (req, res, next) {
-  try {
-    const products = await SeedProducts.seed();
-    console.log("products",products)
-    return res.json("Successfully seeded products to database!");
-  } catch (err) {
-    return next(err);
-  }
-});
-
 // Grabs information about the product and bidder
 router.get("/:id", async function (req, res, next) {
   try {

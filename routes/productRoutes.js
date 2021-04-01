@@ -70,7 +70,6 @@ router.post("/:productId/bid/:amount", async function (req, res, next) {
     const productId = req.params.productId;
     const newBid = req.params.amount;
     const product = await Product.getProductAndBid(productId);
-    console.log("product in /:productId/bid/:amount", product)
 
     await HighestBid.updateBid(product, user, newBid)
 

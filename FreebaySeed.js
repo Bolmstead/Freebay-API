@@ -75,10 +75,6 @@ class SeedProducts{
   }
 
   static randomDate(start, end) {
-    console.log("start",start)
-    console.log("end",end)
-    console.log("end.getTime() - start.getTime()",(end.getTime() - start.getTime()))
-
     let currentDateTime = new Date()
 
     return new Date(currentDateTime.getTime() + Math.random() * (36400000));
@@ -97,27 +93,21 @@ class SeedProducts{
     
 
     for (let i = 0; i < products1.length; i++) {
-      console.log("[i]",[i])
-      console.log("products1[i]",products1[i])
+
       const {item, category, sub_category, description, image_1, market_price} = products1[i]
 
       // Create Random DateTime object
       let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
-      console.log("auction_end_dt in FreebaySeed.js", auction_end_dt)
 
       // Create starting price as 2/3 of the product's actual price
       let starting_bid = Math.round(market_price * .66)
       starting_bid = Math.round(100*starting_bid)/100
-      console.log("starting_bid in FreebaySeed.js", starting_bid)
 
 
       // Grab random rating, number of ratings, and condition
       const num_of_ratings = SeedProducts.randomNumberOfRatings()
       const rating = SeedProducts.randomRating()
       const condition = SeedProducts.randomCondition()
-      console.log("num_of_ratings in FreebaySeed.js", num_of_ratings)
-      console.log("rating in FreebaySeed.js", rating)
-      console.log("condition in FreebaySeed.js", condition)
 
       const valuesArray =
         [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
@@ -127,12 +117,10 @@ class SeedProducts{
       }
     
     for (let i = 0; i < products2.length; i++) {
-      console.log(i)
       const {item, category, sub_category, description, image_1, market_price} = products2[i]
 
       // Create Random DateTime object
       let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
-      console.log("auction_end_dt", auction_end_dt)
 
       // Create starting price as half of the product's actual price
       let starting_bid = market_price * .5
@@ -151,12 +139,10 @@ class SeedProducts{
       }
 
     for (let i = 0; i < products3.length; i++) {
-      console.log(i)
       const {item, category, sub_category, description, image_1, market_price} = products3[i]
 
       // Create Random DateTime object
       let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
-      console.log("auction_end_dt", auction_end_dt) 
 
       // Create starting price as half of the product's actual price
       let starting_bid = market_price * .5
@@ -167,7 +153,6 @@ class SeedProducts{
       const rating = SeedProducts.randomRating()
       const condition = SeedProducts.randomCondition()
 
-      console.log("item", item)
       const valuesArray =
         [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
 

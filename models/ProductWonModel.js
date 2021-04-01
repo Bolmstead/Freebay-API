@@ -12,11 +12,6 @@ class ProductsWon {
   // Method to be executed when a user wins a product
   static async newWin(productId, productName, userEmail, bidPrice){
 
-    console.log("productId in ProductsWon.newWin",productId)
-    console.log("productName in ProductsWon.newWin",productName)
-    console.log("userEmail in ProductsWon.newWin",userEmail)
-    console.log("bidPrice in ProductsWon.newWin",bidPrice)
-
     // Insert into products_won table 
     const productWonRes = await db.query(
     `INSERT INTO products_won (product_id, user_email, bid_price)

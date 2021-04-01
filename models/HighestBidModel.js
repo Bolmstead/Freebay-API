@@ -9,15 +9,10 @@ class HighestBids {
 
   // Method to execute when a user submits a product bid. 
   static async updateBid(product, user, newBid ) {
-    console.log("product in HighestBids.updateBid: ",product)
-    console.log("user in HighestBids.updateBid: ",user)
-    console.log("newBid in HighestBids.updateBid: ",newBid)
 
     const {bidderEmail, bidPrice, name } = product
 
     // Shorten product name for better display
-    console.log("product", product)
-    console.log("bidPrice", bidPrice)
     // If product already has a bid placedc
     if (bidPrice) {
 
@@ -28,8 +23,6 @@ class HighestBids {
       if (newBidInteger > user.balance) {
         throw new ForbiddenError(`Insufficient funds`);
       }
-      console.log("newBidInteger", newBidInteger)
-      console.log("currentBidInteger", currentBidInteger)
 
       // If the new bid is greater than the current bid
       if (newBidInteger > currentBidInteger) {
@@ -70,7 +63,6 @@ class HighestBids {
 
   static async addBidAndDecreaseBalance(productId, userEmail, newBid) {
     // add bid from the highest_bids table
-    console.log("productId, userEmail, newBid", productId, userEmail, newBid)
     const addHighestBidder = await db.query(
       `INSERT INTO highest_bids (product_id, user_email, bid_price)
       VALUES ($1, $2, $3)

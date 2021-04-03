@@ -16,8 +16,8 @@ class Notification {
   // Inserts a new notification.
   // - category parameter informs frontend which notification icon to display in list item.
   // - relatedProductId parameter to be passed in if notification is about a certain product. 
-  //       Lets front end use product's ID in url link to the product's detail page.
-  static async addNotification(userEmail, text, category, relatedProductId ) {
+  // Lets front end use product's ID in url link to the product's detail page.
+  static async add(userEmail, text, category, relatedProductId ) {
   await db.query(
     `INSERT INTO notifications (user_email, text, category, related_product_id)
     VALUES ($1, $2, $3, $4)

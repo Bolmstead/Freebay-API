@@ -2,15 +2,16 @@
 
 const db = require("../db");
 const { NotFoundError, BadRequestError } = require("../expressError");
-const HighestBid = require("./HighestBidModel");
 const Notification = require("./NotificationModel");
+const Product = require("./ProductModel");
+
 
 /** Related functions for products_won. */
 
 class ProductsWon {
 
   // Method to be executed when a user wins a product
-  static async newWin(productId, productName, userEmail, bidPrice){
+  static async newWin(productId, userEmail, bidPrice){
 
     // Insert into products_won table 
     const productWonRes = await db.query(
@@ -23,27 +24,11 @@ class ProductsWon {
       `Winning Product not added to Products Won table`
     );
 
-    // Delete the previous highest bid on product
-    HighestBid.deleteBid(productId)
-    // Set the auction_ended value on the product to true
-    const auctionEndedResult = await db.query(
-      `UPDATE products 
-        SET auction_ended = true
-        WHERE id = $1`,[productId]);
-
-    if (!auctionEndedResult) throw new BadRequestError(`productauctionEnded boolean value unchanged ${auctionEndedResult}`);
-    // Send win confirmation notification to winner 
-    Notification.addNotification(
-      userEmail, `Congrats! You won the auction for a ${productName}!`, "win", productId
-    )
-
-    return productWonRes;
-
   }
 
   // Method to grab the product and bidder information 
   // of products most recently won.
-  static async getWinsFeed() {
+  static async getRecentWins(numOfProducts) {
     // Only query products that have a bid and the auction has ended
     const winsFeedRes = await db.query(
       `SELECT products.id,
@@ -55,23 +40,47 @@ class ProductsWon {
               products.rating,
               products.image_url AS "imageUrl",
               products.auction_end_dt AS "auctionEndDt",
-              products.bid_count AS "bidCount",
               products.auction_ended AS "auctionEnded",
               products_won.bid_price AS "bidPrice",
-              products_won.datetime,
+              products_won.won_time AS "wonTime",
               users.username,
               users.email
         FROM products_won
         FULL OUTER JOIN products ON products_won.product_id = products.id
         FULL OUTER JOIN users ON products_won.user_email = users.email
         WHERE products.auction_ended = true AND bid_price > 1
-        ORDER BY products_won.datetime DESC
-        LIMIT 3`);
+        ORDER BY products_won.won_time DESC
+        LIMIT ${numOfProducts}`);
 
-    if (!winsFeedRes) throw new BadRequestError(`Unable to getHighestBids in userModel.js`);
+    if (!winsFeedRes) throw new BadRequestError(`Unable to getBids in userModel.js`);
 
     return winsFeedRes.rows
     }
+
+  // Check all of the user's bids to determine if an auction has 
+  // ended. If auction has ended, execute newWin method and set 
+  // numberOfAuctionsEnded to true.
+  static async checkProductsForAuctionEnded(bidsResult) {
+    const currentDateTime = Date.parse(new Date())
+    let numberOfAuctionsEnded = 0
+
+    for ( const p of bidsResult) {
+      const endDt = new Date(p.auctionEndDt)
+      if ((currentDateTime - Date.parse(endDt)) > 0){
+        if(p.bidderEmail) {
+          ProductWon.newWin(p.id, p.bidderEmail, p.bidPrice)
+          Notification.add(
+            p.bidderEmail, 
+            `Congratulations! Your bid has won for ${p.name} `, 
+            `win`, 
+            p.id)
+        } 
+        Product.endAuction(p.id)
+        numberOfAuctionsEnded += 1
+      } 
+    }
+    return numberOfAuctionsEnded
+  }
 
 }
 

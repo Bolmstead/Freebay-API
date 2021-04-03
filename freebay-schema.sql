@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS products, users, products_won, highest_bids, notifications;
+DROP TABLE IF EXISTS products, users, products_won, bids, notifications;
 
 CREATE TABLE products (
   id SERIAL PRIMARY KEY,
@@ -12,7 +12,6 @@ CREATE TABLE products (
   image_url VARCHAR(2083) NOT NULL,
   starting_bid DECIMAL NOT NULL,
   auction_end_dt TIMESTAMP NOT NULL,
-  bid_count INTEGER NOT NULL DEFAULT 0,
   auction_ended BOOLEAN DEFAULT false
 );
 
@@ -24,7 +23,7 @@ CREATE TABLE users (
   last_name VARCHAR(50) NOT NULL,
   balance DECIMAL NOT NULL,
   last_login TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
-  );
+);
 
 CREATE TABLE products_won (
   product_id INTEGER
@@ -32,16 +31,18 @@ CREATE TABLE products_won (
   user_email VARCHAR(50)
     REFERENCES users(email) ON DELETE CASCADE,
   bid_price DECIMAL NOT NULL,
-  datetime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+  won_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE highest_bids (
+CREATE TABLE bids (
+  bid_id SERIAL PRIMARY KEY,
   product_id INTEGER
     REFERENCES products(id) ON DELETE CASCADE,
   user_email VARCHAR(50)
     REFERENCES users(email) ON DELETE CASCADE,
   bid_price DECIMAL NOT NULL,
-  datetime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+  is_highest_bid BOOLEAN DEFAULT true,
+  bid_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE notifications (
@@ -52,5 +53,5 @@ CREATE TABLE notifications (
   related_product_id INTEGER,
   was_viewed BOOLEAN DEFAULT false,
   category VARCHAR(50),
-  datetime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+  notification_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 )

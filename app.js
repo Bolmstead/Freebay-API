@@ -6,10 +6,14 @@ const express = require("express");
 const cors = require("cors");
 const { NotFoundError } = require("./expressError");
 const { authenticateJWT } = require("./middleware/auth");
-const productRoutes = require("./routes/productRoutes");
+const productsRoutes = require("./routes/productsRoutes");
 const usersRoutes = require("./routes/usersRoutes");
 const authRoutes = require("./routes/authRoutes");
-const bidRoutes = require("./routes/authRoutes");
+const bidsRoutes = require("./routes/bidsRoutes");
+const productsWonRoutes = require("./routes/productsWonRoutes");
+const notificationsRoutes = require("./routes/notificationsRoutes");
+
+
 const morgan = require("morgan");
 const app = express();
 
@@ -18,10 +22,14 @@ app.use(express.json());
 app.use(morgan("tiny"));
 app.use(authenticateJWT);
 
-app.use("/products", productRoutes);
+app.use("/products", productsRoutes);
 app.use("/users", usersRoutes);
 app.use("/auth", authRoutes);
-app.use("/products", bidRoutes);
+app.use("/bids", bidsRoutes);
+app.use("/products-won", productsWonRoutes);
+app.use("/notifications", productsWonRoutes);
+
+
 
 
 

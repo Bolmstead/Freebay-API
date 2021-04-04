@@ -8,7 +8,6 @@ const Product = require("../models/ProductModel");
 const ProductWon = require("../models/ProductWonModel");
 const Notification = require("../models/NotificationModel");
 const Bid = require("../models/BidModel");
-const SeedProducts = require("../FreebaySeed");
 
 const router = new express.Router();
 

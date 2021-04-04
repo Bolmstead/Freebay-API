@@ -2508,18 +2508,6 @@ const products1 = [
        "auction_end_dt":"2021-02-09 04:35:54"
     },
     {
-       "item":"ViCherub Thermal Underwear Set for Boys Long Johns Fleece Lined Kids Base Layer Thermals Sets Boy",
-       "category":"Fashion",
-       "sub_category":"Boys",
-       "description":"Easy Care Machine Washable Dry quickly Repeatedly washed without shrinking No fading with the highest grade color fastness Non-irritating. No Laddering. Perfect for men teen boy.Perfect Gift for Family  Friends Warmth is the best expression of love in the cold winter Our thermal set is your first gift choice for Christmas New Year birthday holiday Valentine's Day.Premium Grade Fabrics  ultra-soft polyester and  spandex This boys thermal underwear base layer gives protection against the cold winter days whilst remaining discreet and comfortable..The boy long johns can still comfortablewarm and color-fast after many washes.Good Moisture Absorption and Sweat Elimination When your little ones sweat this thermals base layer can wick moisture away from his skin and dry quickly and insulating from the cold.Suitable or Indoor or Outdoor Wear  Perfect for your son during cold winters school ski or snow holidays camping pyjamas hiking outdoor trips. The thermals can be worn as comfy pajamas on cold chilly nights.Soft and Comfortable Offers full mobility and freedom of movement. Wear-resistant material and shrink resistant. This thermal underwear for boys set will do its job no matter how active you are. PIECE SET The thermal underwear consists of  partstop and pantsand there are eight colors for you to choose Black Grey Blue Charcoal Christmas Jade Navy Red.XS S M L XL. Classic colors for different fashion choose.",
-       "condition":"New",
-       "rating":3.6,
-       "num_of_ratings":4403,
-       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61YEfqWxB6L._AC_UX569_.jpg",
-       "market_price":2.99,
-       "auction_end_dt":"2021-02-20 16:39:54"
-    },
-    {
        "item":"Fruit of the Loom Boys' Boxer Briefs (Assorted Colors)",
        "category":"Fashion",
        "sub_category":"Boys",
@@ -2554,18 +2542,6 @@ const products1 = [
        "image_1":"https://images-na.ssl-images-amazon.com/images/I/51HmA034zVL._AC_UX395_.jpg",
        "market_price":3.98,
        "auction_end_dt":"2021-02-11 10:37:54"
-    },
-    {
-       "item":"Fruit of the Loom Girls' Cotton Brief Underwear",
-       "category":"Fashion",
-       "sub_category":"Girls",
-       "description":" CottonImportedPull On closureMachine WashExtra softFull seat coveragePlush ravel-free waistbandTag free Cotton liner",
-       "condition":"New",
-       "rating":4.3,
-       "num_of_ratings":1824,
-       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71oCcQDvrKL._AC_UY550_.jpg",
-       "market_price":10.73,
-       "auction_end_dt":"2021-02-15 05:36:54"
     },
     {
        "item":"Star Wars Yoda One For Me Cute Valentine's Graphic T-Shirt T-Shirt",
@@ -2674,18 +2650,6 @@ const products1 = [
        "image_1":"https://images-na.ssl-images-amazon.com/images/I/61KVhAeBwRL._AC_UX385_.jpg",
        "market_price":16.99,
        "auction_end_dt":"2021-02-09 18:34:54"
-    },
-    {
-       "item":"Fruit of the Loom Girls' Cotton Hipster Underwear",
-       "category":"Fashion",
-       "sub_category":"Girls",
-       "description":" CottonImportedPull On closureMachine WashExtra softFull seat coverageComfort-covered waist and leg bandsTag free Cotton liner",
-       "condition":"Used",
-       "rating":0.3,
-       "num_of_ratings":652,
-       "image_1":"https://images-na.ssl-images-amazon.com/images/I/812sdsCQW4L._AC_UY550_.jpg",
-       "market_price":9.99,
-       "auction_end_dt":"2021-02-17 22:37:54"
     },
     {
        "item":"Kids Face Mask, Halloween Face Mask 4 PCS Reusable Face Mask Washable Cover for Halloween Party Supplies",
@@ -2998,18 +2962,6 @@ const products1 = [
        "image_1":"https://images-na.ssl-images-amazon.com/images/I/51E-7Y2kEdL._AC_UX385_.jpg",
        "market_price":14.99,
        "auction_end_dt":"2021-02-07 07:35:54"
-    },
-    {
-       "item":"Disney Frozen Girls Panty Multipacks",
-       "category":"Fashion",
-       "sub_category":"Girls",
-       "description":" Combed CottonImportedElastic closureMachine WashYour child will love these Frozen panties with fun prints and designs available in muliple pack sizes and design options all will include fun prints of your favorite characters includeing Elsa Anna and Olaf!All multiple pack sizes available are  Combed Cotton with a tagless design for maximum comfortFrozen Girls underwear is available in pk pk and a pk for both girl and toddler girl. The  pack makes the ultimate -day surprise pack of undies in a box. Perfect for birthdays countdowns and everyday funThe 'Day of the Week' Pack offers a pair for each day of the week.Authorized licensed product brought to you by handcraft",
-       "condition":"Used",
-       "rating":1.4,
-       "num_of_ratings":2029,
-       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81DCOTjqrBL._AC_UX679_.jpg",
-       "market_price":16.61,
-       "auction_end_dt":"2021-02-09 10:39:54"
     },
     {
        "item":"Crocs Unisex-Child Classic Clog | Slip on Boys and Girls | Water Shoes",
@@ -3732,18 +3684,6 @@ const products1 = [
            "auction_end_dt":"2021-02-14 15:54:19"
         },
         {
-           "item":"YIANNA Waist Trainer for Women Underbust Latex Sport Girdle Corsets Cincher Hourglass Body Shaper",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"This is a really cool product'",
-           "condition":"Good",
-           "rating":1.0,
-           "num_of_ratings":403,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/71aGyDsK7EL._AC_UX342_.jpg",
-           "market_price":24.99,
-           "auction_end_dt":"2021-02-13 15:55:19"
-        },
-        {
            "item":"Saucony Women's Performance Heel Tab Athletic Socks (8 & 16 Pairs)",
            "category":"Fashion",
            "sub_category":"Womens",
@@ -3778,18 +3718,6 @@ const products1 = [
            "image_1":"https://images-na.ssl-images-amazon.com/images/I/71j8rduSsuL._AC_UY445_.jpg",
            "market_price":11.99,
            "auction_end_dt":"2021-02-19 13:50:19"
-        },
-        {
-           "item":"MOSHENGQI Women's Ruched Butt Lifting High Waist Yoga Pants Tummy Control Stretchy Workout Leggings Textured Booty Tights",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"MATERIALPolyesterSpandex and Acrylic. Its so comfortable and soft that makes it your second skin with no limitation! These ingenious leggings which are a perfect combination of softness and stretchiness do it all for you. They give your butt a streamline that your booty looks like a juicy peach No pilling Non-fading Stretchy Squat proof additional butt lifting feature for a natural looking back.FEATURESBreathablesoftstretchyhygroscopicsquat proofstrong compression seamless tight fit quick drying.It provides lightweight and comfort along with sweat absorption and moisture wicking capabilities.STYLE Four-way Stretch  Non See-through Fabric that fits your each pose and movement perfectly. SEXY RUCHED BUTT LIFT push up high waisted leggings for women lifting yoga pantsTEXTURED activewear  gym shapewear tights workout running pants skinny pants booty scrunch leggings.HIGH WAIST DESIGN and tummy control wide waistband to provide a smooth secure fit and show your figure off to perfection.SETTINGS OCCASIONSIt is born to improve the womens yoga fitness experience but also suitable for running any type of workout and everyday wear. Yoga leggings could be used in the gym pilates studio outdoor sports and daily leisure places that you can easily change your style from casual to dressy in minuteswhich are affordable accessible and perfect for fitness enthusiasts and everyday athleisure.ATTENTIONOur size is different from amazon's. Please kindly refer to the size table showed in the image.There are size Sfit like a US.- size Mfit like a US.- size Lfit like a US.- sizes for options.If you pay attention to both comfort level of your legging and the sexy curves of your body your legging shows please choose one size up.",
-           "condition":"Used",
-           "rating":3.1,
-           "num_of_ratings":1886,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/81iLRo7ZD9L._AC_UX342_.jpg",
-           "market_price":2.99,
-           "auction_end_dt":"2021-02-20 17:50:19"
         },
         {
            "item":"Fruit of the Loom Women's Spaghetti Strap Cotton Pullover Sports Bra",
@@ -3840,18 +3768,6 @@ const products1 = [
            "auction_end_dt":"2021-02-12 02:50:19"
         },
         {
-           "item":"Avidlove Women Lingerie V Neck Nightwear Satin Sleepwear Lace Chemise Mini Teddy",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"Please get a size larger than your usual size if you order this dress as a nightgown. Or you can purchase it following the size chart as sexy lingerie. This Avidlove women satin lingerie silk nightgown silky chemise lace babydoll set strap sleepwear halter teddy is made of  Polyester and  Acrylic soft comfortable and breathable to wear.Note Please check the size chart and other customers' size advice before you order! Avidlove women satin chemise lace lingerie strappy nightgown classic satin lingerie is a good choice to your lingerie wardrobeAvidlove satin nightgown for womenavidlove lingerie for womenwomens sexy lingerienightgown satin sleepwearhalter chemise lace babydoll nightwear outfits features deep V plunge front floral lace cups and adjustable criss-cross straps it inspires sultry flirtation and your true beautyWomen satin nightgown V neck babydoll sexy lace lingerie set halter chemise spaghetti strap sleepwear is a wonderful gift for yourself or friends as sleepwear nightwear loungwear pajamas. Perfect for Christmas party Valentines Day date nights wedding nights honeymoon nights role play and lingerie partyPackage Content  x Women Satin Nightgown Lace Lingerie Set Satin Dress  G-string",
-           "condition":"Good",
-           "rating":3.2,
-           "num_of_ratings":30,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/81BHeREDrsL._AC_UY445_.jpg",
-           "market_price":15.99,
-           "auction_end_dt":"2021-02-14 07:52:19"
-        },
-        {
            "item":"Hanes Women's Comfort Evolution Bra",
            "category":"Fashion",
            "sub_category":"Womens",
@@ -3874,30 +3790,6 @@ const products1 = [
            "image_1":"https://images-na.ssl-images-amazon.com/images/I/51aXxDFHb5L._AC_UY445_.jpg",
            "market_price":34.99,
            "auction_end_dt":"2021-02-06 18:54:19"
-        },
-        {
-           "item":"Avidlove Women's Lace Kimono Robe Babydoll Lingerie Mesh Nightgown S-4XL",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":" Cotton  PolyesterLace lingerie lace kimono robe lingerie robe boudoir lingerie lace robes for women sheer robes sexy nightgowns for women lace kimono lingerie wedding lingerie lingerie cover upVarious Occasionthis lace dress can be wear as your lingerie robegown on the nightand you can wear it as summer casual cardigan on the day outside moreover you can wear as one bikini cover up dress on the beach for tripCover up look elegant while being comfortable in this lovely sheer lace robe with butterfly sleeves a mini length a matching g-string and a satin beltOccasion Nightwear Sleepwear. Perfect for honeymoon night wedding nights lingerie party anniversaries valentine's day bedroom sleeping bathing or special nights It will make you more elegant and stunningPackage Content x Lace Lingerie Robe with G-string and Belt",
-           "condition":"New",
-           "rating":0.3,
-           "num_of_ratings":3174,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/810Ghqo7ahL._AC_UX342_.jpg",
-           "market_price":19.99,
-           "auction_end_dt":"2021-02-13 00:50:19"
-        },
-        {
-           "item":"Avidlove Lingerie for Women Lace Babydoll Sleepwear Boudoir Outfits Plus Size Langeray S-5XL",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"This is a really cool product'",
-           "condition":"New - Open Box",
-           "rating":3.5,
-           "num_of_ratings":1327,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/71mzHcOiC5L._AC_UX342_.jpg",
-           "market_price":15.99,
-           "auction_end_dt":"2021-02-08 04:50:19"
         },
         {
            "item":"iChunhua Women's Comfy Stretch Floral Print Drawstring Palazzo Wide Leg Lounge Pant",
@@ -3936,54 +3828,6 @@ const products1 = [
            "auction_end_dt":"2021-02-19 15:53:19"
         },
         {
-           "item":"Avidlove Women Snap Crotch Lingerie Sexy Lace Bodysuit Deep V Teddy One Piece Lace Babydoll",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"Snap crotch teddy lingerie is made of  Cotton and  Polyestersoft and flexible fibers so it is great for close-fiting wearLace bodysuit lingerie features with deep V-neck stretch floral lace fabricgorgeous scalloped trim snap closure on the bottom for easy dressadjustable criss-cross straps easy to find perfect size to accentuate your best curvesmakes you more elegant charmingSnap crotch bodysuit teddy can also be perfectly matched with denim jeans shorts skirts and panties or jackets under strapless bras Feel Self - confident of your figure by our sexy teddiesLace lingerie teddy is perfect for wedding night honeymoon valentine's day anniversary boudoir shoots or every special night spicing up the love between you and your loverPackage Content  x Sexy One Piece Lingerie Bodysuit with Snap Crotch",
-           "condition":"New - Open Box",
-           "rating":1.5,
-           "num_of_ratings":4731,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/71NxhBpFklL._AC_UX342_.jpg",
-           "market_price":17.99,
-           "auction_end_dt":"2021-02-07 03:51:19"
-        },
-        {
-           "item":"Avidlove Womens Valentines Lingerie Halter V Neck Teddy Bodysuit Lace Babydoll Sleepwear XS-XXL",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":" cotton chinionMaterial The stunning one piece lingerie made of  Cotton and  Chinion. The lace is soft and stretchy. The soft material never make you itchy but put your body in a totally relaxed status. At the same time the material of the teddy lingerie sleepwear is strong enough to offer super SUPPORT SHAPE and COVERAGE.Designs The ties behind the breast and neck help you easily adjust to how tight you want and how effects you want. Stretchy material and adjustable ties can get everyone perfect fit and comfy. Show your flattering curve perfectly. This lace lingerie bodysuit is a great choice to spice up your life.Features This lace teddy bodysuit features deep v halter neck beautiful rhinestone in the front backless design. Very charming and feminine.Occasion Good choice as a sleepwear nightwear or a gift to surprise your lover on Christmas day anniversary day Valentine's day wedding nights honeymoon.Package Content  x One Piece Teddy Lingerie. Please refer to the size chart and the chart of other customers' size suggestion if necessary before purchasing",
-           "condition":"New - Open Box",
-           "rating":1.2,
-           "num_of_ratings":1816,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/711Z-%2Bqge-L._AC_UY445_.jpg",
-           "market_price":11.89,
-           "auction_end_dt":"2021-02-20 02:52:19"
-        },
-        {
-           "item":"Dreamgirl Women's Sheer Lace Top Thigh Highs, Black, One Size",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":" Nylon  SpandexImportedHand washSheer thigh high stocking with silicone lace contrastSilicone band around the lace top hugs the thigh so the stocking stays upRecommend to wear with garters but can be worn by itselfPlease refer to Dreamgirls size chart and not Amazons size chart for accurate sizingModel is '\" and is wearing a one size that fits up to  lbsThong not included'",
-           "condition":"Good",
-           "rating":0.6,
-           "num_of_ratings":909,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/81Nukl6CeDL._AC_UX342_.jpg",
-           "market_price":9.53,
-           "auction_end_dt":"2021-02-09 01:52:19"
-        },
-        {
-           "item":"Thermajane Women's Ultra Soft Thermal Underwear Long Johns Set with Fleece Lined",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"Long underwear women are form-fitted to stay in place and feature a squat proof design so you can move in confidence. These sets combine performance with fashion to give you a more streamlined look. Our -way stretch fabric is also non-see-through for peace of mind and comfort.Moisture-wicking Features With their moisture transport system long johns women wick away sweat fast to keep you dry and light. You no longer have to worry about that sticky or clammy feeling as work out or lounge at home. Your comfort and dryness are assured.Delivering a comfortable and chafe-free fit these women thermal underwear fits smoothly and soft against your skin. Their poly-spandex material offers breathability allowing odor to escape. Their tagless design allows no skin irritation and seams wont rip or tear prematurely.These thermal underwear are lightweight and fit snug against the skin. They wont bunch up and contour to the shape of your body. You can wear them on their own or under another pair of pants for added comfort. No bulkiness means no riding up or pinching.Flexibility and full mobility are improved with womens long underwear stretch construction. These sets flexible design wont hold you back when it comes to body movement. Youll feel a sense of freedom in all your activities whether sports shopping or leisure.'",
-           "condition":"Used",
-           "rating":2.6,
-           "num_of_ratings":1899,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/515KjLfiRpL._AC_UY550_.jpg",
-           "market_price":2.99,
-           "auction_end_dt":"2021-02-14 04:50:19"
-        },
-        {
            "item":"High Waisted Leggings for Women - Soft Athletic Tummy Control Pants for Running Cycling Yoga Workout - Reg & Plus Size",
            "category":"Fashion",
            "sub_category":"Womens",
@@ -4006,18 +3850,6 @@ const products1 = [
            "image_1":"https://images-na.ssl-images-amazon.com/images/I/51QotpbEw-L._AC_UY445_.jpg",
            "market_price":27.99,
            "auction_end_dt":"2021-02-18 10:52:19"
-        },
-        {
-           "item":"Women\u00c6s Longline Sports Bra Wirefree Padded Medium Support Yoga Bras Gym Running Workout Tank Tops",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"This is a really cool product'",
-           "condition":"New - Open Box",
-           "rating":1.9,
-           "num_of_ratings":1159,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/71vMwv51vAL._AC_UX342_.jpg",
-           "market_price":2.99,
-           "auction_end_dt":"2021-02-07 03:51:19"
         },
         {
            "item":"Hanes Women's Long Sleeve Tee",
@@ -4114,18 +3946,6 @@ const products1 = [
            "image_1":"https://images-na.ssl-images-amazon.com/images/I/71ughJzu-PL._AC_UX385_.jpg",
            "market_price":11.85,
            "auction_end_dt":"2021-02-18 01:50:19"
-        },
-        {
-           "item":"Avidlove Women One Piece Lingerie Deep V Teddy Sexy Lace Bodysuit",
-           "category":"Fashion",
-           "sub_category":"Womens",
-           "description":"This bodysuit lingerie is made of Poly-Spandex Blendsoft and flexible fibers great for close-fiting wearone of customer actually used this bodysuit for a maternity boudoir shoot so it went great with it and highlighted her tummy very great.Lace bodysuit teddy lingerie for women features with stretch floral lace fabric bodycon style slim to show off your curve and adjustable criss cross straps allows for perfect fit.Black Lingerie bodysuit are your everyday lingerie. Match this sexy lingerie for women with a fitted jeansshorts skirts pants or a blazer jacket coat for daily fashionable layered look finnished.Occasion Perfect choice for Wedding Night Valentine's Day Lingerie Bridal Lingerie Honeymoon Anniversary Honeymoon trip lingerie party or every hot night.Package Content One piece lingerie bodysuit",
-           "condition":"New",
-           "rating":3.8,
-           "num_of_ratings":2814,
-           "image_1":"https://images-na.ssl-images-amazon.com/images/I/81HtidmTYPL._AC_UY445_.jpg",
-           "market_price":16.99,
-           "auction_end_dt":"2021-02-12 11:55:19"
         },
         {
            "item":"PAVOI 14K Gold Colored Lightweight Chunky Open Hoops | Gold Hoop Earrings for Women",

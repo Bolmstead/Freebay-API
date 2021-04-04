@@ -1296,18 +1296,6 @@ const products2 = [
          "auction_end_dt":"2021-02-18 16:54:19"
       },
       {
-         "item":"Very cool Product",
-         "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
-         "description":"This is a really cool product",
-         "condition":"New - Open Box",
-         "rating":4.5,
-         "num_of_ratings":3998,
-         "image_1":"https://images-na.ssl-images-amazon.com/images/I/716Kn1OT6FL._AC_SY450_.jpg",
-         "market_price":16.5,
-         "auction_end_dt":"2021-02-13 18:52:19"
-      },
-      {
          "item":"2-8-Cups (Cooked) Digital Rice Grain Cooker and Food Steamer, Stainless, 8 Cup, Silver, Product Dimensions: 8.25 x 9 x 8.5 inches",
          "category":"Home & Garden",
          "sub_category":"Kitchen & Dining",
@@ -1572,18 +1560,6 @@ const products2 = [
          "auction_end_dt":"2021-02-19 12:50:19"
       },
       {
-         "item":"Very cool Product",
-         "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
-         "description":"This is a really cool product",
-         "condition":"Used",
-         "rating":4.9,
-         "num_of_ratings":2460,
-         "image_1":"https://images-na.ssl-images-amazon.com/images/I/71U93VU4cdL._SX342_.jpg",
-         "market_price":49.74,
-         "auction_end_dt":"2021-02-16 18:50:19"
-      },
-      {
          "item":"Disposable Face Mask, Face Masks of 50 Pack Disposable Mask (Blue)",
          "category":"Home & Garden",
          "sub_category":"Tools & Home Improvement",
@@ -1788,18 +1764,6 @@ const products2 = [
          "auction_end_dt":"2021-02-12 00:52:19"
       },
       {
-         "item":"Very cool Product",
-         "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
-         "description":"This is a really cool product",
-         "condition":"New",
-         "rating":4.1,
-         "num_of_ratings":1074,
-         "image_1":"https://images-na.ssl-images-amazon.com/images/I/812RzXnL%2BGL._SX342_.jpg",
-         "market_price":39.99,
-         "auction_end_dt":"2021-02-11 08:53:19"
-      },
-      {
          "item":"EveryDrop by Whirlpool 10383251 Refrigerator Water Filter 1, EDR1RXD1, Pack of 1, Purple",
          "category":"Home & Garden",
          "sub_category":"Tools & Home Improvement",
@@ -1956,7 +1920,7 @@ const products2 = [
          "auction_end_dt":"2021-02-20 20:55:19"
       },
       {
-         "item":"Very cool Product",
+         "item":"Disposable Face Masks",
          "category":"Home & Garden",
          "sub_category":"Tools & Home Improvement",
          "description":" Face Masks  Made of  Layer non-woven fabric Melt-Blown Moisture-resistant Non-toxic Non-irritant REUSABLE Face Mask Masks  High density non-woven fabric - nano filtration - filtration - highly breathable non-woven fabric that can prevent dust car exhaust pollen etc. Disposable Face Masks  High level breathing protection filter efficiency breathable mesh composite fabric suitable for all seasons basically seasonal factors do not need to be considered. Disposable Masks  D earrings and lightweight design make breathing easier. High quality elastic earbands make it comfortable to wear for a long time. Dust Pollen and Haze Proof Protective Mask  Non-Medical Mask Pack of  Pcs. Kindly Check Size before buying.    PFE -Layers Effectiveness Breathable Non-Woven with Nose Wire and Ear Loops",
@@ -2136,10 +2100,10 @@ const products2 = [
          "auction_end_dt":"2021-02-11 04:51:19"
       },
       {
-         "item":"Very cool Product",
+         "item":"Pretty sick KN face mask",
          "category":"Home & Garden",
          "sub_category":"Tools & Home Improvement",
-         "description":"This fits your.Make sure this fits by entering your model number. High Quality  Safety This model of KN face mask is included on FDA Emergency Use AuthorizationEUA List. It's of high quality and safety which can be used in confidenceUpgraded Packaging This package includes  individually wrapped KN face mask which can avoid the pollution caused by touch when taking the mask. Can be perfectly placed in your backpack purse and pocket. Convenient to carry and use.-Ply Protective This KN mask is made of  non-woven outer layers  melt-blown inner filter  non-woven cotton middle layer absorbing the moisture. This -Ply mask is designed to offer more protection than a standard disposable -Ply mask. The minimum filter efficiency is  which is tested by NPPTL greatly keeping you from dust PM . haze smoke automobile exhaust etc. Perfect For families office staff warehouse workers.Comfortable  Breathable High-elastic ear loops and adjustable nose clip to ensure a comfortable fit and no strain of ears. It's lightweight and foldable can cover mouth nose and chin easily. Creates a tight seal  stops glasses from fogging.Topnotch Service Please confirm if package and products are completely as soon as you receive the KN masks. We provide a three-year effective warranty. If you have any doubts we are always here to help you. Disclaimer This KN mask is NOT an N mask. For more information about KN masks please see the following before you purchase amazon.comAboutKNs. See more product details",
+         "description":"This model of KN face mask is included on FDA Emergency Use AuthorizationEUA List. It's of high quality and safety which can be used in confidenceUpgraded Packaging This package includes  individually wrapped KN face mask which can avoid the pollution caused by touch when taking the mask. Can be perfectly placed in your backpack purse and pocket. Convenient to carry and use.-Ply Protective This KN mask is made of  non-woven outer layers  melt-blown inner filter  non-woven cotton middle layer absorbing the moisture. This -Ply mask is designed to offer more protection than a standard disposable -Ply mask. The minimum filter efficiency is  which is tested by NPPTL greatly keeping you from dust PM . haze smoke automobile exhaust etc. Perfect For families office staff warehouse workers.Comfortable  Breathable High-elastic ear loops and adjustable nose clip to ensure a comfortable fit and no strain of ears. It's lightweight and foldable can cover mouth nose and chin easily. Creates a tight seal  stops glasses from fogging.Topnotch Service Please confirm if package and products are completely as soon as you receive the KN masks. We provide a three-year effective warranty. If you have any doubts we are always here to help you. Disclaimer This KN mask is NOT an N mask. For more information about KN masks please see the following before you purchase amazon.comAboutKNs. See more product details",
          "condition":"Good",
          "rating":0.8,
          "num_of_ratings":2872,
@@ -2650,30 +2614,6 @@ const products2 = [
          "image_1":"https://images-na.ssl-images-amazon.com/images/I/81s4O57RqcL._SY445_.jpg",
          "market_price":26.49,
          "auction_end_dt":"2021-02-06 22:50:19"
-      },
-      {
-         "item":"Very cool Product",
-         "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
-         "description":"This is a really cool product'",
-         "condition":"Used",
-         "rating":1.2,
-         "num_of_ratings":4953,
-         "image_1":"https://secure.touchnet.com/C20243_ustores/web/images/product-default-image.png",
-         "market_price":3.98,
-         "auction_end_dt":"2021-02-15 02:55:19"
-      },
-      {
-         "item":"Very cool Product",
-         "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
-         "description":"This is a really cool product'",
-         "condition":"New",
-         "rating":1.7,
-         "num_of_ratings":968,
-         "image_1":"https://secure.touchnet.com/C20243_ustores/web/images/product-default-image.png",
-         "market_price":3.98,
-         "auction_end_dt":"2021-02-09 11:52:19"
       },
       {
          "item":"Play-Doh Modeling Compound 10 Pack Case of Colors, Non-Toxic, Assorted Colors, 2 Oz Cans, Ages 2 & Up, (Amazon Exclusive), Multicolor",
@@ -3658,18 +3598,6 @@ const products2 = [
          "image_1":"https://images-na.ssl-images-amazon.com/images/I/71QOx9THGRL._SY445_.jpg",
          "market_price":50.0,
          "auction_end_dt":"2021-02-14 00:51:19"
-      },
-      {
-         "item":"Very cool Product",
-         "category":"Movies, TV, & Games",
-         "sub_category":"Video Games",
-         "description":"This fits your.Make sure this fits by entering your model number.  Play Styles TV Mode Tabletop Mode Handheld Mode.-inch multi-touch capacitive touch screen.- Hours of Battery Life Will vary depending on software usage conditionsConnects over Wi-Fi for multiplayer gaming Up to  consoles can be connected for local wireless multiplayerModel number HAC--",
-         "condition":"Good",
-         "rating":0.2,
-         "num_of_ratings":1699,
-         "image_1":"https://images-na.ssl-images-amazon.com/images/I/61-PblYntsL._AC_SX355_.jpg",
-         "market_price":299.99,
-         "auction_end_dt":"2021-02-20 16:50:19"
       },
       {
          "item":"Controller Battery Pack for Xbox One/Xbox Series X|S, BEBONCOOL 2x2550 mAh Rechargeable Battery Pack for Xbox Series X|S/Xbox One/Xbox One S/Xbox One X/Xbox One Elite Controller-Green",

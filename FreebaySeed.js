@@ -7,7 +7,7 @@ const products3 = require("./products_3");
 const db = require("./db");
 
 
-class SeedProducts{
+class FreebaySeed{
 
   static async createTables() {(
     await db.query(`DROP TABLE IF EXISTS products, users, products_won, bids, notifications;
@@ -99,7 +99,7 @@ class SeedProducts{
       const {item, category, sub_category, description, image_1, market_price} = products1[i]
 
       // Create Random DateTime object
-      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
+      let auction_end_dt = FreebaySeed.randomDate(new Date(2021, 3, 25), new Date())
 
       // Create starting price as 2/3 of the product's actual price
       let starting_bid = Math.round(market_price * .66)
@@ -107,9 +107,9 @@ class SeedProducts{
 
 
       // Grab random rating, number of ratings, and condition
-      const num_of_ratings = SeedProducts.randomNumberOfRatings()
-      const rating = SeedProducts.randomRating()
-      const condition = SeedProducts.randomCondition()
+      const num_of_ratings = FreebaySeed.randomNumberOfRatings()
+      const rating = FreebaySeed.randomRating()
+      const condition = FreebaySeed.randomCondition()
 
       const valuesArray =
         [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
@@ -122,16 +122,16 @@ class SeedProducts{
       const {item, category, sub_category, description, image_1, market_price} = products2[i]
 
       // Create Random DateTime object
-      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
+      let auction_end_dt = FreebaySeed.randomDate(new Date(2021, 3, 25), new Date())
 
       // Create starting price as half of the product's actual price
       let starting_bid = market_price * .5
       starting_bid = Math.round(100*starting_bid)/100
 
       // Grab random rating and number of ratings
-      const num_of_ratings = SeedProducts.randomNumberOfRatings()
-      const rating = SeedProducts.randomRating()
-      const condition = SeedProducts.randomCondition()
+      const num_of_ratings = FreebaySeed.randomNumberOfRatings()
+      const rating = FreebaySeed.randomRating()
+      const condition = FreebaySeed.randomCondition()
 
       const valuesArray =
         [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
@@ -144,16 +144,16 @@ class SeedProducts{
       const {item, category, sub_category, description, image_1, market_price} = products3[i]
 
       // Create Random DateTime object
-      let auction_end_dt = SeedProducts.randomDate(new Date(2021, 3, 25), new Date())
+      let auction_end_dt = FreebaySeed.randomDate(new Date(2021, 3, 25), new Date())
 
       // Create starting price as half of the product's actual price
       let starting_bid = market_price * .5
       starting_bid = Math.round(100*starting_bid)/100
 
       // Grab random rating and number of ratings
-      const num_of_ratings = SeedProducts.randomNumberOfRatings()
-      const rating = SeedProducts.randomRating()
-      const condition = SeedProducts.randomCondition()
+      const num_of_ratings = FreebaySeed.randomNumberOfRatings()
+      const rating = FreebaySeed.randomRating()
+      const condition = FreebaySeed.randomCondition()
 
       const valuesArray =
         [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
@@ -164,7 +164,9 @@ class SeedProducts{
     }
 }
 
+FreebaySeed.createTables()
+FreebaySeed.seed()
 
-module.exports = SeedProducts;
+module.exports = FreebaySeed;
 
 

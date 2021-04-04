@@ -27,7 +27,7 @@ app.use("/users", usersRoutes);
 app.use("/auth", authRoutes);
 app.use("/bids", bidsRoutes);
 app.use("/products-won", productsWonRoutes);
-app.use("/notifications", productsWonRoutes);
+app.use("/notifications", notificationsRoutes);
 
 
 

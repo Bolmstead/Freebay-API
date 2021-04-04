@@ -10,7 +10,6 @@ const ProductWon = require("../models/ProductWonModel");
 
 const router = new express.Router();
 
-// WORKS!!!!!!!!!!!!!!!!!!!!!!!!!
 // route grabs all information of a group of products.
 // search query can be passed to the route to specify which products to pull
 router.get("/", async function (req, res, next) {

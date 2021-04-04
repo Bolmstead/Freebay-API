@@ -6,12 +6,13 @@ const { authenticateJWT } = require("../middleware/auth");
 const User = require("../models/UserModel");
 const Product = require("../models/ProductModel");
 const ProductWon = require("../models/ProductWonModel");
+const Notification = require("../models/NotificationModel");
 const Bid = require("../models/BidModel");
 const SeedProducts = require("../FreebaySeed");
 
 const router = new express.Router();
 
-
+// WORKSSS!!!!!!!
 // called to grab product and bidder information 
 // of products that have most recently been bidded on
 router.get("/recent/:numOfProducts", async function (req, res, next) {
@@ -25,6 +26,7 @@ router.get("/recent/:numOfProducts", async function (req, res, next) {
 
 });
 
+// CHECK ON FRONTEND TO SEE IF WORKS. RES.LOCALS.USER NOT PULLING USER
 // NEED TO PUT IN MIDDLEWARE
 // Route for submitting bid on product
 router.post("/:productId/placeBid/:amount", async function (req, res, next) {
@@ -32,20 +34,24 @@ router.post("/:productId/placeBid/:amount", async function (req, res, next) {
     // grab the user saved in local storage and pull information of that user from API
     console.log("res.locals",res.locals)
     const user = await User.get(res.locals.user.username)
-    const newBidAmount = req.params.amount;
     const productId = req.params.productId;
-    const product = await Product.getProduct(productId);
+    const product = await Product.getProduct(productId)
+    console.log("product in bids route", product)
+    console.log("user in bids route", user)
+
+
+    const newBidAmount = req.params.amount;
+    const newBidInteger = parseInt(newBidAmount)
+
+    if (newBidInteger > user.balance) {
+      throw new ForbiddenError(`Insufficient funds`);
+    }
 
     // If product already has a bid placed
     if (product.bidPrice) {
 
       // convert bid strings to integers
       const oldBidInteger = parseInt(product.bidPrice)
-      const newBidInteger = parseInt(newBidAmount)
-
-      if (newBidInteger > user.balance) {
-        throw new ForbiddenError(`Insufficient funds`);
-      }
 
       // If the new bid is greater than the current bid
       if (newBidInteger > oldBidInteger) {
@@ -54,23 +60,31 @@ router.post("/:productId/placeBid/:amount", async function (req, res, next) {
 
         // if previous bidder is different from the new bidder, 
         // send notification to previous bidder
-        if( bidderEmail !== user.email) {
-          Notification.add(bidderEmail, 
+        if( product.bidderEmail !== user.email) {
+          Notification.add(product.bidderEmail, 
             `You have been outbid by ${user.username} for the ${product.name}`,
             "outbid", product.id )
         } 
 
         // Refill previous bidder's balance by previous bid amount
-        await User.increaseBalance(oldBidInteger, bidderEmail)
+        await User.increaseBalance(product.bidderEmail, oldBidInteger)
 
       } else {
         throw new BadRequestError(
           `Your bid of ${newBid} is not higher than the previous bid of 
           ${bidPrice}`);
       }
+    } else {
+        // If no bid placed and the new bid is less than the starting bid
+        if (newBidInteger < parseInt(product.startingBid)) {
+          throw new BadRequestError(
+            `Your bid of ${newBid} is not higher than the starting bid of 
+            ${product.startingBid}`);
+        }
     }
+
     // Add the highest bidder email and price to bids table
-    Bid.addBid(product.id, user.email, newBid);
+    Bid.addBid(product.id, user.email, newBidInteger);
     // decrease user's balance by the bid amount 
     User.decreaseBalance(user.email, newBidInteger)
     // Send notification to the new bidder to confirm a bid has been placed

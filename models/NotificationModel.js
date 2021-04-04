@@ -5,12 +5,12 @@ const db = require("../db");
 class Notification {
   // When a user views their notifications, set all their 
   // notfication's was_viewed columns to true
-  static async wasViewed(username) {
+  static async wasViewed(email) {
     await db.query(
       `UPDATE notifications
       SET was_viewed = true
       WHERE user_email = $1
-      `, [username]);
+      `, [email]);
   }
 
   // Inserts a new notification.

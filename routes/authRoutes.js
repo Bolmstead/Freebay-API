@@ -68,8 +68,7 @@ router.post("/register", async function (req, res, next) {
 
     if (newUser) {
       Notification.add(newUser.email, 
-        `Welcome to freeBay! As a gift, we've deposited $100 freeBay 
-        bucks into your account!`,"gift")
+        `Welcome to freeBay! As a gift, we've deposited $100 freeBay bucks into your account!`,"gift")
     }
 
     const token = createToken(newUser);

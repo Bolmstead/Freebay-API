@@ -17,7 +17,7 @@ const router = new express.Router();
 router.get("/recent/:numOfProducts", async function (req, res, next) {
   try {
     const numOfProducts = req.params.numOfProducts;
-    const products = await Bid.getBids(numOfProducts);
+    const products = await Bid.getHighestBids(numOfProducts);
     return res.json( products );
   } catch (err) {
     return next(err);

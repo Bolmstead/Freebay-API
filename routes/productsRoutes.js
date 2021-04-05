@@ -4,6 +4,7 @@
 const express = require("express");
 const { authenticateJWT } = require("../middleware/auth");
 const Product = require("../models/ProductModel");
+const Bid = require("../models/BidModel");
 const ProductWon = require("../models/ProductWonModel");
 
 
@@ -57,8 +58,14 @@ router.get("/", async function (req, res, next) {
 // Grabs information about the product and bidder
 router.get("/:id", async function (req, res, next) {
   try {
-    const product = await Product.getProduct(req.params.id);
-    return res.json({ product });
+    const productResult = await Product.getProduct(req.params.id);
+    const numOfBids = await Bid.getBidCount(req.params.id)
+
+    if (productResult.bidId) {
+      productResult["numOfBids"] = numOfBids
+    }
+
+    return res.json({ productResult});
   } catch (err) {
     return next(err);
   }

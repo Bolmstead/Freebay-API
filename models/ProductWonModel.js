@@ -44,7 +44,8 @@ class ProductsWon {
               products_won.bid_price AS "bidPrice",
               products_won.won_time AS "wonTime",
               users.username,
-              users.email
+              users.email,
+              users.image_url AS "userImageUrl"
         FROM products_won
         FULL OUTER JOIN products ON products_won.product_id = products.id
         FULL OUTER JOIN users ON products_won.user_email = users.email
@@ -56,32 +57,6 @@ class ProductsWon {
 
     return winsFeedRes.rows
     }
-
-  // Check all of the user's bids to determine if an auction has 
-  // ended. If auction has ended, execute newWin method and set 
-  // numberOfAuctionsEnded to true.
-  static async checkProductsForAuctionEnded(bidsResult) {
-    const currentDateTime = Date.parse(new Date())
-    let numberOfAuctionsEnded = 0
-
-    for ( const p of bidsResult) {
-      const endDt = new Date(p.auctionEndDt)
-      if ((currentDateTime - Date.parse(endDt)) > 0){
-        if(p.bidderEmail) {
-          ProductWon.newWin(p.id, p.bidderEmail, p.bidPrice)
-          Notification.add(
-            p.bidderEmail, 
-            `Congratulations! Your bid has won for ${p.name} `, 
-            `win`, 
-            p.id)
-        } 
-        Product.endAuction(p.id)
-        numberOfAuctionsEnded += 1
-      } 
-    }
-    return numberOfAuctionsEnded
-  }
-
 }
 
 module.exports = ProductsWon;

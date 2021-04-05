@@ -156,7 +156,7 @@ class Product {
         FROM products
         FULL OUTER JOIN bids ON products.id = bids.product_id
         FULL OUTER JOIN users ON bids.user_email = users.email
-        WHERE id = $1`
+        WHERE bids.is_highest_bid = true AND id = $1`
 
     const productResult = await db.query(query, [id]);
 

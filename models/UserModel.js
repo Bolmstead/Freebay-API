@@ -19,6 +19,7 @@ class User {
               password,
               first_name AS "firstName",
               last_name AS "lastName",
+              image_url AS "imageUrl",
               balance,
               last_login AS "lastLogin"
        FROM users
@@ -71,7 +72,7 @@ class User {
   }
 
   // Register user with data. Throws BadRequestError on duplicates.
-  static async register({ email, username, password, firstName, lastName }) {
+  static async register({ email, username, password, firstName, lastName, imageUrl }) {
     const duplicateCheck = await db.query(
           `SELECT email
            FROM users
@@ -91,15 +92,16 @@ class User {
     // Insert new user with hashed password
     const result = await db.query(
           `INSERT INTO users
-           (email, username, password, first_name, last_name, balance)
-           VALUES ($1, $2, $3, $4, $5, $6)
-           RETURNING email, username, password, first_name AS firstName, last_name AS lastName, balance`,
+           (email, username, password, first_name, last_name, image_url, balance)
+           VALUES ($1, $2, $3, $4, $5, $6, $7)
+           RETURNING email, username, password, first_name AS firstName, last_name AS lastName, image_url AS imageUrl, balance`,
         [
           email,
           username,
           hashedPassword,
           firstName,
           lastName,
+          imageUrl,
           balance
         ],
     );
@@ -107,6 +109,7 @@ class User {
     if (!result) {
       throw new BadRequestError(`Unable to insert into users`);
     }
+
     const user = result.rows[0];
     return user;
   }
@@ -121,6 +124,7 @@ class User {
                   username,
                   first_name AS "firstName",
                   last_name AS "lastName",
+                  image_url AS "imageUrl",
                   balance
            FROM users
            WHERE username = $1`,

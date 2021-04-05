@@ -29,6 +29,10 @@
       "type": "string",
       "minLength": 3,
       "maxLength": 50
+    },
+    "imageUrl": {
+      "type": "string",
+      "maxLength": 500
     }
   },
   "additionalProperties": false,

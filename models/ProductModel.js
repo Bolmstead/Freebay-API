@@ -29,7 +29,9 @@ class Product {
                         users.username AS "bidderUsername",
                         bids.bid_price AS "bidPrice",
                         bids.bid_id AS "bidId",
-                        bids.is_highest_bid AS "isHighestBid"
+                        bids.is_highest_bid AS "isHighestBid",
+                        bids.was_winning_bid AS "wasWinningBid",
+                        bids.user_email AS "bidderEmail"
                 FROM products
                 FULL OUTER JOIN bids ON products.id = bids.product_id
                 FULL OUTER JOIN users ON bids.user_email = users.email`;
@@ -152,11 +154,12 @@ class Product {
             bids.bid_price AS "bidPrice",
             bids.is_highest_bid AS "isHighestBid",
             bids.bid_id AS "bidId",
+            bids.was_winning_bid AS "wasWinningBid",
             users.username AS "bidderUsername"
         FROM products
         FULL OUTER JOIN bids ON products.id = bids.product_id
         FULL OUTER JOIN users ON bids.user_email = users.email
-        WHERE bids.is_highest_bid = true AND id = $1`
+        WHERE id = $1`
 
     const productResult = await db.query(query, [id]);
 

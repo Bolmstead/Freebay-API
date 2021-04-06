@@ -10,30 +10,17 @@ const Notification = require("../models/NotificationModel");
 
 const router = new express.Router();
 
-// WORKS!!!!!!!!!!!!!!!!!!!!!!!
 // grabs product and bidder information of the products 
 // that have most recently been won
-router.get("/recent/:numOfProducts", async function (req, res, next) {
+router.get("/recent/:num", async function (req, res, next) {
   try {
-    const numOfProducts = req.params.numOfProducts
-    // Grab all bids and check if any auctions have ended
-    const bids = await Bid.getHighestBids()
-    console.log("bids",bids)
+    const numOfProducts = req.params.num
+    // Since the recent wins and recent bids feeds are on the homepage,
+    // when a user accesses the homepage, both of these routes will be called:
+    // /bids/recent/:num & /products-won/recent/:num    
 
-    const currentDateTime = Date.parse(new Date())
-
-    for ( const p of bids) {
-      const endDt = new Date(p.auctionEndDt)
-      if ((currentDateTime - Date.parse(endDt)) > 0){
-          ProductWon.newWin(p.id, p.bidderEmail, p.bidPrice)
-          Notification.add(
-            p.bidderEmail, 
-            `Congratulations! You have won the auction for the ${p.name} `, 
-            `win`, 
-            p.id)
-        Product.endAuction(p.id)
-      } 
-    }
+    // because all bids have been checked to determine if their auction
+    // has ended, there is no need to do it again in this route
 
     // Grab the updated most recent winners
     const recentWinners = await ProductWon.getRecentWins(numOfProducts);

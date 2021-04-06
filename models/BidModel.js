@@ -35,50 +35,14 @@ class Bid {
               bids.bid_price AS "bidPrice",
               bids.bid_time AS "bidTime",
               bids.is_highest_bid AS "isHighestBid",
+              bids.was_winning_bid AS "wasWinningBid",
+              bids.user_email AS "bidderEmail",
               users.username,
               users.email
         FROM bids
         FULL OUTER JOIN products ON bids.product_id = products.id
         FULL OUTER JOIN users ON bids.user_email = users.email
-        WHERE products.auction_ended = false AND bids.is_highest_bid = true
-        ORDER BY bids.bid_time DESC`;
-
-    // if number parameter passed in, add limit to query.
-    // Otherwise return all bids
-    if (numOfProducts) {
-      query += ` LIMIT ${numOfProducts}`
-    }
-
-    const bidsRes = await db.query(query)
-
-    if (!bidsRes) throw new BadRequestError(`Unable to getBids in bidModel.js`);
-
-    return bidsRes.rows
-  }
-
-  static async getAllBidsForProduct(productId) {
-    // Grab all bids for a product
-    let query =
-      `SELECT products.id,
-              products.name,
-              products.category,
-              products.sub_category AS "subCategory",
-              products.description,
-              products.condition,
-              products.rating,
-              products.image_url AS "imageUrl",
-              products.auction_end_dt AS "auctionEndDt",
-              products.auction_ended AS "auctionEnded",
-              bids.bid_id AS "bidId",
-              bids.bid_price AS "bidPrice",
-              bids.bid_time AS "bidTime",
-              bids.is_highest_bid AS "isHighestBid",
-              users.username,
-              users.email
-        FROM bids
-        FULL OUTER JOIN products ON bids.product_id = products.id
-        FULL OUTER JOIN users ON bids.user_email = users.email
-        WHERE products.auction_ended = false AND bids.is_highest_bid = true
+        WHERE bids.is_highest_bid = true AND bids.was_winning_bid = false AND products.auction_ended = false
         ORDER BY bids.bid_time DESC`;
 
     // if number parameter passed in, add limit to query.
@@ -95,10 +59,20 @@ class Bid {
   }
 
   static async setIsHighestBidToFalse(bidId) {
-    // add bid from the bids table.
+    // sets the is_highest_bid column to false for a certain product
     const updateBidRes = await db.query(
       `UPDATE bids
       SET is_highest_bid = false
+      WHERE bid_id = $1`, 
+      [bidId]);
+    if (!updateBidRes) throw new BadRequestError(`product not added!`);
+  }
+
+  static async updateBidAsWinningBid(bidId) {
+    // sets the was_winning_bid column to false for a certain product
+    const updateBidRes = await db.query(
+      `UPDATE bids
+      SET was_winning_bid = true
       WHERE bid_id = $1`, 
       [bidId]);
     if (!updateBidRes) throw new BadRequestError(`product not added!`);
@@ -115,7 +89,7 @@ class Bid {
 
     if (!bidsRes) throw new BadRequestError(`Unable to getBidCount in bidModel.js`);
 
-    return bidsRes.rows
+    return bidsRes.rows[0].count
   }
 
 }

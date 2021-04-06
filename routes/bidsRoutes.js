@@ -7,18 +7,37 @@ const User = require("../models/UserModel");
 const Product = require("../models/ProductModel");
 const ProductWon = require("../models/ProductWonModel");
 const Notification = require("../models/NotificationModel");
+const {checkForEndedAuctions} = require("../helpers/checkForEndedAuctions")
 const Bid = require("../models/BidModel");
 
 const router = new express.Router();
 
+// Check all bids if a product has won. Called when a user accesses
+// homepage to get most updated information. 
+router.get("/check-all-bids-for-ended-auctions", async function (req, res, next) {
+  try {
+    
+    const highestBids = await Bid.getHighestBids();
+    console.log("highestBids",highestBids)
+    const numberOfAuctionsEnded = await checkForEndedAuctions(highestBids)
+
+    return res.json( `All bids check for ended auctions. ${numberOfAuctionsEnded} auctions have ended` );
+  } catch (err) {
+    return next(err);
+  }
+
+});
+
+
 // WORKSSS!!!!!!!
 // called to grab product and bidder information 
 // of products that have most recently been bidded on
-router.get("/recent/:numOfProducts", async function (req, res, next) {
+router.get("/recent/:num", async function (req, res, next) {
   try {
-    const numOfProducts = req.params.numOfProducts;
-    const products = await Bid.getHighestBids(numOfProducts);
-    return res.json( products );
+    const numOfProducts = req.params.num;
+    const highestBids = await Bid.getHighestBids(numOfProducts);
+
+    return res.json( highestBids );
   } catch (err) {
     return next(err);
   }
@@ -83,11 +102,11 @@ router.post("/:productId/placeBid/:amount", async function (req, res, next) {
     }
 
     // Add the highest bidder email and price to bids table
-    Bid.addBid(product.id, user.email, newBidInteger);
+    await Bid.addBid(product.id, user.email, newBidInteger);
     // decrease user's balance by the bid amount 
-    User.decreaseBalance(user.email, newBidInteger)
+    await User.decreaseBalance(user.email, newBidInteger)
     // Send notification to the new bidder to confirm a bid has been placed
-    Notification.add(user.email, 
+    await Notification.add(user.email, 
       `You have placed a bid on ${product.name}`, 
       "bid", product.id)
 

@@ -172,7 +172,8 @@ class User {
               bids.bid_id AS "bidId",
               bids.is_highest_bid AS "isHighestBid",
               bids.bid_price AS "bidPrice",
-              bids.bid_time AS "bidTime"
+              bids.bid_time AS "bidTime",
+              bids.was_winning_bid AS "wasWinningBid"
           FROM bids
           FULL OUTER JOIN products ON bids.product_id = products.id
           WHERE bids.user_email = $1

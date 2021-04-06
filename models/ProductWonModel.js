@@ -23,6 +23,7 @@ class ProductsWon {
     if (!productWonRes) throw new NotFoundError(
       `Winning Product not added to Products Won table`
     );
+    console.log("product won")
 
   }
 
@@ -49,7 +50,7 @@ class ProductsWon {
         FROM products_won
         FULL OUTER JOIN products ON products_won.product_id = products.id
         FULL OUTER JOIN users ON products_won.user_email = users.email
-        WHERE products.auction_ended = true AND bid_price > 1
+        WHERE products.auction_ended = true AND products_won.bid_price > 1
         ORDER BY products_won.won_time DESC
         LIMIT ${numOfProducts}`);
 

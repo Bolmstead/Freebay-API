@@ -21,15 +21,15 @@ CREATE TABLE users (
   password TEXT NOT NULL,
   first_name VARCHAR(50) NOT NULL,
   last_name VARCHAR(50) NOT NULL,
-  image_url VARCHAR(2083) NOT NULL,
   balance DECIMAL NOT NULL,
+  image_url VARCHAR(2083) NOT NULL,
   last_login TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE products_won (
-  product_id INTEGER
+  product_id INTEGER NOT NULL
     REFERENCES products(id) ON DELETE CASCADE,
-  user_email VARCHAR(50)
+  user_email VARCHAR(50) NOT NULL
     REFERENCES users(email) ON DELETE CASCADE,
   bid_price DECIMAL NOT NULL,
   won_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
@@ -37,12 +37,13 @@ CREATE TABLE products_won (
 
 CREATE TABLE bids (
   bid_id SERIAL PRIMARY KEY,
-  product_id INTEGER
+  product_id INTEGER NOT NULL
     REFERENCES products(id) ON DELETE CASCADE,
-  user_email VARCHAR(50)
+  user_email VARCHAR(50) NOT NULL
     REFERENCES users(email) ON DELETE CASCADE,
   bid_price DECIMAL NOT NULL,
   is_highest_bid BOOLEAN DEFAULT true,
+  was_winning_bid BOOLEAN DEFAULT false,
   bid_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 

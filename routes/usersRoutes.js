@@ -1,9 +1,7 @@
 /** Routes for users. */
 const express = require("express");
 const User = require("../models/UserModel");
-const ProductWon = require("../models/ProductWonModel");
-const Notification = require("../models/NotificationModel");
-const Product = require("../models/ProductModel");
+const {ensureLoggedIn} = require("../middleware/auth")
 const {checkForEndedAuctions} = require("../helpers/checkForEndedAuctions.js");
 
 
@@ -11,7 +9,7 @@ const {checkForEndedAuctions} = require("../helpers/checkForEndedAuctions.js");
 const router = express.Router();
 
 // route called to grab user's information
-router.get("/:username", async function (req, res, next) {
+router.get("/:username", ensureLoggedIn, async function (req, res, next) {
   try {
     let user = await User.get(req.params.username);
     console.log("user in users/:username", user)

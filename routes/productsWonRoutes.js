@@ -3,10 +3,6 @@
 // const jsonschema = require("jsonschema");
 const express = require("express");
 const ProductWon = require("../models/ProductWonModel");
-const Bid = require("../models/BidModel");
-const Product = require("../models/ProductModel");
-
-const Notification = require("../models/NotificationModel");
 
 const router = new express.Router();
 

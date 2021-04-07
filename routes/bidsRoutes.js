@@ -9,6 +9,8 @@ const ProductWon = require("../models/ProductWonModel");
 const Notification = require("../models/NotificationModel");
 const {checkForEndedAuctions} = require("../helpers/checkForEndedAuctions")
 const Bid = require("../models/BidModel");
+const {ensureLoggedIn} = require("../middleware/auth")
+
 
 const router = new express.Router();
 
@@ -47,7 +49,7 @@ router.get("/recent/:num", async function (req, res, next) {
 // CHECK ON FRONTEND TO SEE IF WORKS. RES.LOCALS.USER NOT PULLING USER
 // NEED TO PUT IN MIDDLEWARE
 // Route for submitting bid on product
-router.post("/:productId/placeBid/:amount", async function (req, res, next) {
+router.post("/:productId/placeBid/:amount", ensureLoggedIn, async function (req, res, next) {
   try {
     // grab the user saved in local storage and pull information of that user from API
     console.log("res.locals",res.locals)

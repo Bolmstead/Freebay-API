@@ -19,7 +19,7 @@ class Bid {
   static async getHighestBids(numOfProducts) {
     // Grab all highest bid's product and bidder information
     // ordered by most recent. If numOfProducts has not been
-    //  passed in, request will grab all bids
+    // passed in, request will grab all bids
     let query =
       `SELECT products.id,
               products.name,

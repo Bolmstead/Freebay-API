@@ -2,7 +2,7 @@ const products3 = [
       {
          "item":"Sparkling Ice, Black Cherry Sparkling Water, with Antioxidants and Vitamins, Zero Sugar, 17 fl oz Bottles (Pack of 12)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Now with colors from natural sourcesAlways bursting with real fruit flavorZero sugarEach bottle has antioxidants and vita",
          "condition":"Good",
          "rating":1.4,
@@ -14,7 +14,7 @@ const products3 = [
       {
          "item":"CELSIUS Grapefruit Melon Green Tea Non-Carbonated Fitness Drink, Zero Sugar, 12oz. Slim Can (Pack of 4)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Essential EnergyNo Sugar No PreservativesNo Artificial Flavors or Colors Essential VitaminsGluten-Free Kosher Non-GMO  Certified VeganGrapefruit Melon Green Tea  oz. Slim Can Pack",
          "condition":"New",
          "rating":0.5,
@@ -26,7 +26,7 @@ const products3 = [
       {
          "item":"Frito-Lay Party Mix, (40 Count) Variety Pack",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":" Single Serve favorites Lay's Classic Potato Chips Crunchy Cheetos Chili Cheese Fritos Lay's BBQ Potato Chips Original Funyuns Doritos Nacho Cheese Original Fritos and Ruffles Cheddar  Sour Cream ChipsWith eight different varieties there's sure to be something everyone will loveThese much loved treats are fun to enjoy at lunch as an after school snack or party refreshmentOur snacks have a short shelf life  to  days so most of our packages only show the month  day of expiration e.g. Aug.  means august th not august  for optimum flavor and freshness we recommend the snack be consumed by the date on the pac",
          "condition":"Used",
          "rating":0.7,
@@ -38,7 +38,7 @@ const products3 = [
       {
          "item":"Monster Energy Ultra Black, Sugar Free Energy Drink, 16 Ounce (Pack of 24)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"FULL FLAVOR ZERO SUGAR Monster Ultra Black has  calories and zero sugar but with all the flavor youre accustomed to and packed with our sugar-free Monster Energy blendREFRESHING TASTE Monster Ultra Black offers a crisp slightly sweet black cherry flavor with just  mgs of Caffeine. Ultra Black is great for any occasionUNLEASH THE ULTRA BEAST Just about  miles north of Chicago nestled on the eastern shore of Lake Michigan is the \"Cherry Capital of the World\" Traverse City MI. Long warm summer days and cool nights cause the black cherries to ripen right around the th of July but you gotta get em while you can cause all too soon they're gone. Now like those famous black beauties crisp slightly sweet and for a limited time only Monster Ultra Black a. k. a. the \"Black Monster\" refreshingly light sugar free and packed with our Monster energy blend. Get it while the getting's is goodSTOCK UP WITH A  PACK For those looking for a Monster thats lighter tasting has zero sugar and contains the full Monster Energy blend Monster Energy Ultra Black is Available in a convenient pack of Due to new FDA nutrition labeling requirements product labels may vary from those pict",
          "condition":"New",
          "rating":3.1,
@@ -50,7 +50,7 @@ const products3 = [
       {
          "item":"Welch's Fruit Snacks, Mixed Fruit, Gluten Free, Bulk Pack, 0.9 oz Individual Single Serve Bags (Pack of 40)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Includes  . oz single serving bagsDelicious fruit snacks where fruit is the st Ingredient Vitamin C  Vitamins AE DV per servingGluten free fat free  preservative freePerfect tasty snack for school lunches sporting games the office and ",
          "condition":"New",
          "rating":1.9,
@@ -62,7 +62,7 @@ const products3 = [
       {
          "item":"The Original Donut Shop Dark, Single-Serve Keurig K-Cup Pods, Dark Roast Coffee, 72 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Devilishly delicious extra bold brewExtra bold contains more coffee than regular K-Cup podsDark roast caffeinated coffeeNo artificial ingredients and certified Orthodox Union Kosher U.Ensure high-quality coffee every time with pods specially designed to work in Keurig brewers with exact grind and extrac",
          "condition":"Used",
          "rating":1.3,
@@ -74,7 +74,7 @@ const products3 = [
       {
          "item":"Quaker Instant Oatmeal, Lower Sugar, 4 Flavor Variety Pack, Individual Packets, 48 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":" less sugar than Quaker Instant Oatmeal regular flavors See nutrition factsGood Source of Fiber Quaker Oats provide a good source of fiber to support a healthy digestive system See nutrition facts for total fat per servingQuaker Oats help support a healthy heart Diets rich in whole grain foods and other plant foods and low in saturated fat and cholesterol may help reduce the risk of heart diseaseContains  packets  lower sugar maple and brown sugar  lower sugar apples and cinnamon  lower sugar cinnamon and spice  original fl",
          "condition":"Good",
          "rating":0.2,
@@ -86,7 +86,7 @@ const products3 = [
       {
          "item":"Fitness and Performance Drink, Orange Dreamsicle, 16 Fl Oz (Pack of 12)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Youll get x the BCAAs x the CoQ and x the electrolytes as the leading competitor.Blended with BCAAs  mg of Natural Caffeine CoQ  electrolytes Total Body Fuel is designed for your active lifestyle.Flavor Dreams",
          "condition":"Good",
          "rating":0.3,
@@ -98,7 +98,7 @@ const products3 = [
       {
          "item":"IZZE Sparkling Juice, Blackberry, 8.4 Fl Oz (12 Count)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"IZZE Sparkling Juices include  percent fruit juice with a splash of sparkling waterNo added sugar or preservativesThe perfect feel good drink to brighten up your dayIncludes  . ounces Sparkling Blackberry ",
          "condition":"New - Open Box",
          "rating":0.1,
@@ -110,7 +110,7 @@ const products3 = [
       {
          "item":"Lakanto Monkfruit Sweetener, 1:1 Baking Sugar Substitute, Keto, Non-GMO (Baking - 1 lb)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Dissolves effortlessly retains moisture can control cookie spread and provides better browning for your dessertsContains zero net carbs zero calories and is zero-glycemic Perfect for baking cookies cakes and other sweet sugar-free treatsMatches the sweetness of sugar Fill your kitchen with a healthy cup-for-cup replacement for ordinary baking and cooking ingredientsWorks with ketogenic diabetic candida paleo vegan low-carb low-sugar non-GMO and all-natural dietsMix of monk fruit extract and erythritol with tapioca fiber chicory root inulin and cellulose gum to bring your baking to a whole new l",
          "condition":"Used",
          "rating":1.3,
@@ -122,7 +122,7 @@ const products3 = [
       {
          "item":"Starbucks Medium Roast K-Cup Coffee Pods \u00f9 Breakfast Blend for Keurig Brewers \u00f9 6 boxes (60 pods total)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"FLAVOR AND ROAST Starbucks Breakfast Blend is a blend of coffees with bright citrus notes. It is a medium-roasted coffee smooth and balanced with rich approachable flavorsPACKAGING CHANGE We are changing our packaging to make our K-Cups recyclable as part of our commitment to sustainable practices. You may receive either package for a limited timeFOR KEURIG BREWERS Starbucks K-Cup pods are designed for use with the Keurig Single Cup Brewing SystemENJOY AT HOME Enjoy the Starbucks coffee you love without leaving your home or officeCONTENTS Includes six boxes of  K-Cup pods of Starbucks Breakfast Blend Co",
          "condition":"New",
          "rating":4.1,
@@ -134,7 +134,7 @@ const products3 = [
       {
          "item":"Nespresso Capsules VertuoLine, Medium and Dark Roast Coffee, Variety Pack, Stormio, Odacio, Melozio, 10 Count (Pack of 3)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"NESPRESSO VERTUOLINE VARIETY PACK ASSORTMENT This Nespresso coffee assortment offers  Nespresso Pods in a variety of  best-selling coffee blends for the Nespresso VertuoLine System. Stormio  Odacio  MelozioINTENSITY This assortment will let you explore the rich tastes of the following Nespresso Capsules Stormio Intensity  Odacio Intensity   Melozio Intensity . It's the perfect choice to discover a distinctive range of extraordinary coffeesCOFFEE BREWS . OZ  These Nespresso VertuoLine pods provide you with a . oz serving of coffee which is perfect for a longer drinking experienceWE RECYCLE Nespresso aluminum capsules are fully recyclable and guarantee coffee freshness - we provide different options for recycling your used aluminum coffee pods to fulfill our collective commitment to protecting the environmentVERTUOLINE ONLY Nespresso Vertuo delivers you a full range of cup sizes and coffee styles from espresso to Alto XL with easy to use Nespresso pods. Enjoy hot or pour over ice. VertuoLine Capsules are not compatible with OriginalLine machi",
          "condition":"New - Open Box",
          "rating":4.2,
@@ -146,7 +146,7 @@ const products3 = [
       {
          "item":"Organic Earl Grey Loose Leaf Tea | Brew 50 Cups | Blended in USA | 4oz/113g Resealable Kraft Bag | by FGO",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"ORGANIC EARL GREY TEA - ozg Resealable BagSMILE SIP  FEEL GOOD - Brew  cups of tea with this premium loose leaf variety!LOOSE LEAF TEA - Our loose organic tea allows you to customize each cup according to your sipping preference. No unecssary waste from bags or strings. Just organic loose leaf tea ready to enjoy!CERTIFIED USDA ORGANIC - All our products are certified USDA Organic by California Certified Organic Farmers CCOF a leader in organic certification. Look for the USDA Organic seal on our products!LOVE IT OR WE BUY IT - We dont think you should pay for products that you dont love. If you arent enjoying our Organic Early Grey Tea simply let us know and we will refund your order - its as easy as t",
          "condition":"New",
          "rating":4.0,
@@ -158,7 +158,7 @@ const products3 = [
       {
          "item":"PLANTERS Cashew Halves & Pieces, 46 oz Resealable Canister - Roasted in Peanut Oil - Convenient Size Snack - Kosher Snack",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"PLANTERS CASHEW HALVES  PIECES Go nuts for smart snacking with PLANTERS Cashew Halves  Pieces! These quality cashews have a savory flavor and are a good source of essential nutrientsPREMIUM QUALITY CASHEWS This -ounce resealable convenient size snack canister of PLANTERS Cashew Halves  Pieces contains  -ounce servingsSEA SALT SNACK These premium cashew halves are enhanced with a dash of sea salt for delicious flavor CALORIES PER SERVING These roasted cashew halves and pieces have  calories per -ounce servingROASTED IN PEANUT OIL PLANTERS Cashew Halves  Pieces are roasted in peanut oil for a crunchy textureRESEALABLE LID Container features a resealable lid for long-lasting freshness and wholesome snackingKOSHER SNACK PLANTERS Cashew Halves  Pieces are great tasting snacks for those keeping KosherWHOLESOME SNACKING Nuttin' beats PLANTERS cashews! Great tasting and versatile they're perfect for enjoying as an after school snack movie night snack or game day snackthey also make great gifts holiday gifts or birthday gifts to friends and familyPLANTERS SNACKS PLANTERS PEANUTS  PLANTERS NUTS If you want to satisfy a salty and crunchy craving PLANTERS and Mr. Peanut has you coveredSHELF LIFE The Best When Used By date printed on each package of PLANTERS cashews or PLANTERS nuts represents the last day the product should be consumed to guarantee the best quality freshness and flavorShow ",
          "condition":"New",
          "rating":5.0,
@@ -170,7 +170,7 @@ const products3 = [
       {
          "item":"Donut Shop, Morning Blend, 100% Colombian, and French Roast Variety Pack for K-Cup Keurig 2.0 Brewers, 42 Count, Victor Allen\u00c6s Coffee Single Serve Coffee Pod",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"COUNT Includes  Single Serve K-cup Coffee PodsROAST Take your pick A mix of roasts from light to dark.The Victor Allen  count Variety pack of K cups includes these popular roasts  Donut Shop Blend  Morning Blend  Colombian Blend  French Roast. Gluten Free and Non-GMO - our coffee products do not contain gluten or genetically modified ingredients.BRAND STORY Since  Victor Allen has been proud to bring you high-quality roaster-fresh perfection. We source  Arabica beans from all over the world and use precision roasting techniques to guarantee the very best coffee.SELECTION Victor Allen offers a wide selection of coffee choices from light medium and dark roasts to everyday and seasonal flavors in bagged single serve and ready to drink formats.COMPATABILITY For use in all single serve brewing systems including Keurig .Single Serve coffee pods for Keurig K-Cup Brewers. Keurig is a registered trademark of KEURIG GREEN MOUNTAIN INC. K-Cups is a registered trademark of KEURIG GREEN MOUNTAIN ",
          "condition":"New - Open Box",
          "rating":0.4,
@@ -182,7 +182,7 @@ const products3 = [
       {
          "item":"Variety Pack Box, 30-Count Snack Packs",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"-count Snack PacksVariety Pack",
          "condition":"New",
          "rating":2.3,
@@ -194,7 +194,7 @@ const products3 = [
       {
          "item":"Starbucks Medium Roast K-Cup Coffee Pods \u00f9 Breakfast Blend for Keurig Brewers \u00f9 1 Box (32 Pods)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Our Breakfast Blend is a medium-roasted coffee with a bright crisp and vibrant flavorMedium-roasted coffees are smooth and balanced with rich approachable flavorsStarbucks K-Cup pods are designed for use with the Keurig Single Cup Brewing SystemEnjoy the Starbucks coffee you love without leaving your home or officeIncludes a total of  individual K-Cup pods of Starbucks Breakfast Blend Co",
          "condition":"New - Open Box",
          "rating":0.7,
@@ -206,7 +206,7 @@ const products3 = [
       {
          "item":"McCaf\u0398 Breakfast Blend, Keurig Single Serve K-Cup Pods, Light Roast Coffee Pods, 72 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"TASTE Conquer the day with this beautifully bright blend. Boasting citrusy flavors and a tasty aroma its the perfect cup of wake-me-up to take on the dayROAST Light Roast caffeinated coffee made with  Arabica beans and certified Orthodox Union Kosher URECYCLABILITY Introducing McCaf Recyclable K-Cup Pods. The same great taste now made from recyclable material. Check locally not recycled in all communitiesSUSTAINABILITY We use  Responsibly Sourced coffee to support a healthier planet and an improved quality of life for farming communitiesQUALITY We start with premium Arabica beans then expertly roast in a temperature-controlled environment to bring out the best taste every timeCOMPATABILITY Contains genuine K-Cup pods engineered for guaranteed quality and compatibility with all Keurig K-Cup coffee ma",
          "condition":"New",
          "rating":5.0,
@@ -218,7 +218,7 @@ const products3 = [
       {
          "item":"Sparkling Water, Blackberry, 12 Ounce, 18 Ct \u00f9 1",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Includes   ounce cans of Bubly sparkling water Blackberry flavorRefreshing crisp Bubly sparkling water with great tasting natural flavorsNo calories. No sweeteners. All smilesEach flavor comes with a different smile and greeting to match its unique personalit",
          "condition":"New - Open Box",
          "rating":2.8,
@@ -230,7 +230,7 @@ const products3 = [
       {
          "item":"Nespresso Capsules OriginalLine, Ispirazione Variety Pack, Medium & Dark Roast Espresso Coffee, 50 Count Espresso Coffee Pods, Brews 1.35oz",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"NEW LOOK NEW NAME SAME GREAT TASTE This Nespresso OriginalLine espresso coffee pod pack contains best-selling Nespresso capsules  each Capriccio Ispirazione Roma Ispirazione Genova Livanto Ispirazione Firenze Arpeggio Ispirazione RistrettoINTENSITY Explore the rich tastes of the following Nespresso Capsules Capriccio Intensity  Ispirazione Roma Intensity  Ispirazione Genova Livanto Intensity  Ispirazione Firenze Arpeggio Intensity  Ispirazione Ristretto Intensity ESPRESSO BREWS . OZ These Nespresso OriginalLine pods are part of the flavored range that will provide you with a . oz serving of a delicious coffee beverageWE RECYCLE Nespresso aluminum capsules are fully recyclable and guarantee coffee freshness - we provide different options for recycling your used aluminum coffee pods to fulfill our collective commitment to protecting the environmentORIGINALLINE ONLY Nespresso Original Line offers a full range of espresso coffee. From a milder fruity espresso to the short Ristretto. Create recipes with without milk. Nespresso OriginalLine capsules are not compatible with VertuoLine mach",
          "condition":"Used",
          "rating":4.3,
@@ -242,7 +242,7 @@ const products3 = [
       {
          "item":"Lay's Potato Chip Variety Pack, 40 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Variety pack of Lay's potato chips favorites with classic flavors in one convenient packageWith four different varieties there's sure to be something everyone will love count pack featuring  of each of these Lay's potato chips favorites in  oz bags - Classic Barbecue Sour Cream and Onion and Salt and VinegarThese much loved treats are fun to enjoy at lunch as an after-school snack or party refreshmentEasy to carry easy to store and easy to packOur snacks have a short shelf life - days so most of our packages only show the month  day of expiration e.g. Aug  means August th not August . For optimum flavor and freshness we recommend the snack be consumed by the date on the pack",
          "condition":"Good",
          "rating":1.6,
@@ -254,7 +254,7 @@ const products3 = [
       {
          "item":"Victor Allen's Coffee K Cups, 100% Colombian Single Serve Medium Roast Coffee, 80 Count, Keurig 2.0 Brewer Compatible",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Includes  single serve instant coffee pods for K-Cup Keurig . Brewers Colombian coffee made with  Arabica coffee beansFrom the origin of Colombia we offer this lively bright and very satisfying coffee.Blended and roasted in the USASingle serve cups compatible with Keurig coffee makers including Keurig . patented single serve cup technologyKosher certification this product is certified kosher by the orthodox u",
          "condition":"Used",
          "rating":0.2,
@@ -266,7 +266,7 @@ const products3 = [
       {
          "item":"Blue Diamond Oven Roasted Almonds, Dark Chocolate, 25 Ounce",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Contains  -  ounce bagCovered with real cocoa power for a rich chocolate flavor gram of protein per serving  gram of fiberCholesterol free gluten-free  trans fatOur unique roasting process holds in freshness for the right cr",
          "condition":"New",
          "rating":1.9,
@@ -278,7 +278,7 @@ const products3 = [
       {
          "item":"Quaker Chewy Granola Bars, 3 Flavor Variety Pack, (58 Pack)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Includes  individually wrapped Chewy Granola Bars  Chocolate Chip  Peanut Butter Chocolate Chip and  Oatmeal RaisinNew Look. Same great taste. Packaging may varyMade with real chocolate and - grams of  whole grains.- Calories per bar.Made with no artificial preservatives artificial colors or added colors.For every packed lunch field trip halftime and snack break Quaker Chewy has got you cove",
          "condition":"New - Open Box",
          "rating":3.0,
@@ -290,7 +290,7 @@ const products3 = [
       {
          "item":"Pringles, Potato Crisps Chips, Variety Pack, 12.9oz Box (18 Count)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Satisfy snack cravings with the irresistible taste of three delicious potato crisp flavors in one pack uniquely shaped and seasoned from edge to edge for a perfectly flavored bite every timeMake snacktime more fun with the original stackable potato crisp always tasty never greasy pop open a cup andexperience the bold flavor and satisfying crunch ofPringles Potato CrispsOriginal flavor is Kosher Pareve Sour Cream and Onion and Cheddar Cheese flavors are Kosher Dairy Variety Pack contains milk and wheat ingredientsA travel-ready food made to enjoy at home or on-the-go grab a cup at game time pack a snack for school the office and stow them in lunchboxes the stackable snack options are endlessA .oz box with  cups of convenient ready to eat potato crisps  cups of Original  cup of Sour Cream and Onion and  cups of Cheddar Cheese packaged for freshness and great t",
          "condition":"Used",
          "rating":0.8,
@@ -302,7 +302,7 @@ const products3 = [
       {
          "item":"Twinings of London Tea Sampler Variety K-Cups for Keurig, 10 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"FRESH FLAVOR One box of  various tea Keurig K-Cups. Contains Earl Grey Green Tea Chai Pure Peppermint and English Breakfast. Using a Keurig Brewer press the  oz. or  oz. brew button for optimal flavor.ONLY THE FINEST QUALITY Our expert blenders source only the finest leaves cultivated to our exacting standards by trusted growers around the world. From these tea gardens we hand-select the leaves that will shape your next Twinings moment.TEA SAMPLER A warm aromatic cup of Twinings tea can both be an escape and a destination a pick-me-up and a settle-me-down. This sample pack features the best of our selection.RICH HISTORY In  Thomas Twining began selling fine tea from an English storefront in The Strand London. Today Twinings still sells some of the world's best teas from the original store and in more than  countries throughout the world.HAND SELECTED FOR YOUR HOME Made without artificial ingredients Twinings natural teas provide a wholesome tea experience. If you enjoy Bigelow Tea Lipton Tea Harney  Sons Tea Davidson's Tea or Prince of Peace Tea - try Twining's of London ",
          "condition":"Good",
          "rating":4.3,
@@ -314,7 +314,7 @@ const products3 = [
       {
          "item":"Starbucks Medium Roast Ground Coffee \u00f9 Breakfast Blend \u00f9 100% Arabica \u00f9 1 bag (20 oz.)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Breakfast Blend is a lively and lighter roast with a crisp finishWhile we've updated our look and how we describe our tasting notes Starbucks Breakfast Blend is still the same bright and tangy great-tasting coffee you know and loveEnjoy the Starbucks coffee you love without leaving the houseFor finest taste use cold filtered water and store ground coffee in a cool dark placeEach pack includes a -ounce bag of ground Starbucks co",
          "condition":"New",
          "rating":0.7,
@@ -326,7 +326,7 @@ const products3 = [
       {
          "item":"RXBAR, Banana Chocolate Walnut, Protein Bar, 1.83 Ounce (Pack of 12), High Protein Snack, Gluten Free",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Contains  RXBARsANYTIME HIGH PROTEIN SNACK Its always the perfect time for a wholesome snack. Thats why we suggest trying this real food protein bar for breakfast time lunch time or as a pre or post workout snack. Eat the whole snack bar or save some for later.GLUTEN FREE AND GUILT FREE SNACK Paleo check. Whole check. Guilt and gluten- free double check. RXBARs are the perfect protein bar for any healthy lifestyle. Check out RX Nut Butter for a keto snack option.On-the-Go Protein Packed Fuel RXBARs are great for the office on-the-go snacks or just a wholesome treat. Grab one bar for a protein-packed pre or post workout snack and get the energy you need.WERE THE BAR THAT RAISED THE PROTEIN BAR BAR At RXBAR we make protein bars. Simple real food ingredients no gluten no added sugar and no ",
          "condition":"Good",
          "rating":0.9,
@@ -338,7 +338,7 @@ const products3 = [
       {
          "item":"BetterBody Foods Organic Chia Seeds with Omega-3, Non-GMO (2 Pound)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"NUTRIENT POWER This omega powerhouse is full of other useful nutrients that will help men and women live a better life. In every serving of our chia seeds youll find many nutrients including omega- and fiber making it a great bonus to any protein shake or juice. Because it is flavor neutral you can add it to drinks and shakes of all flavors without them clashing.SIMPLY ORGANIC Our Organic Chia Seeds are gluten-free nut-free low-carb non-GMO making them a great addition to your pantry no matter your dietary restrictions. Whether youre vegan vegetarian eating Keto or Paleo or following another strict food regiment you can easily incorporate this nutritious seed into your diet.WITH OMEGA-  MORE Chia seeds are loaded with mg of omega- g of fiber which is  of the DV recommended amount for fiber! In the ancient Mayan language the word chia meant strength so the name speaks for itself. Our Organic Chia Seeds can also be used as an egg replacement in any meal! Simply mix  tbs. of chia seeds with  tbs. of water and let sit for  minutes.FLAVOR NEUTRAL FAVORITE Chia seeds are a kitchen essential that many people dont know about. You can add chia seeds to just about any food without having to worry about it upsetting the flavor of your dish. Because they are tasteless you can use chia seeds to add texture to your food without drowning out the original flavor of your dish.BLEND BAKE OR SHAKE When it comes to the uses for our chia seeds the possibilities are endless! Mix into baked goods like bread and muffins to add a little added crunch of protein and fiber. You can also sprinkle the seeds as a topping on some yogurt pudding salads oatmeal granola or cereal for a satisfying sn",
          "condition":"Good",
          "rating":1.2,
@@ -350,7 +350,7 @@ const products3 = [
       {
          "item":"GoGo squeeZ Applesauce, Apple Apple, 3.2 oz (20 Pouches), Gluten Free, Vegan Friendly, Unsweetened Applesauce, Recloseable, BPA Free Pouches",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Applesauce on the Go made from  fruit in portable BPA-free squeezable pouchesUnsweetened applesauce pouches made from  fruit kosher certified non-GMO project verified gluten free nut free dairy free no added colors flavors or high fructose corn syrupConvenient snacks perfect for kids sports teams classroom snacks family-friendly parties and outdoor entertainingPouches fit perfectly in a lunchbox or backpackpop a pouch in the freezer overnight and use it as an icepack in your childs lunchAt GoGo squeeZ we want to make it easier for families to be healthier and happier. With over  varieties of fruit and yogurt pouches GoGo squeeZ happy tummieZ  GoGo Big squeeZ we provide the fuel kids need to explore play and just be ",
          "condition":"New - Open Box",
          "rating":0.8,
@@ -362,7 +362,7 @@ const products3 = [
       {
          "item":"Nespresso Capsules VertuoLine, Melozio, Medium Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"SMOOTH  BALANCED This Nespresso coffee incorporates quality Brazilian Bourbon and Central American Arabicas are lightly roasted to create a rounded coffee that is smooth and perfectly balancedINTENSITY  This Nespresso coffee blend features a soft character and balance that is achieved through the roasting process to give this coffee a rich flavor and sensuous smooth texture all contained in easy to use Nespresso CapsulesMELOZIO COFFEE BREWS . OZ  These Nespresso VertuoLine pods provide you with a . OZ serving of coffee which is perfect for a longer drinking experienceWE RECYCLE Nespresso aluminum capsules are fully recyclable and guarantee coffee freshness - we provide different options for recycling your used aluminum coffee pods to fulfill our collective commitment to protecting the environmentVERTUOLINE ONLY Nespresso Vertuo delivers you a full range of cup sizes and coffee styles from espresso to Alto XL with easy to use Nespresso pods. Enjoy hot or pour over ice. VertuoLine Capsules are not compatible with OriginalLine machi",
          "condition":"Good",
          "rating":2.5,
@@ -374,7 +374,7 @@ const products3 = [
       {
          "item":"Peet's Coffee French Roast, Dark Roast, 22 Count Single Serve K-Cup Coffee Pods for Keurig Coffee Maker",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"French Roast the rich coffee character of French Roast comes from a longer hotter roast which not all beans can handle and only Peets has perfected. Flavor notes coffee-forward wood smoke and burnt caramelBlends for all tastes single serve doesn't mean single taste. Whether you enjoy starting each morning with Peet's dark roast house Blend our light roast Caf Domingo or you prefer a variety you can keep your morning routine without brewing a whole potSame care same coffee the coffee in Peet's K-Cups for your Keurig brewing System is the same quality coffee roasted with the same care as our bagged coffee. Enjoy the convenience of a single cup of fresh coffee with the taste  Quality of Peet'sLight medium  Dark Roast Peet's K-Cup single serve coffee Pods brew a mug of coffee in some of our most popular blends. Light roast coffees are mild  smooth medium roast coffees are smooth  aromatic while dark roast coffees are smoky  Full bo",
          "condition":"New",
          "rating":0.3,
@@ -386,7 +386,7 @@ const products3 = [
       {
          "item":"Keurig Bold Roast Coffee Collection Variety Pack, Single-Serve Coffee K-Cup Pods Sampler, 40 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Includes  K-Cup pods from  varieties of medium and dark roast coffee.Sample different coffees and discover your favorites from a wide variety of flavors and brandsContains authentic Keurig K-Cup pods engineered for guaranteed quality and compatibility with all Keurig K-Cup coffee makersIncludes  K-Cup Pods from brands like Green Mountain Coffee Roasters Caribou Krispy Kreme Laughing Man REVV Newman's Own Organics The Original Donut Shop Coffee and Tull",
          "condition":"Used",
          "rating":3.3,
@@ -398,7 +398,7 @@ const products3 = [
       {
          "item":"Nespresso Capsules VertuoLine, Barista Flavored Pack, Mild Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"NEW indulgent flavored Nespresso coffee blends inspired by our classic favorites This assortment of Nespresso OriginalLine espresso coffee pods contains a variety of Nespresso capsules  Caramel Cookie  Vanilla Custard Pie  Hazelino MuffinINTENSITY  Split roast the Brazilian beans are roasted medium dark and quickly to develop sweetness the second split gives this coffee its v texture in all the Nespresso pods and we add in the caramel vanilla and hazelnut flavor after roastingVERTUOLINE BARISTA FLAVOR PACK COFFEE BREWS . OZ These Nespresso VertuoLine pods provide you with a . OZ serving of coffee which is perfect for a longer drinking experienceWE RECYCLE Nespresso aluminum capsules are fully recyclable and guarantee coffee freshness - we provide different options for recycling your used aluminum coffee pods to fulfill our collective commitment to protecting the environmentVERTUOLINE ONLY Nespresso Vertuo delivers you a full range of cup sizes and coffee styles from espresso to Alto XL with easy to use Nespresso capsules. Enjoy hot or pour over ice. VertuoLine Pods are not compatible with OriginalLine machi",
          "condition":"Used",
          "rating":2.6,
@@ -410,7 +410,7 @@ const products3 = [
       {
          "item":"Nature\u00c6s Bakery Whole Wheat Fig Bars, Apple Cinnamon, Real Fruit, Vegan, Non-GMO, Snack bar, 6 boxes with 6 twin packs (36 twin packs)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"WE HEART FIGS! Our Whole Wheat Fig Bars are always an excellent choice for families on-the-go in search of a wholesome win-win convenience and nutrition all in oneCONVENIENCE Natures Bakery Whole Wheat Figs Bars are a perfect snack for kids or adults. Grab one as a quick healthy breakfast bar use as a wholesome treat for kids lunches or enjoy as a convenient afterschool snack. Great for active and busy familiesNUTRITION Made with you and your family in mind Nature's Bakery Whole Wheat Fig Bars are soft-baked with NO cholesterol GMOs or high fructose corn syrup. No Artificial Flavors Certified Vegan Plant Based Kosher Made in a Nut-Free Facility Low Sodium Soy Free Dairy Free and g Trans FatTHOUGHTFUL INGREDIENTS Real apples cinnamon figs  wholesome whole wheat make our homemade recipe the perfect boost in your everydaySIZE Contains  Boxes of  twin packs  Twin Packs  x  oz. snack bars per twin pack of Nature's Bakery Apple Cinnamon Whole Wheat Fig ",
          "condition":"New - Open Box",
          "rating":2.5,
@@ -422,7 +422,7 @@ const products3 = [
       {
          "item":"PLANTERS Unsalted Premium Nuts, 34.5 oz. Resealable Container - Contains Roasted California Pistachios, Cashews, Almonds, Hazelnuts & Pecans - No Artificial Flavors or Colors - Kosher",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"An irresistible mix of cashews almonds hazelnuts pecans and pistachiosPlastic resealable canister makes it easy to keep the peanuts fresh and avoid spillsUnsalted but you'll never miss the saltPerfect for those keeping kosherFor over  years people have trusted Planters to deliver freshness and superior qua",
          "condition":"Good",
          "rating":3.9,
@@ -434,7 +434,7 @@ const products3 = [
       {
          "item":"Zevia Zero Calorie Soda, Rainbow Variety Pack, 12 Ounce Cans (Pack of 24)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"More Than A Beverage Zevia is a movement whether you are craving a pop of flavor need an extrapep in your step before a workout or fancy something sparkling weve got you covered Zevia is always zero calories zero sugar and no artificial sweetenersA Rainbow Pack Of Awesome each Zevia Rainbow Variety Pack contains two cans of each flavor Cola Ginger Root Beer Ginger Ale Cream Soda Grape Black Cherry Lemon Lime Twist Orange Mountain Zevia Dr. Zevia Caffeine Free Cola and Grapefruit CitrusSmarter Choices Whether youre craving a burst of sweetness a bubbly treat or a guilt-free drink for movie night weve got you covered enjoy the anytime convenience of a calorie-free naturally flavored effervescent soda delivered right to your doorPremium Product Zevia Soda Rainbow Variety Packis zero calorie sugar free clear in color gluten free Non GMO Project Verified kosher and vegantry it as an alternative to traditional diet sodas for a sweet treat with zero artificial ingredientsClean Ingredients Carbonated Water Natural Flavors Citric Acid Stevia Leaf extract caffeine and tartaric acid Zevia uses only real ingredients in our beverages nothing artificial ships in Amazon Certified Frustration-Free Packa",
          "condition":"New - Open Box",
          "rating":2.0,
@@ -446,7 +446,7 @@ const products3 = [
       {
          "item":"Lavazza Gold Selection Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound Bag",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"One . pound bag of Lavazza Gold Selection Italian whole coffee beansWell balanced medium roast with notes of honey and almondBlended and roasted in ItalyBest used with Espresso machineProduced in a nut-free facility center Contains only co",
          "condition":"Good",
          "rating":3.2,
@@ -458,7 +458,7 @@ const products3 = [
       {
          "item":"Orville Redenbacher\u00c6s Original Gourmet White Popcorn Kernels, 30 Ounce, Pack of 6",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Contains   ounce Containers of Orville Redenbachers Original White Gourmet Unpopped Popcorn KernelsUse these gourmet Orville Redenbachers popping kernels with butter flavored popcorn oil to make popcorn with your hot air popper or stovetop popcorn popperMade with  percentage whole grain these unpopped popcorn kernels pop up light and fluffyand in a jiffyfor a gourmet popcorn snackIn  Orville Redenbacher hand selected a small group of farmers to grow his exclusive kernel and our family farmers still grow our special kernels todayThese  percentage natural non-GMO popcorn kernels pop for a delicious treat or gluten free snack after sc",
          "condition":"Used",
          "rating":0.4,
@@ -470,7 +470,7 @@ const products3 = [
       {
          "item":"Dunkin' Best Sellers Coffee Variety Pack, Best Sellers Variety Pack, 60 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Contains  boxes of  Original Blend K-Cup pods  boxes of  French Vanilla K-Cup pods and  boxes of   Columbian K-Cup pods  count totalA mix of best-selling Dunkin varieties help keeps you ready for any craving or occasionA smooth and flavorful medium roast coffee specially blended and roasted to deliver the same great taste as the brewed Dunkin' coffee available in Dunkin' shopsEnjoy in any Keurig K-Cup Brewer for an authentic Dunkin' experience in no timeEnjoy the great taste of Dunkin at ",
          "condition":"Good",
          "rating":1.7,
@@ -482,7 +482,7 @@ const products3 = [
       {
          "item":"Kool-Aid Jammers Tropical Punch Flavored Juice Drink (30 Pouches)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"  fl. oz. pouches of Kool Aid Jammers Tropical Punch Flavored DrinkKool Aid Jammers Tropical Punch Flavored Drink has the delicious taste of Kool Aid in a fun pouchA tropical punch drink pouch perfect for on the go convenienceExcellent source of Vitamin CConvenient easy open fridge pack keeps your refrigerator ",
          "condition":"Good",
          "rating":3.9,
@@ -494,7 +494,7 @@ const products3 = [
       {
          "item":"Power Up Trail Mix Variety, Assorted (Pack of 8)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Variety -pack trail mix containing  of our best selling skus in .oz bags. You will enjoy two on-the-go sized bags of Mega Omega Antioxidant Protein Packed and Almond Cranberry Crunch Power Up Trail MixPerfect for on the go snacking! Make Power Up a part of your next adventure. Take our .oz bags wherever and Power Up your snack life!Project Verified Non-GMO No Artificial Ingredients Gluten Free Vegan Certified KosherMade from only the best most premium whole nuts dried fruit and seeds our delicious trail mix does not contain sulfites or other preservat",
          "condition":"New",
          "rating":5.0,
@@ -506,7 +506,7 @@ const products3 = [
       {
          "item":"Atkins Endulge Treat Caramel Nut Chew Bar. Rich & Decadent Treat. Keto-Friendly. (5 Bars)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"CARAMEL NUT CHEW BAR. Let this Atkins Endulge Treat delight your taste buds while keeping you true to your lifestyle. Includes  pack of  individually wrapped . oz bars.STAY ON TRACK. Our Caramel Nut Chew Bar provides  grams of protein and  grams of fiber per serving to help you achieve your daily goals. And with  grams of net carbs and  gram of sugar per serving this treat is perfect for a keto-friendly lifestyle.When used with Atkins ketogenic programsALL TASTE. NO GUILT. Decadent bars made with roasted peanuts a creamy caramel layer and a milk chocolate flavored coating these bars deliver all the taste you crave with none of the guilt.SMART SNACKING. Atkins delicious and nutritious treats strike the perfect balance of indulgence and smart snacking.SOMETHING FOR EVERYONE. Atkins Endulge Treats have their own unique textures and flavors offering the variety needed to satisfy all your cravings and help support your lifest",
          "condition":"New - Open Box",
          "rating":2.1,
@@ -518,7 +518,7 @@ const products3 = [
       {
          "item":"Amazon Brand - 100 Ct. Solimo Dark Roast Coffee Pods, Compatible with Keurig 2.0 K-Cup Brewers",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":" Dark Roast coffee podsBlend of select coffees from Latin America Africa and IndonesiaFull-bodied coffee with a hearty punch but mild acidity for a smooth finish Arabica coffeeCompatible with . and . k-cup brewersAn Amazon b",
          "condition":"Used",
          "rating":3.2,
@@ -530,7 +530,7 @@ const products3 = [
       {
          "item":"Orgain Organic Plant Based Protein Powder Travel Pack, Creamy Chocolate Fudge - Vegan, Low Net Carbs, Non Dairy, Gluten Free, Lactose Free, No Sugar Added, Soy Free, Kosher, Non-GMO, 10 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Includes  packets of single use orgain organic plant based creamy chocolate fudge protein powder grams of organic plant based protein pea brown rice chia seeds  grams of organic dietary fiber  grams of net carbs  grams of sugar  calories per servingUSDA organic vegan gluten free dairy free lactose free low net carbs no added sugar soy free kosher non GMO carrageenan free and no artificial ingredientsMix with water milk or your favorite protein shake recipe for a quick breakfast or snack drink. Use when baking grams to give your cakes muffins brownies or cookies a protein and energy boostIdeal for healthy on the go nutrition for men women and kids. These are great for meal replacement smoothie boosters building grams lean muscle muscle recovery and pre or post work",
          "condition":"Used",
          "rating":1.8,
@@ -542,7 +542,7 @@ const products3 = [
       {
          "item":"Planters Honey Roasted Peanuts Single Serve Packet (2 oz Packets, Pack of 144)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Roasted with honey and seasoned with sea saltPlanters for every on-the-go snacking occasion take it for a mid-afternoon pick-me-up or add it to a school lunchPerfect for those keeping kosherFor over  years people have trusted Planters to deliver freshness and superior qualityBuy in bulk for a great value product in convenient packa",
          "condition":"New - Open Box",
          "rating":1.2,
@@ -554,7 +554,7 @@ const products3 = [
       {
          "item":"PLANTERS Deluxe Salted Mixed Nuts, 34 Oz. Resealable Canister - Contains Cashews, Almonds, Pecans, Pistachios & Hazelnuts Seasoned with Sea Salt",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"Deluxe mixed nuts Planters deluxe mixed nuts with sea salt combines premium quality nuts for a tasty snack. Snack on a crunchy mix of planters nutscashews almonds hazelnuts pistachios and pecansPlanters nuts This  ounce resealable jar of Planters Deluxe Mixed Nuts With Sea Salt contains about thirty-four  ounce servings and features a resealable lid designed to lock in long-lasting freshnessSalted mixed nuts Sea salt lends delicious flavor to these party nutsRoasted mixed nuts These mixed nuts are roasted in peanut oil for satisfying flavor and crunchy textureSnacks Mixed nuts with no peanuts have  calories per  ounce servingthey're energizing and delicious and great bulk snacksKosher certified mixed nuts Planters mixed nuts are great tasting nutrient dense snacks for those keeping KosherPlanters mixed nuts Nuttin beats Planters mixed nuts Share snacks with friends and family or enjoy as nutrient dense snacks for adults or kids as a game day snack movie snacks after school snacks or as a holiday gift or stocking stufferPlanters snacks Planters peanuts  Planters nuts Whether you want to satisfy a salty craving Planters and mr. Peanut has you coveredShelf life The best when used by date printed on each package of planters peanuts or planters nuts represents the last day the product should be consumed to guarantee the best quality freshness and flavorShow ",
          "condition":"Used",
          "rating":4.0,
@@ -566,7 +566,7 @@ const products3 = [
       {
          "item":"Gatorade Original Thirst Quencher 3-Flavor Frost Variety Pack, 20 Ounce, 12 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"When you sweat you lose more than water. Gatorade Thirst Quencher contains critical electrolytes to help replace whats lost in sweat.Top off your fuel stores with carbohydrate energy your body's preferred source of fuel.Tested in the lab and used by the pros.Flavors include Cool Blue Frost Riptide Rush Frost Glacier Freeze Ounce Bottles Pack",
          "condition":"New - Open Box",
          "rating":4.9,
@@ -578,7 +578,7 @@ const products3 = [
       {
          "item":"Green Mountain Coffee Roasters Breakfast Blend, Single-Serve Keurig K-Cup Pods, Light Roast Coffee, 72 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":"BRAND STORY The mountains are a special place. It's where Green Mountain Coffee Roasters was born. It's where we developed our adventurous spirit and commitment to improving the lands through sustainably sourced coffee. We're driven to bring the world a richer better cup of coffee. Be bold. Be alive. Grab a cup and get out there.TASTE An eye-opener as delightful as the dawn itself. Clean and bright with balanced sweetness nutty flavor and a silky mouthfeel.ROAST Light roast caffeinated coffee made with  Arabica beans and is certified Orthodox Union Kosher USUSTAINABILITY Committed to  responsibly sourced coffee by end of COMPATIBILITY Contains genuine Keurig K-Cup pods engineered for guaranteed quality and compatibility with all Keurig K-Cup coffee ma",
          "condition":"New - Open Box",
          "rating":2.5,
@@ -590,7 +590,7 @@ const products3 = [
       {
          "item":"Ferrero Rocher Fine Hazelnut Milk Chocolate, 24 Count, Chocolate Valentine's Day Candy Gift Box, 10.5 oz",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Grocery & Gourmet Food",
+         "sub_category":"Grocery",
          "description":" delicious Ferrero Rocher chocolate candies presented in an impressive transparent gift box the perfect Valentine's Day or Chinese New Year gift for him or herA tempting combination of smooth chocolaty cream surrounding a whole hazelnut within a delicate crisp wafer all enveloped in milk chocolate and finely chopped hazelnutsA deliciously elegant confection wrapped in glittery gold foil loved gifted and appreciated all over the worldCertified Kosher OU-DairyPeanut ",
          "condition":"New - Open Box",
          "rating":1.5,
@@ -1826,7 +1826,7 @@ const products3 = [
       {
          "item":"Amazon Basics Neoprene Coated Dumbbell Hand Weight Set",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Set of  dumbbells for resistance training each dumbbell weighs  poundEasy-grip neoprene coating for a secure holdPrinted weight number on each end cap and color-coded for quick identificationHexagonal shape prevents dumbbells from rolling awayIdeal for fitness classes or at-home workout routines",
          "condition":"Good",
          "rating":1.9,
@@ -1838,7 +1838,7 @@ const products3 = [
       {
          "item":"Letsfit Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":" Resistance Bands Include Comes in  different resistance strength levels X-Light Light Medium Heavy and X-Heavy.Efficient Workout Loop Resistance Bands increase the effectiveness of your exercises. Used for a range of workouts such as Yoga Pilatesetc.Multifunctional The resistance band set can be used to exercise all parts of muscles such as arms abdomen glutes and legs.Gym-in-your-pocket The exercise bands take up little space so that you can use them at home or carry on the way such as in office on a vacation.What's Included  exercise loop bands with color-coded resistance levels portable carry bag and instructions manual.",
          "condition":"New - Open Box",
          "rating":0.6,
@@ -1886,7 +1886,7 @@ const products3 = [
       {
          "item":"CamelBak Chute Mag Water Bottle",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Sport Type Yoga",
          "condition":"New",
          "rating":1.8,
@@ -1898,7 +1898,7 @@ const products3 = [
       {
          "item":"Arctix Men's Essential Insulated Bib Overalls",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":" PolyesterImported grams ThermaTech Insulation offers warmth in a lightweight low bulk garment keeps you warm at temperatures from - to Adjustable comfort suspenders for the perfect fit with elasticized side gussets for maximum motion Denier Ballistic are used to reinforce the ankle scuff and hem guards to hold up against daily wear and tearBoot Zippers for easy on and off along with convenient O-ring for keysgloveslift ticketsBoot Gaiters with Grippers form a seamless integration with boots to keep warmth in and moisture out",
          "condition":"New - Open Box",
          "rating":1.8,
@@ -1910,7 +1910,7 @@ const products3 = [
       {
          "item":"Fit Simplify Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"Resistance Bands -  Loop Fitness Bands Set - Exercise Resistance Loop Bands - Exercise Bands For Legs And Arms - Carry BagAre you ready for the most versatile results producing workout bands on the market?These bands are ideal for- Sports- Fitness- Injury rehabilitation- body shaping- weight loss- physical therapyHow do our bands differ?First our bands are made of high quality latex. They are stronger and able to stretch further. You will feel the same resistance after a dozen reps.Second our bands are comfortable soft and easy on the skin. The only way to achieve that is to let the latex rest for a long time in tightly controlled circumstances such as temperature and humidity before making the bands.Both of these involve a higher investment for us but we think it's worth it to create a better product.What makes our resistance bands special?These bands are rigorously tested to be snap stretch and sweat resistant.You get  resistance bands set and you can combine multiple bands to find your ideal resistance.These bands are so lightweight that they make a great travel fitness kit!This is also a great Christmas Mother's and Father's day gift idea for men women dad or mom.\" ",
          "condition":"New - Open Box",
          "rating":3.6,
@@ -1934,7 +1934,7 @@ const products3 = [
       {
          "item":"OutdoorMaster OTG Ski Goggles - Over Glasses Ski/Snowboard Goggles for Men, Women & Youth - 100% UV Protection",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Otg OVER-THE-GLASSES design - ski goggles that fits over glasses. Suitable for both adults and youth.Anti-fog lens  excellent optical clarity - dual-layer lens technology with anti-fog coated inner lens gives you a fog-free ski experience.Safe  Reliable with UV protection - soft TPU frame with lenses that provide  UV protection and years of reliable use.Universal helmet compatibility - Extra long elastic strap ensures great helmet compatibility with all helmets. Suitable for both adults  teens.What you get  x Outdoormaster Otg Ski Goggles  x Carrying pouch customer-favorite  year and friendly customer service.",
          "condition":"Used",
          "rating":4.6,
@@ -1958,7 +1958,7 @@ const products3 = [
       {
          "item":"SABRE RED Pepper Spray Keychain with Quick Release for Easy Access Max Police Strength OC Spray, Finger Grip for Accurate Aim, 10-Foot (3M) Range",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number.  PEPPER SPRAY BRAND TRUSTED BY POLICE AND CONSUMERS WORLDWIDE Including New York PD Chicago PD and U.S. Marshals RELIABLE  LONG-LASTING -year shelf life X the industry standard for the best self-protection available Made in the USAGUARANTEED MAXIMUM STRENGTH SABRE's professional-grade OC Spray is backed by our in-house HPLC lab testing guaranteeing maximum heat and stopping power in every burst and eliminating the  failure rate experienced with other brands U of Utah studyMAXIMUM STOPPING POWER AT A SAFE DISTANCE  oz container with impressive -foot M range with  bursts up to x other brands delivered in powerful stream to decrease wind blowback plus UV marking dye aids in identifying suspectEASY ACCESS IN STRESSFUL SITUATIONS SABRE is one of the only brands to offer the Quick Release Key Ring providing fast immediate access PREVENTS ACCIDENTAL DISCHARGE with reinforced trigger twist lock for safe storage in purse or backpackSTAY SABRE SAFE WITH FREE TRAINING Feel confident and secure In addition to your defensive spray packaging includes links to free training videos and safety tips to help maximize your personal safety when in the face of danger",
          "condition":"Good",
          "rating":0.6,
@@ -1970,7 +1970,7 @@ const products3 = [
       {
          "item":"Amazon Basics High-Density Exercise, Massage, Muscle Recovery, Round Foam Roller, 12\", 18\", 24\", 36",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. High-density foam roller with molded edgesIdeal for balance strengthening flexibility and rehab exercisesMade in the USA from molded polypropylene to maintain firmnessLightweight easy to clean and transportMeasures approximately  x  x  inches LxWxHAn Amazon Brand",
          "condition":"Used",
          "rating":0.3,
@@ -1982,7 +1982,7 @@ const products3 = [
       {
          "item":"ZIONOR Lagopus Ski Snowboard Goggles UV Protection Anti Fog Snow Goggles for Men Women Youth",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Optimized Performance Ski Goggles - Solid  durable lens enhanced anti-scratch and smart ventilation system.Full Protection for Eyes  Anti-fog and  UV Protection treatment on double layer lens. Crystal view on the slope when skiing and snowboarding.Comfortable  Warm  High density woven strap with great elastic and superior sponge covers your face providing top anti-wind features.Helmet Compatible  OTG  Extra long strap for better helmet compatibility and keep the snow goggles in place.Over the glass designed ski  snowboard goggles to fit small to medium size glasses. Design to fit both youth and adult.Customer Oriented Service - All ZIONOR snow goggles are designed for both men and women we provide swift response customer service if there is anything you need.",
          "condition":"New - Open Box",
          "rating":5.0,
@@ -1994,7 +1994,7 @@ const products3 = [
       {
          "item":"Coppertone Waterbabies Fragrance Free SPF 50 Sunscreen Lotion, Tear Free, Water Resistant, #1 Pediatrician Recommended brand, Broad Spectrum UVA/UVB Protection, 6 Ounce",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":" Pediatrician recommended sunscreen brandHypoallergenic  gentle formula free of fragrance dyes PABAMild non-irritating  Water-resistant  minutes formula for delicate skinDermatologist tested broad spectrum UVAUVB protectionThis pack includes one   ounce SPF  sunscreen lotion.VotedMost Trusted Sunscreen brand byAmericanshoppers based on theBrandSparkAmerican Trust Study",
          "condition":"Used",
          "rating":1.2,
@@ -2006,7 +2006,7 @@ const products3 = [
       {
          "item":"HotHands Hand Warmers - Long Lasting Safe Natural Odorless Air Activated Warmers - Up to 10 Hours of Heat - 40 Pair",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. SAFE NATURAL LONG-LASTING HEAT - Odorless Disposable Single-Use Item Do Not Apply Directly to The Skin. TSA Approved. Made in the USA using domestic and imported materials. No shaking or kneading requiredTO ACTIVATE - Remove warmer from outer package shake to activate. Warmer heats up in - minutes. If heat decreases expose warmer to air and shake. After use dispose with regular garbage. Ingredients will not harm the environment.MULTIPURPOSE WARMERS - Single use air-activated heat packs that provide everyday warmth and are ideal for keeping your body warm when the temperature gets cold. Theyre available in several styles designed for your hands feet and body.WHEN TO USE Tailgating at Events Outdoor Sporting Events Hunting  Fishing Camping  Hiking Working in The Yard Jogging or Taking Your Pet for A Walk. Convenient Compact Portable.",
          "condition":"New",
          "rating":0.0,
@@ -2018,7 +2018,7 @@ const products3 = [
       {
          "item":"Achiou Winter Knit Gloves Touchscreen Warm Thermal Soft Lining Elastic Cuff Texting Anti-Slip 3 Size Choice for Women Men",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Comfortable  Warm  Soft and warm lining design provide warmth and functionality for running hiking or cold-weather commuting. The knit fabric has a four-way stretch so your wiggly digits have the freedom of movement they require and can stay in their natural relaxed position as you log the milesTouch Sensitive  Anti-Slip Palm  The Unique and Practical  Touchscreen Capability designthumb forefinger middle finger that assures you won't have to remove the glove in order to use your phone. Palm large area triangle silicone palm grip keeps that precious phone securePerfectly Fits  Best Gits  Achiou high-quality gloves with excellent elasticity Stretches to fit no matter the size of your hand. The best gift for your friends family or anyone you lovedConvenient  Breathable Material  Living in the technology age Achiou winter knit gloves let you use your phone without having to expose your hands. Breathable material allows the gloves to ventilate in order to decrease sweat accumulationJust Do It  Each pair of gloves undergoes strict inspection at the top of delivery. We will be always with you. Any question we are willing to try our best to solve it without any requirementImportant Tip  Please note that wearing this pair of gloves Please be sure to wear to the top of each finger especially the  touchscreen fingers must be filled with our fingers so that this touchscreen function will be effective. Spot wash by hand in luke warm water with mild detergent. Hang to dry. Do not use hot water. Do not put in dryer",
          "condition":"New - Open Box",
          "rating":2.0,
@@ -2030,7 +2030,7 @@ const products3 = [
       {
          "item":"Gildan Men's Fleece Crewneck Sweatshirt, Style G18000",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":" Cotton  PolyesterImportedPull On closureMachine WashLonger dropped shoulder straighter armhole and wider shorter sleevesThick and hefty fabricDouble-stitching at the hems to make it built to lastSmooth cozy cotton interiorRib cuffs and bottom band with spandex for enhanced stretch and recovery",
          "condition":"Used",
          "rating":2.6,
@@ -2042,7 +2042,7 @@ const products3 = [
       {
          "item":"TRENDOUX Winter Gloves for Men and Women - Upgraded Touch Screen Anti-Slip Silicone Gel - Elastic Cuff - Thermal Soft Wool Lining - Knit Stretchy Material",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This is a really cool product",
          "condition":"New - Open Box",
          "rating":2.5,
@@ -2054,7 +2054,7 @@ const products3 = [
       {
          "item":"Fitbit Inspire 2 Health & Fitness Tracker with a Free 1-Year Fitbit Premium Trial, 24/7 Heart Rate, Black/Black, One Size (S & L Bands Included)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"Free -year Fitbit Premium trial for new Premium users with personalized guidance insights and motivation to help you reach your goals Free trial may only be activated with device activation. Valid payment method required. Free trial must be activated within  days of device activation. Cancel before free trial ends to avoid subscription fees. New Premium users only. Content and features may vary by language and are subject to change.Earn Active Zone Minutes as you progress toward your weekly  minutes of heart-pumping activity and use  exercise modes to track goals like distance calories burned and moreTrack all-day activity your steps distance hourly activity and calories burnedUse  heart rate to track resting heart rate  better measure calorie burnEnjoy  days of battery life for daily progress without constant charging. Varies with use and other factorsTrack your time in light deep and REM sleep then get a Sleep Score to better understand your sleep quality each nightStay inspired from the shower to the pool with this swimproof tracker water resistant to  meters and motivated by connecting with friends competing in challenges earning badges and celebrating goal milestonesGet call text calendar and smartphone app notifications right on your wrist. Notifications and app alerts are available on-device when your phone is nearby",
          "condition":"New",
          "rating":3.2,
@@ -2066,7 +2066,7 @@ const products3 = [
       {
          "item":"Optix 55 Anti-Fog Spray for Non - Anti Reflective Lenses | Prevents Fogging of Glass or Plastic Windows, Mirrors, Eyewear Lenses, Glasses, Swim Goggles, Ski Masks, Binoculars |Long Lasting Solution",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Discover Instant Clarity  Get this magical little solution bottle that will keep your bathroom mirrors eyeglasses swim goggles sport goggles snorkeling masks Windshields Binoculars Scopes Hockey Shields and endless other surface types fog free and ready to go!Natural Hypoallergenic  Safe  Feel good knowing that youre not being exposed to any chemicals or harmful ingredients. Our all-natural water mist formula is easy on the surface and perfectly safe for your eyes and skin.Quick  Easy Application Apply a small amount of the spray onto both sides of your clean lens or surface. Using your fingers apply evenly in a circular motion on the entire surface and let sit for about  minute. Gently wipe with a dry soft cloth to clear streaks. Let dry completely before using.Safe for Non AR-Coated Lenses  This unique formula will deliver you the clarity you seek. Prescription Transition or Polarized lenses? Weve got you covered for all Non AR-Coated lenses.Works Great on All Glass  Plastic Materials  We found that many defogging sprays will work on one surface type optimally while performing poorly on the rest. Thats why we worked hard to design a formula that would effectively prevent fogging on Polarized UV Iridium Photo-chromatic Polycarbonate Lexan and many other materials.",
          "condition":"Used",
          "rating":3.5,
@@ -2090,7 +2090,7 @@ const products3 = [
       {
          "item":"Iron Flask Sports Water Bottle - 14oz,18oz,22oz,32oz,40oz,64oz,3 Lids (Straw Lid),Vacuum Insulated Stainless Steel, Modern Double Walled, Simple Thermo Mug, Hydro Metal Canteen",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. SPECIAL INTRODUCTORY PRICE! SPORTS WATER BOTTLE INSULATED Goodbye sweat! The double wall insulation makes the Iron Flask sweat-free! It keeps your drink COLD for up to  hours and HOT for up to  hours. NOTE ONLY the  Oz  Oz   Oz fit in cupholders LIDS YES Iron Flask comes with THREE different lids. Carabiner Straw Lid with  Straws Flip Lid and a Stainless Steel Lid! NOTE The stainless steel lid is plastic from inside and stainless steel from outside PREMIUM STAINLESS STEEL The Iron Flask is made of  Stainless steel that is  BPA free and non-toxic. It will never leave a metal taste or rust. HAND WASH ONLY WITH SOAPY HOT WATER!FUNCTIONAL DESIGN The powder coat exterior finish is a classic. It assures that you stand out with a very durable and elegant bottle. Our logo is now LASER ENGRAVED to assure the highest quality as well. SATISFACTION GUARANTEED We guarantee that the high quality Iron Flask bottle will surely please you! If for any reason you are not  satisfied with the Iron Flask we will issue you a full refund or an exchange!",
          "condition":"New - Open Box",
          "rating":2.6,
@@ -2102,7 +2102,7 @@ const products3 = [
       {
          "item":"Sweet Sweat Waist Trimmer for Men & Women Black/Pink | Premium Waist Trainer Sauna Suit, Includes Sample of Sweet Sweat Gel!",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Sizing - Small \" Length x \" Width - If you are unsure of your sizing we recommend that you order a size downFree Bonus - Includes breathable carrying bag  sample of our bestselling Sweet Sweat 'Workout Enhancer' Gel. Use Sweet Sweat along with the Trimmer to help maximize your results.Made with extra thick Premium CR Neoprene for an enhanced sweating experience.Contour Design for a comfortable fit  Naturally flexible to adjust to your size and shape.Grid inner lining will not only repel moisture  sweat absorption but also limit slipping and bunching during exercise.",
          "condition":"New - Open Box",
          "rating":2.4,
@@ -2114,7 +2114,7 @@ const products3 = [
       {
          "item":"Arctix Mens Snow Sports Cargo Pants",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":" PolyesterImported grams ThermaTech Insulation offers warmth in a lightweight low bulk garment keeps you warm at temperatures from - to  Denier Ballistic are used to reinforce the ankle scuff and hem guards to hold up against daily wear and tearAdjustable waist for comfortable fitBoot Zippers for easy on and off along with cargo pockets and O-ring for keys gloves andor lift ticketsBoot Gaiters with Grippers form a seamless integration with boots to keep warmth in and moisture out",
          "condition":"New",
          "rating":0.4,
@@ -2126,7 +2126,7 @@ const products3 = [
       {
          "item":"Gash Hao Mens Snow Ski Waterproof Softshell Snowboard Pants Outdoor Hiking Fleece Lined Zipper Bottom Leg",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"ImportedButton closure polyester the exterior is made of waterproof windproof Insulated and quick-drying soft shell fabric and the inner lining is made of granule fleece for warmth.Bottom of legs-Add zippers. During hiking during skiing to avoid snow and coldness go inside the pants. Zippers design to back up the pants to boots.Adjustable stretchy waist allows pants to fit comfortably. Zippered front and rear pockets keep your small items stay safely while moving.  large-capacity zipper side pockets inner plush fabric to prevent the cold caused by metal and zip pocket on the back to protect your valuables.Multi-functional trousers with a soft shell surface layer that is durable and waterproof enough for skiing. If you walk in the rain it can help you stay dry for about - minutes. Excellent wind resistance a special film in the middle of the knee can completely block the wind and water. Protect our knees.Have Mens Winter Outdoor Pants suitable for daily wear hikingcycling skiing climbing traveling camping mountaineering hunting fishing snowboarding snowmobile cycling.. Put on this pair of pants. Let us set off together.",
          "condition":"New - Open Box",
          "rating":4.4,
@@ -2138,7 +2138,7 @@ const products3 = [
       {
          "item":"IUGA High Waist Yoga Pants with Pockets, Tummy Control, Workout Pants for Women 4 Way Stretch Yoga Leggings with Pockets",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports & Outdoors",
+         "sub_category":"Sports  Fitness",
          "description":"IUGA is a lifestyle brand that combines Style Comfort and Performance. The High Quality Activewear is perfect for Fitness Enthusiasts and Everyday Athleisure as it is Affordable and Accessible. Operating at the cross section between fashion and function IUGA aims to please both The Everyday Fashion Consumer and The Ultimate Exercise Enthusiast.Developed by Yogis for yogis A Wide High-Rise Waistband with Tummy Control and a Hidden Pocket these yoga leggings are perfect for active women. Featuring the Super Soft material the workout leggings are very comfy with Four-way Stretch material that promotes both compression and support. In addition a Gusset Crotch to maximize Free Movement and Interlock Seams to minimize Rubbing and Chafing making these leggings for women become The Perfect Yoga Pants.Ultra-Stretch Fit Enough Thickness  Non-See-Through that Slims and Conforms with each pose movement and contour. Plus a Hidden Waistband Inner Pocket to stash your keys cell phones or any essentials.All IUGA yoga pants are sold with a -day Full-Money-Back Warranty and can be returned with No Arguments. We also offer World Class Customer Service to make your purchase Without Your Worries. Therefore Dont Miss This Chance simply just add these Workout Pants to your cart by clicking the \"Add-to-Cart\" button and BUY IT NOW!ATTENTION Please ensure the leggings that you are purchasing are \"Sold by IUGA\" and \"Fulfilled by Amazon\". Products from SELLERS OTHER THAN \"IUGA\" are not The Same Fits Colors Fabrics and Qualities. And please be notified that so far we still haven't authorized any third parties to sell \"IUGA\" products.",
          "condition":"New",
          "rating":0.7,
@@ -2259,7 +2259,7 @@ const products3 = [
       "item":"Ailun Glass Screen Protector Compatible for iPhone 11/iPhone XR, 6.1 Inch 3 Pack Tempered Glass",
       "market_price":7.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"WORKS FOR iPhone iPhone XR  release . Inch display .mm tempered glass screen protector. Featuring maximum protection from scratches scrapes and bumps.Specialty Due to the rounded design of the iPhone XR and to enhance compatibility with most cases the Tempered glass does not cover the entire screen. HD ultra-clear . touch-screen accurate.hydrophobic and oleophobic screen coating protects against sweat and oil residue from fingerprints.It is  brand newPrecise laser cut tempered glass exquisitely polished.D rounded edges.Online video installation instruction can be found at the last image slot Easiest Installation - removing dust and aligning it properly before actual installationno worrying about bubblesenjoy your screen as if it wasn't there.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81MZ5D1wHpL._AC_UX385_.jpg"
    },
@@ -2267,7 +2267,7 @@ const products3 = [
       "item":"Apple 20W USB-C Power Adapter",
       "market_price":17.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This is a really cool product",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/41iWogJnZQL._AC_SX342_.jpg"
    },
@@ -2275,7 +2275,7 @@ const products3 = [
       "item":"Mkeke Compatible with iPhone XR Screen Protector, IPhone 11 Screen protector,Tempered Glass Film for Apple iPhone XR and iPhone 11, 3-Pack Clear",
       "market_price":7.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Made iPhone xr  iPhone  - The Screen Protector covers your iPhone\\'s iPhone XR .\" display and is case-friendly due to the open edge design. Wear your favorite case and keep your screen protected at the same time! ONLY Compatible with iPhone XR .\" SizeSpecialty Due to the rounded design of the iPhone XR  iPhone  and to enhance compatibility with most cases the Tempered glass does not cover the entire screen. HD ultra-clear rounded glass for iPhone XR .inch  release is . touch-screen accurate.Glass Screen Protector for iPhone xr  iPhone  High-definition clear hydrophobic and oleophobic screen coating protects against sweat and oil residue from fingerprints.Easy installation - its super easy to install! Comes with an installation guidance frame to assist with the application process.Mkeke to protect your iPhone xr  iPhone  Screen against defects and damage",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71nK-Ti90%2BL._AC_SX522_.jpg"
    },
@@ -2283,7 +2283,7 @@ const products3 = [
       "item":"[UpgraUSB C Charger, AUKEY Minima 20W iPhone 12 Charger, Fast Charger with Foldable Plug,Ultra-Compact iPhone Charger,USB C Wall Charger for iPhone 12/12 Mini/12 Pro Max,Pixel 4-Black (1-Pack)",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"High-Speed Charging Fast charge your iPhone    Pro   Pro Max Google Pixel    XL    XL or other compatible USB-C devices that support USB Power DeliveryUSB Power Delivery Next-generation future-proof fast charging technology that charges your USB Type-C phone or tablet at up to WSafe  Reliable Built-in safeguards protect your devices against excessive current overheating and overchargingCompact  Portable Extremely compact form factor and foldable plug ensure maximum portability wherever you go. Handy for home office and vacationsPackage Contents AUKEY PA-YS USB C Wall Charger -Pack with W Power Delivery PD . User Manual",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/51e70e9iLWL._AC_SX342_.jpg"
    },
@@ -2291,7 +2291,7 @@ const products3 = [
       "item":"USB C Charger, Anker Nano Charger PIQ 3.0 Durable Compact Fast Charger, PowerPort III for iPhone 12/12 Mini/12 Pro/12 Pro Max/11, Galaxy, Pixel 4/3, iPad Pro (Cable Not Included)",
       "market_price":16.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Designed for iPhone Anker Nano is designed to provide the maximum charge to iPhone Unrivaled Speed Charge iPhone  and previous iPhone models up to  faster than with an original W ChargerSpace-Saving Design At  smaller than a standard iPhone  USB-C charger Anker Nano provides plenty of power while saving space in your bag or while plugged into a wall outletWorks with Most Handheld Devices Provide high-speed charging to most flagship phones including iPhone and Samsung Galaxy S as well as smartwatches and earbudsWhat You Get PowerPort III Nano welcome guide our worry-free -month warranty and friendly customer service cable not included",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/51gHyK0YQVL._AC_SX425_.jpg"
    },
@@ -2299,7 +2299,7 @@ const products3 = [
       "item":"QHOHQ 3 Pack Screen Protector for iPhone 12 Pro Max [6with 2 Packs Tempered Glass Camera Lens Protector, Tempered Glass Film, 9H Hardness - HD - 2.5D Edge - Bubble Free - Scratch Resistant",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Designed for iPhone  Pro Max G . Inch  screen protector and camera lens protector. screen protection film and lens protection film are both made of good quality tempered glass. The precise laser cut size can cover the entire mobile phone screen. They are very easy to install. Please watch our installation video tutorial before installation to ensure the correct installation method and ensure that the screen is clean and free of annoying bubbles.This Screen Protector Work with Most Case.The combination of anti-fingerprint and HD functions. Plasma oleophobic coating treatment smooth hand feeling and effective anti-fingerprint anti-greasy has light transmittance and optical level effect it can effectively block and filter ultraviolet rays and enhance the visibility of the screen.Ultra-thin and curved design. .mm ultra-thin tempered glass screen protector maintains the original response sensitivity and touch bringing you a good touch experience. The glass protector is a professional arc design reaching an arc edge of .D or more making the fingers and hands feel comfortable and never scratching.AR technology and night shooting function specially designed iPhone  Pro Max G .-inch camera lens protective film. The protective film adopts the new technology of \"seamless\" integration of augmented reality with light transmittance and night shooting function without the need to design the flash hole position when the flash is turned on at night the original quality of photos and videos can be restored.Comprehensive screen protection full-coverage screen protection film will fit your screen  and has a high-strength nano-elastic impact and explosion-proof effect to protect your phone screen to the great extent.The lens protection film has been verified against iPhone  Pro Max .Inch.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71JSy14DhNL._AC_SX425_.jpg"
    },
@@ -2307,7 +2307,7 @@ const products3 = [
       "item":"USB Wall Charger, Charger Block, Ailkin 2.1A Multiport Fast Charge Power Brick Cube Replacement for iPad, iPhone, iPod, Samsung Galaxy, Huawei, HTC, LG, Nokia or Other Cell Phone Smart Devices",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Premium Performance Dual-USB output with total current V.A and input with -V enables you to charge two mobile devices simultaneously at high speed.It can really save your time.Safety assurance AILKIN'S charger has protection system against over charging over currents and over heating. The charger will automatically stop charging when power is full which can maximumly protect your device.LightweightHome charger adapter allows charging at home or in the office via USB cable connection. Simply plug in the USB cable and plug the adapter into the wall. Compact lightweight portable stylish easy to store.Multipurpose Pure black color match all usb cable cord or match your phones. You can share them with your lover family or friends. strengthen your relationship.PACKAGE INCLUDE - Pack dual Port USB wall chargers.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/51hC6xxfemL._AC_SX522_.jpg"
    },
@@ -2315,7 +2315,7 @@ const products3 = [
       "item":"JETech Screen Protector for iPhone 11 and iPhone XR, 6.1-Inch, Tempered Glass Film, 2-Pack",
       "market_price":6.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"NOTE Due to the round edge of iPhone  and iPhone XR the screen protector will NOT cover the full screen only the flat areaMade of high quality .mm thick premium tempered glass with rounded edges exclusively for iPhone  and iPhone XR .-inchExtremely high hardness resists scratches up to H harder than a knife. High response and high transparencyDust-free fingerprint-free one-push super easily installation bubble freeRetail package includes tempered glass screen protector cleaning cloth dust removal stick instructions customer service card",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61Y8nGacOwL._AC_SX522_.jpg"
    },
@@ -2323,7 +2323,7 @@ const products3 = [
       "item":"JETech Screen Protector for iPhone 11 Pro, for iPhone Xs, for iPhone X, 5.8-Inch, Tempered Glass Film, 2-Pack",
       "market_price":5.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"-Pack. NOTE Due to the round edge of iPhone  Pro iPhone XS and iPhone X the screen protector will NOT cover the full screen only the flat areaMade with high quality .mm thick premium tempered glass with rounded edgesExtremely high hardness resists scratches up to H harder than a knife. High-response and high transparencyDust-free fingerprint-free one-push super easily installation bubble freeRetail package includes -Pack tempered glass screen protector cleaning cloth dust removal stick guide stick instructions customer service card",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61QEY3YKqqL._AC_SX522_.jpg"
    },
@@ -2331,7 +2331,7 @@ const products3 = [
       "item":"Temdan Clear Case Compatible with iPhone 12 Case/Compatible with iPhone 12 Pro Case - Clear",
       "market_price":9.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This clear case Designed for phone  case  designed for phone  pro case. Support wireless charging.Screen Protection Raised bezels around the screen help protect against scratches.Shockproof Corners This clear case has shockproof corners for dropproof protection.Slim and Clear Keeps your phone slim and stylish with the original beauty of your  pro.Scratch Resistant The back made of hard PC holds up to daily wear and tear.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71H8OfamodL._AC_SX425_.jpg"
    },
@@ -2339,7 +2339,7 @@ const products3 = [
       "item":"Ailun Glass Screen Protector Compatible for iPhone 12/iPhone 12 Pro 2020 6.1 Inch 3 Pack Case Friendly Tempered Glass",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"WORKS FOR iPhone iPhone  Pro  . Inch .mm tempered glass screen protector. Featuring maximum protection from scratches scrapes and bumps.Specialtyto enhance compatibility with most cases the Tempered glass does not cover the entire screen. HD ultra-clear rounded glass for iPhone iPhone  Pro  is . touch-screen accurate.. High-definition clear hydrophobic and oleophobic screen coating protects against sweat and oil residue from fingerprints.It is  brand newPrecise laser cut tempered glass exquisitely polished.D rounded edges.Online video installation instruction Easiest Installation - removing dust and aligning it properly before actual installationno worrying about bubblesenjoy your screen as if it wasn't there.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81npNMXFqXL._AC_SX425_.jpg"
    },
@@ -2347,7 +2347,7 @@ const products3 = [
       "item":"Ailun Glass Screen Protector Compatible for iPhone 12 pro Max 2020 6.7 Inch 3 Pack Case Friendly Tempered Glass",
       "market_price":7.89,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"WORKS FOR iPhone  pro Max . Inch Screen  .mm tempered glass screen protector. Featuring maximum protection from scratches scrapes and bumps.Case Friendly Specialtyto enhance compatibility with most cases the Tempered glass does not cover the entire screen. HD ultra-clear rounded glass for iPhone  pro Max  is . touch-screen accurate.. High-definition clear hydrophobic and oleophobic screen coating protects against sweat and oil residue from fingerprints.It is  brand newPrecise laser cut tempered glass exquisitely polished.D rounded edges.Online video installation instruction Easiest Installation - removing dust and aligning it properly before actual installationno worrying about bubblesenjoy your screen as if it wasn't there.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81wjuAixb-L._AC_SX425_.jpg"
    },
@@ -2355,7 +2355,7 @@ const products3 = [
       "item":"Yootech Wireless Charger, Qi-Certified 10W Max Fast Wireless Charging Pad Compatible with iPhone 12/12 Mini/12 Pro Max/SE 2020/11 Pro Max,Samsung Galaxy S21/S20/Note 10/S10,AirPods Pro(No AC Adapter)",
       "market_price":9.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This is a really cool product",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61oIAKY9s1L._AC_SX522_.jpg"
    },
@@ -2363,7 +2363,7 @@ const products3 = [
       "item":"Ailun Screen Protector Compatible for iPhone 11 Pro Max/iPhone Xs Max 3 Pack 6.5 Inch 2019/2018 Release Case Friendly Tempered Glass",
       "market_price":7.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Works For iPhone  Pro MaxiPhone Xs Max .inch  release. .mm tempered glass screen protector. Featuring maximum protection from scratches scrapes and bumps.not for iPhone  proSpecialty Due to the rounded design of the iPhone  Pro MaxXs Max and to enhance compatibility with most cases the Tempered glass does not cover the entire screen. HD ultra-clear rounded glass for iPhone  Pro MaxXs Max .inch  release is . touch-screen accurate.. High-definition clear hydrophobic and oleophobic screen coating protects against sweat and oil residue from fingerprints.It is  brand newPrecise laser cut tempered glass exquisitely polished.D rounded edges.Easiest Installation - removing dust and aligning it properly before actual installationno worrying about bubblesenjoy your screen as if it wasn't there.Precise laser cut tempered glassperfect fits.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81CVqvi2wIL._AC_SX522_.jpg"
    },
@@ -2371,7 +2371,7 @@ const products3 = [
       "item":"Apple MagSafe Charger",
       "market_price":34.00,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"The MagSafe Charger makes wireless charging a snap.The perfectly aligned magnets attach to your AirPods or iPhoneProvides faster wireless charging.The MagSafe Charger maintains compatibility with Qi charging so it can be used to wirelessly charge your iPhone  or later as well as AirPods models with a wireless charging case as you would with any Qi-certified charger.Compatible with AirPods Pro AirPods with Wireless Charging Case and AirPods Wireless Charging CaseCompatible with iPhone  Pro iPhone  Pro Max iPhone  mini iPhone  iPhone  Pro iPhone  Pro Max iPhone  iPhone SE nd generation iPhone XS iPhone XS Max iPhone XR iPhone X iPhone  iPhone  PlusWhat's in the box MagSafe Charger m USB-C integrated cableFor optimal charging pair with the W USB-C Power Adapter sold separately.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/91ghhfky4LL._AC_SX342_.jpg"
    },
@@ -2379,7 +2379,7 @@ const products3 = [
       "item":"USB C Female to USB Male Adapter 2 Pack,Type C to A Charger Cable Adapter for iPhone 11 12 Mini Pro Max,Airpods iPad 8th,Samsung Galaxy Note 10 S20 Plus 20 S21 21 FE Ultra,13 12S,Google Pixel 5 4 3 XL",
       "market_price":9.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This fits your.Make sure this fits by entering your model number.P.when\"ReplacementPartsBulletLoader\".executefunctionmodule module.initializeDPX Doesn\\'t work with MagSafe charger BE AWARE OF THE LIMITATION This is a USB-C female to USB-A male adapter designed for charging or data transfer and it will NOT support vidoe signal transmission. Latest Test Result This product doesn\\'t work with MagSafe wireless charger due to the incompatibility of charging protocols. So MagSafe charger must be paired with A USB-C power adapterWith this little dongle plugged into an available standard USB port your legacy devices charger power bank computer can turn into a USB-C enabled platform.You can easily hook up any USB-C peripherals USB Type-C cable USB Type-C flash drive USB Type-C hub that make use of the newer USB-C connector.This adapter offers data transfer speeds of up to  Mbps between connected devices and also supports up to  Amps of power output for charging your devices. Enjoy the fast and safe charging.Our aluminum-alloy-bodied dongle occupies very little space and can plug directly onto the end of your USB-A hardware so you wont have to worry about carrying it around.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61-A-baiobL._AC_SY450_.jpg"
    },
@@ -2387,7 +2387,7 @@ const products3 = [
       "item":"UBeesize Selfie Stick Tripod, 51\" Extendable Tripod Stand with Bluetooth Remote for Cell Phones, Heavy Duty Aluminum, Lightweight",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This is a really cool product",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61H5ZTSKIlL._AC_SX522_.jpg"
    },
@@ -2395,7 +2395,7 @@ const products3 = [
       "item":"Ailun Screen Protector Compatible for iPhone XS, iPhone X, iPhone 11 Pro,3 Pack,5.8 Inch Display Case Friendly Tempered Glass",
       "market_price":5.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"WORKS FOR iPhone  Pro iPhone Xs  iPhone  iPhone X . Inch Screen . .mm tempered glass screen protector. Featuring maximum protection from scratches scrapes and bumps.Specialty Due to the rounded design of the iPhone  ProXXs and to enhance compatibility with most cases the Tempered glass does not cover the entire screen. HD ultra-clear rounded glass for iPhone  ProXXs is . touch-screen accurate.. High-definition clear hydrophobic and oleophobic screen coating protects against sweat and oil residue from fingerprints.It is  brand newPrecise laser cut tempered glass exquisitely polished.D rounded edges.Online video installation instruction Easiest Installation - removing dust and aligning it properly before actual installationno worrying about bubblesenjoy your screen as if it wasn't there.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81g8xShoy6L._AC_SX522_.jpg"
    },
@@ -2403,7 +2403,7 @@ const products3 = [
       "item":"Ailun Screen Protector Compatible for iPhone 8 plus,7 Plus,6s Plus,6 Plus, 5.5 Inch 3Pack Case Friendly Tempered Glass",
       "market_price":6.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Made in USA and ImportedWORKS FOR iPhone plus plussPlusPlus . Inch Screenonly.NOT FOR iPhone  and  . inch display .mm tempered glass screen protector. Featuring maximum protection from scratches scrapes and bumps.Specialty Due to the rounded design of the iPhone plus plussPlusPlus and to enhance compatibility with most cases the Tempered glass does not cover the entire screen. HD ultra-clear rounded glass for iPhone  plus plus . Inch Screen is . touch-screen accurate.. High-definition clear hydrophobic and oleophobic screen coating protects against sweat and oil residue from fingerprints.It is  brand newPrecise laser cut tempered glassno front camera cutout  exquisitely polished.D rounded edges.Online video installation instruction Easiest Installation - removing dust and aligning it properly before actual installationno worrying about bubblesenjoy your screen as if it wasn't there.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81vpxt3Gd-L._AC_UX385_.jpg"
    },
@@ -2411,7 +2411,7 @@ const products3 = [
       "item":"Smiling Case Compatible with Apple Watch Series 6/SE/ Series 5/Series 4 40mm with Built in Tempered Glass Screen Protector- All Around Hard PC Case Overall Protective Cover (Clear)",
       "market_price":9.90,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"New version case This case compatible with apple watch series SE mm  series  mm and series  mm.Shock-proof  Against Scratches Made of high quality anti-scratch hard pc and tempered glass this mm case covers the full front and curved edges of the watch offering full protection for your watch against scratches drops and bumps.Sensitive Touch Ultra-Thin tempered glass film maintains watch's original response sensitivity ensuring quick app launching.Easy take on and off This new design mm screen protector easy take on and off and you do not need to take off your watch band.Includes  pack high quality case with screen protector compatible with apple watch series SE mm  series  mm and series  mm.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61A%2BV1BXQyL._AC_SX522_.jpg"
    },
@@ -2419,7 +2419,7 @@ const products3 = [
       "item":"UBeesize 10\" Selfie Ring Light with 50\" Extendable Tripod Stand & Flexible Phone Holder for Live Stream/Makeup/YouTube Video",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"ColorBlackUBeesize Ring Light Stand Phone Tripod Stand Live Stream Stand with \" LED Ring Light .\" Dimmable Ring Light  light color mode white warm yellow and warm white and each mode has  level brightness. Perfect extra light for make-up taking photos making videos reading books and live streaming! -way tripod head The adjustable tripod head allows you to find the perfect angle to light your subject makes your photograph or livestreaming easily. Extendable Tripod StandMade of high-quality aluminum the tripod stand extends from \"to \" it will meet all the situations you need. Bluetooth Remote Shutter Connected via Bluetooth Operational up to  feet m. Never fail to capture some memorable photos and videos. In the box x Ring Light x Tripod stand x Flexible Phone Holder x Bluetooth Remote Control x Tripod Mount Phone Holder x User manual",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71Fue2rQFVL._AC_SY355_.jpg"
    },
@@ -2427,7 +2427,7 @@ const products3 = [
       "item":"amFilm Glass Screen Protector for iPhone 8, 7, 6S, 6 (4.7 Inch)(2 Pack) Tempered Glass Screen Protector",
       "market_price":5.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Specifically designed iPhone   S  Glass Screen ProtectorUltra-clear High Definition with . transparency to allow an optimal natural viewing experienceUltra thin-.mm thickness is reliable and resilient and promises full compatibility with touchscreen sensitivityHighly durable and scratch resistant - surface hardness H and topped with oleophobic coating to reduce fingerprints.Includes x GLASS Screen Protector WetDry Wipes Squeeze Card Easy Installation Use Guide Dust Removal Stickers",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71iRhuFwS-L._AC_SX522_.jpg"
    },
@@ -2435,7 +2435,7 @@ const products3 = [
       "item":"Selfie Ring Light with Tripod Stand & Cell Phone Holder for Live Stream/Makeup, UBeesize Mini Led Camera Ringlight for YouTube Video/Photography",
       "market_price":33.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"ColorBlackSelfie Ring Light with Tripod Stand  Cell Phone Holder for Live StreamMakeup UBeesize Mini Led Camera Ringlight for YouTube VideoPhotography Compatible with iPhone Xs Max XR Android Upgraded",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61dR6Py28XL._AC_SX522_.jpg"
    },
@@ -2443,7 +2443,7 @@ const products3 = [
       "item":"CASEKOO Crystal Clear Designed for iPhone 12 Pro Max Case, [Not Yellow[Military Grade Drop TesShockproof Protective Phone Case Slim Thin Cover 5G 6.7 inch 2020, Clear",
       "market_price":19.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Crystal Clear  Yellow-resistant The crystal clear case flaunts original phone design and beauty never yellows with diamond antioxidant layer and is super easy to clean.Armor-level Shockproof The protective cover features  built-in corner Airbags to absorb impact and avoid scratches in most situations.Raised Camera  Screen Protection Raised bezels prevent screen and camera against drops  scratches. The tiny design of . mm lip over camera mm bezel over screen and  mm raised corner lips on the back provides extra and comprehensive protection.Perfect Fit The clear phone case fits perfectly to stop dust from entering and scratching the body of your phone.Slim Ergonomic Design  Enhanced Grip The slim phone case brings you greater portability and firmer grip with no bulk and no skidding.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81-ZJ7QLXOL._AC_SX522_.jpg"
    },
@@ -2451,7 +2451,7 @@ const products3 = [
       "item":"Adjustable Cell Phone Stand, OMOTON C2 Aluminum Desktop Phone Holder Dock Compatible with iPhone 11 Pro Max Xs XR 8 Plus 7 6, Samsung Galaxy, Google Pixel, Android Phones, Black",
       "market_price":11.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This is a really cool product",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61vcpyB7UEL._AC_SX522_.jpg"
    },
@@ -2459,7 +2459,7 @@ const products3 = [
       "item":"Adepoy Compatible with Apple Watch Bands 44mm 42mm 40mm 38mm, Soft Silicone Sport Wristbands Replacement Strap with Classic Clasp for iWatch Series SE 6 5 4 3 2 1 for Women Men, 3 Pack 38/40mm",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Color Clasp The apple watch bands adopted metal classic clasp it is more security and stable. We match different colors clasp according to the different colors of the apple strap. Appropriate matching make your apple watch more amazing.Waterproof and Skin-friendly The apple watch strap use soft and smooth silicone which is durable and lightweight. Comfortable touch feeling free your wrists when you with the silicone sport apple watch band.Free Size for All Adjustable size for all wrists. mmmm suits for mm apple watch . inch -. inch wrists also works for mm. mmmm suits for mm apple watch . inch-. inch wrists also works for mm.Much Colors The apple watch wristbands have  colors for you to choose. Change bands instead change watch give your watch new looking always.Customer Service We provide -year warranty for the silicone apple watch bands includes -year unconditional refund or free replacement.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71xP%2BwjC0jL._AC_SX522_.jpg"
    },
@@ -2467,7 +2467,7 @@ const products3 = [
       "item":"2021 Upgraded AUKEY Phone Car Holder with Stronger Vent Clip, Hands Free Cell Phone Holder for Car, Universal Air Vent Car Phone Mount",
       "market_price":10.39,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Upgraded Vent Clip Features a stronger larger vent clip and an innovative support frame to provide extra support it can hold your phone securely on an air vent in your carUpgraded Phone Cradle Design with a larger cradle to keep your phone stable in place. With the instant release button you can push the phone cradle arms in to secure your phone and press the button to releaseIdeal Viewing Angle A  rotating and pivoting ball joint allows you to adjust and quickly switch between portrait and landscape viewAdaptable Attachment Features a -levels locking knob to easily and firmly fix the air vent mounting grip on your car air ventPackage Contents AUKEY HD-C Car Phone Mount User Manual",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/719iaAphGgL._AC_SX466_.jpg"
    },
@@ -2475,7 +2475,7 @@ const products3 = [
       "item":"Ruiboo Sport Loop Band Compatible with Apple Watch Band 38mm 40mm 42mm 44mm iWatch Series 6 5 SE 4 3 2 1 Strap, Nylon Velcro Women Men Stretchy Elastic Braided Replacement Wristband Breath Soft Light",
       "market_price":13.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This fits your.Make sure this fits by entering your model number.P.when\"ReplacementPartsBulletLoader\".executefunctionmodule module.initializeDPX Ruiboo sport loop band compatible with Smartwatch mm mm mm mm iWatch Series   SE     Sport Edition. Suitable for mm .- . wrist.Ruiboo double-layer weave strap is skin friendly allowing sweat to escape drying fast and easy to clean making you feel comfortable and breathable.The strong connector prevents the iWatch from loosening. The powerful Velcro keeps the iWatch firmly on your wrist. Have strong hook-and-loop fastener for quick and easy adjustment.Many colors are free to choose Highlight personality Match your clothes Make you more tasteful. Get  customer service We always try our best to solve your problem.Ruiboo sports loop replacement wristband is suitable as a special gift for family and friends on birthday Christmas Valentine\\'s Day or holidays. Sweet daily gifts can accompany them every day.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81IjcA37EQL._AC_SX425_.jpg"
    },
@@ -2483,7 +2483,7 @@ const products3 = [
       "item":"Trianium (3 Packs) Screen Protector Designed for Apple iPhone 11 Pro Max, iPhone XS Max (6.5\" 2018) Premium HD Clarity 0.25mm Tempered Glass Screen Protector Easy Installation Alignment Case (3-Pack)",
       "market_price":9.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":" Pack ULTRA SLIM - Trianium\\'s Tempered Glass Screen Protectors are .mm thin making them hardly noticeable for your viewing pleasure. Specifically made for iPhone XS Max   iPhone  Pro Max .\" Display.Scratch proof - this durable screen protector consistently protects your screen from scratches scuffs and impacts.Crystal clear - these completely transparent protectors provide the native HD iPhone experience its like it\\'s not even there!Unmatched convenience - protective hydrophobic and oleophobic coating protects your screen from fingerprint marks and liquid residue. Also comes standard with a fully loaded kit for a quick and easy Installation experience.Lifetime protection - Trianium Lifetime Warranty secures your tempered glass screen protector purchase for life.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61bIjX7sYfL._AC_SX425_.jpg"
    },
@@ -2491,7 +2491,7 @@ const products3 = [
       "item":"Cell Phone Stand, Angle Height Adjustable LISEN Phone Stand For Desk, Thick Case Friendly Phone Holder Stand For Desk, Compatible with All Mobile Phones,iPhone,Switch,iPad,Tablet(4-10in)",
       "market_price":13.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This is a really cool product",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61NaoND9XOL._AC_SY550_.jpg"
    },
@@ -2499,7 +2499,7 @@ const products3 = [
       "item":"TOZO W1 Wireless Charger Thin Aviation Aluminum Computer Numerical Control Technology Fast Charging Pad Black (NO AC Adapter)",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This is a really cool product",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/613TRvtyAvL._AC_SX522_.jpg"
    },
@@ -2507,7 +2507,7 @@ const products3 = [
       "item":"USB Charger, Anker Elite Dual Port 24W Wall Charger, PowerPort 2 with PowerIQ and Foldable Plug, for iPhone 11/Xs/XS Max/XR/X/8/7/6/Plus, iPad Pro/Air 2/Mini 3/Mini 4, Samsung S4/S5, and More",
       "market_price":12.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"The Anker Advantage Join the  million powered by our leading technology.Less Time Charging Patented PowerIQ and VoltageBoost technologies charge any device at its fastest possible speed up to .A. Does not support Qualcomm Quick Charge.Durable Design Robust textured casing and premium internal components ensure perfect performance regardless of scrapes bumps or drops.Travel Ready Compact design foldable plug and - volt input are ideal for worldwide travel.What You Get Anker PowerPort  Elite welcome guide our worry-free -month warranty and friendly customer service.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61WUNQiqqiL._AC_SX425_.jpg"
    },
@@ -2515,7 +2515,7 @@ const products3 = [
       "item":"USB Wall Charger, LUOATIP 3-Pack 2.1A/5V Dual Port USB Cube Power Adapter Charger Plug Charging Block Replacement for Phone Xs/XR/X, 8/7/6 Plus, Samsung, LG, HTC, Moto, Android Phones",
       "market_price":10.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Model HC Widely Compatibility USB Charger Replacement for Phone Xs max Phone XR XS Plus Phone SE SC S Pad Pod Note HTC LG Motorola Samsung Galaxy Google Pixel and more phones.Parameter USB Output .Amp V. which enables to charge your two smart phone or tablet devices simultaneously at maximum speed.Compact Design Heat resistant and Anti-throw design Compact and Easy to carry Comfortable grip Suitable use for home travel office and business trip.Phone protection Fireproof material. Charger brick has the function of automatic protection circuit. Intelligent circuit design protects against short circuiting over-heating over-current and over-charging.Package includes LUOATIP -Pack Dual Port USB wall charger block.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61RjldYuSEL._AC_SX522_.jpg"
    },
@@ -2523,7 +2523,7 @@ const products3 = [
       "item":"Long iPhone Charger 10ft Extra Lightning Charging Cable 2Pack 10 Foot Cord for iPhone 11/11 Pro/X/Xs Max/XR/XR/X/8/8 Plus/7/7 Plus/6/6s/Plus/SE/5c/5s/5 iPad Air 2/Mini/Max 3Meter 10Feet Charger Wire",
       "market_price":13.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Long Charger Cable Pack FT USB Charging Wire For IPhone Xs Pluss iPadAirMiniWhy do we need the ft cable? Compared with the normal length cable what are the advantages of it?ft cable easy for charging your Apple device in the distance from desk to bed in your dorm.ft cable whatever you are lying on the sofa or bed at home the distance between you and charger is not a problem.ft cable the car charger can offer service for the passengers even in the back seat of the car.Don't be limited by the length of the cable.Relative to others' how's our product?Anti bending no need to worry about skin rupture and wire breakage.Hard material better winding resistance than nylon.Line diameter bigger thanoriginal. Dirt wear resistance. Long lifespanCan be used in car and other USB charger. Compatible with all -pin devices.NoteIf there is any problem with the product please contact us in time we will be responsible for your after-sales service if you do not contact us and leave negative emotions we will not be responsible for anyafter-sales",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81X9XR4ZgZL._AC_SX522_.jpg"
    },
@@ -2531,7 +2531,7 @@ const products3 = [
       "item":"Anker Wireless Charger, PowerWave Pad Qi-Certified 10W Max for iPhone SE 2020, 11, 11 Pro, 11 Pro Max, AirPods, Galaxy S20 S10, Note 10 9 (No AC Adapter, Not Compatible with MagSafe Magnetic Charging)",
       "market_price":11.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"The Anker Advantage Enjoyed by over  million users worldwide our leading technology will change the way you charge.Complete Charging Convenience Instantly charge your phone or earbuds simply by placing them in the center of PowerWave Pad. Never fuss around with plugging and unplugging cables again just set down and power up.Universal Compatibility PowerWave Pad provides W output for Samsung Galaxy .W for iPhone and W for other phones or wireless earbuds including AirPods.Through-Case Charging Don't fumble with your phone case. PowerWave charges directly through protective cases up to  mm thick not including cases with magnetic or metal attachments.What You Get PowerWave Pad  ft Micro USB Cable welcome guide worry-free -month warranty and friendly customer service.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/6114qzNg-3L._AC_SX425_.jpg"
    },
@@ -2539,7 +2539,7 @@ const products3 = [
       "item":"Beam Electronics Car Phone Mount Holder Universal Phone Car Air Vent Mount Holder Cradle Compatible for iPhone 12 11 Pro Max XS XS XR X 8+ 7+ SE 6s 6+ 5s 4 Samsung Galaxy S4-S10 LG Nexus Nokia",
       "market_price":6.85,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Quick Release Button Press button on back of unit to slide open and then take out mobile phone. Press the arms on both side to clamp mobile phone again simple of operation save time and power. Degree Rotation The fully -degree rotation provide you with the best viewing angle.The holder ensures safe driving whether you are talking navigating listening to music or charging.Broad Compatibility Passed a wide range of tests fit for most cellphones iPhone   Plus iPhone s Plus s s c Samsung Galaxy S HTCLG Nexus Nokia GPS Device. Sturdy cradle-less and attractive device holding system.suitable for width size from . inch to .inch smart phone or electronic devices.Single-handed Operation Simple installation and removal of smart phones. Simplistic Installation Single-handed Operation No Tools Needed.This car phone mount holder is compatible with most all cell phone devices",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61tRW%2BkQxiL._AC_SX569_.jpg"
    },
@@ -2547,7 +2547,7 @@ const products3 = [
       "item":"TOZO Compatible for iPhone 12 and Compatible for iPhone 12 Pro Screen Protector 3 Pack Premium Tempered Glass 0.26mm 9H Hardness 2.5D Film Easy install 6.1 inch",
       "market_price":2.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Made by Premium Tempered Glass which is the same Material compatible for iPhone  and compatible for iPhone  Pro . inch Original Touch Screen Glass. It Makes The Touch Feeling The Same As compatible for iPhone  and compatible for iPhone  Pro . inch Original ScreenA H Hardness Super Thin Tempered Glass. It owns super high transmittance and high restoring the original color of screen.Protect Glass .mm .D thin Tempered Glass compatible for iPhone  and compatible for iPhone  Pro . inch. A H Hardness Super Thin Tempered Glass.Only Second to the World's Hardest Substance - Diamond Hardness  scratch-resistant and blowout-resistant .Its surface used Nanometer thin oil coating which is anti-fingerprint oil rub resistance and effectively preventing and filtering ultraviolet ray.Easy to Install. The installation frame enables perfect alignment of the protector. The cleaning cloth and dust remover give you a bubble and dust free application. Installation is easier than ever!",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71XFkkNUL0L._AC_SX425_.jpg"
    },
@@ -2555,7 +2555,7 @@ const products3 = [
       "item":"Mpow Car Phone Mount, Dashboard Windshield Car Phone Holder with Long Arm, Strong Sticky Gel Suction Cup, Anti-Shake Stabilizer Compatible iPhone 12 11 pro/11 pro max/XS/XR/X/8/7,Galaxy, Moto and More",
       "market_price":15.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"FREE INSTALLATION  UNOBSTRUCTED SIGHT Mpow focuses on the innovative and smarter mounting solution and blazes past other traditional dashboard car mounts. Up to cm.in aluminum long gooseneck sends the dashboard Phone mount much closer to you without blocking your sight giving you the freedom to position it on multiple locations on the dashboard or windshield. Most importantly it can be bent to avoid obstructing display and irregular ventsSTRONG SUCTION CUP WITH STICKY GEL super strong vacuum suction cup features a layer of sticky gel and a locking lever which can maximize the stability and keep the mount in place. Comes with an anti-shake stabilizer it safely hold the device without vibrating and wobbling even on rough roads. The suction cup is reusable and washable Simply rinse in water and let air dry to restore the stickiness. As summer approaches and days are getting hotter please avoid direct exposure to the sun as this may affect the function of your car mountHOLDS PHONE AND CASE COMBINATIONS the adjustable side clamps extend from .in to .in compatible with most smartphones with screens up to . and even worn its case. Galaxy SSSSSJJAAA Huawei PMateMatehonor X iPhone  Pro  Pro Max XXSXRPlusPlusPlusS Sony Xperia XzXperia XzXperia Xz compact Xiaomi Redmi Note  ProRedmi Note  ProRedmi Note mi  Promi Mi Litemi AMI A Litemi A LG GGVV und MP VIEW YOUR PHONE AT ANY ANGLE The flexible and durable gooseneck can be bent to the shape you like allowing for flexible adjustment for easy positioning and access to device controls. Thanks to the  degrees ball-head the dashboard mount can be flexibly tuned to display at an optimal viewing angle either in landscape or portrait mode for convenient navigating calling and music in the vehicleBUILT TO LAST AND PROTECT the polished surface makes the mount look sleek in your car. The heat-resistant PC and ABS materials make Mpow dashboard Phone holder sturdier than other Pure ABS mounts. The foldable holding feet allow hassle-free charging on the go. The Sponge-Padded surface and grips of the cradle prevent slipping and scratches. Note Please avoid the car mount if you use a pop grip. It cannot hold phones with your Pop MountPop out standexpanding stands",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61gc90tHQcL._AC_SX522_.jpg"
    },
@@ -2563,7 +2563,7 @@ const products3 = [
       "item":"Mkeke 20W USB C Charger for Apple iPhone 12 / Fast Type C Wall Charger of USB-C Power Adapter for iPhone 12 Pro / 12 Pro Max / 11 / Samsung Galaxy/iPad Pro (1 Pack)",
       "market_price":8.49,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This fits your.Make sure this fits by entering your model number.P.when\"ReplacementPartsBulletLoader\".executefunctionmodule module.initializeDPX W USB-C Fast Charger Offers fast and efficient charging up to X faster than a W charger. Charge your iPhone  up to  capacity in just  minutes with the original cable. Cable not included only  ChargerFast USB-C PD Charger is designed for iPhone  Pro Pro MaxiPhone  and later AirPods iPad Ninetendo Switch Samsung Galaxy S and later. Compatible with any USB-C enabled device supporting w fast chargingSafe  Reliable fast charger for iPhone packed with a highly intelligent chip. Effectively protect your devices from overheating and overchargingThe Compact and Travel-Friendly USB-C power adapter ensures maximum portability wherever you goA great accessory for business trips. When waiting at the airport and your phone is out of power it can now be charged quickly. Or if you forget to charge your phone overnight you can use Mkekes W USB C Charger to charge up to  in just  minutes",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61Rg81ZTgCL._AC_SY355_.jpg"
    },
@@ -2571,7 +2571,7 @@ const products3 = [
       "item":"Anker PowerCore 10000 Portable Charger, One of The Smallest and Lightest 10000mAh Power Bank, Ultra-Compact Battery Pack, High-Speed Charging Technology Phone Charger for iPhone, Samsung and More.",
       "market_price":23.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"The Anker Advantage Join the  million powered by our leading technology.Remarkably Compact One of the smallest and lightest mAh portable chargers. Provides almost three-and-a-half iPhone  charges or two-and-a-half Galaxy S charges.High-Speed Charging Ankers exclusive PowerIQ and VoltageBoost combine to deliver the fastest possible charge for any device. Qualcomm Quick Charge not supported.Certified Safe Ankers MultiProtect safety system ensures complete protection for you and your devices.What You Get Anker PowerCore  portable charger Micro USB cable travel pouch welcome guide our worry-free -month warranty and friendly customer service. USB-C and Lightning cable for iPhone  iPad sold separately",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/51npXeK2FNL._AC_SX425_.jpg"
    },
@@ -2579,7 +2579,7 @@ const products3 = [
       "item":"Cordking Designed for iPhone 12 Case, Designed for iPhone 12 Pro Case, Silicone Slim Shockproof Phone Case Cover with [Soft Anti-Scratch Microfiber Lin6.1 inch, Black",
       "market_price":14.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This is a really cool product",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61C5dbtfMHL._AC_SX569_.jpg"
    },
@@ -2587,7 +2587,7 @@ const products3 = [
       "item":"Mkeke Compatible with iPhone 11 Case, Clear Cover for 6.1 Inch Black",
       "market_price":10.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Compatible with new iPhone  released in .tpu and hard pc offer stronger protection from sudden droppingPrecise charging cutout fits the volume buttons side button and curves of your device without adding bulk.e  case blue Precise charging cutout fits the volume buttons side button and curves of your device without adding bulk.Transparent and flawless material make you enjoy the look of iPhone  while providing extra protection.Provides a firm and comfortable grip for your phonethanks to a gracefully curved.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61OhTykLdTL._AC_SY550_.jpg"
    },
@@ -2595,7 +2595,7 @@ const products3 = [
       "item":"Misxi 2 Pack Hard PC Case with Tempered Glass Screen Protector Compatible with Apple Watch Series 6 SE Series 5 Series 4 44mm - Black",
       "market_price":9.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Application Compatible with series    SE   series  mm  series  mm.Overall protection This case with glass screen protector is designed to offer external surface protection to your watch without compromising usability.Easy to install Super easy to install for its snap-on design to avoid taking the straps off first.Kindly tip These covers don't support while swimming because the water will get trapped underneath the cases. If you forget to take it off you can wipe it out with a cloth or wipes.What you get  x high performance PC hard case  dry and wet wipes.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61wDa7Ea5TL._AC_SX522_.jpg"
    },
@@ -2603,7 +2603,7 @@ const products3 = [
       "item":"OtterBox Commuter Series Case for iPhone 12 & iPhone 12 Pro - Ocean Way (Aqua Sail/Aquifer) (77-80575)",
       "market_price":39.95,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Compatible with iphone   iphone  proLasting antimicrobial technology helps protect case exterior against many common bacteria it does not protect you or the screenCase is infused with silver-based additive that continually blocks microbial growthThin profile slips in and out of pockets with soft inner and hard outer layers absorb and deflect impacts open access to ports and speakersIncludes Otterbox limited lifetime warranty",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/51KpFHdsaqL._AC_SX522_.jpg"
    },
@@ -2611,7 +2611,7 @@ const products3 = [
       "item":"Powlaken Watch Charger, Magnetic Charging Cable Cord Compatible with Apple Watch Series Se, 6, 5, 4, 3, 2, 1",
       "market_price":12.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"This fits your.Make sure this fits by entering your model number.P.when\"ReplacementPartsBulletLoader\".executefunctionmodule module.initializeDPX Integrated Magnetic TechnologyOffer a Fast Charging SpeedOffer you Safe Charging ProtectionWith Lightweight and Portable DesignCompatible for Apple Watch Series SE      ",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/51%2Bh4xWdPbL._SX342_.jpg"
    },
@@ -2619,7 +2619,7 @@ const products3 = [
       "item":"pzoz Compatible for Apple Watch Series 6/5 /4 /SE 44mm Case with Screen Protector Accessories Slim Guard Thin Bumper Full Coverage Matte Hard Cover Defense Edge for Women Men GPS iWatch (Black)",
       "market_price":10.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"COMPATIBLE Compatible with Apple Watch Series    SE mm. Ultra-thin PC protective case with screen protector allows quick and easy installation Perfect fit for your watch.MATERIAL Durable PC  PET material cover the screen and edges. Full cover protect your iWatch prevents scratches and wear.DESIGN Smart design allows access to all controls buttons sensors and Apple watch features. Charge directly don't need to take off the watch case.SCREEN PROTECTOR -- The PET material screen protector can be repeatedly wiped with a glasses cloth to ensure the clarity of the screen without affecting repeated use. TIPSThis cases is not waterproof it doesn't suitable for while swimming if you forget to take it off or using this product when a lot of sweat is produced during sports activities may trap moisture between the product and the watch screen. You just need to wipe with a glasses cloth.SERVICE pzoz offers -month quality service. Package Included Watch Case with Screen Protector  x mm. Cases Only Apple Watch and Watch Band are not included!",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/613A5MzME0L._AC_SX522_.jpg"
    },
@@ -2627,7 +2627,7 @@ const products3 = [
       "item":"CASEKOO Crystal Clear Designed for iPhone 12 Case, Designed for iPhone 12 Pro Case [Not YellowShockproof Protective Phone Case Slim Thin Cover (6.1'') 2020- Clear",
       "market_price":16.99,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Crystal Clear  Yellow-resistant The crystal clear case flaunts original phone design and beauty never yellows with diamond antioxidant layer and is super easy to clean.Armor-level Shockproof The protective cover features  built-in corner Airbags to absorb impact and avoid scratches in most situations.Raised Camera  Screen Protection Raised bezels prevent screen and camera against drops  scratches. The tiny design of . mm lip over camera mm bezel over screen and  mm raised corner lips on the back provides extra and comprehensive protection.Perfect Fit The clear phone case fits perfectly to stop dust from entering and scratching the body of your phone.Slim Ergonomic Design  Enhanced Grip The slim phone case brings you greater portability and firmer grip with no bulk and no skidding.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/81IuPNRdT9L._AC_SX425_.jpg"
    },
@@ -2635,7 +2635,7 @@ const products3 = [
       "item":"JETech 3-Pack Screen Protector for iPhone SE 2020, iPhone 8, iPhone 7, iPhone 6s, and iPhone 6, Tempered Glass Film, 4.7-Inch",
       "market_price":5.98,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"-Pack Designed for iPhone SE  iPhone  iPhone  iPhone s and iPhone  .-InchDue to the round edge of iPhone SE       s   the screen protector will NOT cover the full screen but only the flat areaExtremely high hardness resists scratches up to H harder than a knife. High-response and high transparencyDust-free fingerprint-free one-push super easy installation bubble freeRetail package includes -Pack tempered glass screen protector cleaning cloth dust removal stick guide stick instructions customer service card",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/71-a7F4zObL._AC_SX522_.jpg"
    },
@@ -2643,7 +2643,7 @@ const products3 = [
       "item":"Anker Car Charger, Mini 24W 4.8A Metal Dual USB Car Charger, PowerDrive 2 Alloy Flush Fit Car Adapter with Blue LED, for iPhone XR/Xs/Max/X/8/7/Plus, iPad Pro/Air 2/Mini, Galaxy, LG, HTC and More",
       "market_price":9.34,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"Double Duty - Twin USB-A ports pump out a combined Wenough to provide a full-speed charge to  phones at once. Not compatible with Qualcomm Quick Charge.Ultra-Compact - The car chargers super-small design conserves space allowing seamless access to the rest of your dashboard.Heavy Metal - Finished with a scratch-resistant alloy surface to match even the most pristine vehicle interiors.Premium Components - Gold-plated circuitry reduces heat while charging to maximize charging speed and efficiency.What You Get - PowerDrive  Alloy car charger welcome guide our worry-free -month warranty and friendly customer service.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/61mcOqMIgXL._AC_SX425_.jpg"
    },
@@ -2651,10 +2651,19 @@ const products3 = [
       "item":"Apple iPhone 8, 64GB, Gold - For AT&T (Renewed)",
       "market_price":175.00,
       "category": "Electronics",
-      "sub_category": "Cell Phones & Accessories",
+      "sub_category": "Cell Phones and Accessories",
       "description":"SizeGB  ColorGold  Service ProviderATT  Product gradeRenewedThis iPhone  is Certified Refurbished. It is  functional and in near perfect cosmetic condition with the possibility of a few light hair marks. This item will NOT come in its original packaging but will include a certified cable and UL approved power adapter. Headsets SIM card and manual are NOT included. This iPhone  is locked to the ATT GSM network. It will not work with ANY OTHER carrier besides ATT.",
       "image_1":"https://images-na.ssl-images-amazon.com/images/I/51biqZP8%2B2L._AC_SX466_.jpg"
+   },
+   {
+      "item":"Lady Grey Chicken",
+      "market_price":50,
+      "category": "Sports, Hobbies, & Misc",
+      "sub_category": "Pet Supplies",
+      "description":"The best of all chickens! Approved by Colt Steele.",
+      "image_1":"https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Cat'chy%20Images,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1539201524/t6qklgng8nh1yepomi8s.jpg"
    }
+
 ]
 
    module.exports = products3;

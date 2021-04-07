@@ -2,7 +2,7 @@ const products1 = [
     {
        "item":'Wyze Cam 1080p HD Indoor WiFi Smart Home Camera with Night Vision, 2-Way Audio, Works with Alexa & the Google Assistant, White, 1-Pack',
        "category":'Electronics',
-       "sub_category":'Camera & Photo',
+       "sub_category":'Photo',
        "description":'This fits your.Make sure this fits by entering your model number. Live Stream from Anywhere in p -p Full HD live streaming lets you see inside your home from anywhere in real time using your mobile device. While live streaming use two-way audio to speak with your friends and family through the Wyze app.MotionSound Recording with Free Cloud Storage - Wyze Cam can automatically record a -second video clip when motion or sound is detected and saves that video to the cloud for -days for free. Mobile push notifications can be enabled so youre only alerted when something is detected letting you stay on top of things without having to constantly monitor the app. Or record continuously to a MicroSD card sold separately regardless of motion and sound. Compatible with GB GB or GB FAT MicroSD cards.See in the dark - Night vision lets you see up to  in absolute darkness using  infrared IR LEDs. Note IR does not work through glass windows.Voice Controlled? You got it! - Works with Alexa and Google Assistant US only so you can use your voice to see whos at your front door how your babys doing or if your D printer has finished printing. Wyze Cam is only compatible with the . GHz WiFi network does not support GHz Wi-Fi and Apple iOS and Android mobile devices.Share with those who care - One Wyze Cam can be shared with multiple family members so everyone can have access to its live stream and video recordings. Just have your family members download the Wyze app and invite them to your account. Camera sharing can also be easily removed. See more product details',
        "condition":'New - Open Box',
        "rating":4.9,
@@ -14,7 +14,7 @@ const products1 = [
     {
        "item":"Wyze Cam Pan 1080p Pan/Tilt/Zoom Wi-Fi Indoor Smart Home Camera with Night Vision, 2-Way Audio, Works with Alexa & the Google Assistant, White - WYZECP1",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Pan tilt and zoom PTZ lets you control Wyze Cam Pan remotely using the Wyze app so you can see every angle of your room while youre away on demand. Or have Wyze Cam Pan monitor your room automatically with the Pan Scan feature by setting  predefined waypoints. Panning has a  leftright rotation range and tilting has a  vertical updown range.Live Stream from Anywhere in p - p Full HD live streaming lets you see inside your home from anywhere in real time using your mobile device. While live streaming use two-way audio to speak with your friends and family through the Wyze app.MotionSound Recording with Free Cloud Storage - Wyze Cam Pan can automatically record a -second video clip when motion or sound is detected and saves that video to the cloud for -days for free. Mobile push notifications can be enabled so youre only alerted when something is detected letting you stay on top of things without having to constantly monitor the app. Or record continuously to a MicroSD card sold separately regardless of motion and sound. Compatible with GB GB or GB FAT MicroSD cards.See in the dark - Night vision lets you see up to  in absolute darkness using  infrared IR LEDs. Note IR does not work through glass windows.Voice Controlled? You got it! - Works with Alexa and Google Assistant US only so you can use your voice to see whos at your front door how your babys doing or if your D printer has finished printing. Wyze Cam Pan is only compatible with the . GHz WiFi network does not support GHz Wi-Fi and Apple iOS and Android mobile devices.Share with those who care - One Wyze Cam can be shared with multiple family members so everyone can have access to its live stream and video recordings. Just have your family members download the Wyze app and invite them to your account. Camera sharing can also be easily removed.",
        "condition":"New",
        "rating":4.4,
@@ -26,7 +26,7 @@ const products1 = [
     {
        "item":"Ring Stick Up Cam Battery HD security camera with custom privacy controls, Simple setup, Works with Alexa - Black",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"See hear and speak to people from your phone tablet or select Echo device with Stick Up Cam Battery a battery-powered camera that can be mounted indoor or out.With Live View you can check in on your home any time through the Ring app.With a Ring Protect Plan subscription sold separately record all your videos review what you missed for up to  days and share videos and photos.Place on a flat surface or mount to a wall with the versatile mounting bracket. Add-on the Mount for Stick Up Cam sold separately for ceiling mount.Watch over your entire home by connecting one or multiple Stick Up Cams to all your Ring devices in the Ring app.Easily setup Stick Up Cam Battery by inserting the battery pack and connecting to Wi-Fi.For added peace of mind pair with Alexa to help you keep an eye on your home.",
        "condition":"New",
        "rating":0.1,
@@ -38,7 +38,7 @@ const products1 = [
     {
        "item":"Victure 1080P 4Pcs Indoor Security Camera System Home Monitor with 2.4Ghz Pet/Baby/Nanny Security Surveillance Camera Motion Detection 2-Way Audio Night Vision Compatible with iOS & Android System",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. P FHD with Night Vision -- Victure P FHD Home Security Camera is equipped with  infrared lights to make sure that we can view the live video clearly in the dark and wont miss any keypoint.Instant Motion Detection -- A indoor home security camera with instant motion detection is neccessary and important for our life. If there is any suspicious movement in the house it can detect and record in your micro sd card or cloud and send you a notification.Clear -way Audio -- With Built-in - dB microphone you can talk to your loved via the app in your phone if you are not at home and then they can also responde you via this indoor security camera.Micro SD card  Cloud Service -- This wifi security camera can support micro sd card and cloud service to record your video. A GB micro sd card at C is suggested. The first month cloud service is free for you to try.  Please notice that one micro sd card or cloud service can only support one device. Easy to Connect -- You can add this smart home security camera with your .ghz wifi one by one in the same app. And then you can open the security life if these cameras and protect the one you care. If there is anything wrong please ask for support from Victure. We stand behind this security cameras and here serving for you.",
        "condition":"New - Open Box",
        "rating":2.3,
@@ -62,7 +62,7 @@ const products1 = [
     {
        "item":"Security Camera Indoor, WiFi Camera 1080P, blurams Nanny Cam Pet Camera w/ 2-Way Audio, Sound/Person Detection, Night Vision, Siren, Cloud&Local Storage, Works with Alexa&Google Assistant&IFTTT&Siri",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Coverage with p Resolution - Features in IR-CUT function to capture crisp videos and photos from the day to night even in the dim condition. Turn on privacy mode to protect your privacy at home or at the office.Smart AI Detection with Instant Alerts - Receive instant alerts on your phone if there is human motion or abnormal sound detected in your house. Automatically record a - second alert video to the cloud and it will be saved for  hours no subscription or monthly fees required.Optional Cloud  Local Storage -  CVR enables the indoor security camera to keep a nonstop recording in the cloud avoid the risk of losing video footage from a memory card. According to the time events type or the camera names to search the specific event quickly. Supports up to GB SD card.Enhanced blurams App - Live viewing  security cameras simultaneously on App or official web portal. Share your camera with unlimited family members. Two-way audio allows you to receive and transmit audio from anywhere at any time. Works with .GHz Wi-Fi networks only does not support GHz Wi-Fi.Smart Integration - Use your simple voice command to view blurams smart security cams live stream on Alexa or Google Assistant device with a screen or on your iPhone or iPad. Works with IFTTT lets you link just about any set of smart devices so they can work together make your home more relaxing.",
        "condition":"Used",
        "rating":5.0,
@@ -74,7 +74,7 @@ const products1 = [
     {
        "item":"YI Security Home Camera Baby Monitor, 1080p WiFi Smart Wireless Indoor Nanny IP Cam with Night Vision, 2-Way Audio, Motion Detection, Phone App, Pet Cat Dog Cam - Works with Alexa and Google",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Optional  Emergency Response Service - YIs motion alerts and live video feeds are now equipped with the option to instantly involve Noon light's Certified Emergency Dispatchers who coordinate with police fire and EMS agencies on customers behalf to ensure the situation is promptly handled.Adjustable Alert Frequency AI powered human detected alert or motion detected alerts can be set by sensitivity levels from high to low. Eliminates 'false positives' caused by flying insects small pets or light changes. Youll only be alerted for the moments that matterWorks With Alexa - Officially Alexa compatible and works with any screen-based Alexa device. You can use the Alexa Skill to turn on your camera or view its live feed with a simple voice command.Reliable Wi-Fi Connectivity - Access your camera with our mobile  PC APP anytime and anywhere more flexible with HomeAway mode. Allows sharing your camera with up to  family members or friends and view multiple cameras on a single account.  live feeds on pc app is available now. Built-in support for .Ghz Ghz currently not supported Wi-Fi band.Cloud  Local Storage Six second motion-triggered video clips will be safely stored on the Cloud for  day for free. For local storage micro SD-cards up to GB are supported micro SD-card not included.",
        "condition":"New - Open Box",
        "rating":0.6,
@@ -86,7 +86,7 @@ const products1 = [
     {
        "item":"Gskyer Telescope, 70mm Aperture 400mm AZ Mount Astronomical Refracting Telescope for Kids Beginners - Travel Telescope with Carry Bag, Phone Adapter and Wireless Remote",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Quality Optics mmf. focal length and mm aperture fully coated optics glass lens with high transmission coatings creates stunning images and protect your eyes. Perfect telescope for astronomers to explore stars and moon.Magnification Come with two replaceable eyepieces and one x Barlow lens.x Barlow lens trebles the magnifying power of each eyepiece. x finder scope with mounting bracket and cross-hair lines inside make locating objects easily.Wireless Remote Free includes one smart phone adapter and one Wireless camera remote to explore the nature of the world easily through the screen and take amazing celestial images.Adjustable Tripod This telescope allows for many different viewing positions with a adjustable aluminum alloy tripod and a carry bag the telescope and tripod can fit inside the bag for easy traveling and storage.Satisfaction lifetime maintenance. If you have any question about product and service please feel free to contact us we will do our best to help you in  hours.",
        "condition":"New",
        "rating":0.6,
@@ -98,7 +98,7 @@ const products1 = [
     {
        "item":"Binoculars 20x50, HD Professional/Waterproof Binoculars with Low Light Night Vision, Durable & Clear BAK4 Prism FMC Lens Binoculars. Suitable for Outdoor Sports and Concert, Bird Watching.",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New",
        "rating":3.1,
@@ -110,7 +110,7 @@ const products1 = [
     {
        "item":"Ear Wax Removal Endoscope Otoscope, Earwax Remover Tools, Scope, with 1080P FHD Camera, 6 Led Lights, Wireless Connected, Compatible with iPhone, iPad, Android Smart Phones & Tablets",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. P FHD Camera  Safe - With the P high resolution camera you can see the earwax clearly and remove the earwax safely with the soft ear spoon. Make removing earwax clearer safer and more accurate.Intelligence Camera  Constant Temperature System - The smart ear scope has a  wide-angle help you reduce the number of misoperations.  strong leds can light up your ears but they will not hurt your ears because the Constant Temperature System.Stylish Design  Friendly User Interface - The ear scope is light to carry and simple enough to use.  soft replaceable ear spoons will not hurt your ears. Download the APP and the software is very easy to use you can not only see your ear but also check the remaining charge of the re-chargeable battery.High Quality Rechargeable mAh Battery - The ear scope has a high quality rechargeable mAh battery which can be used up to  days. And you can see the remaining charge of the battery through the APP.Wide Compatibility - This otoscope works with almost all of ios and Android devices. Download the app and contect to the ear scope with wifi you can start to enjoy earwax removing.",
        "condition":"New",
        "rating":4.0,
@@ -122,7 +122,7 @@ const products1 = [
     {
        "item":"12x42 Powerful Binoculars for Adults with Clear Low Light Vision - Large View Eyepiece Binoculars for Birds Watching Hunting Travel",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":1.7,
@@ -134,7 +134,7 @@ const products1 = [
     {
        "item":"Spy Camera Charger - Hidden Camera - Premium Pack - Mini Spy Camera 1080p - USB Charger Camera - Hidden Spy Camera - Hidden Nanny Cam - Hidden Spy Cam - Hidden Cam - Surveillance Camera Full HD",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Advanced DIVINEEAGLE technology - your compact security camera in a small USB charger that charges your portable devices and records P Full HD video with a viewing angle.Protect Family and Personal Property  Our hidden spy camera lets you keep an eye on your unfaithful partner children landlord lodger roommate babysitters nannies caregivers elderly parents or employees at home bedroom hotel hostel work office hospital or anywhere else.Quick Plug and Play  A smart cam record that doesnt require Wi-Fi simply insert a micro SD card up to  GB Class not included plug it into an outlet or power bank or USB-port and record remotely!IQ Motion Detection with  points  This powerful USB wall charger camera adapter records in Full P HD video when the slightest movement is detected for reliable automatic use.Loop Recording and SD Card Protection  The USB spy camera automatically records and overwrites the oldest files when full for continuous recording and has Surge Multi-Protection saves SD cards from corruption.",
        "condition":"New",
        "rating":2.8,
@@ -146,7 +146,7 @@ const products1 = [
     {
        "item":"Carson MicroBrite Plus 60x-120x LED Lighted Zoom Pocket Microscope with Aspheric Lens System",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Multi-Pack Includes  units of the MicroBrite Plus x-x Power Pocket MicroscopeLED Lighted with Aspheric Internal Lens SystemCompact Lightweight and Portable DesignEach microscope uses  AA Battery not includedBacked by Carson's Limited Lifetime Warranty",
        "condition":"Good",
        "rating":3.5,
@@ -158,7 +158,7 @@ const products1 = [
     {
        "item":"[2021 Upgraded] Victure 1080P Pet Camera, Wi-Fi IP Camera, Indoor Security Camera for Pet/Baby/Elder, 2.4G Home Camera with Motion Detection/Night Vision/2 Way Audio/Cloud Service, App-Victure Home",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Advanced Video Encryption Technology The unique encryption technology is adopted by the wifi camera to save videos on micro SD card. Video files in SD card can only be accessed by yourself in your own account. No body can steal your privacy even though the SD card is lost or the camera is stolen. Micro SD card storage indoor camera supports up to GB at CP Night Vision With  resolution no distortion Victure pet camera offers an correct angle and clear view for you. pcs mm IR LEDs extends the range of night vision reach up to  feet in pitch dark taking the advanced night vision experience to youSmart Motion Detection You will get the alarm notification from the APP-Victure home on your phone when home camera detect movements which help to prevent your home from invasionFluent Two-way Audio With anti-noise technology for built-in microphone  speaker you can talk remotely with loved one clearly and fluently via surveillance camera which seems that you never leave each otherBroad Field of View With  horizontal   vertical rotation range you can check anywhere you want by pan  tilt control remotely via security cameras without any blind angle",
        "condition":"New",
        "rating":0.0,
@@ -170,7 +170,7 @@ const products1 = [
     {
        "item":"10x42 Binoculars for Adults, 18mm Large View Eyepiece Compact Binoculars for Bird Watching, Hunting, Sports Events and Outdoor Activities",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. x magnification is a fair magnification for binoculars. It allows you to get a view of distant objects and capture more details than with lower power binoculars.mm fully multi-coated objective lens will give the most stunning optical performance with the clearest images and good resolution without making the product too big to carry around. binoculars are the fact that it is a multi-purpose binocular. Because of its magnification power and objective lens diameter it is ideal for a wide range of activities. They are perfect for bird watching hunting hiking or be a men's gift.These binoculars are compact and Lightweight. Leave the over  lb full-size binoculars at home and pick these only .lb binoculars to go.They have rubber armor covered and the armor covered all important features and make them be shockproof and surface water-resistant.",
        "condition":"New",
        "rating":3.5,
@@ -182,7 +182,7 @@ const products1 = [
     {
        "item":"Pankoo 40X60 Monocular High Power Monocular Scope for Bird Watching Traveling Concert Sports Game with Phone Adapter Tripod",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":3.0,
@@ -194,7 +194,7 @@ const products1 = [
     {
        "item":"Google Nest Cam Indoor - Wired Indoor Camera for Home Security - Control with Your Phone and Get Mobile Alerts - Surveillance Camera with 24/7 Live Video and Night Vision",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Indoor WiFi camera for home security with  live video and night vision for clear video no matter how dark it isHigh definition p surveillance camera with  degree wide angle view  x  HD resolution and x zoomMobile alerts and notifications let you know when your indoor camera spots activity See what you missed with  hour snapshot history and take action or save the event to share with friends and familyGoogle Nest uses industry leading security to protect your video feed and information Enable two factor authentication to take your account protection to the next levelFree trial of Nest Aware for  days Experience  day video history intelligent alerts and Activity ZonesEasy to install Just download the Nest app and follow the instructions to add your new security camera to your homeControl your home security camera from anywhere with the app on your phoneWith  way audio the built in speaker and microphone let you listen and talk back to people or animalsNest Cam Indoor plugs into your wall outlet with a  foot USB cable and power adapterPlease refer to the product description section below for all applicable legal disclaimers denoted by the bracketed numbers in the preceding bullet points e.g.   etc.",
        "condition":"Good",
        "rating":3.4,
@@ -206,7 +206,7 @@ const products1 = [
     {
        "item":"Occer 12x25 Compact Binoculars with Clear Low Light Vision, Large Eyepiece Waterproof Binocular for Adults Kids,High Power Easy Focus Binoculars for Bird Watching,Outdoor Hunting,Travel,Sightseeing",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"Used",
        "rating":3.0,
@@ -218,7 +218,7 @@ const products1 = [
     {
        "item":"Wansview Wireless Security Camera, IP Camera 1080P HD, WiFi Home Indoor Camera for Baby/Pet/Nanny, Motion Detection, 2 Way Audio Night Vision, Works with Alexa, with TF Card Slot and Cloud",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"Used",
        "rating":3.2,
@@ -230,7 +230,7 @@ const products1 = [
     {
        "item":"Teslong Ear Wax Removal Tools, 720P HD Ear Camera, NTE100i Otoscope, Ear Cleaning Camera with 6 Adjustable LED Lights, Compatible with iPhone & Android, Easy to Use for Kids/Adults/Pets, Portable Case",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":4.4,
@@ -242,7 +242,7 @@ const products1 = [
     {
        "item":"HeimVision PTZ Security Camera Outdoor, 2x2MP Ultra HD Dual Lens, Pan/Tilt/12X Zoom, 360 View, Wi-Fi Wireless Camera with Floodlights, Color Night Vision, 2-Way Audio, Motion Detection, Weatherproof",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"HeimVision PTZ Outdoor Camera Wireless Dual Lens XMP HD PanTiltX ZoomView Wi-Fi Wireless Camera with Floodlights Color Night Vision -Way Audio Sound Motion Detection  AlarmLightMessage Alerts -Storage Options Weatherproof",
        "condition":"New - Open Box",
        "rating":3.1,
@@ -254,7 +254,7 @@ const products1 = [
     {
        "item":"Home Security Camera, Littlelf 1080P FHD Indoor WiFi Wireless Camera with 2-Way Audio, Night Vision, Motion Detection for Pet/Elder/Baby Monitor, Cloud Storage and MicroSD Support (Not Included)",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":0.2,
@@ -266,7 +266,7 @@ const products1 = [
     {
        "item":"Zmodo Outdoor Security Camera, 1080p Home Security Camera System Wireless, Indoor Outdoor Wireless WiFi IP Camera, Night Vision, Motion Alerts, Works with Alexa, Cloud Service Available",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New",
        "rating":3.5,
@@ -278,7 +278,7 @@ const products1 = [
     {
        "item":"Anykit Ear Wax Removal Tool, HD Otoscope for Android and PC-NOT for iPhone/iPad, Ultra Clear View Ear Camera with Wax Remover, Ear Endoscope with LED Lights, Ear Cleaning Camera with Ear Spoon",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. PERFECT EARWAX REMOVAL TOOLS - this earwax removal kit is a ear cleaning camera with HD ultra clear view. This ear camera and wax remover will help you easily locate ear wax and remove them.HD ULTRA CLEAR VIEW - P .MP high quality Lens with color reproduction techonology. This ear cleaning camera provids user clearer image.PLUG and PLAY Ear Camera-The diameter of this otoscope is only .inch allows easy entry to ear canal to examine eardrum.ANDROID MACBOOK WINDOWS PC COMPATIBLE - NOT FOR IPHONE IPAD. Android . devices support OTG  UVC function USB-A Micro-USB USB-C supported.BETTER LIGHTING for BETTER IMAGES -  LED Lights with adjustable light level for better and more realistic images.COMFORTABLE and SAFE - The improved soft silicone ear wax removal tool protect your ear get hurt.TAKE PICTURE and VIDEO RECORDING - this ear camera support take picture and video recoding on your device via APP you can save photos videos and send toyour doctors for a quick and easy professional consultation.WHAT'S IN THE BOX Anykit digital otoscope Type-C adapter x ear specula x ear spoons. Please kindly notice this usb otoscope DO NOT support iPhone or iPad.Warning! DO NOT USE this product if you have any existing ear mouth nose problems or diseases. PLEASE USE the earcap if you use this product in ear canal.is USB otoscope come with the USB and micro-USB in one head and a USB to Type-c adapter in the box.Warning! THIS IS NOT A TOY keep the product away from children under  years old.",
        "condition":"Used",
        "rating":2.8,
@@ -290,7 +290,7 @@ const products1 = [
     {
        "item":"Spy Camera- 4K HD Hidden Camera Mini Wireless Spy Cam Portable WiFi Nanny Cam with Phone App Night Vision Motion Detection Smallest Security Surveillance Cameras for Indoor/Home/Apartment/Office",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Q Hidden Camera Advantage - Q mini hidden cam was created with the mission of making high quality easy-to-use affordable tiny hidden security camera accessible to everyone. With powerful magnets allow you to place the Q wireless hidden camera to any surface. Perfect to protect your home during the day and nightSmallest Wireless Spy Camera- Q is  latest design portable spy cam for indooroutdoor. Its smallest wifi spy camera with a free app in the world. Once your iPhone or Android phone configured with router Wi-Fi Only .GHz. Then you can view live video on the App remotely from anywhere in the world. Keep an eye on your home or office as a security spy cameraK Ultra HD Night Vision Mini Nanny Cam with Wide Angle- Q nanny camera has a good performance in recording with ultra HD K video resolution.Q K hidden nanny cam comes with CMOS Sensor allows you to faithfully reproduce every aspect of the scene with harmonious colors. The wifi nanny cam features covert design of  IR lights with non-luminance and m night vision distance.Greater scope of vision view and captures details clearly even in full dark environments-Hours Battery Life Mini Camera- With a high quality mAh rechargeable battery inside this spy mini camera can use about  hours. Advanced chip and the latest cooling technology enhance heat dissipation function of the wireless mini camera solve the problem that the wifi mini camera is prone to hot during use. Also this hidden mini camera supports  recording while charging. You will never worry about missing something importantEnhanced Motion Detection Technology - Q spy cam with the upgraded intelligent motion detection you can set the sensor sensitivity manually. Once a motion is detected the small camera will send alarm notification with images to your phone. You can log into the App to see whats going on in real time and never worry about missing something important See more product details",
        "condition":"New",
        "rating":4.6,
@@ -302,7 +302,7 @@ const products1 = [
     {
        "item":"Security Camera Outdoor, 1080P HD Wireless Rechargeable Battery Powered WiFi Home Surveillance Camera with Waterproof, Night Vision, Motion Detection, 2-Way Audio and SD Storage",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New",
        "rating":1.6,
@@ -314,7 +314,7 @@ const products1 = [
     {
        "item":"LET'S GO! Binocular for Kids, Compact High Resolution Shockproof Binoculars",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":4.2,
@@ -326,7 +326,7 @@ const products1 = [
     {
        "item":"eufy Security 2K Indoor Cam Pan & Tilt, Plug-in Security Indoor Camera with Wi-Fi, IP Camera, Human & Pet AI, Voice Assistant Compatibility, Motion Tracking, HomeBase Not Required",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Relevant Recordings The on-device AI determines whether a human or pet is present and only records when an event of interest occurs.The Key is in the Detail View every event in up to K clarity P while using HomeKit so you see exactly what is happening inside your home.Smart Integration Connect your Indoor Cam to Apple HomeKit Please download our HomeKit User Guide in the product information section below the Google Assistant or Amazon Alexa for complete control over your surveillance.Follows the Action When motion is detected the camera automatically tracks and follows the moving object. Pan the lens  horizontally or tilt it  vertically to get a clear view of the whole room.Communicate From Your Camera Speak in real-time to anyone who passes via the cameras built-in two-way audio. See more product details",
        "condition":"New - Open Box",
        "rating":2.0,
@@ -338,7 +338,7 @@ const products1 = [
     {
        "item":"Gosky 12x55 High Definition Monocular Telescope and Quick Smartphone Holder - 2019 Newest Waterproof Monocular -BAK4 Prism for Wildlife Bird Watching Hunting Camping Travelling Wildlife Secenery",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. x high power magnification - have the best view in your outdoor adventures. To see x closer with a clear and bright image with the generous light-gathering mm objective wide lens. Perfect for hiking hunting climbing bird watching ball games concerts watching wildlife and scenery.High powered monocular promises brighter crystal clear views during all your outdoor adventuresIdeal for outdoor enthusiasts and wilderness explorers a handheld and must-have for bird watching wildlife hunting hiking mountaineering camping surveillance and traveling.The long eye-relief with the twist-up eye cup makes this high-end monocular set stand out among competition!Argon purging provides waterproof fog proof dustproof and shockproof protection in any weather and any environment. Rubber armored body strengthen its durability.Lifetime. hours customer service!",
        "condition":"Used",
        "rating":3.9,
@@ -350,7 +350,7 @@ const products1 = [
     {
        "item":"YI Indoor Wireless WiFi Security IP Camera, Smart Nanny Pet Dog Cat Cam with Night Vision, 2-Way Audio, Motion Detection, 360-degree, 1080p, Phone App, Works with Alexa and Google(Black)",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. p high-definition wide-angle advanced glass lens combined with  horizontal   vertical rotation range create a complete  coverage. advanced night vision with  built-in nm infrared led beads extend the viewing distance to  meters in pitch dark with no light pollution so your pet will not be disturbed by led glare.optional  emergency response service is just .month - yis motion alerts and live video feeds are now equipped with the option to instantly involve noonlights certified emergency dispatchers who coordinate with police fire and ems agencies on customers behalf to ensure the situation is promptly handled.yi dome integrates with your yi home family in one simple interface. user-friendly and intuitive app to customize your settings activity alerts auto-cruise bookmarks camera sharing customize schedules and more. supports connectivity to a large number of devices with the same appaccount for maximum convenience. available for ios and android. only products sold by the seller yi technology come with one-year warrantyreceive real-time activity alerts while you're out. -sec motion tracking records and centers the moving object. bookmark your favorite positions up to  and return to them at the tap of a button. select auto-cruise to survey the area  horizontally or cruise your bookmarks suitable for large areas that need a quick scan and tracks moving objects.supports yi cloud to avoid the risk of losing footage from a sd card ensure all your videos are safe and protected. we provide the most efficient compression and the highest protection of data so you can be sure that your footage is secure. reliable wi-fi connectivity to access your camera with yi home app on mobile device and yi home app on pc at anytime anywhere. built-in support for .bgn .ghz ghz currently not supported wi-fi band. pc app is for viewing onlyyi home app - acess your camera with our mobile app anytime and anywhere more flexible with homeaway mode. allows sharing your camera with up to  family members or friends and view multiple cameras on a single account.  live feeds on pc app is available now.Mounting type Wall MountDigital storage capacity . GB",
        "condition":"New - Open Box",
        "rating":2.0,
@@ -362,7 +362,7 @@ const products1 = [
     {
        "item":"Aurosports 10x25 Binoculars for Adults and Kids, Folding Compact Binocular with Weak Light Vision, Lightweight Small Binoculars for Bird Watching, Travel, Concerts, Hunting, Hiking",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Perfect compact lightweight binoculars for bird watching. Can be Used for both day and night low-light-level night vision can't see anything in complete darknessLarge Field of View.Focusing in on your target for brilliant detail at  yards out.Fully multi-coated lenses waterproof compact gives you everything you want. Lightweight and can be folded very convenient and easy to carry perfect binoculrs for adults and kids.x magnification with  mm objective lens allows you to see objects xs closer clear view share precious hiking football games bird watching Wildlife Watching memories with your friends.Suitable for both adults and kids fit for hunting hiking exploring viewing sailing bird watching concert outdoor sports etc.",
        "condition":"Good",
        "rating":2.9,
@@ -374,7 +374,7 @@ const products1 = [
     {
        "item":"Pet Camera, Conico 1080P Baby Monitor with Sound Motion Detection IR Night Vision, Home Camera with 2- Way Audio 8X Zoom, WiFi Camera Cloud Service Compatible with Alexa",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New",
        "rating":3.0,
@@ -386,7 +386,7 @@ const products1 = [
     {
        "item":"Nooie Baby Monitor, WiFi Pet Camera Indoor, 360-degree Wireless IP Nanny Camera, 1080P Home Security Camera, Motion Tracking, IR Night Vision, Works with Alexa, Two-Way Audio(IPC100)",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":2.9,
@@ -398,7 +398,7 @@ const products1 = [
     {
        "item":"Dog Camera-1080P FHD Pet Camera with Phone App, Pan/Tilt/ Zoom Puppy Camera with 2-Way Audio, AI Human Detection, Night Vision Cloud Storage / TF Card Work with Alexa Wireless Security Camera for Home",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Smart AI Human Detection  Netvue brings Artificial Intelligence to this wireless security camera Equip with AI effectively avoids false positives caused by pets winds or leaves When motion detected motion video is triggered and Smart Clip starts recording If human detected in the video Netvue App will alert you immediately Also sensor sensitivity levels of home camera from high to low depending on your demand for baby  pet monitor This ip camera will smartly alert you dailyPTZ FHD for Multiple View  Pet cameras that connect with iphone features high resolution p viewing angle  horizontal angle lens and digital PanTiltZoom PTZ let you control pet cam remotely using the NETVUE app so you can see multipleview of your room while youre away. Or have NETVUE pet camera for dog monitor your room automatically by setting  predefined waypoints It can be shared to othersthus you can enjoy sweet memories with your family by using this pet cameraCloud Storage and Privacy Protection  Netvue dog monitor uses AWSAmazon Web Services Cloud to provide up to  days of cloud storage Or record continuously to a MicroSD card not includedup to GB regardless of motion and sound Both can replay  days videos Also this nanny cam with phone app will secure your data storage and every significant moment protect your privacy with bank level AES  bit encryption and TLS Encryption ProtocolNight Vision and Wifi Connection  Wifi baby monitor pet monitor is equipped with nm infrared LEDs auto switching to night vision mode when the environment is dimmed Baby monitor that connect with iphone and Android can view up to  feet in p FHD even in the pitch-black night With video instructions on NETVUE App you can easily set up this baby video monitor Quick .GHz Wifi Connection fast wifi setup via mobile App on iPhoneAndroid smartphonetablets it can't support MAC Way Audio and Work With Alexa  With clear  way audio this dog cam allows you to have realtime conversation with your family members or dogs like talking on a phone NETVUE pet cameras that connect with iphone for home security work well with Alexa such as Echo Show A simpler clearer easier communication with NETVUE security camera p wifi pet camera",
        "condition":"Good",
        "rating":0.7,
@@ -410,7 +410,7 @@ const products1 = [
     {
        "item":"20x50 High Power Military Binoculars, Compact HD Professional/Daily Waterproof Binoculars Telescope for Adults Bird Watching Travel Hunting Football-BAK4 Prism FMC Lens-with Case and Strap (20X50)",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Wide Field of View- x magnification mm eye lens diameter and mm objective diameter m field of view at m When you use this binoculars the vision is broad and it is very clear for the gain of binoculars.Professional Powerful Binoculars- Multilayer-coated aspherical lenses elements provide superior light transmission and minimal distortion better image brightness contrast and quality. The Bak- prism has a perfectly round exit pupil. Providing bright clear and razor-sharp viewing.Sleek and Solid- Daily Waterproof body with rubber coated finish for shock-resistance and a firm comfortable grip durable and portable for outdoors even suitable for hostile environment. But please dont immerse the binoculars in water.Easy to Adjust- The centre-focus knob of this compact binoculars fast and high precision focusing. And it can also focus on the different distance with right eyepiece ring. Being used with tripod is OK. So it is very convenient when you watch something for a long time.Versatile to Use-These binoculars are designed for birding watching hiking hunting climbing trip football basketball or any Sports competition concert. And it is also an ideal Christmas gift for adults kids children. TipThese binoculars have low-light night vision and can be used at night but not in complete darkness.",
        "condition":"New - Open Box",
        "rating":3.2,
@@ -422,7 +422,7 @@ const products1 = [
     {
        "item":"Security Camera Outdoor, Goowls 1080P Pan/Tilt 2.4G WiFi Home Smart Security Surveillance IP Camera Wired with Waterproof Night Vision 2-Way Audio Motion Detection Cloud Camera Works with Alexa",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":1.2,
@@ -434,7 +434,7 @@ const products1 = [
     {
        "item":"Teckin Cam 1080P FHD Indoor Wi-Fi Smart Camera for Home Security, Night Vision, 2-Way Audio, Motion&Sound Detection, Desk Stand/Wall&Ceiling Mount/Action Mode, for Baby/Pet/Elderly (Light White)",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Easy to Use - The TECKIN CAM is configured and operated by the Teckin App over a .GHz Wi-Fi network. It can be installed on the wall or placed on a shelf. Enjoy Live Streaming with P and  wide-angle viewing over the internet.Motion  Sound Detection - The TECKIN CAM detects sound and movement to automatically record a video. The Teckin App will send notifications to your phone when it has been triggered. You can have peace of mind when you're away.Two-way Audio  Night Vision - The TECKIN CAM provides the ability to have a two-way conversation with those in the room from family members to pets. The Night Vision mode allows you to see clearly in the dark up to ft with  IR LEDs.Share with Family - The TECKIN CAM allows you to share live streaming moments with family members through the Teckin App. You can check up on your family pets or home when away.Cloud Service  SD Storage - The TECKIN CAM provides dual storage on the T-Cloud and SD card storage max GB for videos. We offer free T-Cloud storage services as well as upgrade packages depending on your needs.",
        "condition":"Good",
        "rating":2.2,
@@ -446,7 +446,7 @@ const products1 = [
     {
        "item":"Security Home Camera, Kami by YI 1080p WiFi Smart Wireless Indoor Nanny IP Cam with Night Vision, 2-Way Audio, Motion & Face Detection, Phone App, Pet Cat Dog Cam - Works with Alexa and Google",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Big Intelligence. Small size The Kami Mini Camera comes in a compact form factor making it easy to place around the house while housing powerful and robust AI features needed for any smart home.Smarter alerts with Face Detection Spend less time searching through your clips. Thanks to the advanced AI chip the Kami Mini Camera quickly detects faces and creates a summary of every face captured in your video along with the alerts.AI-Powered Human Detection More advanced than traditional PIR or motion detection the new built-in sensors and highly accurate detection technology it can reduce false alarms caused by plants animals or small insects. Safety A smart home camera should be useful no matter what time of day it is. This camera features  individual nm infrared IR LEDs which automatically activate when it starts to get dark. Your camera is there for you day and night providing high quality p video clips.Expansive Cloud Storage Store all your footage using the YI Cloud service keeping it safe and available even if unfortunate events occur.",
        "condition":"New - Open Box",
        "rating":0.7,
@@ -458,7 +458,7 @@ const products1 = [
     {
        "item":"12x42 Binoculars for Adults with Universal Phone Adapter - Super Bright and Large View Binoculars for Bird Watching, Hunting, Sports (Waterproof)",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"Good",
        "rating":3.0,
@@ -470,7 +470,7 @@ const products1 = [
     {
        "item":"Binoculars for Adults and Kids, 10x25 Compact Binoculars for Bird Watching, Theater and Concerts, Hunting and Sport Games",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number.  magnification with mm objective lens provides high definition without a color-changed or blurred image. The  magnification boasts a viewing field of ft at  yds so you'll be able to observe a great deal without actually adjusting their position.Fully multi-coated optics provide for a brighter view and sharp images. All glass surfaces have multiple coatings resulting in light transmission of . for bright sharp and contrast images and non-chromatic aberration. Based on this these binoculars also provide low light night vision.Lightweight small compact binoculars. The foldable design and only .lb lightweight make them can be folded into palm-size so it's ideal for an even broader range of long-distance pursuits. You wish there were binoculars set in your backpack. No need to keep regretting about your trips when get these affordable and compact binoculars.The rubber armor ergonomic design and steady grip allows for accurate focusing and have shock-resistance anti-skid features while the design is slim and simple. Rugged construction rubber eye relief provides comfort for spectacle wearers as do a dioptric adjustment ring and the strap mount.Binoculars for adults and kids. These binoculars are fully competent and able to work for bird watching hunting hiking travel sports events theater and concert. Also ideal great gifts for Chrismas Father's Day and boys girls gifts.",
        "condition":"Good",
        "rating":3.9,
@@ -482,7 +482,7 @@ const products1 = [
     {
        "item":"Teckin Cam 1080P FHD Indoor Wi-Fi Smart Home Security Camera with Night Vision, 2-Way Audio, Motion Detection, Omnidirection for Baby/Pet/Nanny/Elderly, Works with Alexa & Google Home, 2 Packs",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Easy to Use - The TECKIN CAM is configured and operated by the Teckin App over a .GHz Wi-Fi network. It can be installed on the wall or placed on a shelf. Enjoy Live Streaming with P and ?wide-angle viewing over the internet.Motion  Sound Detection - The TECKIN CAM detects sound and movement to automatically record a video. The Teckin App will send notifications to your phone when it has been triggered. You can have peace of mind when you're away.Two-way Audio  Night Vision - The TECKIN CAM provides the ability to have a two-way conversation with those in the room from family members to pets. The Night Vision mode allows you to see clearly in the dark up to ft with  IR LEDs.Share with Family - The TECKIN CAM allows you to share live streaming moments with family members through the Teckin App. You can check up on your family pets or home when away.Cloud Service  SD Storage - The TECKIN CAM provides dual storage on the T-Cloud and SD card storage max GB for videos. We offer free T-Cloud storage services as well as upgrade packages depending on your needs.",
        "condition":"Good",
        "rating":2.9,
@@ -494,7 +494,7 @@ const products1 = [
     {
        "item":"SkyGenius 10 x 50 Powerful Binoculars for Adults Durable Full-Size Clear Binoculars for Bird Watching Travel Sightseeing Hunting Wildlife Watching Outdoor Sports Games and Concerts",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number.  Professional Powerful Binoculars  Designed with X power magnification mm large objective lens and ftyds large field of view good for fast moving subject are ideal for bird watching hunting driving sports events. Weak Light Vision with Quality Optics  Design of Aspherical lenses and multi-layer coating guarantee excellent light transmission and well improve image brightness contrast and quality. It can be used at night but not in complete darkness. Suitable for concerts opera sightseeing and astronomical viewing. Durable Solid and Anti-slip Grip  Durable structure with odorless rubber armor for shock-resistance and Anti-slip grip making it not only in decent appearance of more wear-resistant and moisture-proof but also perfect for outdoor activities such as climbing hiking travelling watching wildlife and scenery. Easy to Focus  Corrective optical coating are good for color fidelity and minimize distortion. Diopter System adjusting the imbalance vision of both eyes. The smooth and large center focus knob makes it simple to operate and easy to focus.  Adaptable to tripod  Adjustable Eye Cups  The rubber covered eyepiece can be twisted up and down for different people adjusting a proper eye relief. The eyeglass wearers can adjust the eye relief through rising eye cups and feel more comfortable.",
        "condition":"Good",
        "rating":1.6,
@@ -506,7 +506,7 @@ const products1 = [
     {
        "item":"WEMLB WB-726 HD 1080 P WiFi Hidden Camera Alarm Clock Night Vision/Motion Detection/Loop Recording Wireless Security Camera for Home Surveillance - Spy Cameras",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Your Familys Safety First Wondering if your elderly or kids are being well attended by hired personnel? Would you like to occasionally check up on your pet while home alone? These questions can now have an answer with the WEMLB hidden camera!Discreet and Concealed Design This spy camera clock was designed having in mind a discreet and user-friendly experience posing as a functional alarm clock which is small compact and elegant a discreet addition to any room of your home or office!Adjustable Recording Modes Unlike similar products on the market this hidden camera clock allows various recording modes depending on your needs. Easily set it for loop recording or motion detection and make sure youre constantly informed of the whereabouts of your loved ones!Wide Viewing Angle With a HD P resolution and crystal-clear image easy to pair with any smartphone tablet or laptop through stable WIFI connection this small spy camera also enjoys an ultra-wide -degree viewing angle reaching every important corner of your room!Wide Applications Supporting up to GB SD memory card with state of the art motion detection technology and night vision feature this secret camera is an excellent choice for improving home security as a nanny cam for checking up on your elderly business partners life partner or colleagues!",
        "condition":"Used",
        "rating":3.8,
@@ -518,7 +518,7 @@ const products1 = [
     {
        "item":"Mini Spy Camera 1080P Hidden Camera - Portable Small HD Nanny Cam with Night Vision and Motion Detection - Indoor Covert Security Camera for Home and Office - Hidden Spy Cam - Built-in Battery",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Hidden Small Camera This spy cam can be used for housekeepers or a nanny baby pet personal security professional surveillance body safety or action and drone use.HD Day  Night Vision Our hidden mini camera boasts p HD clarity MP photos  wide-angle lens and night vision reaching  with  invisible LEDs.Motion Detection  Recording Offering  minutes of battery run time our device can turn on and record when it senses movement or record  when its charging.Easy to Use Install a GB micro SD card not included in the hidden mini spy camera p and let it loop record in a car home hotel office warehouse or showroom.Supports SD cards from  to  GB not included",
        "condition":"Used",
        "rating":0.6,
@@ -530,7 +530,7 @@ const products1 = [
     {
        "item":"360 AC1C Indoor Security Camera, 1080P, Face Recognition Without Cloud Charge, Color Night Vision, 130 View Angle, Human and Motion Detection, Activity Zones, Cloud and Local Storage",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. Advanced AI Algorithms  ACC has AI processing power so it can do things like tell a person from a thing. And even recognize faces with its advanced algorithms.Alerts you when something happens  ACC looks for motion and listens for conspicuous sounds like a boom or the crash of a window breaking. If  ACC thinks somethings up itll send a phone alert with a key image or video from the event. And if you miss an alert you can see photos or videos of activity from  Security App.Low Light and True Color Night Vision In low light environment  ACC allows you to see video in full color at night rather than traditional black and white. Supersight Viewing Angle Keep an eye on what matters with  diagonal field of view.-Way Audio Listen and speak with anyone in range of your  ACC with clear full -way audio. See more product details",
        "condition":"New",
        "rating":2.0,
@@ -542,7 +542,7 @@ const products1 = [
     {
        "item":"HeimVision 1080P Security Camera, HMA2 WiFi Indoor Camera for Pet/Nanny/Baby/Home Monitor, Surveillance IP Camera with Smart Night Vision, Two-Way Audio, Motion Detection, Flexible & Compact",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"Used",
        "rating":0.3,
@@ -554,7 +554,7 @@ const products1 = [
     {
        "item":"Security Camera Indoor, Mibao 1080P FHD WiFi Camera with Night Vision, Motion Detection, 2-Way Audio,Compatible with Android/iOS, Works with Alexa",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"New - Open Box",
        "rating":2.0,
@@ -566,7 +566,7 @@ const products1 = [
     {
        "item":"Wireless Digital Microscope Handheld USB HD Inspection Camera 50x-1000x Magnification with Stand Compatible with iPhone, iPad, Samsung Galaxy, Android, Mac, Windows Computer",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. App Provided Optional software for IOS Android Windows    XP OS X. Can work with all smartphone like iPhone and Samsung windows Computer Tablet and Macbook.Magnification  High Definition  million pixels P HD picture quality for smartphone P for computer x more magnification can meet your daily needs. Built-in  Dimmable LEDs provide enough illuminance.Easy to Carry It is very easy to charge and the charge lasts for a long time. It makes for a very useful and fun tool to always have with you in the outdoors. You can enjoy the portable mini pocket microscope on your nature hikes.A Funny Tool This is an electron microscope not a traditional microscope Not suitable for professional serious biologists! This is definitely a very interesting thing for parents adults teachers students kids children collectors testers electronics' repair folks and inquisitive folks who interested in exploring the microscopic world.Not only a Microscope More than a microscope it is a camera It can not only zoom in but also take photos and record videos. The ability to take video and still photos is amazing. Its really useful when documenting plant phases throughout their lifecycle.Wifi Connection for Phone Download the software on the user manual from Google Play or APP Store Turn on the microscope connect the wifi no password which emits from the microscope Run the app and it is easy to use.USB Connection for Computer . For win  you can directly plug into the USB port and search CAMERA in WINDOWS to find it and click on. . WIN  downloading an Amcap will solve this issue. . For MacBook please use Macbooks bundled software Photo Booth or Quick Time Player directly. . Note Please disable the default laptop camera in Windows! And you have to change your privacy settings for the camera which needed to be changed to permit access.What You Get x microscope x USB cable x stand x base x user manual our -hour professional after-sales service.",
        "condition":"New - Open Box",
        "rating":1.3,
@@ -578,7 +578,7 @@ const products1 = [
     {
        "item":"Wireless Rechargeable Battery Powered WiFi Camera, Home Security Camera, Night Vision, Indoor/Outdoor, 1080P Video with Motion Detection, 2-Way Audio, Waterproof, compatible with Cloud Storage/SD Slot",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This fits your.Make sure this fits by entering your model number. RECHARGEABLE  LONG STANDBY TIME This rechargeable camera comes with a mAh battery that lasts up to    months when fully charged so that you dont have to worry about continuously charging itTips FULLY CHARGE when use it for first time.EASY TO INSTALL  USE This wire-free battery powered outdoor security camera takes less than  minutes to set up without having to use any complicated tools. It comes with a magnetic bracket screw and double-sided adhesive tape allowing you to install it. anywhere you want.WIRELESS  CORDLESS When we say our indooroutdoor surveillance camera is totally wireless we mean it. There are no wires involved whether its watching the streams or installing it. Our rechargeable security camera is powered by a built-in rechargeable battery that allows you to place it indoors and outdoors without worrying about annoying wires. ONLY COMPATIBLE with .G WiFi routerP HD IMAGE QUALITY  WEATHERPROOF Our wireless security camera is built with an P HD camera that provides you with clear and crisp recordings that you can watch remotely in real-time through the mobile app cloudEdge. It maintains a  Degree Wide View Angle and offers two-way audio talk to let you easily hold conversations. When motion is detected it can also forward an alarm and image to your smartphone. Our outside camera security system is designed to withstand the bad weather.TWO-WAY STORAGE Equipped with night vision and advanced PIR motion detection this home security camera system is exactly what you need to protect your home and family. This battery operated security camera can see in the dark and detect motion up to m ft. Its ideal for nightday use and starts recording to the micro SD cardNOT included up to GB or paid cloud storage after detecting motion.",
        "condition":"New",
        "rating":3.5,
@@ -590,7 +590,7 @@ const products1 = [
     {
        "item":"Security Camera Outdoor Goowls 1080P 2.4G WiFi Home Security IP66 Waterproof Camera Night Vision Motion Detection 2-Way Audio Cloud Camera Compatible with Alexa iOS/Android",
        "category":"Electronics",
-       "sub_category":"Camera & Photo",
+       "sub_category":"Photo",
        "description":"This is a really cool product",
        "condition":"Good",
        "rating":0.2,
@@ -602,7 +602,7 @@ const products1 = [
     {
        "item":"Fire 7 tablet (7 inch Display, 16 GB) - Black",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":" IPS display  or  GB of internal storage add up to  GB with microSDFaster . GHz quad-core processorUp to  hours of reading browsing the web watching video and listening to musicHands-free with Alexa including onoff toggle GB of RAM MP front and rear-facing cameras with p HD video recordingDual-band Wi-Fi-day limited warrantyEnjoy your favorite apps like Netflix Facebook Hulu Instagram TikTok and more through Amazons Appstore Google Play not supported",
        "condition":"New - Open Box",
        "rating":0.6,
@@ -614,7 +614,7 @@ const products1 = [
     {
        "item":"Sabrent 4-Port USB 2.0 Hub with Individual LED lit Power Switches (HB-UMLS)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Instantly Add Four USB . Ports to all Compatible Device.Easy Setup Plug-and-Play Hot Swappable Hot Pluggable.Gain Four Downstream Ports Which Offer High-Speed Mbps Full-Speed Mbps And Low-Speed .Mbps.Intelligently Designed to Be as Thin as Possible Allowing you to Maximize Precious Work Space or Travel with ease.Backwards Compatible With . Devices and Hosts. CHARGING NOT SUPPORTED.",
        "condition":"Used",
        "rating":4.1,
@@ -626,7 +626,7 @@ const products1 = [
     {
        "item":"Fire HD 8 tablet, 8\" HD display, 32 GB, designed for portable entertainment, Black",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":" HD display X the storage  or  GB of internal storage and up to  TB with microSD card   GB RAM.All-day battery life - Up to  hours of reading browsing the web watching videos and listening to music.Now with USB-C for easier charging. Fully charges in under  hours with included cable  adapter. faster thanks to the new . GHz quad-core processor.Enjoy your favorite apps like Netflix Facebook Hulu Instagram TikTok and more through Amazons Appstore Google Play not supported.Introducing Game Mode - A distraction-free and optimized gaming experience.Hands-free with Alexa including onoff toggle. MP front and rear-facing cameras with p HD video recording.Dual-band enhanced wifi.",
        "condition":"New - Open Box",
        "rating":4.0,
@@ -638,7 +638,7 @@ const products1 = [
     {
        "item":"TP-Link AC1750 Smart WiFi Router (Archer A7) - Dual Band Gigabit Wireless Internet Router for Home, Works with Alexa, VPN Server, Parental Control and QoS",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. JD Power Award ---Highest in customer satisfaction for wireless routers  and Router for wireless internet works with Alexa compatible with all Wi-Fi devices .ac and olderDual band router upgrades to  Mbps high speed internetmbps for .GHz Mbps for GHz reducing buffering and ideal for K streaming external antennas for long range Wi-FiGigabit Router with  Gigabit LAN ports fast access to multiple connected wired devices Ideal as a gaming routerIntegrated USB port acts as a media Server easily share your USB drive contentTP-Link tether app easily set up and remotely manage your home networkIndustry leading  year and Free - technical Support",
        "condition":"Good",
        "rating":4.5,
@@ -650,7 +650,7 @@ const products1 = [
     {
        "item":"Fire 7 Kids Tablet, 7 inch Display, 16 GB, Blue Kid-Proof Case",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"-year worry-free guarantee if it breaks return it and we'll replace it for free.Over  million kids and their parents have enjoyed the award-winning Amazon Kids FreeTime service. Amazon Kids parental controls allow you to set educational goals create time limits and filter content.The included  year of Amazon Kids FreeTime Unlimited gives your kids access to over  apps games books videos audiobooks and educational content from PBS Kids Nickelodeon Disney and more. Your subscription will then automatically renew every month starting at just . per month plus applicable tax. You may cancel at any time by visiting the Amazon Parent Dashboard or contacting Customer Service.Parents can give kids access to more apps like Netflix Minecraft and Zoom via the Amazon Parent Dashboard.Amazon Kids includes thousands of Spanish language books videos apps games and audiobooks.Save up to  on a full-featured Fire  Tablet not a toy  year of Amazon Kids a Kid-Proof Case with built-in stand and -year worry-free guarantee versus items purchased separately.Stream through Wi-Fi or view downloaded content on the go with  GB of internal storage and up to  hours of reading browsing the web watching video and listening to music. Add a microSD card for up to  GB of expandable storage.",
        "condition":"New",
        "rating":4.8,
@@ -662,7 +662,7 @@ const products1 = [
     {
        "item":"Fire HD 8 Kids Edition tablet, 8\" HD display, 32 GB, Blue Kid-Proof Case",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"Save up to . on a full-featured Fire HD  tablet not a toy  year of Amazon Kids FreeTime Unlimited a Kid-Proof Case with built-in stand and -year worry-free guaranteeversus items purchased separately.-year worry-free guarantee if it breaks return it and we'll replace it for free.The included  year of Amazon Kids gives your kids access to over  apps games books videos Audible books and educational content from PBS Kids Nickelodeon Disney and more. Your subscription will then automatically renew every month starting at just . per month plus applicable tax. You may cancel at any time by visiting the Amazon Parent Dashboard or contacting Customer Service.Over  million kids and their parents have enjoyed the award-winning Amazon Kids FreeTime service. Amazon Kids parental controls allow you to set educational goals create time limits and filter content.Parents can give kids access to more apps like Netflix Minecraft and Zoom via the Amazon Parent Dashboard.Stream over wifi or view downloaded content on the go with  GB of internal storage and up to  hours of battery for reading browsing the web watching videos and listening to music. Add a microSD card for up to  TB of additional storage.Amazon Kids includes thousands of Spanish language books videos apps games and Audible books.Now with USB-C for easier charging. Includes a USB-C cable and W power adapter in the box.",
        "condition":"New",
        "rating":4.8,
@@ -674,7 +674,7 @@ const products1 = [
     {
        "item":"Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. AMD Ryzen  U Dual Core Processor Up to .GHz GB DDR Memory GB PCIe NVMe SSD. inches full HD  x  widescreen LED backlit IPS display AMD Radeon Vega  Mobile Graphics USB . Gen  port  USB . ports   HDMI port with HDCP support.ac Wi-Fi Backlit Keyboard Up to . hours battery lifeWindows  in S mode. Maximum power supply wattage  Watts See more product details",
        "condition":"New",
        "rating":2.1,
@@ -686,7 +686,7 @@ const products1 = [
     {
        "item":"NETGEAR Nighthawk Smart Wi-Fi Router, R6700 - AC1750 Wireless Speed Up to 1750 Mbps | Up to 1500 Sq Ft Coverage & 25 Devices | 4 x 1G Ethernet and 1 x 3.0 USB Ports | Armor Security",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Recommended for up to  devices Reliably stream videos play games surf the internet and connect smart home devicesWired Ethernet ports Plug in computers game consoles streaming players and other nearby wired devices with  x  gigabit Ethernet portsLoaded with advanced technology Designed with a GHz dual core processor  amplified antennas Beamforming plus Dynamic QoS Smart Connect and moreUSB connections Share a storage drive or printer with any connected device or create a personal cloud storage to access from anywhere using the  x . USB portSafe  secure Supports WPA wireless security protocols. Includes Guest Wi-Fi access DOS Firewall VPN and more.Netgear Armor protects your network and connected devices from Internet threats Get peace of mind knowing you have the best in class anti virus anti malware and data protection for all your smart devices smartphones and computers with a  day free trialSafe  secure Supports WPA wireless security protocols. Includes Guest Wi-Fi access DOS Firewall VPN and more. System requirements Microsoft Windows    Vista XP  Mac OS UNIX or Linux. Microsoft Internet Explorer . Firefox . Safari . or Google Chrome . browsers or higher",
        "condition":"Good",
        "rating":1.8,
@@ -698,7 +698,7 @@ const products1 = [
     {
        "item":"Introducing Amazon eero 6 dual-band mesh Wi-Fi 6 system with built-in Zigbee smart home hub (3-pack, one eero 6 router + two eero 6 extenders)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"Whole-home Wi-Fi  coverage - an eero  system covers up to  sq. ft. with wifi speeds up to  Mbps.Say goodbye to dead spots and buffering - Our TrueMesh technology intelligently routes traffic to reduce drop-offs so you can confidently stream K video game and video conference.More wifi for more devices - Wi-Fi  delivers faster wifi with support for  devices simultaneously.Set up in minutes - The eero app walks you through setup and allows you to manage your network from anywhere. Plus free customer support is available  days a week.Built-in Zigbee smart home hub - eero  connects compatible devices on your network with Alexa so theres no need to buy separate smart home hubs for each.Gets better over time - Automatic updates bring the latest and greatest in wifi while also keeping your network safe and secure.Easily expand your system - With cross-compatible hardware you can easily add eero products as your needs change.",
        "condition":"New",
        "rating":1.6,
@@ -710,7 +710,7 @@ const products1 = [
     {
        "item":"Apple 85W MagSafe 2 Power Adapter (for MacBook Pro with Retina Display)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"The Apple W MagSafe  Power Adapter is made specifically for your MacBook Pro with Retina display.Its held in place magnetically so if someone should trip over it the cord disconnects harmlessly and your notebook stays put safely.Use an extra adapter for home or work.",
        "condition":"New - Open Box",
        "rating":2.5,
@@ -722,7 +722,7 @@ const products1 = [
     {
        "item":"NETGEAR Nighthawk Cable Modem Wi-Fi Router Combo C7000-Compatible with Cable Providers Including Xfinity by Comcast, Spectrum, Cox for Cable Plans Up to 400 Mbps | AC1900 Wi-Fi Speed | DOCSIS 3.0",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Save monthly rental fees Model C replaces your cable modem and Wi-Fi router saving you up to year in equipment rental fees.Built for fast speed best for cable provider plans up to  Mbps speed. Modem technology Engineered with x channel bonding and DOCSIS ..Fast Wi-Fi performance Get up to  square feet wireless coverage and  devices connected with AC speed up to  Mbps.Versatile connections  Gigabit Ethernet ports and  USB ports give you fast wired connections to your computer printer game box storage drive and other devices.Modem technology Engineered with x channel bonding and DOCSIS ..Note Refer to page  of user guide for troubleshooting steps",
        "condition":"Good",
        "rating":0.4,
@@ -734,7 +734,7 @@ const products1 = [
     {
        "item":"Fire HD 8 Plus tablet, HD display, 32 GB, 3 GB RAM, Slate",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":" HD display X the storage  or  GB of internal storage and up to  TB with microSD card   GB RAM.All-day battery life  wireless charging - Up to  hours of reading browsing the web watching videos and listening to music.Now with USB-C for easier charging. Fully charges in under  hours with included cable and adapter. faster thanks to the new . GHz quad-core processor.Enjoy your favorite apps like Netflix Facebook Hulu Instagram TikTok and more through Amazons Appstore Google Play not supported.Introducing Game Mode - A distraction-free and optimized gaming experience.Hands-free with Alexa including onoff toggle. MP front- and rear-facing cameras with p HD video recording.Dual-band enhanced wifi.",
        "condition":"New",
        "rating":2.5,
@@ -746,7 +746,7 @@ const products1 = [
     {
        "item":"TP-Link Deco Mesh WiFi System(Deco M5) \u00fbUp to 5,500 sq. ft. Whole Home Coverage and 100+ Devices,WiFi Router/Extender Replacement, Parental Controls/Anitivirus, Seamless Roaming, 3-pack",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. JD Power Award- Highest in customer satisfaction for wireless routers  and If you're Looking to ditch Your traditional router extender setup for a whole Home Wi-Fi system put the TP-Link Deco M Wi-Fi system on your short list PC mag saidBetter coverage than traditional Wi-Fi routers Deco M uses three units working seamlessly to create a mesh network that can cover homes up to   square feet. No dead zone anymore.Seamless and Stable Wi-Fi Rather than wifi range extender that need multiple network names and passwords Deco M allows you to enjoy seamless roaming throughout the house with a single network name and password.TP-Link unique Adaptive routing technology automatically chooses the fastest path for every device and allows for more flexible placement than a satellite systemSecure Wi-Fi Mesh Network Protect your network and connected devices with a free lifetime subscription to TP-Link HomeCare featuring Next-level Antivirus Robust Parental Controls and QoS.Easy to setup Download the TP-Link Deco app plug in your system and follow the instructions to get your new home network up and running in minutes. Works with Alexa as well.Industry leading  year and  technical support",
        "condition":"Used",
        "rating":1.1,
@@ -758,7 +758,7 @@ const products1 = [
     {
        "item":"Mac Book Pro Charger, Replacement AC 60W Power Adapter, 60W White Charger L-Tip Magnetic Connector Compatible for Mac Book Pro 13-Inch(Before Mid 2012 Models)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This is a really cool product",
        "condition":"New",
        "rating":2.0,
@@ -770,7 +770,7 @@ const products1 = [
     {
        "item":"TP-Link AC1200 Gigabit WiFi Router (Archer A6) - 5GHz Gigabit Dual Band MU-MIMO Wireless Internet Router, Supports Beamforming, Guest WiFi and AP mode, Long Range Coverage by 4 Antennas Black",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. JD Power Award ---Highest in customer satisfaction for wireless routers  and Dual band router upgrades to  Mbps high speed internet mbps for .GHz  Mbps for GHz reducing buffering and ideal for K streamGigabit Router with  Gigabit LAN ports ideal for any internet plan and allow you to directly connect your wired devicesMU-MIMO technology GHz band allows high speeds for multiple devices simultaneouslyAP mode can be switched to access point mode to share your internet wirelesslySupports guest WiFi and parental control an ideal wireless router for homeTP-Link tether app - easily set up and manage your home network at home or remotelyIndustry leading -year warranty and free  technical support. Amazon dedicated emailConnectivity Technology Ethernet",
        "condition":"New",
        "rating":0.0,
@@ -782,7 +782,7 @@ const products1 = [
     {
        "item":"ARRIS SURFboard SB8200 DOCSIS 3.1 Gigabit Cable Modem, Approved for Cox, Xfinity, Spectrum & others",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. DOCSIS   Cable Modem best for cable internet speed plans up to  Gbps. Note a nd IP address is required from your cable internet provider to reach  Gbps. downstream x  upstream DOCSIS   bonded channels  downstream x  upstream OFDM DOCSIS   channelsTwo -Gigabit Ethernet ports capable of link aggregationothers Not compatible with ATT Verizon CenturyLink or other DSL or Fiber internet providersCable internet service required Does not inlcude Wi-Fi and does not support cable digital voice service",
        "condition":"Good",
        "rating":2.4,
@@ -794,7 +794,7 @@ const products1 = [
     {
        "item":"ASUS Laptop L210 Ultra Thin Laptop, 11.6\u00f6 HD Display, Intel Celeron N4020 Processor, 4GB RAM, 64GB Storage, NumberPad, Windows 10 Home in S Mode with One Year of Microsoft 365 Personal, L210MA-DB01",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Efficient Intel Celeron N Processor M Cache up to . GHz. HD  x  Slim DisplayGB eMMC Flash Storage and GB DDR RAMWindows  in S Mode with One Year of Microsoft  PersonalSlim and Portable . thin and weighs only . lbs battery included See more product details",
        "condition":"Used",
        "rating":1.6,
@@ -806,7 +806,7 @@ const products1 = [
     {
        "item":"Google Wifi - Mesh Wifi System - Wifi Router Replacement - 3 Pack",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Google Wifi is a scalable flexible mesh Wifi system that blankets your home in reliable coverage and keeps buffering at bay  Google Wifi point replaces your router and additional points expand your network to keep the connection fast in every roomGoogle Wifi gives you whole home coverage  Pack covers up to  square feet and  Pack covers up to  square feet points work together to create a mesh network for more coverageIntelligently works behind the scenes to make sure your Wifi remains fast so you can stream with speedSimple setup in a few steps use the Google Home app to create your network and get online in minutesParental controls let you manage screen time restrict certain kinds of adult content and pause Wifi to specific devices on your mesh network whenever you wantAutomatic security updates help your network stay safe and soundEasy to control home Wifi system lets you prioritize devices check your network speeds set up a guest network and moreWorks with all Google Wifi points and can be added to any existing Nest Wifi system just add more points if you need more coverageSustainably designed  of the plastic part weight is made with recycled material  modelPlease refer to the product description section below for all applicable legal disclaimers denoted by the bracketed numbers in the preceding bullet points e.g.   etc.",
        "condition":"Used",
        "rating":3.2,
@@ -818,7 +818,7 @@ const products1 = [
     {
        "item":"Motorola 24x8 Cable Modem, Model MB7621, DOCSIS 3.0. Approved by Comcast Xfinity, Cox, Charter Spectrum, Time Warner Cable, and More. Downloads 1,000 Mbps Maximum (No WiFi)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Model MB is recommended for actual cable Internet service speeds up to  Mbps. Wirecutter rates this the best modem for most people. A Full-Band Capture Digital Tuner ensures faster more reliable Internet.This cable modem's one Gigabit Ethernet port connects to a WiFi router computer HDTV game station or streaming video device. Great for use with Whole Home WiFi or Mesh networks like eero Google WiFi and Orbi. This cable modem does not have a built-in wireless router or telephone call capability. The Motorola MG MG MG and MG have a built-in wireless router.Requires cable Internet service.Approved by and for use with Comcast Xfinity and Xfinity X Cox Charter Spectrum Time Warner Cable BrightHouse CableOne SuddenLink RCN and other cable service providers. Eliminate cable modem rental fees up to  dollars per year. Savings are shown for Xfinity and vary by cable service provider. No cable modem is compatible with fiber optic DSL or satellite services from Verizon ATT CenturyLink Frontier and others. Model MB has no phone jack.Setup is fast and easy using the quick start guide. Experienced USA-based Motorola customer support specialists are happy to help if you need them. Support is in English or Spanish.Attractive compact design minimizes shelf space improves cooling and extends product life while looking great in any home or office. A two-year warranty plus rugged lightning and power surge circuits protect your investment. Includes phone and web support by friendly professional USA-based technical support specialists.",
        "condition":"Used",
        "rating":0.3,
@@ -830,7 +830,7 @@ const products1 = [
     {
        "item":"300 PCS Stickers Pack (50-850Pcs/Pack), Colorful Waterproof Stickers for Flask, Laptop, Phone, Water Bottle, Cute Aesthetic Vinyl Stickers for Teens, Girls",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This is a really cool product",
        "condition":"Good",
        "rating":2.7,
@@ -842,7 +842,7 @@ const products1 = [
     {
        "item":"SZPOWER 87W USB C Charger Power Adapter Compatible with MacBook Pro 15, 13 inch, New Air 13 inch 2020/2019/2018, Thunderbolt 3 Block, 6.6ft 5A Cable",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Wide Compatibility Optimized charging USBC laptop Pro  inch  inch  inch New Air  inch  inch USB C port tablets USB Type C cellphone.W USB C Power Adapter higher charging performance than WW USB C charger while charging Pro  inch  inch New Air  inch. Notice It cannot plug into a extension cord.A .ft USB C to C Cable with Emark Chip Specialized A is built-in Emark Chip and made of thicker copper wire to support max AW power through to charge  inch at full speed W. .ft cord let you can work and charge your laptop anywhere.Soft LED Indicator and Foldable Plug We add an extra LED indicator than default charger. Cool-green LED emits a soft gentle glow so you can see device has power easily find the charging port in the dark with a foldable plug for easy storage.Charging at Normal Temperature SZPOWER W USB C Charger is high charging efficiency up to . We implements high speed charging and avoid charge getting hot by sophisticated electronic innards. Enjoy worry-free -month warranty and friendly customer service.",
        "condition":"Good",
        "rating":2.6,
@@ -854,7 +854,7 @@ const products1 = [
     {
        "item":"New Apple MacBook Air with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray (Latest Model)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"Apple-designed M chip for a giant leap in CPU GPU and machine learning performanceGo longer than ever with up to  hours of battery life-core CPU delivers up to .x faster performance to tackle projects faster than everUp to eight GPU cores with up to x faster graphics for graphics-intensive apps and games-core Neural Engine for advanced machine learningGB of unified memory so everything you do is fast and fluidSuperfast SSD storage launches apps and opens files in an instantFanless design for silent operation.-inch Retina display with P wide color for vibrant images and incredible detailFaceTime HD camera with advanced image signal processor for clearer sharper video calls",
        "condition":"Used",
        "rating":2.8,
@@ -866,7 +866,7 @@ const products1 = [
     {
        "item":"NEW Microsoft Surface Dock 2",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Instantly turn your Surface into a desktop PC with the next-gen ports in new Surface Dock .Simply plug in the Surface Connect cable to charge your device and access external monitors a keyboard mouse and more.w power supply longer Surface Connect cable  cm.Supports dual K at Hz front-facing USB-C  rear-facing USB-C gen   rear-facing USB-A .mm inout audio jack  gigabit Ethernet Security lock support Kensington compatible",
        "condition":"Used",
        "rating":2.9,
@@ -878,7 +878,7 @@ const products1 = [
     {
        "item":"Dell USB 3.0 Ultra HD/4K Triple Display Docking Station (D3100), Black",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number.  x USB . to  pin USB Type A  x headphone input and output . millimetre x superspeed USB . -  pin USB type A  x network - RJ-. Designed for Inspiron   Gaming  Latitude    E E E E E E XPS   x display  video DisplayPort output   pin DisplayPort super speed cable x display  video HDMI  pin HDMI type A x HDMI DVI adapter includedAllow for a triple monitor setup see compatible Dell models in the description",
        "condition":"New",
        "rating":3.8,
@@ -890,7 +890,7 @@ const products1 = [
     {
        "item":"Vanfast Charger,Replacement for Mac Book Pro 13 Inch 2012-2016 Retina Display AC 60W Magnetic 2 Shape Connector Power Adapter",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This is a really cool product",
        "condition":"Used",
        "rating":0.0,
@@ -902,7 +902,7 @@ const products1 = [
     {
        "item":"NETGEAR Nighthawk Smart Wi-Fi Router (R7000) - AC1900 Wireless Speed (Up to 1900 Mbps) | Up to 1800 Sq Ft Coverage & 30 Devices | 4 x 1G Ethernet and 2 USB ports | Armor Security",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. Fast wifi performance Get up to  square feet wireless coverage with AC speed Dual band up to    MbpsRecommended for up to  devices Reliably stream videos play games surf the internet and connect smart home devicesWired Ethernet ports plug in computers game consoles streaming players and other nearby wired devices with  x  gigabit Ethernet portsLoaded with advanced technology Designed with a GHz dual core processor  amplified antennas Beamforming Dynamic QoS Smart Connect Amazon Alexa Voice Controls and moreUSB connections Share a storage drive and printer with any connected device and create a personal cloud storage to access from anywhere using the x. and x. USB portsSmart parental controls Pause device internet access view site history usage and filter websites for free. Set online time limits schedule device internet access and more for .month st month free trialNetgear Armor Powered by BitDefender The worlds leading cybersecurity protects all your home devices from virus malware and data theft with a -day free trialSafe  secure Supports WPA wireless security protocols. Includes Guest WiFi access DoS Firewall VPN and more",
        "condition":"Used",
        "rating":3.5,
@@ -914,7 +914,7 @@ const products1 = [
     {
        "item":"New Apple MacBook Air with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Gold (Latest Model)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"Apple-designed M chip for a giant leap in CPU GPU and machine learning performanceGo longer than ever with up to  hours of battery life-core CPU delivers up to .x faster performance to tackle projects faster than everUp to eight GPU cores with up to x faster graphics for graphics-intensive apps and games-core Neural Engine for advanced machine learningGB of unified memory so everything you do is fast and fluidSuperfast SSD storage launches apps and opens files in an instantFanless design for silent operation.-inch Retina display with P wide color for vibrant images and incredible detailFaceTime HD camera with advanced image signal processor for clearer sharper video calls",
        "condition":"Used",
        "rating":2.6,
@@ -1082,7 +1082,7 @@ const products1 = [
     {
        "item":"HP 24mh FHD Monitor - Computer Monitor with 23.8-Inch IPS Display (1080p) - Built-In Speakers and VESA Mounting - Height/Tilt Adjustment for Ergonomic Viewing - HDMI and DisplayPort - (1D0J9AA#ABA)",
        "category":"Electronics",
-       "sub_category":"Computers & Accessories",
+       "sub_category":"Computers and Accessories",
        "description":"This fits your.Make sure this fits by entering your model number. OUTSTANDING VISUALS  This FHD display with IPS technology gives you brilliant visuals and unforgettable quality with a maximum resolution of  x    Hz youll experience the image accuracy and wide-viewing spectrums of premium tablets and mobile devicesMORE SCREEN LESS SPACE  Enjoy more desk space than you thought possible with an attractive and ultra-slim designPANORAMIC VIEWING  Vibrant detail from practically any position with consistent color and image clarity maintained across an ultra-wide  horizontal and vertical viewing anglesMICRO-EDGE DISPLAY  With virtually no bezel encircling the display on three sides an ultra-wide viewing experience provides for seamless multi-monitor setupsEASY CONNECTIVITY  Get the picture quality youve been looking for without the additional dongles easily connect to your PC gaming console and peripherals for big-screen entertainment with a broad range of ports including HDMI DisplayPort and VGA portsBUILT-IN SPEAKERS  Experience incredible sound and more immersive entertainment with two built-in W speakersLOW BLUE LIGHT  Put less strain on your eyes as a Low Blue Light mode shifts colors to a warmer spectrum and makes whites more naturalHEIGHT ADJUSTMENT  Easily adjust your display to the most comfortable position with mm range of travelTILTABLE SCREEN  Adjust the screen to your personal preference with a  forward or  backward tiltWARRANTY AND SUSTAINABILITY  Rest easy and work confidently with an environmentally conscious and energy-efficient monitor backed by HP standard -year limited warranty",
        "condition":"Used",
        "rating":2.3,

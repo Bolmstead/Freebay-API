@@ -11,12 +11,12 @@ class Product {
   // Grabs products and their bidder info based on search query parameters.
   // Utilizes pagination with a max number of products in each query. 
   static async getProducts(q, pagination = false) {
+    console.log("q",q)
     let query = `SELECT products.id,
                         products.name,
                         products.category,
                         products.sub_category AS "subCategory",
                         products.description,
-                        products.condition,
                         products.rating,
                         products.num_of_ratings AS "numOfRatings",
                         products.image_url AS "imageUrl",
@@ -40,7 +40,7 @@ class Product {
     let whereExpressions = [];
     let queryValues = []; 
 
-    let { page, name, category, subCategory, description, condition, 
+    let { page, name, category, subCategory, description, 
       rating, numOfRatings, auctionEndDt} = q;
 
     // For each possible search term, add to whereExpressions and 
@@ -61,13 +61,8 @@ class Product {
     }
 
     if (description !== undefined) {
-      queryValues.push(description);
+      queryValues.push(`%${description}%`);
       whereExpressions.push(`description ILIKE $${queryValues.length}`);
-    }
-
-    if (condition !== undefined) {
-      queryValues.push(condition);
-      whereExpressions.push(`condition = $${queryValues.length}`);
     }
 
     if (rating !== undefined) {
@@ -90,6 +85,7 @@ class Product {
     whereExpressions.push(`auction_ended = false`);
     query += " WHERE " + whereExpressions.join(" AND ");
 
+    console.log("query", query)
     // Send query for all products. 
     const allProductsResult = await db.query(query, queryValues);
     if(!allProductsResult) {
@@ -143,7 +139,6 @@ class Product {
             products.category,
             products.sub_category AS "subCategory",
             products.description,
-            products.condition,
             products.rating,
             products.num_of_ratings AS "numOfRatings",
             products.image_url AS "imageUrl",

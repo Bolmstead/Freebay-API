@@ -350,7 +350,7 @@ const products2 = [
       {
          "item":"Apple Cider Vinegar Gummy Vitamins by Goli Nutrition - Immunity & Detox - (1 Pack, 60 Count, with The Mother, Gluten-Free, Vegan, Vitamin B9, B12, Beetroot, Pomegranate)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Vegan Non-GMO Gluten-free  Gelatine-free Each bottle of Goli contains  delicious vegan non-gmo gluten-free  gelatine free Apple Cider gummies. Our formula will make Apple Cider Vinegar gummies accessible to anyone and everyone.Better digestion more energy clearer skin detox immunity Relieve digestion issues experience more energy watch your skin clear up and feel as your body detoxes with Goli Gummies. Enjoy all of the benefits of Apple Cider Vinegar without the downside of drinking it. Goli is an excellent and easy way to incorporate Apple Cider Vinegar into your daily routine.Made in USA with select ingredients thoughtfully curated from around the world. All Goli products are made in allergen-free state of the art facilities in the United States to ensure that the quality of our product is the highest it can be.Real apples vitamin packed great taste Made with real apples beetroot and pomegranate Goli Gummies are as delicious as they are good for you. Our vegan friendly formula is packed with Vitamin B and B that will help improve energy support healthy skin and so much more.Vitamin Angels Goli wants to give back to the community by partnering with Vitamin Angels. For every bottle you purchase Goli donates a  months supply of vitamins to a child in order to fight malnutrition around the world.",
          "condition":"New - Open Box",
          "rating":0.4,
@@ -362,7 +362,7 @@ const products2 = [
       {
          "item":"Amazon Basics 4 Pack AA High-Performance Alkaline Batteries, 10-Year Shelf Life, Easy to Open Value Pack",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"AA .-volt performance alkaline batteries for reliable performance across a wide range of devices-year leak-free shelf life air- and liquid-tight seal locks in the power until its needed thanks to the improved design which includes dual crimps a new zinc composition and anti-corrosion componentsDelivers the amount of power needed for a specific device ideal for game controllers toys flashlights digital cameras clocks and moreBacked by an Amazon Basics -year limited warrantyNote these batteries are NOT rechargeable. For reusable options check out Amazon Basics rechargeable batteriesSame product new look! Appearance of batteries you receive may varyTo learn more about recycling single-use batteries simply copypaste this link into your browser callrecycle.orgwhat-can-i-recycle",
          "condition":"Used",
          "rating":4.2,
@@ -374,7 +374,7 @@ const products2 = [
       {
          "item":"Amazon Basics 100 Pack AAA High-Performance Alkaline Batteries, 10-Year Shelf Life, Easy to Open Value Pack",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"AAA .-volt performance alkaline batteries ideal for a variety of devices including game controllers toys flashlights digital cameras and clocks-year leak-free shelf life air- and liquid-tight seal locks in the power until its needed thanks to the improved design which includes dual crimps a new zinc composition and anti-corrosion componentsDelivers the amount of power needed for a specific device ideal for game controllers toys flashlights digital cameras clocks and moreShips in Certified Frustration-Free Packaging backed by an Amazon Basics -year limited warrantyNote these batteries are NOT rechargeable. For reusable options check out Amazon Basics rechargeable batteriesTo learn more about recycling single-use batteries simply copypaste this link into your browser callrecycle.orgwhat-can-i-recycle",
          "condition":"New - Open Box",
          "rating":2.8,
@@ -386,7 +386,7 @@ const products2 = [
       {
          "item":"Nature's Bounty 50 mg 100 ea",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This fits your.Make sure this fits by entering your model number. Immune support -count mg zinc caplets for immune system health. The zinc in Nature's Bounty zinc caplets is a trace element that plays a vital role in immune support.Number one brand Nature's Bounty is the number  brand for zinc supplements.Antioxidant health Nature's Bounty zinc caplets can function as an antioxidant within the body supporting antioxidant health.Skin health As a component of the enzyme collagenese Zinc has been clinically studied for its contribution to skin healthQuality purity potency Nature's Bounty is committed to safety and purity in all our supplements. Our zinc caplets are Non-GMO and sugar- and gluten-free.",
          "condition":"Used",
          "rating":3.4,
@@ -398,7 +398,7 @@ const products2 = [
       {
          "item":"Lysol Disinfecting Wipes, Lemon & Lime Blossom, 80ct",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Kills cold and flu virusesKills . of viruses and bacteriaKills pandemic  HN influenza a virus",
          "condition":"New - Open Box",
          "rating":0.2,
@@ -410,7 +410,7 @@ const products2 = [
       {
          "item":"Nature's Way Sambucus Black Elderberry Gummies with Vitamin C and Zinc, 60 Gummies",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Triple action immune blend with vitamin C zinc and black elderberry extract.Sambucus elderberry gummies are made from black elderberry extract. Elderberries have traditionally been used as a winter remedy for immune support.Full-spectrum black elderberry extract is standardized to anthocyanins which are potent flavonoid BioActives.Our elderberry extract has been tested for bioavailability and activity within the body.No artificial colors flavors or preservatives. Gluten-free.",
          "condition":"Used",
          "rating":2.3,
@@ -422,7 +422,7 @@ const products2 = [
       {
          "item":"Amazon Brand - Presto! Flex-a-Size Paper Towels, Huge Roll, 12 Count = 30 Regular Rolls",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Up to  more absorbent versus leading -ply brandIncludes  Huge Rolls  Packs of  Huge Rolls of  -ply sheets per roll Huge Rolls   Regular Rolls based on a regular roll with  sheetsFlex-a-Size lets you suit your towel to your messMade with pulp sourced from sustainably managed forests and controlled sourcesRunning low? Restock by asking Alexa order Presto! paper towels through your Alexa deviceAn Amazon brand",
          "condition":"New",
          "rating":4.5,
@@ -434,7 +434,7 @@ const products2 = [
       {
          "item":"Premier Protein Shake -24 Vitamins & Minerals/Nutrients to Support Immune Health, Bananas & Cream, 138 Fl Oz",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This smooth delectable shake helps get you the protein your body needs with bananas and cream taste Winner of American Masters of Taste Gold Medalg of protein to help curb your hunger as a mid-day snack or for post workout recovery includes all essential amino acids Vitamins and Minerals Support your immune health Antioxidants Vitamins C D and E  Zinc and Magnesium  of daily value of calcium to help maintain bone healthGuilt free indulgence g Sugar g Carbs  Calories and Low Fat Gluten Free No Soy Ingredients Keto and Bariatric Friendly KosherTry all nine  delicious smooth and creamy flavors Chocolate Vanilla Caramel Cookies  Cream Cafe Latte Strawberries  Cream Peaches  Cream Bananas  Cream and Cinnamon RollSkip the hassle of protein powder with the convenience of this ready to drink protein shake great on the go nourishment that also pairs well with coffee cereal a pancake recipe or in your favorite smoothie",
          "condition":"New - Open Box",
          "rating":1.5,
@@ -446,7 +446,7 @@ const products2 = [
       {
          "item":"Amazon Brand - Presto! 308-Sheet Mega Roll Toilet Paper, Ultra-Soft, 24 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Includes  Mega Rolls  Packs of  Mega Rolls with  -ply sheets per roll Mega Rolls   Regular Rolls based on a regular roll with  sheetsLeaves less lint behind versus the leading Ultra-Premium Soft Brand based on laboratory testingRVSeptic-safe bath tissueMade with pulp sourced from sustainably managed forests and controlled sourcesMega Rolls are our longer-lasting rollsSheet dimensions -  x  inchesRunning low? Restock by asking Alexa order Presto! toilet paper through your Alexa deviceAn Amazon brand",
          "condition":"Used",
          "rating":0.0,
@@ -458,7 +458,7 @@ const products2 = [
       {
          "item":"Probiotics 60 Billion CFU - Dr. Approved Probiotics for Women, Probiotics for Men and Adults, Natural, Shelf Stable Probiotic Supplement with Organic Prebiotic, Acidophilus Probiotic, 30 Capsules",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":" Billion Cfus Max Strength Our probiotic actually contains  Billion Cfus per serving. Other brands claim it but beware of deception. Some products say \"equivalent to\" or do not state an amount of Cfus. We saw a need for high-quality supplements that actually work and stand by their claims. Our most popular probiotic brings you exactly what's on the label with  probiotic strains  Billion Cfu and an organic prebiotic blend.Probiotics and Organic Prebiotics Our Doctor-Approved probiotics are made with prebiotics and probiotics based on clinical research. A complete probiotic supplement for ultimate digestive health. Made with  probiotic strains  premium grade professional grade Non-Gmo ingredients. Shelf-stable vegan probiotics with No unnecessary binders soy gluten milk egg wheat peanuts shellfish or preservatives.Naturally Inspired Probiotic Supplement Contains  strains plus a Patented Shelf-Stable bottle which ensures product stability. Our probiotic daily blend plus organic prebiotic fiber blend naturally helps to support the stomach's digestive environment and supports the natural stomach balance. Great for gut health and occasional gas relief bloating relief constipation digestive health and intestinal health.Best Probiotics for Adults Our prebiotics and probiotics are effective and intended for use by adults. Acidophilus probiotic with prebiotic including  strains Lactobacillus acidophilus La- Lactobacillus casei Lc- Lactobacillus paracasei Lpc- Lactobacillus salivarius Ls- Lactobacillus plantarum Lp- Bifidobacterium lactis Bl- Bifidobacterium bifidum Bb- Bifidobacterium longum Bl- Bifidobacterium breve Bb- Lactobacillus bulgaricus Lb-.Safety Assured Standard of Quality Our  Billion Probiotic is rd-party tested for purity and potency. Each bottle is manufactured in the USA using imported and domestic ingredients. Our probiotics are made for women and men. They contain  Billion Cfus at the time of manufacturing more than the usual  Billion Cfu plus our standard organic prebiotic blend!",
          "condition":"New - Open Box",
          "rating":3.6,
@@ -470,7 +470,7 @@ const products2 = [
       {
          "item":"Under Armour Adult Sports Mask",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":" PolyesterImportedPull On closureMachine WashMade with high-performance UA materials designed to be worn all day  when playing sportsStructured design sits up off the face  lips for added comfort  breathabilityUA Iso-Chill fabric on interior lining  ear loops feels cool to the touch for as long as you wear itFabric is soft  smooth for next to face comfort  moves moisture from your mouth to the insert layerWater-resistant outer shell features smooth breathable spacer fabric antimicrobial treatment on the inside layer to help keep mask fresh",
          "condition":"Good",
          "rating":4.7,
@@ -482,7 +482,7 @@ const products2 = [
       {
          "item":"Zarbee's Naturals\u00a0Children's Sleep with Melatonin Supplement, Natural Berry Flavored, 50 Gummies",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"NATURAL ZZZs Let Zarbee's Naturals remedy your child's occasional sleeplessness with a chewable gummy in a yummy natural berry flavor. Our formula contains melatonin a drug-free  safe ingredient.NATURAL SLEEP SUPPLEMENT WITH MELATONIN These gummies promote restful sleep in children age  and up. They feature a natural berry flavor from real fruit extracts for a great taste kids will love!REST EASIER Melatonin is a hormone the brain produces to help regulate sleep  wake cycles. Our supplemental version features non-habit forming ingredients that gently guide your child to sleep.NATURAL INGREDIENTS From vitamins that help support immune systems to cough syrups that soothe powerful natural ingredients like dark honey elderberry and agave form the backbone of our products.WE'LL BEE THERE Healthy families start with wholesome ingredients for everyone from babies  toddlers to kids  adults. Try our vitamins  supplements immune support cough  throat relief  more!",
          "condition":"New - Open Box",
          "rating":1.1,
@@ -494,7 +494,7 @@ const products2 = [
       {
          "item":"Vital Proteins Collagen Peptides Powder - Pasture Raised, Grass Fed, unflavored 20 oz",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Explore Jennifer Aniston's tips for wellness ---- \"My go-to collagen routine is to add Vital Proteins' Collagen Peptides to my morning cup of coffee or smoothies  its so easy to use.\"Bioavailable Collagen Peptides Powder ---- Sourced from grass-fed pasture-raised bovine to ensure a high quality and sustainable source of this powerful ingredient. Digested and absorbed by the body quickly for maximum benefits.Health Benefits ---- Original Collagen Peptides with Hyaluronic Acid  Vitamin C is Vital Proteins exclusive product. Supports healthy hair skin nails joints ligaments and tendons.Certifications ---- Non-GMO. Paleo Friendly  Whole Approved. No added sugars or sweeteners. Gluten cholesterol heavy metals and dairy free. Flavorless odorless.g Collagen Powder per Serving ---- Provides  daily servings at g per serving. A scoop is included inside the container for precise measuring. That's also why the container isnt full and just has to leave room for the scoop. And our product quantity based on weight not canister size.",
          "condition":"New",
          "rating":0.2,
@@ -506,7 +506,7 @@ const products2 = [
       {
          "item":"Cascade Platinum Plus Dishwasher Pods, ActionPacs Detergent, Lemon, 70 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This fits your.Make sure this fits by entering your model number. No pre-wash needed. Cascade Platinum PLUS dishwasher detergent cleans -hour stuck-on food so well you can skip the pre-wash. This can save up to  gallons of water per dishwasher load!ActionPacs are formulated with the grease-fighting power of Dawn dish soap. Formulated with POWER BOOSTER.Cascade Platinum PLUS ActionPacs dishwashing detergent dissolve lift and rinse away food. Recommended Brand in North America. More dishwasher brands in North America recommend Cascade vs. any other automatic dishwashing detergent brand recommendations as part of co-marketing agreementsPremeasured Actionpac dissolves quickly to unleash cleaning power early in the cycle No finicky wrapping.Phosphate free.",
          "condition":"Good",
          "rating":1.3,
@@ -518,7 +518,7 @@ const products2 = [
       {
          "item":"Clorox Disinfecting Bleach Free Cleaning Wipes, 75 Count (Pack of 3) (Scent May Vary)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"DISINFECTING WIPES Clorox Disinfecting Wipes are proven to kill COVID- Virus in  seconds cleans and kills . of viruses and bacteria with powerful triple-layered wipe packaging may varyALL PURPOSE WIPE Easy to stack space saving pack allows you to take Clorox Disinfecting wipes anywhere including on the goMULTI-SURFACE CLEANER Germs and messes occur on more than kitchen counters and bathroom surfaces conveniently tackle any tough surface including finished wood sealed granite and stainless steelEASY PULL PACK New easy to pull flip top pack allows for the easiest way to clean and disinfect open with one hand dispenses one wipe at a timeNO BLEACH Disinfect and deodorize with the fresh smell of Clorox disinfecting wipes for a bleach-free all-in-one cleaning alternative. Safely wipe down toys remotes or clean up car spills with these sanitizing wipes",
          "condition":"Good",
          "rating":2.0,
@@ -530,7 +530,7 @@ const products2 = [
       {
          "item":"Amazon Brand - Solimo Tall Kitchen Drawstring Trash Bags, 13 Gallon, 45 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Includes  tall kitchen garbage bagsEach trash bag has a  gallon capacityWhite trash bag with red drawstring closure for easy tying and carryingAn Amazon brand",
          "condition":"Good",
          "rating":3.0,
@@ -542,7 +542,7 @@ const products2 = [
       {
          "item":"Cottonelle Ultra ComfortCare Toilet Paper with Cushiony CleaningRipples, 24 Family Mega Rolls, Soft Bath Tissue (24 Family Mega Rolls = 108 Regular Rolls)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Contains  family mega toilet paper rolls  sheets per roll  mega rolls   regular rollsx thicker  x more absorbent per sheet vs. the leading national value brandSoft -layer toilet paperCottonelle's thickest softest toilet paperMade with plant-based fibers - clog-safe sewer-safe septic-safeSustainably sourced from responsibly managed forestsPair with Cottonelle Flushable Wipes for a refreshing clean - hypoallergenic and  flushablePackaging may vary from images shown",
          "condition":"Good",
          "rating":0.9,
@@ -554,7 +554,7 @@ const products2 = [
       {
          "item":"Collagen Peptides Powder | Hydrolyzed for Better Collagen Absorption | Non-GMO Verified, Certified Keto Friendly and Gluten Free - Unflavored",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Collagen is one of the most important nutrients needed to ensure the health and vitality of your skin hair tendon cartilage bones and joints. Around the age of  our bodies naturally begin to produce less collagen and the first signs of aging start to occur.Each scoop contains grams of Type  Collagen Peptides with  Amino Acids including glycine proline  hydroxyproline.Flavorless and mixes easily - use it in your favorite recipes smoothies soups Keto Coffee  more Helpful Hack To enjoy in cold water without clumping mix collagen in room temperature water first then add ice.Non-Gmo Verified Keto  Paleo. Hydrolyzed for better bioavailability.If you don't see results within  days simply return your product for a refund See details below.",
          "condition":"New - Open Box",
          "rating":0.6,
@@ -566,7 +566,7 @@ const products2 = [
       {
          "item":"Affresh W10501250 Washing Machine Cleaner, 6 Tablets: Cleans Front Load and Top Load Washers, Including HE",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This fits your.Make sure this fits by entering your model number. Cleans and freshens washer interiorFoaming tablet dissolves slowly to remove residueSafe for all washer componentsSafe on septic tanksPackage includes six tablets See more product details",
          "condition":"Used",
          "rating":4.1,
@@ -578,7 +578,7 @@ const products2 = [
       {
          "item":"Cascade Complete ActionPacs Dishwasher Detergent, Fresh Scent",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This fits your.Make sure this fits by entering your model number. Tougher than baked-on food messesNo pre-wash needed. Cleans -hour stuck-on food so well you can skip the pre-wash. This can save up to  gallons of water per dishwasher load!For best results use with Cascade Rinse Aid and Dishwasher CleanerNo premeasuring needed Cascade ActionPacs are convenient and easy to use. No finicky wrapping.Dissolves quickly to unleash cleaning power early in the cycle",
          "condition":"New",
          "rating":2.5,
@@ -590,7 +590,7 @@ const products2 = [
       {
          "item":"Vital Proteins Collagen Powder Supplement Hydrolyzed Peptides - Non-GMO, Dairy&Gluten Free Unflavored 10oz",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Explore Jennifer Aniston's Tips for Wellness ---- \"My go-to collagen routine is adding Vital Proteins' Collagen Peptides in my morning cup of coffee or smoothie - so easy to use.\"Bioavailable Collagen Peptides Powder ---- Sourced from grass-fed pasture-raised bovine to ensure high quality and sustainable source of this powerful ingredient. Digested and absorbed by the body quickly for maximum benefits.Health Benefits ---- Original Collagen Peptides with Hyaluronic Acid  Vitamin C is Vital Proteins exclusive product. Supports healthy hair skin nails joints ligaments and tendons.Certifications ---- Non-GMO. Paleo Friendly  Whole Approved. No added sugars or sweeteners. Gluten cholesterol heavy metals and dairy free. Flavorless odorless.g Collagen Powder per Serving ---- Provides  daily servings at g per serving. Each container is filled with exactly  oz of collagen powder empty space inside is reserved for the measuring-scoop.",
          "condition":"Good",
          "rating":0.2,
@@ -602,7 +602,7 @@ const products2 = [
       {
          "item":"Quest Nutrition Birthday Cake - High Protein, Low Carb, Gluten Free, Keto Friendly, 12 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"EVERY DAY CAN BE YOUR SPECIAL DAY The Quest Birthday Cake Protein Bar tastes like a slice of birthday cake you can enjoy every day. Celebrate with g protein g net carbs and less than g of sugar per bar.CELEBRATE COMPLETE PROTEINS Quest Birthday Cake Protein Bars are made with complete dairy-based proteins to provide your body with  essential amino acids.FIBER IS YOUR FRIEND Each Quest Birthday Cake Protein Bar has g of fiber to provide your body with a more complete macro profile.SWEET WITHOUT ADDED SUGAR Enjoy the rewarding taste without worrying about added sugars. The Quest Birthday Cake Protein Bar has no added sugars.COMFORT FOODS FOR ANYTIME CRAVINGS The Quest Birthday Cake Protein Bar is a sweet treat without all the sugar you can enjoy whenever you want to satisfy your sweet tooth",
          "condition":"Used",
          "rating":3.8,
@@ -614,7 +614,7 @@ const products2 = [
       {
          "item":"Kleenex Ultra Soft Facial Tissues, 8 Rectangular Tissue Boxes, 120 Tissues per Box (960 Tissues Total)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Contains  rectangular tissue boxes with  Kleenex Ultra Soft tissues per box   tissues totalThe softest ultra tissue among national brandsIndulgently soft -layer tissues provide ultimate softness among national brands  dependable strengthTissue boxes available in a variety of colors designs and sizes may vary from image shownBuy in bulk  save on Americas  facial tissue brand among national brands",
          "condition":"New",
          "rating":2.5,
@@ -626,7 +626,7 @@ const products2 = [
       {
          "item":"Duracell - CopperTop AA Alkaline Batteries - long lasting, all-purpose Double A battery for household and business - 2 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Duracell AA Batteries The Duracell CopperTop Double A alkaline battery is designed for use in household items like remotes toys and more.Duracell guarantees these batteries against defects in material and workmanship. Should any device be damaged due to a battery defect we will repair or replace it at our option.Long Lasting Power Duracell alkaline batteries are designed and developed for long lasting performance.Guaranteed for  years in Storage Duracell AA alkaline batteries are guaranteed for  years in storage. Trusted Battery Brand Duracell CopperTop batteries are available in Double A AA Triple A AAA C D and V sizes.",
          "condition":"New - Open Box",
          "rating":3.7,
@@ -638,7 +638,7 @@ const products2 = [
       {
          "item":"Garden of Life Dr. Formulated Once Daily Women\u00c6s Shelf Stable Probiotics 16 Strains, 50 Billion CFU Guaranteed Potency to Expiration, Gluten Dairy & Soy Free One a Day, Prebiotic Fiber, 30 Capsules",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"DIGESTION SUPPORT This once daily probiotic supplement contains Lactobaccilus acidophilus and Bifidobacteria for digestive health and constipation reliefPROBIOTICS FOR WOMEN Specially formulated probiotic for women's specific health needs contains L. reuteri and L. fermentum for vaginal healthIMMUNE SUPPORT This dietary supplement has  billion CFU and  probiotics for immune system healthSHELF STABLE PROBIOTICS This  billion probiotics supplement comes in  one daily capsules no refrigeration requiredHYPOALLERGENIC PROBIOTIC Our probiotic is dairy free gluten free soy free and vegetarian",
          "condition":"New",
          "rating":1.3,
@@ -650,7 +650,7 @@ const products2 = [
       {
          "item":"Amazon Brand - Solimo 2-Ply Toilet Paper, 6 Count (Pack of 5)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Includes  rolls  packs of  Rolls. Each roll has  -ply sheets  sheets in totalSafe for standard Sewer and Septic SystemsMade with pulp from responsibly sourced treesIf youre not completely satisfied well refund the full amount of your purchase. No returns necessary.An Amazon brand",
          "condition":"New - Open Box",
          "rating":0.5,
@@ -662,7 +662,7 @@ const products2 = [
       {
          "item":"Amazon Basics 2 Pack CR1616 3 Volt Lithium Coin Cell Battery",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This fits your.Make sure this fits by entering your model number. One pack of  CR lithium coin cell batteries for small electronic devicesPowers devices such as watches calculators sporting goods games medical devices and moreLong-lasting reliable battery life performs in extreme temperaturesEngraved with battery model for easy identificationContains zero mercuryTo learn more about recycling single-use batteries simply copypaste this link into your browser callrecycle.orgwhat-can-i-recycle.",
          "condition":"Good",
          "rating":4.6,
@@ -674,7 +674,7 @@ const products2 = [
       {
          "item":"Folex Carpet Spot Remover, 32 oz",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This fits your.Make sure this fits by entering your model number. Excellent for cleaning any color fast carpet or material that can be safely dampened with water.Carpet spot removers instant size  ounces Safely removes tough spots and stains from colorfast carpet rugs upholstery and clothing. Does not leave a sticky residue. No rinsing or vacuuming necessary.No rinsing no vacuuming or waiting to see results!Instant results simply apply to the stain gently agitate with finger tips and blot with absorbent cloth stains will disappear instantly.Non-toxic and completely non-irritating to normal skin",
          "condition":"Used",
          "rating":0.2,
@@ -686,7 +686,7 @@ const products2 = [
       {
          "item":"Scotch-Brite Non-Scratch Scrub Sponges, 9 Scrub Sponges, Lasts 50% Longer Than The Leading National Value Brand (.1 Pack - 9 Count)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"",
          "condition":"New - Open Box",
          "rating":3.0,
@@ -698,7 +698,7 @@ const products2 = [
       {
          "item":"Brawny Tear-A-Square Paper Towels, Quarter Size Sheets, 16 Count of 128 Sheets Per Roll",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Brawny tear a square  ply premium white paper towel has a unique quarter sheet size option with  quarter sheets per roll Brawny tear a square provides a smaller sheet size option for your smaller tasks so that your roll can last longerMessy surprises lurk all around the house and they come in all sizes Brawny tear a square paper towels offer three sheet size options in each paper towel roll Full sheet half sheet and quarter sheet so you can use just what you need without the waste Gone is guilt of using a full or half sheet paper towel when only a quarter sheet is needed for your smaller tasksLike all other Brawny paper towel products Brawny tear a square paper towels are strong absorbent and durable They are perfect for both tough messes and small everyday clean ups like food preparation and cooking cleaning glass kitchen counters and bathroom vanitiesUse brawny tear a square quarter sheet size paper towels for small spills and quick clean ups to place snacks as a napkin or a coaster Brawny tear a square has the strength for messes big small and anywhere in betweenThis package contains  tear a square  ply white premium paper towel rolls  packs of  tear a square rolls Each paper towel roll has  quarter sheets Each quarter sheet measures . L X . W inches ROLLSROLLOS  -PLY Sheets per rollHOJAS POR ROLLO . Square feet . meter  inch PLG X . inchPLG . centimeter X . centimeter",
          "condition":"Used",
          "rating":1.1,
@@ -710,7 +710,7 @@ const products2 = [
       {
          "item":"Cottonelle FreshFeel Flushable Wet Wipes for Adults, 8 Flip-Top Packs, 42 Wipes per Pack (336 Wipes Total)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Contains  flip-top packs of  moist wipes per pack   wipes total packaging may vary flushable  The only flushable wipe endorsed by a WasteWater Utility JEAPlastic-free  made with water  renewable plant-based fibersAlcohol-free paraben-free dye-free no harsh chemicalsSustainably Sourced from responsibly managed forestsPackaging may vary",
          "condition":"New",
          "rating":1.9,
@@ -722,7 +722,7 @@ const products2 = [
       {
          "item":"SmartyPants Daily Gummy Multivitamin Kids (30 Day Supply), Cherry Berry, Cherry, 120 Count (Pack of 1)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Kids Formula with new premium ingredients all in one delicious serving Beta Carotene Vitamin B Vitamin K and Choline Packaging May VaryNon-GMO. Free of milk eggs peanuts tree nut allergens fish allergens shellfish soy gluten and wheat. No synthetic colors or artificial sweetenersflavors. RD PARTY LAB TESTED. No refrigeration requiredFor children  years of age and older take four  gummies daily. May be taken with or without food. essential nutrients vitamin D for bone  immune health vitamin B methylcobalamin for energy omega- EPA  DHA from fish oil vitamin E from sunflower oil for antioxidant support iodine for thyroid support.All in one childrens multivitamin with omega- EPA  DHA essential fatty acids sustainably sourced from wild-caught small fish.During the summer months products may arrive warm but Amazon stores and ships products in accordance with manufacturers' recommendations when provided.",
          "condition":"New - Open Box",
          "rating":3.9,
@@ -734,7 +734,7 @@ const products2 = [
       {
          "item":"Bounty Quick-Size Paper Towels, White, 12 Family Rolls = 30 Regular Rolls",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This pack contains  more sheets per pack which means  extra days worth of paper vs. Bounty Select-A-Size  Double Plus Rolls Estimated based on manufacturer data. Actual usage may vary by householdBounty the Quicker Picker UpperX More Absorbent Vs. the Custom-Size-It brand in the U.SRunning low? Just ask Alexa order Bounty paper towels.\" of the pulp used to make our paper towels is from responsibly managed forests",
          "condition":"New",
          "rating":1.8,
@@ -746,7 +746,7 @@ const products2 = [
       {
          "item":"NatureWise Vitamin D3 5000iu (125 mcg) Gluten Free in Cold-Pressed Organic Olive Oil, No Artificial Color, 90 Count (Pack of 1)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Highest potency Provides   IU of Vitamin D per serving the daily requirement recommended by the Vitamin D Council to restore depleted vitamin D levels in adults with minimal sun exposure.Most active form NatureWise Vitamin D gives you the same natural biologically active form of Vitamin D that your body produces naturally from sunlight  but without the risky UVB exposure.Superior absorption Vitamin D is a fat-soluble vitamin that requires dietary fat for the body to absorb it. Our best-selling Vitamin D is delivered in certified organic olive oil a healthy fat source that improves bioavailability.An essential vitamin Vitamin D is an essential nutrient for healthy bones teeth muscle function and immune system support. The Mayo Clinic estimates that - of the general population may be Vitamin D deficient.Pure  natural These Vitamin D immune support and bone health supplements are gluten-free and non-GMO. Third party tested for purity and potency. Packaging may vary due to high demand same great product and ingredients.During the summer months products may arrive warm but Amazon stores and ships products in accordance with manufacturers' recommendations when provided.",
          "condition":"Good",
          "rating":4.2,
@@ -758,7 +758,7 @@ const products2 = [
       {
          "item":"Optimum Nutrition Gold Standard 100% Whey Protein Powder, Chocolate Hazelnut, 2 Pound (Packaging May Vary)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Packaging May Vary - New look with the same trusted quality!GOLD STANDARD  WHEY BLEND  g blended protein consisting of whey protein isolate whey protein concentrate and whey peptides to support lean muscle mass  they don't call it the GOLD STANDARD of quality for nothingOVER G OF BCAAS  help build lean and strong muscles with naturally occurring BCAAs-G CARBS -G SUGAR AND -.G FAT GLUTEN FREE No Sucralose in Double Rich Chocolate FlavorINSTANTIZED  improves mixability to prevent lumps and clumpsBANNED SUBSTANCE TESTED  highest quality control measures so you feel comfortable and safe consuming the product SIZES TO CHOOSE FROM     and -pound options availableOVER  DECADENT FLAVORS TO CHOOSE FROMANY-TIME FORMULA  great before or after exercise between meals with a meal or any time of day where you need extra protein in your nutritionMost Awarded Best-Selling Whey Protein Powder On The Planet. Provided by Euromonitor International Limited Consumer Health  edition Sports Protein Powder category  retail value share  data",
          "condition":"New - Open Box",
          "rating":4.0,
@@ -770,7 +770,7 @@ const products2 = [
       {
          "item":"Bounty Quick-Size Paper Towels, White, 16 Family Rolls = 40 Regular Rolls",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Pack contains  Family Rolls of Bounty Quick Size paper towels equal to  Regular RollsThis pack contains  more sheets per pack which means  extra days worth of paper vs. Bounty Select A Size  Double Plus Rolls Estimated based on manufacturer data. Actual usage may vary by householdBounty the Quicker Picker UpperX More Absorbent Vs. the Custom-Size-It brand in the U.SRunning low? Just ask Alexa order Bounty paper towels.\"",
          "condition":"New",
          "rating":0.2,
@@ -782,7 +782,7 @@ const products2 = [
       {
          "item":"Touchless Forehead Thermometer for Adults, Kids and Babies, Digital Infrared Non Contact Thermometer with Fever Indicator, 1s Instant Accurate Reading by femometer",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"This is a really cool product",
          "condition":"Good",
          "rating":4.2,
@@ -794,7 +794,7 @@ const products2 = [
       {
          "item":"Charmin Ultra Soft Cushiony Touch Toilet Paper, 24 Family Mega Rolls = 123 Regular Rolls",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Pack contains  Rolls  sheets per roll of Charmin Ultra Soft Family Mega Roll toilet paper Charmin Family Mega Roll   Regular Rolls based on number of sheets in Charmin Regular Roll bath tissueCharmins softest -ply toilet paper ever madeCharmins irresistibly soft toilet paper with a unique cushiony touchMore absorbent so you can use less vs. the leading bargain brand",
          "condition":"Good",
          "rating":1.9,
@@ -806,7 +806,7 @@ const products2 = [
       {
          "item":"Pulse Oximeter Fingertip, Blood Oxygen Saturation Monitor for Pulse Rate, Heart Rate Monitor and SpO2 Levels with OLED Screen Display Batteries and Lanyard Included",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Accurate and reliable  Our pulse oximeter can accurately determine your SpO blood oxygen saturation levels perfusion index pulse rate and pulse strength in  seconds and large OLED and backlight display make this pulse oximeter fingertip very easy to read.Lightweight and portable  LPOW oxygen saturation monitor are very light and small size low power consumption and convenient in carrying. Also it comes with a detachable lanyard which can measure your oxygen saturation anywhere.Convenience  One button operation and shut down automatically without operation in  seconds. ABS material the fingertip clip use silica gel material which are soft and easy to apply. Oxygen meter comes with a lanyard bring to the gym office or on vacation.Sports enthusiasts  Suitable for mountain climbers skiers bikers aviators or anyone interested in measuring their SpO and pulse rate while on the move. You should only use the pulse ox before or after your exercise. Also you must remain stationary while the pulse oximeter measure your pulse rate and SpO levels. This device is for sports and aviation use only.You will get   finger pulse oximeter  lanyard user manual  AAA batteries.",
          "condition":"Used",
          "rating":4.4,
@@ -818,7 +818,7 @@ const products2 = [
       {
          "item":"Duracell - CopperTop AAA Alkaline Batteries - long lasting, all-purpose Triple A battery for household and business - 2 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Duracell AAA Batteries The Duracell CopperTop Triple A alkaline battery is designed for use in household items like remotes toys and more.Duracell guarantees these batteries against defects in material and workmanship. Should any device be damaged due to a battery defect we will repair or replace it at our option.Long Lasting Power Duracell alkaline batteries are designed and developed for long lasting performance.Guaranteed for  years in Storage Duracell AAA alkaline batteries are guaranteed for  years in storage. Trusted Battery Brand Duracell CopperTop batteries are available in Double A AA Triple A AAA C D and V sizes.",
          "condition":"New",
          "rating":3.2,
@@ -830,7 +830,7 @@ const products2 = [
       {
          "item":"Fitness and Performance Drink, Orange Dreamsicle, 16 Fl Oz (Pack of 12)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Youll get x the BCAAs x the CoQ and x the electrolytes as the leading competitor.Blended with BCAAs  mg of Natural Caffeine CoQ  electrolytes Total Body Fuel is designed for your active lifestyle.Flavor Dreamsicle",
          "condition":"Good",
          "rating":4.6,
@@ -842,7 +842,7 @@ const products2 = [
       {
          "item":"Duracell - 2032 3V Lithium Coin Battery - with Bitter Coating - 1 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"BITTER TASTE DISCOURAGES SWALLOWING Non-toxic bitter coating helps prevent accidental ingestionCHILD SECURE PACKAGING Nearly impossible to open without scissorsLONG-LASTING POWER Reliable and efficient power for devices like key fobs remote controls thermometers and many othersGUARANTEED  YEARS IN STORAGENo. TRUSTED BATTERY BRAND",
          "condition":"Used",
          "rating":3.5,
@@ -854,7 +854,7 @@ const products2 = [
       {
          "item":"Energizer CR2032 Batteries, 3V Lithium Coin Cell 2032 Watch Battery, (4 Count)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Zero mercury Energizer CR batteries offer premium performance in a variety of devicesHolds power for  years in storageLithium Battery with Child resistant PackagingReplacement for LC BR DL ECR ST-TPerforms in extreme temperatures from -F - F",
          "condition":"New - Open Box",
          "rating":0.0,
@@ -866,7 +866,7 @@ const products2 = [
       {
          "item":"Cottonelle Ultra CleanCare Soft Toilet Paper with Active Cleaning Ripples, 24 Family Mega Rolls, Strong Bath Tissue (24 Family Mega Rolls = 128 Regular Rolls)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Contains  family mega toilet paper rolls  sheets per roll  family mega rolls   regular rollsx stronger  thicker x more absorbent per sheet vs. the leading value brandStrong -layer toilet paperCleaningRipples texture removes more at once per sheet vs. the leading national value brandBiodegradable bath tissue - clog-safe sewer-safe septic-safeMade with water  renewable plant-based fibersSustainably Sourced from responsibly managed forestsPair with Cottonelle Flushable Wipes for a refreshing clean - hypoallergenic and  flushablePackaging may vary from images shown",
          "condition":"New",
          "rating":3.2,
@@ -878,7 +878,7 @@ const products2 = [
       {
          "item":"Tide Pods 3 in 1, Laundry Detergent Pacs, Spring Meadow Scent, 81 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Tide PODS consist of up to  active ingredients so you can be sure that youre paying for clean not for waterx the cleaning power Stain Removal of  dose vs. X doses of the leading liquid bargain brandReveal our brightest clean yet for brighter brights and whiter whites in  technology detergent stain remover color protectorDissolves in both hot  cold water. Keep out of reach of childrenIts Spring Meadow scent is infused with fresh floral notes to help keep your familys clothes smelling great",
          "condition":"New",
          "rating":3.4,
@@ -890,7 +890,7 @@ const products2 = [
       {
          "item":"Quest Nutrition Tortilla Style Protein Chips, Chili Lime, Baked, 1.1 Ounce (12 Count)",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"g of Protein and g of Net CarbsBaked - never fried Made with high-quality Whey and Milk Protein IsolatesNo added soy ingredientsGluten FreeIncludes  bags of Quest Tortilla Chip Chili Lime Protein Chips",
          "condition":"Good",
          "rating":3.5,
@@ -902,7 +902,7 @@ const products2 = [
       {
          "item":"Emergen-C 1000mg Vitamin C Powder, with Antioxidants, B Vitamins and Electrolytes, Vitamin C Supplements for Immune Support, Caffeine Free Fizzy Drink Mix, Super Orange Flavor - 3 Count",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Includes  single-serving packets  oz each of Emergen-C Original Formula in Super Orange flavorEach serving provides daily immune support with more Vitamin C than  orangesAlso contains B Vitamins Electrolytes and other Antioxidants like Zinc and ManganeseFlavored vitamin mix is made with natural fruit flavors for a delicious Super Orange tasteVitamin C drink mix is a powder that dissolves quickly in water its refreshing and caffeine-freeEnjoy Emergen-C Original Formula Vitamin C supplement every day for routine wellnessEmergen-C Original Formula is also available in gummy and chewable formsWhen buying please check whether the product is \"Ships from and sold by Amazoncom\" just below the product price to make sure you are receiving this product from the manufacturer of Emergen-C to ensure proper product dating",
          "condition":"Good",
          "rating":2.1,
@@ -914,7 +914,7 @@ const products2 = [
       {
          "item":"Listerine Total Care Anticavity Fluoride Mouthwash, 6 Benefit Mouthwash to Help Kill 99% of Germs that Cause Bad Breath, Prevent Cavities, Strengthen Enamel & More, Fresh Mint Flavor, 1 L",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"-liter of Listerine Fluoride Anticavity Mouthwash in fresh mint flavor to improve oral health by helping to prevent cavities strengthening teeth and leaving a refreshing clean feeling you can tasteFluoride-rich mouthwash offers six dental hygiene benefits in one oral rinse to kill germs that cause bad breath strengthen teeth help prevent cavities restore enamel clean your mouth and freshen breathAnticavity mouthwash freshens breath while helping to make teeth  stronger than brushing alone according to laboratory studiesHelp protect your mouth by adding a -second rinse of this powerful anticavity mouthwash to your morning and evening oral care routinesWith approximately  weeks of supply this multi-benefit mouthwash helps prevent tooth decay and is accepted by the American Dental Association's ADA Seal of Acceptance Program",
          "condition":"Good",
          "rating":0.6,
@@ -926,7 +926,7 @@ const products2 = [
       {
          "item":"Gya Labs Basil Essential Oil for Focus and Pain Relief - Topical for Sore Muscles, Headache Relief, Migraine Relief, Improve Alertness - 100 Pure Therapeutic Grade Basil Oil for Aromatherapy - 10ml",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"Basil Essential Oil - Ocimum basilicum lFresh and Herbal - Our basil essential oils perspire a herbaceous and refreshing aroma as if you've chopped fresh basil leaves. With hints of lightly sweet notes our sweet basil oil promotes focus relieves headache and sore muscles.Diffuse or Topical - Use basil oil for diffusers for home to strengthen focus with its fresh and invigorating aroma or directly inhale to alleviate headaches. Try blending essential oil basil with carrier oils to relieve muscle aches as well.Boost Focus - The energizing scent of basil linalol essential oil helps to improve concentration ensuring you to stay focused for the day. Crush work goals with ease and ace your studies with organic  pure basil oils .Relieve Sore Muscles - The cooling properties of basil oil essential oil naturally soothes tensed muscles and sore joints. Feel your body rejuvenated and strive for limitless productivity with basil fragrance oil.Natural Ingredients - Gya Labs sweet basil essential oil organic is harvested from India and steam distilled to perfection. This organic basil essential oil is perfect for skin for candles for soap for skin and hair for diffuser for face for aromatherapy use as basil oil for hair growth organic or ocimum basilicum oil for massage.",
          "condition":"New",
          "rating":1.0,
@@ -938,7 +938,7 @@ const products2 = [
       {
          "item":"Amazon Basics 4 Pack 9 Volt Performance All-Purpose Alkaline Batteries, 5-Year Shelf Life",
          "category":"Home & Garden",
-         "sub_category":"Health & Household",
+         "sub_category":"Health and Household",
          "description":"One -pack of -volt alkaline batteries for reliable performance across a wide range of devicesIdeal for household items like garage door openers smoke detectors radios toys and moreImproved design offers a -year leak-free shelf life store for emergencies or use right awayShips in Certified Frustration-Free PackagingNote these batteries are NOT rechargeable. For reusable options check out Amazon Basics rechargeable batteriesTo learn more about recycling single-use batteries simply copypaste this link into your browser callrecycle.orgwhat-can-i-recycle",
          "condition":"Good",
          "rating":1.8,
@@ -950,7 +950,7 @@ const products2 = [
       {
          "item":"GoWISE USA GW22921-S 8-in-1 Digital Air Fryer with Recipe Book, 5.0-Qt, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Healthier cooking in  min or less Thanks to rapid air technology you can now experience your favorite food without the extra calories. This air fryer can fry bake grill and roast with little to no oil.Modern touch screen design Sleek and modern look with advanced touch screen menu. New features include a startstop button allowing you to change your program mid-cycle as well as a built-in alarm function to remind you to shake your ingredients in   and -minute increments. preset cooking options and accessory Enjoy  pre-programmed cooking functions including frieschips pork chicken steak shrimp cake fish and pizza. Or use the manual controls to customize to your needs. This air fryer is equipped with a wide temperature range from F to F and a timer for up to  minutes. Cook  meals at once with the basket divider accessoryPFOA-free Comes with a non-stick and PFOA-free air fry pan and basket with a cool touch handle and removable crisper tray for easy clean-up.Recipe book included Includes  recipes specifically made for GoWISE USA Air fryers. Get started today with  step-by-step recipes to explore all that your new kitchen gadget has to offer.",
          "condition":"New",
          "rating":0.7,
@@ -962,7 +962,7 @@ const products2 = [
       {
          "item":"Dash DMW001AQ Machine for Individual, Paninis, Hash Browns, & other Mini waffle maker, 4 inch, Aqua",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. MORE THAN WAFFLES Make paninis hash browns and even biscuit pizzas! Any wet batter will waffle your treats and snacks into single serving portions Great for kids or on the go!COMPACT  LIGHTWEIGHT Weighing lb this is a MUST-HAVE for that first apartment smaller kitchen college dorm life or camperRV travelingQUICK  EASY Simply plug it in and go it heats up in mere minutes The dual non-stick surfaces provide an even cook for consistent results each and every time  inch cooking surfaces for individual portionsPERFECT GIFT The perfect wedding or new home gift Its small size takes up little counter space and its sleek design and trendy color options will match any kitchen dcor add to your registry now!INCLUDES Backed by a -year manufacturer warranty the Dash Mini Waffle maker includes recipe book and recipe database access all non-electric parts are easily wiped cleanU.S. BASED SUPPORT Dash is a U.S. based company who provides contact information in each product manual",
          "condition":"Used",
          "rating":3.9,
@@ -974,7 +974,7 @@ const products2 = [
       {
          "item":"GreaterGoods Digital Food Kitchen Scale, Multifunction Scale Measures in Grams and Ounces (Ash Grey)",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. THE RIGHT CHOICE Youve found an inexpensive everyday food scale without compromise.THE FEATURES YOU NEED g resolution lb capacity easy to read. See Product Description for more.BACKED BY REAL SUPPORT The friendly team at our St. Louis headquarters is here for whatever you need.MADE THE RIGHT WAY Your purchase should have a positive impact on all the people involved.PAY IT FORWARD A piece of your purchase helps the Global Orphan Project care for children in need.",
          "condition":"New - Open Box",
          "rating":1.0,
@@ -986,7 +986,7 @@ const products2 = [
       {
          "item":"Good Cook Touch High-Temp Hamburger Meat Chopper, 1 Pack, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number.  blade design is perfect for chopping and stirring ground meatEnsures even cooking right in the panNylon head is heat safe to Safe on non-stick surfaces satisfaction",
          "condition":"New - Open Box",
          "rating":2.6,
@@ -998,7 +998,7 @@ const products2 = [
       {
          "item":"BlenderBottle Classic Shaker Bottle Perfect for Protein Shakes and Pre Workout, 28-Ounce, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. -ounce capacity note measurements only go to  ounces shakercupfor mixing protein shakes smoothies and supplementsPatented mixing system uses  surgical-grade stainless steel BlenderBall wire whisk found only inBlenderBottlebrand shaker bottlesScrew-on lid creates leak-proof seal and flip cap snaps securely shut to keep contents contained loop top for easy carrying or attaching keys.Do not microwavefreeze or boilWide mouth makes it easy to add mix scoops and liquids and embossed markings measure both ounces and millilitersBPA and phthalate-free dishwasher safe manufacturers limited lifetime warranty",
          "condition":"New",
          "rating":3.5,
@@ -1010,7 +1010,7 @@ const products2 = [
       {
          "item":"Instant Vortex Air Fryer 4 in 1, Best Fries Ever, Roast, Bake, Reheat, 6 Qt, 1700W",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Easy Simple touch controls are easy to read and easy to use for one touch air frying roasting baking and reheating with no hassle and no messHealthy Quick and tasty meals using   less oil and fat than deep fryingSave space The vortex air fryer comes with  built in smart programs in  appliance air fry roast bake and reheat you can say sayonara to kitchen clutterSave time With little to no preheating time whip up dinner in half the time of a conventional oven without heating up the whole kitchenThe perfect crisp The vortex air fryer circulates super-hot air around your food so it cooks evenly and locks in moisture giving your meal a delicious crispy golden finish without all the oil and greaseFlavor country Enjoy all the rich flavor of deep fried cooking without the oil grease and mess Get perfect crispy on the outside tender on the inside results every single timeLarge capacity The air fryer basket is large enough to fit a  pound bag of fries or a  pound butterflied chicken",
          "condition":"Good",
          "rating":4.0,
@@ -1022,7 +1022,7 @@ const products2 = [
       {
          "item":"BlenderBottle Classic Shaker Bottle Perfect for Protein Shakes and Pre Workout, 20-Ounce, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. -ounce capacity note measurements only go to  ounces shakercupfor mixing protein shakes smoothies and supplementsPatented mixing system uses  surgical-grade stainless steel BlenderBall wire whisk found only inBlenderBottlebrand shaker bottlesScrew-on lid creates leak-proof seal and flip cap snaps securely shut to keep contents contained loop top for easy carrying or attaching keysWide mouth makes it easy to add mix scoops and liquids and embossed markings measure both ounces and millilitersBPA and phthalate-free dishwasher safe manufacturers limited lifetime warranty",
          "condition":"Good",
          "rating":3.6,
@@ -1034,7 +1034,7 @@ const products2 = [
       {
          "item":"YETI Rambler 20 oz Tumbler, Stainless Steel, Vacuum Insulated with MagSlider Lid",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. These Ramblers come standard with our YETI MagSlider Lid the only drink lid that uses the power of magnets to keep your water beer or favorite drink on lockOur Ramblers are BPA-free dishwasher safe and have a No Sweat Design to make sure your hands stay dryDracut is a durable coat of color that won't fade peel or crack through extended field use and also provide additional grip to the Rambler's exteriorWe over-engineered these double-wall insulated tumblers with an  stainless steel body which means your drink still keeps its temperature no matter how much of a beating this cup takesThe YETI  oz. Rambler Tumbler stands   in high and has a lip diameter of   in. All YETI Tumblers are sized to fit in standard sized cup holders",
          "condition":"New - Open Box",
          "rating":0.9,
@@ -1046,7 +1046,7 @@ const products2 = [
       {
          "item":"Instant Pot Duo Mini 7-in-1 Electric Pressure Cooker, Sterilizer, Slow Cooker, Rice Cooker, Steamer, Saute, Yogurt Maker, and Warmer, 3 Quart, 11 One-Touch Programs",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Compact size Great size for small households and side dishes or anywhere space is limited. Has all the features of the Duo in a compact size.Replaces up to  appliances combines  kitchen appliances in  to save you space including Pressure cooker slow cooker rice cooker steamer saute yogurt maker and warmer.  touch cooking presets for quicker cooking Soupbroth meatstew beanchili poultry sautesearing steam rice porridge steam slow cook keep Warm yogurt manual and pressure cook.Best-selling model Monitors pressure temperature keeps time and adjusts heating intensity and duration to achieve your desired results every time. Prepare dishes up to  faster.Easy to clean Fingerprint-resistant stainless steel lid and components and accessories that are dishwasher safe.",
          "condition":"New",
          "rating":3.7,
@@ -1058,7 +1058,7 @@ const products2 = [
       {
          "item":"Joseph Joseph DrawerStore Kitchen Drawer Organizer Tray for Cutlery, Silverware, Large, Gray",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Unique design creates more space in the drawerIndividual stacked compartments for different cutleryCutlery icons for easy identification and organizationNon-slip base. Fits up to  pieces of cutlery.Suitable for drawers with a minimum height of .  inchesIncluded Components  Cutlery Organizer",
          "condition":"Used",
          "rating":4.1,
@@ -1070,7 +1070,7 @@ const products2 = [
       {
          "item":"ThermoPro TP03 Digital Instant Read Meat Thermometer Kitchen Cooking Food Candy Thermometer with Backlight and Magnet for Oil Deep Fry BBQ Grill Smoker Thermometer",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Super-fast Instant reading thermometer with backlight features . inches food grade stainless steel probe gets temp readout within - seconds with high precision sensorAccurate readout Cooking thermometer with temp range of -   degree Fahrenheit -   degree Celsius accurate to . degree Fahrenheit Perfect for indoor outdoor cooking grilling BBQ and so onEasy to use Kitchen thermometer with foldable probe design folds away easily and locks into base for portability Magnetic back and hook allows for convenient storageSmart design Digital meat thermometer will auto shut off if readout stays on for  minutes Powered by AAA battery batteries includedBacklight display Grilling thermometer features backlight LCD display to let you see clearly while cooking in the evening indoors or outdoors",
          "condition":"Good",
          "rating":2.4,
@@ -1082,7 +1082,7 @@ const products2 = [
       {
          "item":"Cuisinart CCO-50BKN Deluxe Electric Can Opener, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Electric can opener with precision Power Cut blade. Cord length   Inches",
          "condition":"New",
          "rating":0.7,
@@ -1094,7 +1094,7 @@ const products2 = [
       {
          "item":"Lodge Miniature Skillet, 3.5\", Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. cast iron provides superior heat retention and is unparalleled for even cookingskillet is . inches in diameter. suitable for small batch melting mini individual deserts or utilize as spoon restmini skillet is seasoned with  vegetable oil no synthetic coatings or chemicals for a natural easy-release finish that improves with useeasy care hand wash dry rub with cooking oilmade in usa. lodge has been making cast iron cookware in south pittsburg tennessee pop.  since . with over  years of experience their cast iron is known for its high quality design lifetime durability and cooking versatilityItem shape Round",
          "condition":"Used",
          "rating":3.3,
@@ -1106,7 +1106,7 @@ const products2 = [
       {
          "item":"KitchenAid Classic Multifunction Can Opener / Bottle Opener, 8.34-Inch, Almond Cream",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. STAINLESS STEEL BLADE The KitchenAid can opener is made from strong  J stainless steel that is designed to easily puncture and open all types of cans and bottlesINTEGRATED BOTTLE OPENER An integrated bottle opener is built into the head of the can openerEASY TO TURN KNOB The can opener's large easy-to-turn knob makes opening cans an easy taskERGONOMIC HANDLES FOR COMFORT This can opener is durable and designed with ergonomic handles to provide a sure gripHAND WASH ONLY Hand wash with warm water and a mild detergent Rinse and dry immediately",
          "condition":"Used",
          "rating":0.2,
@@ -1118,7 +1118,7 @@ const products2 = [
       {
          "item":"Etekcity Food Kitchen Scale, Gifts for Cooking, Baking, Meal Prep, Keto Diet and Weight Loss, Measuring in Grams and Ounces, Small, 304 Stainless Steel",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Compact Design With a spacious yet thin platform the scale is travel-friendly and takes up little storage space.Quality Material Measure food small items and liquids milk  water with confidence on the food-grade stainless steel platform.Tare Function Use the tare function to remove container weight from the final measurement of your food.Unit Conversion Select your preferred units oz  lboz  floz  g mL to follow recipes and track your food portion with precise measurements in  g   mL  . oz increments.LCD Display Easily read measurements on the backlit LCD display.Anti-Skid Padding Avoid messes on slippery countertops with stabilizing anti-skid padding.",
          "condition":"Good",
          "rating":3.9,
@@ -1130,7 +1130,7 @@ const products2 = [
       {
          "item":"COSORI Smart 12-in-1 Air Fryer Toaster Oven Combo, Countertop Dehydrator for Chicken, Pizza and Cookies, Christmas Gift, Recipes & Accessories Included, Work with Alexa, 25L, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Smart Oven Smart Kitchen Life Goodbye to traditional cooking and easily control your oven by VeSync App or AlexaGoogle Assistant. Get Notifications Remote Monitoring turn onoff oven light and convenction fan no more guessing on adjustingVersatile in  Functions Preheat Air Fry Bake Toast Roast Broil Keep Warm Dehydrate Pizza Slow Cooker Defrost and Ferment. Great gift ideas for Thanksgiving Day and ChristmasFast Cooking  heating elements Up Low  and Hi-speed airfry fan enable you cook meals with less time and accompany families with more happinessAir Fryer Healthy Meals Up to  less fat when using the Air Fry function vs. traditional deep frying. Enjoy the same delicious crispy textures and taste as traditionally fried foodLarge Capacity The . qt   L oven can easily fit  slices of toast a -inch pizza.Recipe Inspiration Access more original chef-made recipes updated monthly in the VeSync app meanwhile create and save your own to shareThoughtful Design Enjoy easy cooking with the crisp LED screen convenient dial controls and interior oven light. Super cool touch panel helps you cook safely and easilyRequirements To access VeSync a .G Hz WiFi network is required. The oven's rated power is W in the US and Canada",
          "condition":"New",
          "rating":5.0,
@@ -1142,7 +1142,7 @@ const products2 = [
       {
          "item":"Pyrex Glass Measuring Cup Set (3-Piece, Microwave and Oven Safe),Clear",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Includes -cup -cup and -cup versionsEasy to read measurements in cups ounces and milliliters. Features a curved spout for precise pouring and easy-grip handles for comfortDurable high-quality tempered glass is dishwasher freezer microwave and preheated oven safeNonporous glass wont absorb food odors flavors or stainsBPA free secure-fit plastic lids are freezer microwave and top-rack dishwasher safe-year limited warranty on glass and plastic lidsMade in the USA",
          "condition":"New",
          "rating":4.0,
@@ -1154,7 +1154,7 @@ const products2 = [
       {
          "item":"Nordic Ware Naturals Big Baking Sheet, 2-Pack, Silver",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Naturals commercial bakeware is made of pure aluminum which will never rust for a lifetime of durability. For sweet or savory baking from cookies to sheet pan dinners this is the pan youll reach forExtra-large capacity pan holds more food than a standard sheet allowing you to bake more in each batch. Foods bake and brown evenly due to aluminums superior heat conductivity. Reinforced encapsulated steel rim prevents warping and adds strengthCompatible with parchment paper or silicone baking mats if desired. Easy clean up hand wash recommendedEach pan exterior dimensions  x  x  inches and Inner dimension - L . W - . H - . inchesProudly made in the USA by Nordic Ware",
          "condition":"Used",
          "rating":1.1,
@@ -1166,7 +1166,7 @@ const products2 = [
       {
          "item":"Magic Bullet Blender, Small, Silver, 11 Piece Set",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number.  piece blender set Includes blender additional blender cups blades recipe book  moreThe magic bullet chops mixes blends whips grinds and more. Cups are made out of high-impact plasticEffortlessly create your favorite meals and snacks like smoothies omelets sauces and dips.  watts high-torque power baseIncluded recipe book gets you started making quick easy and delicious dishes from appetizers to desserts. Add  cup water for smooth blend for vegetables",
          "condition":"New",
          "rating":0.2,
@@ -1178,7 +1178,7 @@ const products2 = [
       {
          "item":"Copco Basics 3-Tier Spice Pantry Kitchen Cabinet Organizer, 10-Inch, Cream",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. USE IN EVERY ROOM Perfect for organizing cabinets in the kitchen bathroom home office laundry room garage craft or hobby room and moreMAXIMIZE STORAGE Create more space in cluttered cabinets and pantries with this stylish and functional cream-colored -inch organizerTHREE TIERS Triples the storage!DEEP SHELVES Great for organizing cans and jars in the kitchen and moreDURABLE  SECURE Made from long-lasting plastic with nonslip shelf lining",
          "condition":"New",
          "rating":0.7,
@@ -1190,7 +1190,7 @@ const products2 = [
       {
          "item":"KitchenAid All Purpose Shears with Protective Sheath, 8.72-Inch, Aqua Sky",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. STAINLESS STEEL BLADES The blades are crafted from stainless steel that resists rusting and easily cuts through twine vegetables meat and moreCLEAN CUT EVERY TIME Each blade features micro serrations for enhanced cutting performance and are extra thick for added strength and durabilityCOMFORT GRIP HANDLE The handle is shaped for comfort and features a soft grip coatingPLASTIC GUARD INCLUDED These KitchenAid Soft Grip Handle Shears comes with a protective plastic blade guardDISHWASHER SAFE Hand wash is recommended but these shears are dishwasher safeQUALITY ASSURED one-year hassle-free replacement plus Lifetime Limited Warranty",
          "condition":"New - Open Box",
          "rating":1.8,
@@ -1202,7 +1202,7 @@ const products2 = [
       {
          "item":"ComfiLife Anti Fatigue Floor Mat \u00fb 3/4 Inch Thick Perfect Kitchen Mat, Standing Desk Mat \u00fb Comfort at Home, Office, Garage \u00fb Durable \u00fb Stain Resistant \u00fb Non-Slip Bottom (20\" x 32\", Beige)",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Anti Fatigue Mat The ComfiLife anti-fatigue floor mat enhances comfort while standing. It is professionally engineered and can be used as padded kitchen mat or for your standup desk that is guaranteed not to lose support over timeHigh Quality Materials Manufactured from superior materials the ComfiLife cushioned mat core is made of \" thick high-density foam that reduce discomfort on feet knees legs and back while standing for an extended periodMulti-use Floor Mat The ComfiLife standing pad is exceptional for your office while standing at your desk the kitchen while doing dishes the laundry room while folding clothes and while working at your workbenchStain Resistant Surface This ergonomic mat is durable stain resistant and easy to clean. Its non-slip bottom enhances safetyLifetime Satisfaction ComfiLife is trusted by hundreds of thousands happy customers around the world. Your complete satisfaction is our top priority. If youre not  satisfied we offer a Lifetime Money Back or Replacement Guarantee with no questions asked",
          "condition":"Good",
          "rating":1.2,
@@ -1214,7 +1214,7 @@ const products2 = [
       {
          "item":"Kitchen Timer, 2 Pack Digital Kitchen Timers [ 2020 Version ] Magnetic Countdown Timer with Loud Alarm, Big Digits, Back Stand for Cooking, Classroom, Bathroom, Teachers, Kids - AAA Battery Included",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This is a really cool product",
          "condition":"New - Open Box",
          "rating":4.2,
@@ -1226,7 +1226,7 @@ const products2 = [
       {
          "item":"Reynolds Kitchens Non-Stick Parchment Paper - Amazon Exclusive 12 inch - 60 Square Feet",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Parchment",
          "condition":"New - Open Box",
          "rating":1.1,
@@ -1238,7 +1238,7 @@ const products2 = [
       {
          "item":"Powlaken Meat Food Thermometer for Grill and Cooking, Instant Read Waterproof Digital Kitchen Thermometer Probe for Grilling Smoker Oil Deep Fry Candy(Black)",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"ColorBlackTake out the guesswork and eliminate overdone or undercooked food and instead make perfectly cooked beef chicken pork fish lamb or turkey every time! Also works great with beverages deep frying making candy and baking.",
          "condition":"New - Open Box",
          "rating":1.9,
@@ -1250,7 +1250,7 @@ const products2 = [
       {
          "item":"Amazon Basics Silicone, Non-Stick, Food Safe Baking Mat - Pack of 2",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number.  non-stick silicone baking mats for easy and convenient bakingNo need for oil cooking sprays or parchment paperOven-safe up to  degrees FFits half-sheet size pans easy to cleanEach baking mat measures approximately .x. inches LxW",
          "condition":"Used",
          "rating":4.4,
@@ -1262,7 +1262,7 @@ const products2 = [
       {
          "item":"Ninja Air Fryer that Cooks, Crisps and Dehydrates, with 4 Quart Capacity, and a High Gloss Finish",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Now enjoy guilt free food Air fry with up to  percent less fat than traditional frying methods Tested against hand cut deep fried French friesWide temperature range  degree Fahrenheit to  degrees Fahrenheit allows you to gently remove moisture from foods or quickly cook and crisp foods with convection heat quart ceramic coated nonstick basket and crisper plate fit  pounds of french fries. Cord length feet - .The unit will need time to preheat before coming up to temperature. We recommend that you preheat the unit for  minutes before adding your ingredients to achieve the best resultsDehydrate Create flat chip like dehydrated foods for fun homemade snacks pounds The combination of low fan speed and low temperature enables thorough dehydrationDishwasher safe parts Easy to clean basket crisper plate and multi-layer rack",
          "condition":"Good",
          "rating":2.5,
@@ -1274,7 +1274,7 @@ const products2 = [
       {
          "item":"NEW OXO Good Grips POP Container - Airtight Food Storage - 0.2 Qt for Spices and More",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. OXO Good Grips POP Containers' airtight space-efficient design keeps dry foods fresh and your cupboards organised.New shapes sizes and BPA free dishwasher-safe construction stack perfectly with all POP Containers and can be customized to fit any space.Convenient fill line makes it easy to store staples like cereal flour sugar pasta rice coffee nuts and snacks.Brand-new line of solution-based accessories easily attach to the underside of POP Container lids. This container has a E lid type so it's compatible with the labels and date dial. Accessories sold separately.Push the button to engage the airtight seal. The button doubles as a handle for the lid.For best results always use the button to open and close. Do not carry POP Containers by the lid.",
          "condition":"Good",
          "rating":0.3,
@@ -1286,7 +1286,7 @@ const products2 = [
       {
          "item":"Rubbermaid Refrigerator/ Freezer Thermometer - 1",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Necessary for food safety Thermometer displays true appliance temperature instantly to ensure safe food storageExtreme temperature range Thermometer reads between  and  degrees Fahrenheit and  degrees CelsiusPerfect for any kitchen Designed for professional kitchens with the highest quality in mind Works perfectly in any home or commercial spaceMany uses This product is perfect for traditional refrigerators mini fridges freezers coolers or any cooling based food applianceDurable material Stainless steel construction and shatter proof lens makes this thermometer highly dependable",
          "condition":"New",
          "rating":1.6,
@@ -1298,7 +1298,7 @@ const products2 = [
       {
          "item":"2-8-Cups (Cooked) Digital Rice Grain Cooker and Food Steamer, Stainless, 8 Cup, Silver, Product Dimensions: 8.25 x 9 x 8.5 inches",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Item holds up to  to  cups of cooked rice.  cups is the cooked rice capacity. Rice must be cooked in the cup that comes along with this product.Contents - includes a non-stick inner pot steamer tray rice measuring cup and plastic rice spatula.Accessories - simple to operate using our user-friendly digital panel that switches to keep warm automatically - set it and forget it!Capacity and measurements - cooks  to  cups of cooked rice. Easy to store at home - measures . x . x  inches.Multi-functional use - cooks white and brown rice to perfection but also jambalaya steamed veggies and even a fluffy cake! The possibilities are endless!!",
          "condition":"Used",
          "rating":4.1,
@@ -1310,7 +1310,7 @@ const products2 = [
       {
          "item":"Hamilton Beach Personal Blender for Shakes and Smoothies with 14oz Travel Cup and Lid, Black (51101AV)",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Compact design and BPA free Great for home office and travel with on the go portabilityBlend and go Blend and drink from the  ounce jar and lid which are both dishwasher safeOne touch blending Makes great smoothies shakes baby formula marinades salad dressing and moreStainless steel blades Ice crushing power for smooth resultsEfficient  watt motor provides all the power you need for fast reliable performanceNote Unit is not a battery powered blender. This product is a corded appliance that runs off V  requires VAC",
          "condition":"Used",
          "rating":2.5,
@@ -1322,7 +1322,7 @@ const products2 = [
       {
          "item":"Habor 022 Meat Thermometer, Instant Read Thermometer Digital Cooking Thermometer, Candy Thermometer with Super Long Probe for Kitchen BBQ Grill Smoker Meat Oil Milk Yogurt Temperature",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This is a really cool product",
          "condition":"Used",
          "rating":0.5,
@@ -1334,7 +1334,7 @@ const products2 = [
       {
          "item":"Simple Houseware Stackable Can Rack Organizer, Bronze",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. STACKABLE DESIGN get multiple sets and stack them together in a secondStore up to  can or variety size canjarsSix adjustable plastic dividers get different size can jarsbeverage can aligned and organizedAssembled in a minute and no hardware needed sturdy construction Bronze finishDimension ''W x .''D x \"H Minimum \"H required for regular cans USPTO Patent No USB",
          "condition":"Good",
          "rating":0.5,
@@ -1346,7 +1346,7 @@ const products2 = [
       {
          "item":"Wevac Vacuum Sealer Bags 8x16' Rolls 3 pack for Food Saver, Seal a Meal, Weston. Commercial Grade, BPA Free, Heavy Duty, Great for vac storage, Meal Prep or Sous Vide",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"",
          "condition":"Good",
          "rating":2.0,
@@ -1358,7 +1358,7 @@ const products2 = [
       {
          "item":"Elite Cuisine EGC-007G Maxi-Matic Egg Poacher & Egg Cooker with 7 Egg Capacity, (.1 Pack (Green))",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Cook up to  hard medium or soft boiled eggs without fat or oilAuto off and built in cooking timerFaster than boiling waterPerfect fluffy eggs every timeIncludes measuring cup with firmness markings poaching tray and omelet tray",
          "condition":"Used",
          "rating":3.6,
@@ -1370,7 +1370,7 @@ const products2 = [
       {
          "item":"Ozeri ZK14-S Pronto Digital Multifunction Kitchen and Food Scale, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Accurate elegant easy-to-use digital kitchen scale for your largest and smallest cooking projects - weighs up to . lbs  grams with precise graduations of . oz  gram.Automatic Unit Button instantly converts between  units of measurements g lbs lbsoz oz ml and displays results on an easy-to-read LCD screen - e.g. easily convert  grams to . pounds to  pound  ounces to . ounces to  ml.Precision Tare Button calculates the net weight of your ingredients by automatically subtracting the weight of any bowl or container.Features a newly enlarged weighing platform finished in elegant chrome and  large buttons that generate an audible click confirmation. Cleans and stores easily.Runs on  AAA batteries included that automatically power-off after -minutes to preserve battery life and an easy-access battery compartment no screwdriver needed. Satisfaction Guaranteed.",
          "condition":"New",
          "rating":3.1,
@@ -1382,7 +1382,7 @@ const products2 = [
       {
          "item":"Stasher 100% Silicone Food Grade Reusable Storage Bag, Aqua (1/2 Gallon) | Plastic Free Lunch Bag | Cook, Store, Sous Vide, or Freeze | Leakproof, Dishwasher-Safe, Eco-friendly, Non-Toxic | 64.2 Oz",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number.  PURE NON-TOXIC PLATINUM SILICONE The world's first fully functional self-sealing non-plastic bag. Plus unlike traditional plastic bags Stasher bags contain no BPA no PVC and no latex. Keep your food safe from contaminants in Stasher bagsJOIN THE PLASTIC FREE MOVEMENT Created in response to the profound need for a healthy alternative to plastic storagePINCH-LOC SEAL Features the innovative air-tight pinch-loc seal to keep food fresh to store marinade and sous vide. Keep your foods nutrients flavors and juices locked in. Just burp your Stasher to remove excess air and pinch the seal closedDISHWASHER AND MICROWAVE SAFE Platinum food-grade silicone is safe for use in the freezer microwave dishwasher boiling water and oven up to  degrees FahrenheitSTART YOUR STASH Half-gallon size . x . x . .oz Sandwich size . x . x  oz Snack size . x . x  .oz Pocket size .\" x .\" x \" oz Stand-up size .\" x \" x \" ozIncluded Components Silicone BagItem Shape Rectangular",
          "condition":"Good",
          "rating":4.2,
@@ -1394,7 +1394,7 @@ const products2 = [
       {
          "item":"StrawExpert 16 Pack Blue Reusable Metal Straws with Silicone Tip & Travel Case & Cleaning Brush,Long Stainless Steel Straws Drinking Straw for 20 and 30 oz Tumbler",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"ColorBlueWhy choose StrawExpert?StrawExpert is a small brand that has focused on high-quality stainless steel straws for more than eight years.Unlike other cheap or regular metal strawsour straws are made of premium and safe  stainless steel with .mm wall thicknessvery strong and durable.The entire straws are very well polishedthe ends are rounded and the surface is very smooth.The package also comes with silicone tips cleaning brushes and a pouch awesome accessories that bring you great convenience and fun.If you are looking for high quality stainless steel strawsyou are in the right place!Still use plastic straws?Do you know that the United States alone throws away  million straws every single day? Which adds thousands of tons of litter and pollution to our planet.Stop using the plastic straw now and help in the effort to preserve Mother Nature.SpecificationMaterial stainless steelLength Pcs .inch  Pcs .inchOuter Diameter inchmmWall thickness.mmPackage includes.\" straight straw  .\" bent straw  .\" straight straw  .\" bent straw  cleaning brush  silicone tips    colorsdrawstring bag ",
          "condition":"Used",
          "rating":0.0,
@@ -1406,7 +1406,7 @@ const products2 = [
       {
          "item":"Deiss PRO Citrus Zester & Cheese Grater \u00f9 Parmesan Cheese Lemon, Ginger, Garlic, Nutmeg, Chocolate, Vegetables, Fruits - Razor-Sharp Stainless Steel Blade, Wide, Dishwasher Safe",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. COMFORTABLE TO USE  BUILT TO LAST The Grater-Zester has a razor-sharp stainless steel blade that won't rust and a comfortable non-slip handle. Its unique curved sides make it extremely rigid and allow you to apply more force when it's needed.SAVE SPACE IN THE KITCHEN Replace your bulky unsafe and hard-to-clean box grater or heavy electric food processor with a single Deiss Grater-Slicer. The metal grater's teeth won't clog up the way other graters do so it's a snap to clean. Just pass it under running water.IMPROVE YOUR COOKING Amaze your friends with new restaurant-like recipes. Add strong new flavours with freshly zested ingredients without any bitter pith taste. When using the grater with hard cheeses such as parmesan you'll get a nice pile of cheese that melts almost instantly on hot pasta.ZESTING  GRATING HAVE NEVER BEEN SO SIMPLE Shear the hardest cheese into grated fluff using almost no pressure. Simply zip the cutter-knife across the rinds of oranges lemons and limes. In seconds you can have finely grated garlic or ginger or treat yourself to a favorite dessert topped with fluffy chocolate flakes.",
          "condition":"Used",
          "rating":4.9,
@@ -1418,7 +1418,7 @@ const products2 = [
       {
          "item":"Amazon Basics Reusable Silicone Baking Cups, Pack of 12",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. -pack of reusable baking cups made of food-grade silicone ideal for baking lunchsnack cups and moreCost-saving alternative to disposable paper cups works with any standard muffin panEffortless food releaseno greasing or cooking spray needed stain and odor resistantFreezer- microwave- and oven-safe up to  degrees F dishwasher-safe for quick cleanupMeasures . cm high . inches includes  of each color pink orange yellow green blue and purple",
          "condition":"New",
          "rating":4.0,
@@ -1430,7 +1430,7 @@ const products2 = [
       {
          "item":"Silicone Letter Mold and Number Chocolate Molds with Happy Birthday Cake Decorations Symbols 2pcs",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Material These letter number molds are made of food-grade silicone non stick mold.Work Great Your food can seay pop out with number silicone molds or silicone letter mold.Clean Easy Dishwasher safe for quick and easy clean up is an excellent gift for your family or children.Number and letter silicone mold is flexible and reusable great for baking cookiechocolate jelly candy ice cubes and cake decoration.Occasion These silicone baking molds are perfect for many home parties and festivalslike birthday partyfriends partychildren's parties Valentine day and Mother's Day and more.",
          "condition":"Good",
          "rating":0.7,
@@ -1442,7 +1442,7 @@ const products2 = [
       {
          "item":"Grease Splatter Screen for Frying Pan 9.5\" - Stops 99% of Hot Oil Splash - Protects Skin from Burns - Splatter Guard for Cooking - Iron Skillet Lid Keeps Kitchen Clean - Stainless Steel",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Easy-to-clean multi use grease guard The diameter of this premium splatter screen for frying pans is . inches so it will fit all your -inch or smaller pots skillets and pans. This multipurpose kitchen tool also doubles as a strainer steamer and a cooling rack and stores easily in narrow spaces - Easy to clean  Rustproof - Dishwasher safeProtects from hot oil and keeps you safe Made of  grade stainless steel and extra fine mesh BergKoch splatter guard stops  of splash lets all the steam out and allows you to watch the cooking process easily. Industry's leading engineers increased its mesh count by  and reinforced the joints to take your kitchen safety to a new level.Resing feet keep kitchen clean and grease off your counters Ergonomic feet conveniently keep the screen on your countertop without it getting greasy and keep it in place on top of the pan  Forget about a messy stove and greasy counters - Just give your countertops a wipe after cooking and your kitchen is sparkling cleanPlastic handle makes cooking safe Securely joined handle is made of heat resistant TPR plastic to protect your hands from painful burns - Forget about hurtful blisters - No more need for potholders and oven mittsLIFETIME GUARANTEE Heavy-duty construction is crafted with the same essence as all German kitchenware to last for years so the BergKoch Splatter Screen for cooking is backed up with hassle-free LifeTime Warranty - If you have any problems with your purchase we will exchange it no questions asked - Some units may contain such printingmistake as a \"\" Splatter Screen\" name on the user's instructions inside the package. The actual size of the splatter screen is .\"   cm.",
          "condition":"New",
          "rating":4.9,
@@ -1454,7 +1454,7 @@ const products2 = [
       {
          "item":"Dash DMSW002AQ Mini Maker Grill, Griddle + Waffle Iron, 2 pack, Aqua",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. MORE THAN WAFFLES Make paninis hash browns and even biscuit pizzas! Any wet batter will waffle your treats and snacks into single serving portions Great for kids or on the go!MORE THAN PANCAKES Make individual servings for eggs cookies pancakes grilled cheese even stir fry without the need for multiple potspans! Great for kids or on the go!COMPACT  LIGHTWEIGHT Weighing lb this is a MUST-HAVE for that first apartment smaller kitchen college dorm life or camperRV travelingQUICK  EASY Simply plug it in and go it heats up in mere minutes The dual non-stick surfaces provide an even cook for consistent results each and every timePERFECT GIFT The perfect wedding or new home gift Its small size takes up little counter space and its sleek design and trendy color options will match any kitchen dcor add to your registry now!U.S. BASED SUPPORT Dash is a U.S. based company who provides contact information in each product manual.",
          "condition":"Used",
          "rating":2.4,
@@ -1466,7 +1466,7 @@ const products2 = [
       {
          "item":"Elite Gourmet Countertop Electric Hot Burner, Temperature Controls, Power Indicator Lights, Easy to Clean, Double, Black",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. -inch and -inch Cast Iron flat cooking plates is nonstick and easy to clean upDual adjustable temperature controls with LO MED and HI settingsPower indicator lights offer added safetyPowerful  watts for fast efficient cookingPortable for cooking at school office camping trips or homeDual adjustable temperature controls\" and \" Cast iron flat cooking platesPowerful  watts for fast efficient cookingPower indicator lights offer added safetyPortable for cooking at school office camping trips or homeDual adjustable temperature controls\" and \" Cast iron flat cooking platesPowerful  watts for fast efficient cookingPower indicator lights offer added safetyPortable for cooking at school office camping trips or home",
          "condition":"Good",
          "rating":4.2,
@@ -1478,7 +1478,7 @@ const products2 = [
       {
          "item":"OXO Good Grips Swivel Peeler",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. Swiveling twin blades with flexible action easily peel potatoes apples and other tough skinned fruits and vegetablesSoft oversized handle designed for repetitive strokesComfortable non slip grip even when wetBuilt in potato eye removerLarge hole in handle for easy storageDishwasher safeThe OXO Better Guarantee If you experience an issue with your OXO product get in touch with us for a repair or replacement. Were grateful for the opportunity to learn from your experience and well make it better",
          "condition":"New - Open Box",
          "rating":2.0,
@@ -1490,7 +1490,7 @@ const products2 = [
       {
          "item":"Nicewell Food Scale, 22lb Digital Kitchen Scale Weight Grams and oz for Cooking Baking, 1g/0.1oz Precise Graduation, Stainless Steel and Tempered Glass",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This is a really cool product",
          "condition":"Good",
          "rating":4.2,
@@ -1502,7 +1502,7 @@ const products2 = [
       {
          "item":"Swedish Dishcloth Cellulose Sponge Cloths - Bulk 10 Pack of Eco-Friendly No Odor Reusable Cleaning Cloths for Kitchen - Absorbent Dish Cloth Hand Towel (10 Dishcloths - Assorted)",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"ColorAssorted - Reusable Cleaning ClothsThe Best Swedish Dishcloth for Your Kitchen at Wholesale Bulk Prices  x . Were confident that once you try Swedish Dish Clothes you wont go back to traditional reusable towels! They are more versatile effective eco-friendly and cost less than the competition!  MONEY BACK GUARANTEE!What are Swedish dishcloths - Swedish Dishcloths are considered the premium standard in Scandinavia. Unlike standard North American  cotton kitchen towels Swedish dishcloths are a versatile and premium towel that can be used in a variety of applications ranging from your kitchen to your car and even outdoors. The combination of all natural cellulose and premium cotton result in the most absorbent and durable cleaning towel on the market. Thats the main reason theyve become known as a better alternative to terry cloths cotton kitchen towels and microfiber towels.How to use a Swedish dishcloth - Its super simple! When dry Swedish dishcloths are somewhat hard making them perfect for stuck-on messes. For those tough messes we recommend using a dry cloth at first to break them down. As you wet your cloth theyll become super soft and perfect for cleaning the remaining grime. While cleaning you can constantly wringe out the towel just like a terry cloth or shamwow.Theyre so absorbent some people call them Swedish sponge cloths!How to wash a Swedish dishcloth - You can wash your dishcloths in either a standard washing machine or the top rack of a dishwasher! In fact you can re-wash your dish cloths over  times!Compare us to the competitionSwedish Dishcloths take the best features of a sponge dish towel and chamois then combine them into one. Compare the price reusability effectiveness and how eco-friendly they are to competitors like bamboo towels. Money back guarantee!",
          "condition":"Good",
          "rating":1.6,
@@ -1514,7 +1514,7 @@ const products2 = [
       {
          "item":"Dash DMS001AQ Mini Maker Electric Round Griddle for Individual Pancakes, Cookies, Eggs & other on the go Breakfast, Lunch & Snacks, with Indicator Light + Included Recipe Book, Aqua",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. MORE THAN PANCAKES Make individual servings for eggs cookies pancakes grilled cheese even stir fry without the need for multiple potspans with this griddle! Great for kids or on the go!COMPACT  LIGHTWEIGHT Weighing lb this is a MUST-HAVE for that first apartment smaller kitchen college dorm life or camperRV travelingQUICK  EASY Simply plug it in and wait for indicator light to turn off it heats up in mere minutes The dual non-stick surfaces provide an even cook for consistent results each and every timePERFECT GIFT The perfect wedding or new home gift Its small size takes up little counter space and its sleek design and trendy color options will match any kitchen dcor add to your registry now!INCLUDES Backed by a -year manufacturer warranty the  watt Dash Mini Griddle maker includes recipe book and recipe database access all non-electric parts are easily wiped cleanU.S. BASED SUPPORT Dash is a U.S. based company who provides contact information in each product manual",
          "condition":"New",
          "rating":0.3,
@@ -1526,7 +1526,7 @@ const products2 = [
       {
          "item":"S&T INC. Reversible Baby Bottle Drying Mat, 16 Inch x 18 Inch, Grey Elephant Print",
          "category":"Home & Garden",
-         "sub_category":"Kitchen & Dining",
+         "sub_category":"Kitchen and Dining",
          "description":"This fits your.Make sure this fits by entering your model number. \" x \"Holds up to four times its weight in waterFoldable for easy storageProtects your countertops",
          "condition":"Good",
          "rating":2.6,
@@ -1538,7 +1538,7 @@ const products2 = [
       {
          "item":"SupplyAID RRS-KN95-5PK KN95 Protective Mask, Protection Against PM2.5 Dust. Pollen and Haze-Proof, 5 Pack",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. -MASKS Each package contains  SupplyAID KN Masks.DAILY USE Suitable for adults daily travel protection not suitable for toxic gas environment use.CORRECT USE Please use mask correctly to avoid serious consequences caused by improper use.DISPOSABLE Masks are disposable and cannot be washed.STORAGE Store in a dry and ventilated location F  F -C  C relative humidity.IMPORTANT SAFETY DETAILS This protective mask cannot generate oxygen and should not be used in hypoxic environments. Not intended as a replacement for gas masks and medical masks. Not for use if breathing is impeded or unsteady or during sleep.This KN mask is NOT an N mask. For more information about KN masks please see the following before you purchase amazon.comAboutKNs See more product details",
          "condition":"New",
          "rating":0.6,
@@ -1550,7 +1550,7 @@ const products2 = [
       {
          "item":"Disposable Face Masks,Face Masks of 50 Pack Disposable Mask-Black",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Disposable Face Masks Designed for a softer and smoother feel for Breathability all day longFace Masks Mouth Face Mask -ply With Elastic Earloops for Day-to-day protectionDisposable Masks The disposable face mask is made from a supportive and powerful -layered fabric for -Way filterMouth Mask Easy to use--KeepMasks Universal fitted elastic ear loops for a variety of users for instant protection See more product details",
          "condition":"Good",
          "rating":4.3,
@@ -1562,7 +1562,7 @@ const products2 = [
       {
          "item":"Disposable Face Mask, Face Masks of 50 Pack Disposable Mask (Blue)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Face Masks Mouth Face Mask -ply With Elastic Earloops for Day-to-day protectionDisposable Masks The disposable face mask is made from a supportive and powerful -layered fabric for -Way filterDisposable Face Masks Designed for a softer and smoother feel for Breathability all day longMasks Universal fitted elastic ear loops for a variety of users for instant protectionMouth Mask Easy to use--Keep the blue-side outside  nose clip on the upper side. See more product details",
          "condition":"Used",
          "rating":0.5,
@@ -1574,7 +1574,7 @@ const products2 = [
       {
          "item":"Reusable Face Shield, Coolous Clear Safety Adjustable Transparent Full Face Cover Hat , Anti-Saliva Anti-Fog Windproof Dustproof Protective Mask Shield Protect Eyes and Face for Adults",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. - There is a protective film on the face shield to protect it during transportation. Please remove the film before use thank you.- The plastic face shields is made of super transparent recyclable PET lightweight clear vision fast and easy to wear- This reusable face shields a large area from the eyebrows to the chin to protect against foreign aggression on your face- This full face shield increases the area to protect a large area from the eyebrows to the chin to protect against foreign aggression on your face.- The plastic face shield has a foam strip and the elastic band can be easily adjusted to suit habits and it is firmly fixed and comfortable to wear.- This face mask with eye shield can be recycled after disinfection.",
          "condition":"Used",
          "rating":4.6,
@@ -1586,7 +1586,7 @@ const products2 = [
       {
          "item":"Powecom KN95 Face Mask on FDA List, 10 Pack Disposable Masks, Protection Against PM2.5 from Fire Smoke, Dust for Adults, Men, Women, Essential Workers - 10 Pcs",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Manufactured by Guangzhou Powecom Labor Insurance Supplies.This KN mask is NOT a N mask and is an alternative to a N mask. For more information about KN masks please see the following before you purchase amazon.comAboutKNsFlexible elastic ear loops. Compact design easily disposable. Adjustable nose bridge for a comfortable fit.",
          "condition":"New",
          "rating":0.0,
@@ -1598,7 +1598,7 @@ const products2 = [
       {
          "item":"Black Masks Face Breathable Dust Filter Masks Mouth Cover Disposable Masks with Elastic Ear Loop for Men & Women (50pcs)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Health-care Use These face masks can be used for daily protection but should not be used in surgical or high risk situations Layers of Protection Made of high-quality non-woven material the balck disposable masks are skin-friendlystronger filtering effect and more breathableUniversal Design The Extra-soft elastic ear loops could eliminate pressure to the ears for maximum comfort. It can be used with earloop holders for additional comfort. High-quality fiber is also extremely breathableEasy to Use Hold the elastic bands over your ears and press the metal strip around your nose to create a light seal around your faceGeneral Size Mask - One size for most adult men or women also suitable for teenagers.Its a best protection to wear it when you in office travel through congested airports malls bus terminals party and busy city streets See more product details",
          "condition":"Used",
          "rating":4.8,
@@ -1610,7 +1610,7 @@ const products2 = [
       {
          "item":"Black Disposable Face Masks, 100 Pcs Black Face Masks 3 Ply Filter Protection",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Disposable Face Masks Designed for a softer and smoother feel for Breathability all day longFace Masks Mouth Face Mask -ply With Elastic Earloops for Day-to-day protectionDisposable Masks The disposable face mask is made from a supportive and powerful -layeredMouth Mask Easy to use--KeepMasks Universal fitted elastic ear loops for a variety of users for instant protection See more product details",
          "condition":"Good",
          "rating":0.9,
@@ -1622,7 +1622,7 @@ const products2 = [
       {
          "item":"Filtrete 10x20x1, Air Filter, MPR 300, Clean Living Basic Dust, 6-Pack & Filtrete Small/Medium Air Purifier",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Contains Filtrete SmallMedium Air Purifier and Filtrete xx AC Furnace Air Filter MPR  Clean Living Basic Dust -PackFiltrete Air Purifier Includes a True HEPA Filter that captures .  of airborne particles you cant see As small as .  microns from the air passing through the filter media Initial efficiency valueFiltrete Air Purifier Particles captured include VIRUSES BACTERIA dust lint dust mite debris mold spores pollen pet dander smoke smog PM .  exhaust particles and ultrafine particlesFiltrete MPR  Filter Outperforms fiberglass washable and non-electrostatic -month pleated \" air filters for your furnace air conditioner or HVAC systemFiltrete MPR  Filter Attracts and captures large particles such as lint household dust dust mite debris and mold spores See more product details",
          "condition":"Used",
          "rating":3.7,
@@ -1634,7 +1634,7 @@ const products2 = [
       {
          "item":"DAYBETTER Led Strip Lights 32.8ft 5050 RGB LEDs Color Changing Lights Strip for Bedroom, Desk, Home Decoration, with Remote and 12V Power Supply",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Strong self adhesive The led strip lights has a stronge self adhesive so they stick very well on TVs cars cabinets and walls Please test the led strip lights before installation every roll lights has one connector to link with controller box so they should be attached in parallel not in seriesColorful and durable The infrared remote can adjust multiple colors including rgb white  other colors and their brightness With  dynamic modes auto flash jump jump fade fade and  speed modes quick slow by remote you can make the light strip show varieties of different color changes Use the DIY buttons to save  colors if you likeCuttable and linkable Can be cut every  LEDs along the cutting marks if you don't need such a long lights or you could extral connectors to extend the lights for your bedroom TV desk computer indoorRemote contol You can use the infrared remote control to remotely control the light strip to suit the mood of the room easily You can set it according to different scenes until you are satisfiedWidely use The led lights are suitable for bedroom kitchen cabinet car living room party or wedding See more product details",
          "condition":"Good",
          "rating":2.6,
@@ -1646,7 +1646,7 @@ const products2 = [
       {
          "item":"Face Mask, Pack of 50 Black Disposable Face Masks",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"Three layers of protection made of melt-spray filter layer and non-woven fabric.Surface is evenly covered with air pores good breathability.Adjustable soft nose clip design fits the face better. providing you with comfortable wearing experience.Breathing space that meets the needs of different facial contours and can be used by students and adults.Suitable for most public places and provides protection for your travel.",
          "condition":"New - Open Box",
          "rating":1.6,
@@ -1658,7 +1658,7 @@ const products2 = [
       {
          "item":"Command Bath Picture Hanging Strips, Large, White, 4-Water Resistant Strips (17206B-ES), Organize Damage-Free - 1",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. INCLUDES  fill in based on net contentsDAMAGE-FREE BATHROOM ORGANIZATION- No sticky residue. No holes. Just a strong hold thats easy to remove holds strong in hot wet and humid conditions.NO TOOLS REQUIRED- Water-resistant strips work on a variety of surfaces including glass mirror tile fiberglass wood and painted surfaces.STRONG AND VERSATILE- Available in medium or large sizes and featuring a weight capacity of -lbs these adhesives are tried and true to accomplish whatever task you ask of them.REMOVES CLEANLY- Redecorate reorganize or rehang with ease. No holes marks sticky residue or stains. See more product details",
          "condition":"Good",
          "rating":0.2,
@@ -1670,7 +1670,7 @@ const products2 = [
       {
          "item":"KN95 Face Mask 20Pcs, Included on FDA EUA List, 5 Layer Design Cup Dust Safety Masks, Breathable Protection Masks Against PM2.5 Dust Bulk for Adult, Men, Women, Indoor, Outdoor Use, Black",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This is a really cool product",
          "condition":"Used",
          "rating":3.2,
@@ -1682,7 +1682,7 @@ const products2 = [
       {
          "item":"Disposable Face Masks, Pack of 50 Black Face Masks",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Disposable Face Masks -Layers Protection the inner layer is a soft non-woven fabric which can absorb the moisture from the breath of the wearer. The middle layer is a melt-blown polypropylene filtration layer for better filter out the particles in the air. The outer layer is a water-resistant layer which can block the splashing liquid in the air.Face Masks Adjustable nose clip can help to create a tight seal  stop glasses from fogging. Comfortable and soft elastic ear loops can eliminate pressure to the ears for maximum comfort. And it can be used with earloop holders to reduce the pain and pressure of wearing a mask in the ear for a long time.Disposable Masks Multiple folds design can completely block out the chin nose and mouth from dust smoke debrisautomobile exhaust and pollen.Masks Suitable for home office school catering services food processing environmental cleaning and other public places.Mouth Mask There are  pcs disposable face masks in a box and these masks is a general use mask and it is not intended for medical use. See more product details",
          "condition":"New",
          "rating":2.3,
@@ -1694,7 +1694,7 @@ const products2 = [
       {
          "item":"Brita Longlast Water Filter, Longlast Replacement Filters for Pitcher and Dispensers, Reduces Lead, BPA Free - 1 Count",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Get cleaner great-tasting water without the waste with Brita Longlast water filter replacements you can save money and replace  single-use plastic water bottles per yearReduce  lead Chlorine taste and odor Cadmium Mercury Benzene Asbestos and more Longlast filters out x the contaminants vs. current Brita filtersBritas longest-lasting filter Longlast lasts x longer compared to  gallon filters only replace the Brita Longlast water filter x a year about  monthsCompatible with all Brita pitchers and dispensers except Stream just insert filter into reservoir line up pitcher notch with filter groove press firmly to ensure tight sealBPA-free Longlast filter features a pull-top cap for easy removal and does not require presoaking so you can get great-tasting water with the first use",
          "condition":"New",
          "rating":5.0,
@@ -1706,7 +1706,7 @@ const products2 = [
       {
          "item":"TCP Global Salon World Safety Face Shields with Black Glasses Frames (Pack of 4) - Ultra Clear Protective Full Face Shields to Protect Eyes, Nose, Mouth - Anti-Fog PET Plastic, Goggles",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Pack of  Face Shields with Black Glasses Frames Sanitary durable lightweight and comfortable premium protective face shields that are made with ultra-clear thick plastic. Each face shield contains an internally mounted comfort fit acrylic glasses frame. Wear the face shields just like you would when wearing glasses over your ears and on your nose bridge but you'll also have a face shield for protection. Wear your eyeglasses underneath. One size fits all.Full Face Protection while Avoiding the Headband Safety full-length face shield with a flexible wrap-around design that provides side and front face protection. The shields have  degrees of protection and provide full coverage of the eyes nose and mouth to help prevent droplets of saliva coughs sneezes and other foreign substances from reaching your face. Dimensions .\" high x \" wide.Ultra-Clear and Anti-Fogging Face shields provide super clear visibility and have superior optics that let in the maximum amount of light while the anti-fogging material resists fog under extended use. The shield is crystal clear after peeling off both layers of the protective film. Reusable after disinfecting. Some assembly required.Ideal for Most Workplaces Our essential personal protective face shields are worn all over the world in most common workplace environments. They are used by Hair Salons and Spa Professionals Restaurant Food Services Retailers Warehouses Offices Schools both Indoors and Outdoors.Face Shields Ship From the USA Salon World Safety Brand is a division of TCP Global Corporation a trusted worldwide company that has been in business for over  years. See more product details",
          "condition":"Good",
          "rating":4.2,
@@ -1718,7 +1718,7 @@ const products2 = [
       {
          "item":"50 Pcs Disposable Face Cover 3-Ply Filter Non Medical Breathable Earloop Masks (Black)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"These masks are class  medical devices and can be used for healthcare use but should not be used in surgical or high-risk situations or where there is a high risk of contact with liquids or infectious materialsThese are class  medical devices that are exempt from the FDAs k reporting requirements. These products manufactured by an FDA registered manufacturerDisposable Sanitary Face Mask-Layers of Non-Woven Fiber Fabric to Provide Fine Filtration and Maximum Breath-abilityComfortable to Wear for Hours and Maximize the Protection at the Same Time",
          "condition":"New",
          "rating":2.3,
@@ -1730,7 +1730,7 @@ const products2 = [
       {
          "item":"Disposable 3ply Face Mask Elastic Earloop Mouth Face Cover Masks ,Anti-spittle,Protective Dust(Black,50pcs)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This is a really cool product",
          "condition":"New",
          "rating":4.3,
@@ -1742,7 +1742,7 @@ const products2 = [
       {
          "item":"Purism KN95 Face Mask, Disposable Use 20pcs/box, 5-Layer Protective Face Mask",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This is a really cool product",
          "condition":"Good",
          "rating":4.7,
@@ -1754,7 +1754,7 @@ const products2 = [
       {
          "item":"Disposable Face Masks, Face Masks of 50 Pack Disposable Mask",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This is a really cool product",
          "condition":"Used",
          "rating":0.5,
@@ -1766,7 +1766,7 @@ const products2 = [
       {
          "item":"EveryDrop by Whirlpool 10383251 Refrigerator Water Filter 1, EDR1RXD1, Pack of 1, Purple",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Triple Filtration Technology See more product details",
          "condition":"Used",
          "rating":0.9,
@@ -1778,7 +1778,7 @@ const products2 = [
       {
          "item":"Biwisy 50pcs 3-Ply Disposable Face Mask Breathable Black Masks of 50 PCS Black",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Package  Pcs black disposable face mask packaged in a boxThese Masks Should Be Disposed of after Each.Pcs Disposable Mask Includes  pcs black disposable masks.How to use the mask . Keep the black-side outside .Keep the nose clip on the upper side. See more product details",
          "condition":"Good",
          "rating":2.0,
@@ -1790,7 +1790,7 @@ const products2 = [
       {
          "item":"Disposable Face Masks, Disposable Mask of 100 pack Face Masks for Women Men",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Black Masks - The big bulk of pcs Black Adult Face Masks should keep you confident you wont run out quickly. Softer and smoother feel for Breathability all day longFace Masks - Mouth Face Cover Masks with an Adjustable Nose Clip and Elastic Earloops bring better comfort for a variety of usersDisposable ply Face Mask - The disposable face mask is made of  layers high-quality non-woven fabric that provide multiple peace of mindDisposable Face Masks - Easy to use. Can be used for outdoor public areas schools offices and home usageMasks - Fast Shipping From US and Perfect After-sales",
          "condition":"New",
          "rating":1.2,
@@ -1802,7 +1802,7 @@ const products2 = [
       {
          "item":"Washable Face Mask with Adjustable Ear Loops & Nose Wire - 3 Layers, 100% Cotton Inner Layer - Cloth Reusable Face Protection with Filter Pocket - (American Flag)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This is a really cool product",
          "condition":"Good",
          "rating":1.5,
@@ -1814,7 +1814,7 @@ const products2 = [
       {
          "item":"Kimberly-Clark N95 Pouch Respirator (53358), Made in U.S.A, Universal Size, 50 Respirators/Bag",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number.  Kimtech N Pouch Respirators made by Kimberly-Clark Universal Size one size fits most White respirator with blue headbandProvides a minimum of  filtration efficiency of . micron particles N NIOSH approved TC A-Up to  more breathable than the NIOSH requirement based on limited sample setPouch design with a large breathing chamber for added comfortComfort fit headband and bendable nosepiece to customize fitMade in the U.S.A. by Kimberly-ClarkNot for Medical Use TAA compliant",
          "condition":"Good",
          "rating":4.5,
@@ -1826,7 +1826,7 @@ const products2 = [
       {
          "item":"Filtrete 10x20x1, AC Furnace Air Filter, MPR 1000, Micro Allergen Defense, 4-Pack (exact dimensions 9.81 x 19.81 x 0.81)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. OUTPERFORMS FIBERGLASS WASHABLE AND NON-ELECTROSTATIC -month pleated  in. home air filters for your furnace air conditioner or HVAC systemDESIGNED WITH EXCLUSIVE Filtrete Brand -in- technology from M to trap unwanted air particles while letting cleaner air flow throughATTRACTS AND CAPTURES particles such as lint pollen dust pet dander smoke and smog.For residential use only MPR has a rating of MERV The higher the MPR the more microparticles--such as pollen pet dander smoke bacteria and viruses--your filter will capture from the air passing through itFIND YOUR SIZE  MPR available in in.  in. slim fit and in. thick air filtersFOR OPTIMAL PERFORMANCE of your heating  cooling system or HVAC system change your home air filter at least every  days for  in. filters and at least every  months for  in. and  in. filtersA dirty filter will slow down air flow and make the system work harder to keep you warm or cool--wasting energy. Sign-up for a filter change reminder program that works for you!FOR RESIDENTIAL use onlyCREATE A CHANGE COUNTDOWN in the Filtrete Smart app. Simply use the app to scan the barcode on your filters packaging then choose   or  days for your replacement countdown. When the lifespan is up youll get a notification to change your filter",
          "condition":"New - Open Box",
          "rating":4.9,
@@ -1838,7 +1838,7 @@ const products2 = [
       {
          "item":"ZeroWater 5-Stage Replacement Filter, 1-pack, White",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. ZEROWATER REPLACEMENT FILTERS Ensure you are drinking pure-tasting cleaner water by replacing your ZeroWater pitcher filters regularly. Our replacement filters fit in all ZeroWater pitchers and water dispensers from the smallest pitcher to the largest.FIVE STAGE WATER FILTRATION Unlike many water filters  pitchers ZeroWater filters use  stages of filtration to bring you cleaner better tasting water. Instead of carbon filtering only our filters use Ion Exchange Technology to reduce contaminants.NOT AN ORDINARY WATER FILTER ZeroWater filters filter water in  stages are NSF certified to reduce lead and other heavy metals. Zerowater removes . of total dissolved solids X more than the leading brand tested by independent lab.GET MORE OUT OF YOUR WATER Remove more impurities from your water with ZeroWater's unique  stage filter system. With a variety of options you can have cleaner water anywhere from pitchers bottle filtration systems or portable on-the-go cup filters.GET THE LEAD OUT ZeroWater filters are the only pour-through filters NSF Certified to remove chromium  lead. Our pitchers tumblers  dispensers remove virtually all solids for the purest tasting water.",
          "condition":"New - Open Box",
          "rating":1.1,
@@ -1850,7 +1850,7 @@ const products2 = [
       {
          "item":"Disposable Face Mask,Face Masks of 50 Pack Disposable Mask",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"Non Woven Melt Blown FabricImported layers closure-Ply Black Face Masks each pcs Sealed in One Individual Bag and Total pcs in Giftbox. Easy to Use.These Face masks are not intended for medical use.Made with -Layer non-woven fabric for effective airway protection from small particles and droplets. Soft non-irritating comfortable and breathable. Adjustable earloop and metal nose clip fits for most of faces.Protect ourselves and our loved ones with this disposable face masks in various environments such as home office school gardening construction and also the work places as other public areas to help protect from allergens dust and germs.All these masks are for one time use and recommend to replace by each  hours.",
          "condition":"Good",
          "rating":0.8,
@@ -1874,7 +1874,7 @@ const products2 = [
       {
          "item":"MINGER LED Strip Lights 16.4ft, RGB Color Changing LED Lights for Home, Kitchen, Room, Bedroom, Dorm Room, Bar, with IR Remote Control, 5050 LEDs, DIY Mode",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"Multicolor changing the RGB LED strip lights kit has not only RGBRed Green Blue  multicolored options but also DIY selectionRemote control -key IR remote allows you to choose colors adjustable brightness and multiple lighting modes to fit room mood. remote range mBright LED Lights it features  bright  LEDs that easily light up a room bedroom dorm room kitchen countertop. Suitable for birthday party home gatheringEasy to install with back adhesive and flexible strip design it can stick on any dry and flat surface. Note use the packaged adapter to meet working power requirementNotice for using please do not roll up when using it to avoid whole strip getting overheated. The strip is non-waterproof for indoor use only See more product details",
          "condition":"Used",
          "rating":4.2,
@@ -1886,7 +1886,7 @@ const products2 = [
       {
          "item":"Tenmiro 65.6ft Led Strip Lights, Ultra Long RGB 5050 Color Changing LED Light Strips Kit with 44 Keys Ir Remote Led Lights for Bedroom, Kitchen, Home Decoration",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Ultra Long Strip Lights .ft led strip lights are long enough to reach around your entire room and light the whole place up cuttable design allows you to adjust the length of led lights however you like for bedroom living room cabinet party christmas etcMulti Color and Diy Led lights colorful and durable the brightness of the lights strip can be adjusted and offer millions different colors and  lighting modesjump fade flash etc by keys remoteEasy Installation Complete led light strip kit Including  rolls of .ft led light strips power adapter keys remote Control controller instruction manual led strip lights installation accessories pin connectors gapless solderless connectors back adhesive hooks no need for other devices self adhesive tape easy to installCuttable and Linkable The led lights can be easily cut and linked with other strip led lights which can be cut every  leds along the cutting marks you can also customize the length of the led lights while arrows of the lights should be faced to each other when connecting if using solderless connecto then while 'V' should be faced to each other when connectingMultiple Scenes Available Rgb led strip lights is a suitable house ornament transforms your home kitchen ceiling back of tv desk stairs bar and more with color changing lights See more product details",
          "condition":"New - Open Box",
          "rating":3.9,
@@ -1910,7 +1910,7 @@ const products2 = [
       {
          "item":"Adult Face Masks (50 Individually Wrapped) - Premium 4-Ply Adult Masks, Black Face Mask Designed with Comfortable Earloops & Adjustable Metal Nose Strip, Non-Medical Disposable Black Mask",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number.  Layer Mask   Thicker than the Average Mask  Unlike most flimsy reusable masks our disposable black face masks are designed with four high-quality layers that are at least  thicker than the average black disposable face mask. Ultra-soft and comfortable Viva Naturals non-medical masks are designed for a snug and secure fit without compromising on comfort. Plus theyre individually wrapped so you can easily keep them in your purse or bag and take them with you on-the-go.Individually Wrapped for Easy Sharing  Every box includes  individually wrapped black face masks to help make it easier to share with family and friends. Wear them during all of your favorite outdoor and indoor activities.Upgraded Ear Loops  Metal Nose Strip for a Perfect Fit  Viva Naturals black disposable mask ear loops fit comfortably around ears and can be tied for a more personalized fit. Unlike a lesser quality adult mask made with nylon and polyester ear loops ours are made from nylon and spandex for premium comfort and stretch. Adjustable metal nose strips help our black disposable masks in color stay put during wear and are perfect for glasses wearers who want to reduce their lenses fogging up!Premium Comfort for Everyday Wear  Wearing a black face mask or mouth mask doesnt have to be uncomfortable. Our black disposable mask is specially designed with a unique side arc lift that contours to the face for a more comfortable fit. Our premium four layer design is at least  thicker than average disposable black masks soft on skin for heightened comfort for everyday wear during activities like travel working out in office shopping cleaning and more!Made With Viva Naturals Quality You Trust - For almost a decade we at Viva Naturals have made it our mission to make wellness accessible to all and to bring you and your family high-quality products you can trust. Weve put in every effort to ensure our new black disposable face mask is up to our standards and yours. See more product details",
          "condition":"Used",
          "rating":5.0,
@@ -1922,7 +1922,7 @@ const products2 = [
       {
          "item":"Disposable Face Masks",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":" Face Masks  Made of  Layer non-woven fabric Melt-Blown Moisture-resistant Non-toxic Non-irritant REUSABLE Face Mask Masks  High density non-woven fabric - nano filtration - filtration - highly breathable non-woven fabric that can prevent dust car exhaust pollen etc. Disposable Face Masks  High level breathing protection filter efficiency breathable mesh composite fabric suitable for all seasons basically seasonal factors do not need to be considered. Disposable Masks  D earrings and lightweight design make breathing easier. High quality elastic earbands make it comfortable to wear for a long time. Dust Pollen and Haze Proof Protective Mask  Non-Medical Mask Pack of  Pcs. Kindly Check Size before buying.    PFE -Layers Effectiveness Breathable Non-Woven with Nose Wire and Ear Loops",
          "condition":"New - Open Box",
          "rating":3.1,
@@ -1934,7 +1934,7 @@ const products2 = [
       {
          "item":"Woodworking and Sanding Painted Surfaces Respirator by 3M",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. EXP -M-Noseclip Adjusts Easily for Fewer Pressure Points a Custom and Secure Seal and Greater Comfort.Grinding sanding sweeping sawing bagging or other dusty operations as well as wildfire smoke inhalation.single pack See more product details",
          "condition":"Good",
          "rating":0.4,
@@ -1946,7 +1946,7 @@ const products2 = [
       {
          "item":"Modenna Disposable Face Mask Black 50Pcs",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Package -  pcsImported-ply with a melt-blown polypropylene filtration layer.This is a general use face mask.One size fits all See more product details",
          "condition":"Good",
          "rating":4.3,
@@ -1958,7 +1958,7 @@ const products2 = [
       {
          "item":"BlissLights Sky Lite - LED Laser Star Projector, Galaxy Lighting, Nebula Lamp for Room Decor, Home Theater, Bedroom Night Light, or Mood Ambiance (Blue Stars)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"Sky Lite instantly projects a field of drifting BLUE stars against a transforming BLUE nebula cloud with unmatched brilliance patent protected.Sky Lite incorporates a direct diode Laser precision glass optics and holographic technologies to create an otherworldly visual experience.With soothing aurora effects that create a relaxing sensory environment in any room the Sky Lite is a standout gift for adults and kids alike.Enjoy dining under the stars create a relaxing spa environment or accent your home theater in seconds Sky Lite is an instant game changer for any room in the house.Simple button controls make it easy to cycle through light effects adjust brightness or startstop the rotating motion. This version has a blue nebula and blue rotating stars. See more product details",
          "condition":"New - Open Box",
          "rating":0.6,
@@ -1970,7 +1970,7 @@ const products2 = [
       {
          "item":"EveryDrop by Whirlpool Refrigerator Water Filter 2, EDR2RXD1 (Pack of 1)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. Make sure this fits by entering your refrigerator model numberevery drop Filter  is the only filter approved by Whirlpool Maytag Amana KitchenAid and Jenn Air brandsCertified to reduce  of lead offering superior contaminant reduction for you and your familyReduces  contaminants including lead pesticides pharmaceuticals and waterborne parasites NSF   and  certifiedOffers clean fresh tasting waterCertified to fit these leading refrigerator brands Whirlpool maytag kitchenaid jenn-air and amanareplaces model number waUsed in bottom freezer refrigerators filter compartment is in the top right cornerReplace filter every  months or  gallons to maximize contaminant reductionreplaces asin banlqm",
          "condition":"New",
          "rating":1.0,
@@ -1982,7 +1982,7 @@ const products2 = [
       {
          "item":"GE RPWFE Refrigerator Water Filter",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. It works with any refrigerator that currently uses GE RPWF or RPWFE filters. It is used in selected GE french-door refrigerators. Compatible with select GE french-door refrigerators.GE most advanced filtration Tested and verified to filter five trace pharmaceuticals. Operation Water Pressure psi  min. -  max.Premium filtration Certified to reduce chlorine-resistant cysts lead select pharmaceuticals and  other contaminants. Reduces  of Perfluorooctanoic acid PFOA and Perfluorooctaine Sulfonate PFOSEasy filter replacement No tools of water-turnoff required to replace cartridge inside refrigerator.Six-Month filter life For best filtration results filter cartridge should be replaced every six months or  gallons.NOTE Please refer to the user manual before use. See more product details",
          "condition":"Used",
          "rating":0.8,
@@ -1994,7 +1994,7 @@ const products2 = [
       {
          "item":"Filtrete 10x20x1, AC Furnace Air Filter, MPR 1500, Healthy Living Ultra Allergen, 6-Pack (exact dimensions 9.81 x 19.81 x 0.78)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. OUTPERFORMS FIBERGLASS WASHABLE AND NON-ELECTROSTATIC -month pleated  in. home air filters for your furnace air conditioner or HVAC systemDESIGNED WITH EXCLUSIVE Filtrete Brand -in- technology from M to trap unwanted air particles while letting cleaner air flow throughATTRACTS AND CAPTURES microscopic particles such as smoke cough and sneeze debris bacteria and viruses--and large particles including lint household dust and pollen MPR has a rating of MERV The higher the MPR the more microparticles--such as pollen pet dander smoke bacteria and viruses--your filter will capture from the air passing through it SMALL PARTICLE CAPTURE like bacteria and particles that carry viruses   captured is based on ASHRAE . testing for . to  micron particles from the air passing through the filter which relates to HVAC industry standard efficiency testingCERTIFIED as asthma  allergy friendly As outlined in report ASCR -FIND YOUR SIZE  MPR available in  in.   in. slim fit and  in. thick air filtersFOR OPTIMAL PERFORMANCE of your heating  cooling system or HVAC system change your home air filter at least every  days for in. filters and at least every  months for  in. and  in. filtersA dirty filter will slow down air flow and make the system work harder to keep you warm or cool--wasting energy. Sign-up for a filter change reminder program that works for you!",
          "condition":"Used",
          "rating":2.4,
@@ -2006,7 +2006,7 @@ const products2 = [
       {
          "item":"Glocusent LED Neck Reading Light, Book Light for Reading in Bed, 3 Colors, 6 Brightness Levels, Bendable Arms, Rechargeable, Long Lasting, Perfect for Reading, Knitting, Camping, Repairing",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number.  Color   Brightness Adjustable  useful color temperature modes yellowK warm whiteK and cool whiteK. Each head owns an independent switch for  brightness levels dimmable. You can choose a comfortable setting as you wish for reading knitting camping or repairing etc.Rechargeable  Long-Lasting USB Type-C rechargeable which is reversible and thus easier to plug in compared with other Micro-USB. Up to  hours general reading single head of powerful non-diminishing brightness from the included premium rechargeable mAh battery.Eye Caring  Ergonomic Design No flickering and blue light filter design with advanced LED beads. No eye strain any more for both kids and adults. The arms are supple and adjustable so you can get the angle most comfortable to you. Ergonomic neck around design and it is totally hands free!Partner Friendly Special narrow beam angel design. It is bright enough to the area you positioned and at the same time dim enough to not disturb your sound asleep partner.Product Guarantee Original patent applied. FCC CE RoHS PSE approved. Worry-free -month warranty and friendly customer service. Product Box Contains Glocusent LED Neck Light USB Type-C Cable \" User Manual Bookmark NOTE Use the included Type-C cable your original cable or a third-party certified one  AC adapter not included. See more product details",
          "condition":"Good",
          "rating":2.8,
@@ -2018,7 +2018,7 @@ const products2 = [
       {
          "item":"KF94 - Face Protective Mask for Adult (White) [Made in Korea] [20 Individually Packaged] KN FLAX Premium KF94 Certified Face Safety White Dust Mask for Adult [English Packing]",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"Premium KF Mask Easy BreathingKFDA approved FDA Registered QKR CodeGREAT SAFETY - -Layer Protection with high quality MB filterANTI-TROUBLE SKIN AND EASY BREATHING - Made with Eco-Friendly fabric for Anti-Trouble Skin and structured to let you breathe more comfortable and easy with.Made in Korea  Authentic English Packaging",
          "condition":"New - Open Box",
          "rating":0.0,
@@ -2030,7 +2030,7 @@ const products2 = [
       {
          "item":"Face Mask,Pack of 50 Disposable Face Masks,Masks for Women",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"FACE MASK pcs Pink pcs Purple pcs Yellow pcs green pcs blue.Disposable Face MasksThe disposable face mask is made from a supportive and powerful -layered fabric for -Way filterMASKS effectively blocks droplets and dust. Non-woven can wisk away moisture.Face Mask Soft elastic and bendable nose bridge help the mask conform to the face.Face Mask Comfortable elastic earloop extra-soft ear loops eliminate pressure to the ears.",
          "condition":"Good",
          "rating":4.4,
@@ -2042,7 +2042,7 @@ const products2 = [
       {
          "item":"KN95 Disposable Black Face Mask, 10 Pack 5-Ply Protection Breathable Cup Dust Masks, Protection Against PM2.5 Dust. Pollen and Haze-Proof with Elastic Earloop and Nose Bridge Clip K-N95 Masks",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"-Layer Filtration Design The non-medical KN mask is made of  layers of non-woven fabric  layers of melt-blown fabric and  layer of hot air cotton. Non-woven fabric is skin friendly non-irritant non-toxic melt-blown fabric features high efficiency in filtration hot air cotton helps absorb the moisture from the breathe. It is designed to offer more protection and comfort to users. Color Black  Pieces KN MaskD Shape Design The KN face masks are created in D shape for men women it is designed according to the human face shape to ensure the tightness which effectively reduces air leakage while providing a smooth breathing. It covers mouth nose and chin perfectly a strong fit for most people's faces acting as protection against the outside environment as well as a barrier to anything in the wearers exhalations.Flexible Nose Clip The protective mask is equipped with an adjustable nose clip around the bridge of nose the metal strip is fixed to the inner of the mask which can be adjusted to fit the nose shape well so that the mask is not easy to drop tightly and safely stay in your face. It prevents you inhale small particles effectively protecting respiratory health.High Elastic Earloops Our unisex face mask uses premium elastic straps as earloops it is soft and not easy to break it effectively helps reduce pressure to your ears and avoid pain caused by long-term wearing. It is connected with ultrasonic welding extremely firm and resistant to pull.Suitable for Most Occasions Our face masks are suitable for all adult men and women not for children. It can be used for outdoor public areas schools offices and home usage. With the -ply safety design It can keep you away from dust  haze smoke automobile exhaust etc. so you can breathe easily and safely in most environment. For more information about KN masks please check the link before you purchase amazon.comAboutKNs.",
          "condition":"Used",
          "rating":4.7,
@@ -2054,7 +2054,7 @@ const products2 = [
       {
          "item":"COVAFLU KN95 Face Mask Pack of 10 Fold Flat KN95 Face Masks Comfortable Fit",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. COMFORTABLE FIT Soft breathable material non-latex ear loops and adjustable nose bridge help ensure a comfortable custom fit. Covaflu was created in  byClinova a British consumer healthcare company with exceptional manufacturing standards and values.TRUSTED PROTECTION Covaflu KN Face Masks are -ply in construction skin-friendly non-woven outer layers for comfort and  melt-blown innerfiltering layers.Covaflu KN particle-filtering masks help protect against particles such as pollen and dust helping prevent them from entering the body through the mouth and nostrils.KN face masks are designed to help filter out  of particles making the filtration system highly effective.SECURE DESIGN Covaflu KN Face Masks are designed to cover the nose and mouth forming a tight seal to help protect against particles. The integrated metal nosebridge can be adjusted to ensurethe upper edge of the mask tightlyfitsyour facial contours andprovides a tight seal against your skin.MULTI USE AND MULTI PROTECTION Individually wrapped and sealed with a fold flat design that allows for easy storage and better hygiene. Suitable for daily use including office wear travel and general indoor or outdoor settings. The KN masks help provide  filter efficiency.WHAT YOU GET Each box contains  individually wrapped and sealed Covaflu KN Face Masks. Disclaimer This KN mask is NOT an N mask. For more information about KN masks please see the following before you purchase amazon.comAboutKNs",
          "condition":"New",
          "rating":1.1,
@@ -2066,7 +2066,7 @@ const products2 = [
       {
          "item":"Carhartt Men's W.P. Waterproof Insulated Glove",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":" PolyesterHook and Loop closureDurable polytex shellFastDry technology lining wicks away sweat for comfortWaterproof insertReinforced polyurethane PU palmImportedSpot wash by hand in luke warm water with mild detergent. Hang to dry. Do not use hot water. Do not put in dryer.",
          "condition":"New - Open Box",
          "rating":1.4,
@@ -2078,7 +2078,7 @@ const products2 = [
       {
          "item":"Hygenix 3ply Disposable Face Masks PFE 99% Filter Tested by Nelson Labs USA (Pack of 50 Pcs)",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This is a really cool product",
          "condition":"Good",
          "rating":4.5,
@@ -2090,7 +2090,7 @@ const products2 = [
       {
          "item":"EveryDrop by Whirlpool Refrigerator Water Filter 4, EDR4RXD1, Pack of 1",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This fits your.Make sure this fits by entering your model number. EveryDrop Filter  is the only filter certified by Whirlpool Corporation to work with your Whirlpool Maytag KitchenAid JennAir and Amana refrigerator.NSF certified to reduce the most contaminants. Reduces  contaminants including pharmaceuticals waterborne parasites lead mercury and pesticidesReplaces model numbers UKF  . Note-do not use a piercing type or . inch saddle valve which reduces water flow and can clog more easilyUsed in bottom freezer and side-by-side refrigerators which accept filter Replace filter every  months or  gallons to maximize contaminant reductionNote Refer the manual before use.It is a single item of water filter  Pack of  packaging may vary See more product details",
          "condition":"Used",
          "rating":1.3,
@@ -2102,7 +2102,7 @@ const products2 = [
       {
          "item":"Pretty sick KN face mask",
          "category":"Home & Garden",
-         "sub_category":"Tools & Home Improvement",
+         "sub_category":"Home Improvement",
          "description":"This model of KN face mask is included on FDA Emergency Use AuthorizationEUA List. It's of high quality and safety which can be used in confidenceUpgraded Packaging This package includes  individually wrapped KN face mask which can avoid the pollution caused by touch when taking the mask. Can be perfectly placed in your backpack purse and pocket. Convenient to carry and use.-Ply Protective This KN mask is made of  non-woven outer layers  melt-blown inner filter  non-woven cotton middle layer absorbing the moisture. This -Ply mask is designed to offer more protection than a standard disposable -Ply mask. The minimum filter efficiency is  which is tested by NPPTL greatly keeping you from dust PM . haze smoke automobile exhaust etc. Perfect For families office staff warehouse workers.Comfortable  Breathable High-elastic ear loops and adjustable nose clip to ensure a comfortable fit and no strain of ears. It's lightweight and foldable can cover mouth nose and chin easily. Creates a tight seal  stops glasses from fogging.Topnotch Service Please confirm if package and products are completely as soon as you receive the KN masks. We provide a three-year effective warranty. If you have any doubts we are always here to help you. Disclaimer This KN mask is NOT an N mask. For more information about KN masks please see the following before you purchase amazon.comAboutKNs. See more product details",
          "condition":"Good",
          "rating":0.8,
@@ -2618,7 +2618,7 @@ const products2 = [
       {
          "item":"Play-Doh Modeling Compound 10 Pack Case of Colors, Non-Toxic, Assorted Colors, 2 Oz Cans, Ages 2 & Up, (Amazon Exclusive), Multicolor",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number.  cans of creative fun kids can get creative with just the right colors They need in this Play Doh  pack of  ounce cansJust the right colors to start shape squish mix and make it all. Great for lots of uses like Play Doh refills as a Play Doh starter set or as an add on to any Play Doh toy sold separatelyShape your imagination squishy bright non toxic Play Doh compound sparks imaginations For kids  and up who love arts and crafts like Modeling clayEasy open recyclable package ships in simple recyclable packaging that's easy to open and frustration free and the Play Doh cans and lids are also recyclable to help build a more sustainable worldNotice to parents contains wheat'",
          "condition":"Used",
          "rating":4.9,
@@ -2630,7 +2630,7 @@ const products2 = [
       {
          "item":"OUR MOMENTS Couples: 100 Thought Provoking Conversation Starters for Great Relationships - Fun Conversation Cards Game for Couples",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This is a really cool product'",
          "condition":"New",
          "rating":3.0,
@@ -2642,7 +2642,7 @@ const products2 = [
       {
          "item":"The Original Reversible Octopus Plushie | TeeTurtle\u00c6s Patented Design | Black and Gray | Show your mood without saying a word!",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. As seen on TikTok!TeeTurtle is the home of the original Reversible Octopus Plushie!Easy to flip inside out so you can show your mood to the world.These super soft toys are perfect for playing collecting  cuddling.A cute reversible plush Octopus with two different expressions.These stuffed toys are the perfect gifts for holidays birthdays baby showers Christmas Valentine's Day  more!Suitable for children ages  years and up!'",
          "condition":"New - Open Box",
          "rating":1.6,
@@ -2654,7 +2654,7 @@ const products2 = [
       {
          "item":"SunWorks Heavyweight Construction Paper, 9 x 12 Inches, Black, 100 Sheets",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. SunWorks Construction Paper by Pacon the  Teacher Approved Brand!Heavyweight groundwood construction paperSlightly textured sheets that cuts and folds evenly without crackingBright and consistent colorsExcellent value for all arts and craft projectsContains  sheets'",
          "condition":"Good",
          "rating":3.1,
@@ -2666,7 +2666,7 @@ const products2 = [
       {
          "item":"28 Pack Sensory Toys Set, Relieves Stress and Anxiety Fidget Toy for Children Adults, Special Toys Assortment for Birthday Party Favors, Classroom Rewards Prizes, Carnival, Pi\u00b1ata Goodie Bag Fillers",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. PACK OF   Mochi Squishies  Stretchy String Fidgets  Mesh and Marble Sensory Toys  Infinity Cube  Fidget Pad  Soccer Spinner  x Speed Cubes  Tracks Fidget  Snake Cube Twist Puzzles  Puzzle Box  Star Bouncy Ball  Finger Massage Rings  Football Foam Ball  World Map Foam Ball  Fidget Puzzle Cube Box  Bean Fidget Toy and  Fidget Spinners.CHILD SAFE Non-Toxic. Meets US Toy Standards. Safety Test-Approved. Durable. Superior Quality. Deluxe Set.Fidget and Sensory Toys A Perfect Way to Relieve Stress - Small Toys to Hold in the Palm of Your Hand. It's A Fun Way to Keep the Brain Focused and The Hands Busy.POPULAR USES For fun Birthday Party Favors Classroom Rewards Carnivals Prize Boxes Piata Filler Stocking Stuffers Goodie Bag Fillers.Great Design for Anxiety Focusing ADHD ADD Autism OCD Quitting Bad Habits etc. Helps Relieve Stress. Get It and Share It with Your Friends for A Fun Christmas or at Party Time.'",
          "condition":"New",
          "rating":2.5,
@@ -2678,7 +2678,7 @@ const products2 = [
       {
          "item":"LeapFrog 100 Animals Book (Frustration Free Packaging), Pink",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Six double-sided interactive pages feature animals from  categories such as the forest the ocean and the shoreExplore three play modes that teach about animal names animal sounds and fun factsThis fully bilingual book lets kids learn about animals and sing songs in English and SpanishFun facts about animals provide an early introduction to science conceptsIntended for ages  months requires  AA batteries batteries included for demo purposes only new batteries recommended for regular use'",
          "condition":"New",
          "rating":2.1,
@@ -2690,7 +2690,7 @@ const products2 = [
       {
          "item":"Talk, Flirt, Dare! Fun and Romantic Game for Couples: Conversation Starters, Flirty Games and Cool Dares. Deepen Relationship with Your Partner. Perfect Valentine\u00c6s Gift!",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This is a really cool product'",
          "condition":"Used",
          "rating":0.6,
@@ -2702,7 +2702,7 @@ const products2 = [
       {
          "item":"Fisher-Price Little People Animal Friends",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Figure pack with  farm animal friendsIncludes llama chicken cow goat horse pig sheep and dog figuresFigures sized just right for toddlers to graspBring these figures to the Little People Caring for Animals Farm playset for more \"wild\" fun Playset sold separately.For kids ages - years'",
          "condition":"Used",
          "rating":0.2,
@@ -2714,7 +2714,7 @@ const products2 = [
       {
          "item":"Crayola Colored Pencils Adult Coloring Set, Gift, 100 Count",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. COLORED PENCIL SET One set of  Crayola Colored Pencils in a box CRAYOLA COLORS A wide range of colors across  pencils can bring a vibrant flair to any art projectPRESHARPENED COLORED PENCILS These colored pencils come pre-sharpened and ready to use right out of the boxGREAT FOR ARTS  CRAFTS Perfect art supplies for kids or adults to use for detailed designs or coloring pagesSAFE FOR KIDS Non-toxic art tools make a great gift set for ages  and older'",
          "condition":"New - Open Box",
          "rating":0.0,
@@ -2726,7 +2726,7 @@ const products2 = [
       {
          "item":"BunMo XL Pop Tubes Sensory Toys for Autistic Children and Fidgets for Kids, ADHD Toys for Kids and Autism Toys for Boys and Girls",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. XL Pop Tubes with new twist on connectors! Fun and functional sensory toys that pop stretch and connect making these pop tubes the go-to toy for playtime.These super-sized open ended toys are made for all busy little fingers but are also exciting ADHD toys for kids.Autistic toys like these pop tubes provide tactile stimulation fine motor skills and auditory feedback making them the perfect sensory toys for autistic childrenThe perfect addition to your collection of autistic toys. These autism toys for boys and girls also act fidgets for kids that excite and inspire. Each pop tube kit comes in a variety of colours including green pink purple and blueBunMo the most trusted brand for high quality big and small toys for kids. Making interesting products for interesting people'",
          "condition":"New - Open Box",
          "rating":2.1,
@@ -2738,7 +2738,7 @@ const products2 = [
       {
          "item":"Maad Romantic Novelty Toilet Paper - Funny Gag Gift for Valentine's Day or Anniversary Present",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number.  Sheets of  ply toilet tissue.Quality bathroom paper with no-smudge ink printing.Hilarious message printed on each sheet!Nothing says I love you more than giving a sheet! Idea st Paper Anniversary Gift Birthday Present Christmas Present or Valentines Day Gift. Money Back Customer Satisfaction Guarantee with each purchase!'",
          "condition":"New - Open Box",
          "rating":0.2,
@@ -2750,7 +2750,7 @@ const products2 = [
       {
          "item":"The First Years Stack Up Cup Toys",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. COLORFUL BABY TOYS  brightly colored cups stack together with Unique Holes in the Bottom for water playSTACKING CUPS Children love to fit toy cups together stack them up or turn them over and hide things underneathBABY DEVELOPMENT TOYS Large numbers on the bottom to practice counting  number recognitionMade without BPA lead or phthalates See more product details'",
          "condition":"Used",
          "rating":4.2,
@@ -2762,7 +2762,7 @@ const products2 = [
       {
          "item":"Fisher-Price Rattle 'n Rock Maracas, Blue/Orange [Amazon Exclusive]",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"Includes  toy maracasSized just right for little hands to grasp and shakeColorful beads make fun rattle sounds when shakenSoft colorful pom pomsAll that grasping and rattling gives your baby's gross motor skills a great workoutSuitable for children  months  up See more product details",
          "condition":"New",
          "rating":0.4,
@@ -2774,7 +2774,7 @@ const products2 = [
       {
          "item":"Tara Toys Ariel Necklace Activity Set - Amazon Exclusive (51394)",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Amazon Exclusive Ariel charms and carry case!Mix and match to create your own Ariel jewelry with colorful beads necklaces and fun character charms!Have fun creating Ariel necklaces for you and your friends!Create new designs over and over again!Set makes  necklaces!Easy to create for little hands!Everything stores neatly inside the plastic carry case!Sturdy handle makes it easy to take anywhere!Includes  rubber character charms  rubber necklaces  beads and a storage case!",
          "condition":"Good",
          "rating":2.0,
@@ -2786,7 +2786,7 @@ const products2 = [
       {
          "item":"Paw Patrol, Chase\u00c6s 5-in-1 Ultimate Cruiser with Lights and Sounds, for Kids Aged 3 and up",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. -IN- CRUISER This large cruiser has room for all  pups and is equipped for any rescue with  different vehicles! Save the day in the cruiser  motorcycles a boat and a helicopter!LAUNCH THE HELICOPTER Press the button to lift off  the cruiser opens up as the helicopter raises on a platform inside! Pick up the chopper spin the propellers by hand and soar to the rescue!DUAL MOTORCYCLES The Ultimate Cruiser features dual launching motorcycles! Send them straight into action by pushing the button on top of the cruiser. The sides pop out releasing the bikes!LIGHTS AND SOUNDS Bring the excitement of PAW Patrol to life! Press the button to activate flashing lights and exciting sound effects just like a real cruiser! Includes  LR batteries.Includes  Chase Figure  Vehicles  Launcher  Projectiles  Instruction Sheet'",
          "condition":"Used",
          "rating":2.7,
@@ -2798,7 +2798,7 @@ const products2 = [
       {
          "item":"L.O.L. Surprise! Present Surprise Series 2 Glitter Shimmer Star Sign Themed Doll with 8 Surprises, Accessories, Dolls",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. SURPRISE DOLL Unbox the perfect gift and  surprises with L.O.L. Surprise! Present Surprise Series  including an adorable \" doll with glitter and shimmer details.WHAT'S YOUR STAR SIGN Each Series  doll features all new fierce dolls with outrageous accessories in a new theme. Each doll's look is inspired by a star sign and has glitter and shimmer details. Will you find your star sign?GIFTABLE PACKAGE Each unique geometric package comes already wrapped with a bow on top. Perfect for a present or a glittery party favor.WATER SURPRISES Feed or bathe your doll for a water surprise including color change.UNBOX ACCESSORIES Includes star sign themed accessories and a party hat for your doll.COLLECT THEM ALL! Collect  new characters each with  surprises  Secret Message  Party Hat  Bottle - Accessories  Fashion  Shoes  L.O.L. Surprise! Present Surprise doll.'",
          "condition":"Used",
          "rating":3.3,
@@ -2810,7 +2810,7 @@ const products2 = [
       {
          "item":"Hasbro Connect 4 Game",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Classic Connect  game is disc dropping funChoose yellow or red discs. For  playersWhen you get  discs in a row you winIncludes grid  legs slider bar  red discs  yellow discs and instructions'",
          "condition":"Used",
          "rating":2.9,
@@ -2822,7 +2822,7 @@ const products2 = [
       {
          "item":"Hasbro Connect 4 Game",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Classic Connect  game is disc dropping funChoose yellow or red discs. For  playersWhen you get  discs in a row you winIncludes grid  legs slider bar  red discs  yellow discs and instructions'",
          "condition":"New",
          "rating":4.5,
@@ -2834,7 +2834,7 @@ const products2 = [
       {
          "item":"2 Pcs Kids Reusable Adjustable 3 Layer Face Masks. Gifts for Kids.",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This is a really cool product'",
          "condition":"New - Open Box",
          "rating":2.2,
@@ -2846,7 +2846,7 @@ const products2 = [
       {
          "item":"Cocomelon Official Musical Yellow School Bus, Plays \u00e6Wheels on The Bus,\u00c6 Featuring Removable JJ Figure \u00fb Character Toys for Babies, Toddlers, and Kids, Multicolor",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Picture your kids singing along to clips from \"Wheels on the Bus\" while playing with a bright yellow school bus!Includes a figure of JJ a popular character from CoComelon!This adorable CoComelon toy seats  of your favorite CoComelon family members and friends!Press on the grill and sing along as the bus plays a clip of the Wheels on the Bus song!Free-wheeling motion lets your child take control of the vehicle and their Imagination!'",
          "condition":"Good",
          "rating":1.2,
@@ -2858,7 +2858,7 @@ const products2 = [
       {
          "item":"Nuby Floating Purple Octopus with 3 Hoopla Rings Interactive Bath Toy",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"Helps develop hand-eye coordination for interactive play. Textured figures support touch.Fun and bright colors and shapes stimulate baby's senses and high contrast supports early development.Float and catch fun with hoopla ringsMade from BPA free materialsFor children ages  months See more product details",
          "condition":"New",
          "rating":1.2,
@@ -2870,7 +2870,7 @@ const products2 = [
       {
          "item":"Cards Against Humanity",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Cards Against Humanity is a party game for horrible people.This is the main game. Buy this first.Contains  white cards and  black cards for maximum replayability.Includes a booklet of sensible game rules and preposterous alternate rules.America's  gerbil coffin.'",
          "condition":"New",
          "rating":4.7,
@@ -2882,7 +2882,7 @@ const products2 = [
       {
          "item":"UNO",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. UNO is the classic family card game that's easy to learn and so much fun to playIn a race to deplete your hand match one of your cards with the current card shown on top of the deck by either color or number.Strategize to defeat your competition with special action cards like Skips Reverses Draw Twos and color-changing Wild cards.When you're down to one card don't forget to shout \"UNO\"This fun family card game is perfect for adults teens and kids  years old and up.UNO Tin comes with  cards and instructions in a sturdy tin that's great for storage and travel.Material Type Plastic'",
          "condition":"New",
          "rating":4.1,
@@ -2894,7 +2894,7 @@ const products2 = [
       {
          "item":"Hallmark Boys' Valentines Day Cards for Kids and Mailbox for Classroom Exchange, Games and Sports (1 Box, 32 Valentine Cards, 35 Stickers, 1 Teacher Card)",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. All-in-one kit makes it easy to exchange valentines with the whole class including your teacher!.Cool Valentine's Day card pack contains  perforated tear-apart cards and one teacher card with fun designs featuring pizza baseballs footballs video game controllers and more.Matching decorated box is the perfect way to collect Valentine's cards. Folds flat into lid and pops up quickly and easily to form a sturdy classroom exchange mailbox. Use the stickers included to decorate the box your valentines or anything else!Assembled box measures .\" deep x .\" wide x .\" high.Printed on high quality paper stock Hallmark stationery is made with paper from well-managed forests.'",
          "condition":"New",
          "rating":2.6,
@@ -2906,7 +2906,7 @@ const products2 = [
       {
          "item":"Selieve Toys for 3-12 Year Old Boys Girls, Walkie Talkies for Kids 22 Channels 2 Way Radio Toy with Backlit LCD Flashlight, 3 Miles Range for Outside, Camping, Hiking",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Perfect Gift for Children Gift for - year old boys teen girl gifts walkie talkies for kids teen boy gifts birthday. Great for both indoor and outdoor activities such as going shopping spring outing and summer camping.Key Lock Function The kids walkies talkies equipped with key lock function it is not easy for children to modify the channels.Ergonomic Design Small and light body allow kids easy to use and just g per walkie talkie is easy to carry these will fit comfortably in children's hands with ergonomic design. An uncomplicated push-to-talk button makes this toy easy to use for - years old girls.Perfect Adventure Kids Toys Situation can be real-time monitoring of children anti wandered off intelligent alarm system etc. Stay connecting with your friends and families especially in outdoor activities the best outdoor toys for boys and girls.Easy to Use Modern compact design. Simple push to talk operation double click to activate a beep single. Broadcast to one or multiple units ability to use different channels.'",
          "condition":"New - Open Box",
          "rating":2.3,
@@ -2918,7 +2918,7 @@ const products2 = [
       {
          "item":"ThinkFun Zingo Bingo Award Winning Preschool Game for Pre-Readers and Early Readers Age 4 and Up - One of the Most Popular Board Games for Boys and Girls and their Parents, Amazon Exclusive Version",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Trusted by Families Worldwide - With over  million sold ThinkFun is the world's leading manufacturer of brain games and mind challenging puzzles.Develops critical skills  Perfect for pre-readers and early readers builds language and matching skills in preschool kids through fun fast-paced play. Zingo is as popular in the classroom with teachers as it is in the home with families!What you get - This is the Amazon exclusive version of the world famous game Zingo one of ThinkFun's best games for kids ages  and up and it includes an extra Zingo card so that up to  players can play! Also includes a unique Zinger device that delights players of all ages.Clear instructions  Easy to learn with a clear high quality instruction manual. You can start playing right away!Award winner - Zingo has won many awards including an Oppenheim Gold Parents' Choice Award ASTRA Best Toys for Kids Award and is a three time Toy of the Year Nominee which makes it a great gift for boys and girls ages  and up.'",
          "condition":"Used",
          "rating":4.6,
@@ -2930,7 +2930,7 @@ const products2 = [
       {
          "item":"Learning Resources Recordable Answer Buzzers, Personalized Sound Buzzers, Talking Button, Set of 4, Easter Gits for Kids, Ages 3+",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. MAKE PERSONALIZED SOUNDS ON RECORDABLE BUTTONS  Make your buzzers customizable! These answer buzzers are great for making your buzzers any sound that you want - they record up to  seconds!CLASSROOM TOOL OR JEOPARDY BUZZER A perfect tool for quieter students - buzzers are loud enough to get the attention of the class. Use them as Jeopardy buzzers or buzzers for Family Feud!SPEECH PATHOLOGIST APPROVED Use these recordable buttons to customize therapy sessions and help understand words through tactile and aural learningDOG TRAINING Train your dog to use these buttons for commands such as \"food\" or \"outside\"Easter Toys Ideal for ages '",
          "condition":"Good",
          "rating":4.3,
@@ -2942,7 +2942,7 @@ const products2 = [
       {
          "item":"Jenga Classic Game",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Pull out a block without crashing the stack to win at JengaIncludes  Jenga hardwood blocks stacking sleeve with instructionsSimple solid and timelessIt takes skill strategy and luck. Challenge yourself or play with friendsWin by being the last player to remove a block without causing the stack to crash'",
          "condition":"Used",
          "rating":0.9,
@@ -2954,7 +2954,7 @@ const products2 = [
       {
          "item":"LEGO BrickHeadz Star Wars The Mandalorian & The Child 75317 Building Kit, Toy for Kids and Any Star Wars Fan Featuring Buildable The Mandalorian and The Child Figures, New 2020 (295 Pieces)",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Star Wars The Mandalorian fans and creative kids will love building their own LEGO BrickHeadz versions of the Child and The Mandalorian  recreating authentic details to create a cool displayThe Mandalorian buildable LEGO figure has signature weapons  a blaster rifle clipped on the back and a blaster pistol in hand  to spark memories of thrilling Star Wars The Mandalorian scenesYoungsters will love the Child building toy with adjustable ears for different expressions and its hoverpram floating on a transparent LEGO element Both construction models have baseplates for displayThis -piece LEGO BrickHeadz Star Wars building toy makes an awesome birthday present holiday gift or anytime surprise for Star Wars The Mandalorian fans and LEGO builders aged  and upThe Mandalorian measures  cm tall and the Child and hoverpram building toy measures  cm high  they won't take up too much space but are sure to make a big impression wherever they are displayed'",
          "condition":"New - Open Box",
          "rating":1.9,
@@ -2966,7 +2966,7 @@ const products2 = [
       {
          "item":"Taco Cat Goat Cheese Pizza",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. PLAY IT ANY TIME ANY PLACE- Convenient take anywhere size game.SIMPLE AND HILARIOUS- Fast paced laugh out loud fun for any get together.WILDLY POPULAR- Perfect for all-ages.GET ROLLING IN SECONDS- Takes only a minute to learn and gameplay lasts for about  to  minutes.'",
          "condition":"New",
          "rating":3.8,
@@ -2978,7 +2978,7 @@ const products2 = [
       {
          "item":"Monopoly Deal Card Game",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. New Monopoly Deal card game that is moving through Family Game Nights everywhereCollect  complete property sets but beware of the Debt Collectors Forced Deals and Deal BreakersIf you are looking for a fun familyfriend game this is itNow only plays up to five players which takes apprx  min to play w people apprx  min w apprx - minutes w people and apprx - minutes w peopleFun fast dealingevery card counts'",
          "condition":"Good",
          "rating":0.0,
@@ -2990,7 +2990,7 @@ const products2 = [
       {
          "item":"Gel Pens for Adult Coloring Books, 30 Colors Gel Marker Colored Pen with 40% More Ink for Drawing, Doodling Crafts Scrapbooks Bullet Journaling",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. About Coloring Aen Art Gel Pens set contain  INDIVIDULE colors enjoy vivid color on Amazon! It will bring much more fun for Adult book Coloring Scrap booking Sketching Doodling Drawing Writing and all the other art designs.High Performance Each gel pen writes smoothly and easy to hold as they come with soft grips.  MORE INK for long last and would produce perfect lines for Home-Made Invitations Making Greeting Cards DIY Decor  Letters to Friends  Family etc.Value Gift Set Those  colorful gel pens are divided to  ink groups.  Classic  Flourescent  Pastel  Glitter and  Metal. The possibilities are endless. You can use those pens for shading and lettering as well.Bright Colors Gel Coloring Pens has a full spectrum of distinctive colors. You can choose ink from light to dark colors easily. Acid-free Non-Toxic and lead-free. So our amazing gel pen set will make your pictures shine and sparkle.Customer Service We will handle and solve all the product problems immediately for you. If you are still unhappy we will continue to work with you to solve the issue.'",
          "condition":"Good",
          "rating":1.0,
@@ -3002,7 +3002,7 @@ const products2 = [
       {
          "item":"Play-Doh Bulk 12-Pack of Blue Non-Toxic Modeling Compound, 4-Ounce Cans",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. BULK PLAY-DOH CANS  This -pack of blue Play-Doh compound includes large Play-Doh containers with  ounces in each can.BLUE FOR EVERY OCCASION  Need that one color for an arts and crafts activity or to restock your Play-Doh cans? This Play-Doh -pack is great for parties classrooms or kids who really like the color blue!SHAPE YOUR IMAGINATION  Squishy bright non-toxic Play-Doh compound sparks imaginations for kids  and up who love art supplies like modeling clay.EASY-OPEN RECYCLABLE PACKAGE - Ships in simple recyclable packaging thats easy to open and frustration free and the Play-Doh cans and lids are also recyclable to help build a more sustainable world!'",
          "condition":"Used",
          "rating":4.7,
@@ -3014,7 +3014,7 @@ const products2 = [
       {
          "item":"Exploding Kittens Card Game - Family-Friendly Party Games - Card Games for Adults, Teens & Kids",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Exploding kittens is the perfect card game for adults teens and kids who are into kittens and explosions and laser beams and sometimes goats.More than  million copies sold breaking records in kids games adult games and everything in-betweenA highly strategic kitty-powered version of Russian roulette basically if you draw an exploding kitten you lose and you are full of loser sad-sauceThis game of the year award winner is the perfect holiday gift if you're looking for board games for adults but want to be able to play fun games with your kids as wellIt's like uno except there are goats magical enchiladas and kittens that can kill you -cnnThis gift favorite takes  minutes to learn  minutes to play is for - players ages  and includes  cards box and instructions'",
          "condition":"New",
          "rating":0.1,
@@ -3026,7 +3026,7 @@ const products2 = [
       {
          "item":"Skillmatics Educational Game : Animal Planet - Guess in 10 (Ages 6-99) | Card Game of Smart Questions | General Knowledge for Kids, Adults and Families | Gifts for Boys and Girls",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. EXCITING CARD GAME OF QUESTIONS - Ask up to  questions to guess the animal on the Game Card! Is it a carnivore? Is it a domestic animal? Does it live in groups? Think hard ask intelligent questions use your clue cards wisely and the be the first player to win  Game Cards!RIDICULOUSLY SIMPLE GAMEPLAY - Divide yourselves up in teams ask up to  questions and try to guess your opponents Game Card. It's that simple!STRATEGISE YOUR WAY TO VICTORY - Make use of exciting features such as Clue Cards and Bonus Questions to plan your way to winning  cards. First to  cards wins it allPLAY IT ANY TIME ANY PLACE - One game set includes  Game Cards  Clue Cards and a handy box to store it all. The box size is portable  travel friendly. Your child can become an instant champion by playing at family game night gatherings plane trips and more!PERFECT GIFT FOR KIDS - Age appropriate content and gameplay that focus on building key skills in young learners.This game is for - Players.FUN FOR THE WHOLE FAMILY - This is the most exciting game youll find for Family Game Night filled with amazing content that can be thoroughly enjoyed by all ages  from  to !'",
          "condition":"Good",
          "rating":1.3,
@@ -3038,7 +3038,7 @@ const products2 = [
       {
          "item":"VTech Sit-To-Stand Learning Walker (Frustration Free Packaging), Blue",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Interactive learning baby walker has a removable play panel Frustration Free Packaging means it comes in a plain brown boxEarly learning center has  piano keys that play music and encourage creativity wheels work on carpeted and hard floorsFeatures  colorful spinning rollers  shape sorters and  light-up buttons that develop motor skillsPretend telephone handset and mechanical elements enhance role-play fun  AA batteries are includedOver  sing-along songs music sound effects and fun phrases meant for babies and toddlers  months to  years old'",
          "condition":"New",
          "rating":3.1,
@@ -3050,7 +3050,7 @@ const products2 = [
       {
          "item":"LEGO Creator Mighty Dinosaurs 31058 Build It Yourself Dinosaur Set, Create a Pterodactyl, Triceratops and T Rex Toy (174 Pieces)",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Kids will enjoy embarking on dinosaur adventures with this -in- dinosaur playset that transforms into a Pterodactyl Triceratops and T Rex Toy Each dinosaur toy will create hours of pretend play for kidsThere are a variety of dinosaur accessories included such as bright orange eyes posable joints and head large claws and an opening mouth with pointed teeth Plus dinosaur prey that comes in the form of a buildable rib cageYour kid can engage in creative play by building multiple green dinosaurs from this set of beige and dark-green bricksThis LEGO Creator -in- kids dinosaur toy provides a unique build and play experience in which kids can play with a mix of dinosaur models Ideal for kids ages    and olderThis kids dinosaur toy creates a T Rex that measures over -inch cm tall a Triceratops toy that measures over -inch cm tall and a Pterodactyl that measures over -inch cm high -inch cm long and inch cm wide'",
          "condition":"New",
          "rating":4.3,
@@ -3062,7 +3062,7 @@ const products2 = [
       {
          "item":"Crayola Ultra Clean Washable Markers, Kids Indoor Activities At Home, Broad Line, 40 Classic Colors",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. CRAYOLA BROAD LINE MARKERS Features  Crayola Ultra Clean Washable Markers in assorted colors.ULTRA CLEAN WASHABLE MARKERS Wash from skin most washable clothing and most painted walls.AT HOME CRAFTSINDOOR ACTIVITIES Keep spirits high with creativeart supplies! Simple andfun crafts for kidsare a great way to stay thoughtfully engaged and entertained.ART  SCHOOL SUPPLIES Perfect for art projects classroom activities and more activities with fine details!SAFE  NONTOXIC Ideal for kids ages   up.'",
          "condition":"Good",
          "rating":1.9,
@@ -3074,7 +3074,7 @@ const products2 = [
       {
          "item":"Jasonwell Aqua Magic Doodle Mat 40 X 32 Inches Extra Large Water Drawing Doodling Mat Coloring Mat Educational Toys Gifts for Kids Toddlers Boys Girls Age 3 4 5 6 7 8 Year Old",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Aqua Magic Mat Boys Girls Toys - Large Area for Doodle -- Larger mat size . X . inches with neat sized letters printed on side leaving more room for your kids doodle art. Great learning toys for     year old girlsWater Doodle Mat - Reusable - Toddler girl toys. Fill the magic pen with clean water and draw on the magic drawing mat. After - minutes it magically disappears and kid can doodle on it over and over again.   year old girl gifts toysAqua Mat - Safe  no mess  easy to clean storage --- No paint Non-toxic Non-polluting. No mess with water proof backing. Easy Storage can be folded into a compact size. Perfect Gifts for    year old girls boysWater Drawing Mat Doodle - Doodle on Floor Table or on Smooth Wall or Window - with  suction cups. It also comes with Doodle mat x  Magic pens x  design booklet x  stamps x  Storage box x  drawing template x  drawing mold x Educational Kids Toys - Bonus  Stamps -- Educational toys for     year olds. Your little ones will love to stamp and make the doodle beautiful.'",
          "condition":"Good",
          "rating":2.3,
@@ -3086,7 +3086,7 @@ const products2 = [
       {
          "item":"The Ultimate Game for Couples - Great Conversations and Fun Challenges for Date Night - Perfect Romantic Gift for Couples",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. TWO GAME CHOICES - Connect one-on-one your partner or play together with other couples in two different gameplays.QUALITY TIME WITH YOUR PARTNER - Get to know each other better as you dive into meaningful conversations and perform funny challenges - perfect for date night.COMPETE AGAINST OTHER COUPLES - Team up with your partner and play with other couples to see who really knows each other best.BUILD DEEPER CONNECTIONS - The simple gameplay and easy rules allows you to quickly engage with each other.REPLAY VALUE -  playing cards guarantees hours of replayability. Perfect gift for him and her - makes a great wedding newlywed or anniversary gift.'",
          "condition":"Good",
          "rating":3.5,
@@ -3098,7 +3098,7 @@ const products2 = [
       {
          "item":"Flybar My First Foam Pogo Jumper for Kids Fun and Safe Pogo Stick for Toddlers, Durable Foam and Bungee Jumper for Ages 3 and up, Supports up to 250lbs",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Boing Boing Squeek! The My First Flybar foam pogo stick is hours of healthy bouncy fun. Crafted from durable foam this is an ideal first pogo stick for kids each jump makes a fun squeaky sound destined to delightUse anywhere Weve designed our kids jumper for indoor and outdoor use the heavy duty components will withstand all conditions and unlike inferior jumping toys this pogo jumper for kids is made to last! A great boys or girls toy for ages  and up!Train balance Pogo sticks make great active toys for kids because they help train hand eye coordination and gross motor skills Give your kid a headstart in life with a toddler pogo stick crafted to improve balanceHealthy Get your kid off the sofa with a jumping toy that encourages fitness Our bungee jumper is a foam pogo stick that promotes healthy activity whilst being incredible bouncy boing funManufacturer promise At Flybar we pride ourselves on seamless customer service If you dont love our foam pogo jumper simply return it within  days for a total refund No fuss no tricks just incredible service you can trust'",
          "condition":"Good",
          "rating":2.1,
@@ -3110,7 +3110,7 @@ const products2 = [
       {
          "item":"IDAODAN Portable Dual Nozzle Rose Red 110V 600W Electric Balloon Blower Pump/Electric Balloon Inflator For Decoration",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Light Weight and Portable design. Easily create a warm atmosphere.This balloon inflator commonly used in some activitiesfestivepartycelebrationdecoration.Size  x  x  cm. Type manual automatic one. Pressure pa-pa .psi. Input voltage -V. Frequency Hz.Product weight .KG. ColorRose red. Air volume  Lmin. Power W. Package Include  x Balloon Air Pump  x User ManualThis electric balloon pump fit to latex balloon and decorative balloon. Double pump balloon air pump. Balloon pump has two modes manually and automatically.SAFETY  WARRANTY ETL approved -year warranty and lifetime support provided by iDaodan.'",
          "condition":"New - Open Box",
          "rating":2.0,
@@ -3122,7 +3122,7 @@ const products2 = [
       {
          "item":"BEAR - Real Fruit Yoyos - Apple - 0.7 Ounce (30 Count) - No added Sugar, All Natural, non GMO, Gluten Free, Vegan - Healthy on-the-go snack for kids & adults. (6 boxes with 5 singles in each box)",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"What will I receive?-  boxes with  single packs in each boxes Each single pack will contain  rolls. Made with real whole fruit and absolutely nothing elseWere proud to say that our fruit snacks are non-GMO Project Verified gluten free kosher vegan and paleoOur fruit rolls are also completely free from concentrates added sugar preservatives stabilizers and gumming agentsWe gently bake our fruit rolls to ensure theyre jam packed with vitamins minerals and fiberPerfect for lunchboxes backpacks or simply just a grrreat on-the-go healthy snack'",
          "condition":"Good",
          "rating":4.4,
@@ -3134,7 +3134,7 @@ const products2 = [
       {
          "item":"Pok\u0398mon Assorted Cards, 50 Pieces",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. YOUR BEST VALUE ON POKEMON CARDS Look no further for the best deals on assorted Pokemon cards.LOTS OF RANDOM CARDS FROM ALL SERIES You will receive a variety of regular and energy cards. Duplicates may occur.BOOST YOUR COLLECTION With random cards from every series each lot is a surprise.Generic Packaging'",
          "condition":"New - Open Box",
          "rating":3.1,
@@ -3146,7 +3146,7 @@ const products2 = [
       {
          "item":"Hasbro Gaming Guess Who? Game Original Guessing Game for Kids Ages 6 and Up for 2 Players",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. THE ORIGINAL GUESSING GAME This edition of the Guess Who? game features classic tabletop boards  Mystery cards and  Face cardsINTERACTIVE GAME FOR KIDS Kids can have loads of fun as they use yes or no question to guess each other's mystery characterCLASSIC GUESS WHO? GAMEPLAY Remember playing the Guess Who? game when you were a kid? This guessing game features classic gameplay with updated characters from the previous editionUPDATED ART This edition of the Guess Who? game features updated characters and character art not seen in previous versions'",
          "condition":"New - Open Box",
          "rating":4.3,
@@ -3158,7 +3158,7 @@ const products2 = [
       {
          "item":"Elongdi Water Beads Pack Rainbow Mix 50,000 Beads Growing Balls, Jelly Water Gel Beads for Spa Refill, Kids Sensory Toys , Vases, Plant, Wedding and Home Decor",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. Huge . OZ value pack of Eco-friendly crystal water beads safe and harmless. Reasonably priced. With plastic bottle for easier storageNon-fade Non-Toxic  Biodegradable Non-FlammableSoaking in the water to become bouncy squishy and beautiful jelly beads. It would starts as tiny hard ball and grows many times. RecyclableThousands of Use Color recognition counting fine motor skill and wild imagination training. Not only suitable for kids also adults. Ideal for centerpieces any floral design weddings home or plant decoration vase filler showers parties etc'",
          "condition":"New - Open Box",
          "rating":4.0,
@@ -3170,7 +3170,7 @@ const products2 = [
       {
          "item":"Tru-Ray - 1439763 Pacon Assorted Primary Colors Primary Construction Paper, 9\" W x 12\" L (Pack of 50)",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. High quality construction paper is great for a multitude of art projectsVibrant primary colors children will loveInspires creativity and hours of fun x  inches in size'",
          "condition":"New",
          "rating":4.1,
@@ -3182,7 +3182,7 @@ const products2 = [
       {
          "item":"Fidget Dodecagon \u00fb12-Side Fidget Cube Relieves Stress and Anxiety Anti depression cube for Children and Adults with Autism (A1 Black)",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This fits your.Make sure this fits by entering your model number. PlasticMade in ChinaFidget Dodecagon  Sides fidget cube to keeps minds and fingers occupied help reduce stress and anxiety preventing the mind from wandering off allowing one to better focus. sided fidget cube has  sides guaranteed to keep your hand busy. Its made with high-quality ABS plastic which has smooth surface give you smooth click roll perfect for clickers flickers rollers and spinners. Sides Includes Gears Buttons Joystick Switch Soothes and Stress Balls Disk Silicone balls Joystick ect. Release your body and mood and help you focus on your work or study.Pocket Sized Durable Light Weight Discrete and Portable. The fidget cube is suitable for both kids and adults great toy for Fidgeters Anxiety Focusing ADD and ADHD OCD Autism Quitting Bad Habits Staying AwakeNice case package. The figit cube comes with an protective case . The extremely portable and pocket size which is easy to carry play anytime anywhere. Perfect device for school work meetings church libraries and more'",
          "condition":"Good",
          "rating":0.2,
@@ -3194,7 +3194,7 @@ const products2 = [
       {
          "item":"Sensory Fidget Toys Set, 25 Pcs., Stress Relief and Anti-Anxiety Tools Bundle for Kids and Adults, Marble and Mesh, Pack of Squeeze Balls, Soybean Squeeze, Flippy Chain, Liquid Motion Timer & More",
          "category":"Movies, TV, & Games",
-         "sub_category":"Toys & Games",
+         "sub_category":"Toys and Games",
          "description":"This is a really cool product'",
          "condition":"New",
          "rating":1.5,
@@ -3207,7 +3207,7 @@ const products2 = [
          "item":"$100 PlayStation Store Gift Card [Digital Code]",
          "category":"Movies, TV, & Games",
          "sub_category":"Video Games",
-         "description":"The PlayStation Store wallet has a limit of Download the latest games and add-ons Discover and download tons of great PS PS and PS Vita games and DLC content to give you moreAccess your favorite movies and TV shows Rent or purchase the newest and biggest movies and TV shows available and download or stream them instantly to your favorite PlayStation devicesConnect with millions and start playing Take your PlayStation games to the next level by downloading the latest multiplayer maps missions and characters to play online with friends",
+         "description":"The PlayStation Store wallet has a limit of Download the latest games and add-ons Discover and download tons of great PS PS and PS Vita games and DLC content to give you moreAccess your favorite Movies and TV shows Rent or purchase the newest and biggest Movies and TV shows available and download or stream them instantly to your favorite PlayStation devicesConnect with millions and start playing Take your PlayStation games to the next level by downloading the latest multiplayer maps missions and characters to play online with friends",
          "condition":"New - Open Box",
          "rating":0.7,
          "num_of_ratings":2108,
@@ -3243,7 +3243,7 @@ const products2 = [
          "item":"$10 PlayStation Store Gift Card [Digital Code]",
          "category":"Movies, TV, & Games",
          "sub_category":"Video Games",
-         "description":"The PlayStation Store wallet has a limit of Download the latest games and add-ons Discover and download tons of great PS PS and PS Vita games and DLC content to give you moreAccess your favorite movies and TV shows Rent or purchase the newest and biggest movies and TV shows available and download or stream them instantly to your favorite PlayStation devicesConnect with millions and start playing Take your PlayStation games to the next level by downloading the latest multiplayer maps missions and characters to play online with friends",
+         "description":"The PlayStation Store wallet has a limit of Download the latest games and add-ons Discover and download tons of great PS PS and PS Vita games and DLC content to give you moreAccess your favorite Movies and TV shows Rent or purchase the newest and biggest Movies and TV shows available and download or stream them instantly to your favorite PlayStation devicesConnect with millions and start playing Take your PlayStation games to the next level by downloading the latest multiplayer maps missions and characters to play online with friends",
          "condition":"New",
          "rating":2.9,
          "num_of_ratings":157,
@@ -3734,7 +3734,7 @@ const products2 = [
       {
          "item":"Elmer's All Purpose Glue Sticks, 0.77 Ounce (3 Count) - New",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Bonds to paper cardboard foam board and moreEasy to use and washable with soap and waterDries quickly and colorlesslyNontoxic acid free and photo safeIdeal glue for the home and of",
          "condition":"New - Open Box",
          "rating":1.3,
@@ -3746,7 +3746,7 @@ const products2 = [
       {
          "item":"Liquid Dye, 8 Ounce (Apple Green)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Perfect for rejuvenating faded clothing changing the color of apparel shoes or accessories coordinating home dcor hiding laundry accidents and so much moreGet creative and create something unique with an easy dye technique like an ombr dip dyed marbled shibori or tie-dye patternThis dye can even color wood wicker paper and ",
          "condition":"New - Open Box",
          "rating":0.2,
@@ -3758,7 +3758,7 @@ const products2 = [
       {
          "item":"iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Bullet Journaling Writing Note Taking Calendar Coloring Art Office School Supplies, 18 Colors",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. VIBRANT COLORS Smart Fineliner Color Pens Set  Unique Colors . mm Fine Point Colored Pens Assorted Color Fine Tip Marker Pens Minimal Bleed Thru Ink. Perfect as Journal Pens Planner Pens Journaling Pens Teacher Pens School Supplies Office Supplies Planner Accessories. Premium gift set for the family friends co-workers Birthday Christmas.SMOOTH WRITING Colorful Fine tip marker pen set with superfine metal-clad fine tipped and outstanding performance in all areas of writing drawing coloring easy and comfortable to write. You will also find them great for home office work business colleague church club and organazition activities.GREAT marker pens for drawing lines  details journal planner calendar agenda notebook note taking painting writing coloring sketch marker signing manga animation graphic design illustration included artists fine-ink drawings and coloring small intricate patterns. Perfect Colored Pens for Middle School High School College Bachelor Graduate Women Men Adult Coloring.Colored art writing drawing porous point pens. Water-based ink minimal bleed thru except very thin paper these fiber-tipped pens create fine lines and intense water-based colors. Packaged in a soft transparent vinyl bag.WELL PACKAGE --- Our fine line pens come in a nice plastic storage case with fold over snap closure which can be easily placed in backpacks. For using in school travel or used in the home and office. Great Back to School Stationary planner or journaling supplies for Christmas Birthday Mother's Day Easter Day Valentine's Day Thanksgiving Day Party New Year",
          "condition":"Used",
          "rating":3.2,
@@ -3770,7 +3770,7 @@ const products2 = [
       {
          "item":"Crayola Construction Paper, Assorted Colors, 96 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. PREMIUM QUALITY Thick vibrant crafting paper for all of your creative projects!CRAYOLA COLORS Includes Pink Red Orange Yellow Green Blue Purple White and Black Construction Paper Sheets.SCHOOL SUPPLIES This bulk set is ideal for school projects arts and crafts in classrooms and craft rooms.STANDARD SIZE Each Construction Paper Sheet is  X  inches l",
          "condition":"Good",
          "rating":0.5,
@@ -3782,7 +3782,7 @@ const products2 = [
       {
          "item":"Elmer's Disappearing Purple School Glue Sticks, 0.77 oz Each, 3 Sticks per Pack (E562) - New",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Everyone's favorite for easy no mess bondingGoes on purple and dries clear so you can see where you are gluingSmooth for easy applicationAcid free photo safe non toxic and washablePack of  jumbo glue st",
          "condition":"Good",
          "rating":4.7,
@@ -3794,7 +3794,7 @@ const products2 = [
       {
          "item":"Scissors, iBayam 8\" Multipurpose Scissors Bulk 3-Pack, Ultra Sharp Blade Shears, Comfort-Grip Handles, Sturdy Sharp Scissors for Office Home School Sewing Fabric Craft Supplies, Right/Left Handed",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Definitely household scissors -- Great for cutting burlap paper cardboard light line fabric tape photos. Perfect for sewing tailoring quilting dressmaking cutting patterns alterations hand craft. Exceptional scissors for multiple uses around the home in the Handcraft Workshop in the bathroom on the dresser in the study in the laundry room mail room craft room at the office great for most regular household tasks. Suitable for teachers middle  high school classroom supplies. Pairs of Quality Straight Handled Scissors -- They are strongly allow you to make precise cuts with great control as the blade have the perfect amount of friction Very comfortable to use.  pairs of straight handled scissors for smooth efficient cutting sissors for general use.Competitive Price -- Durable stainless steel blades enables high-density steel that makes  times harder than normal stainless steel and are smoother cutting. X longer lasting than the previous formula and remain sharp for  cuts. blades stay sharper longer We chose bright colors green  purple  orange. different color rubber handles are used in different places Soft-grip holes let you maintain a comfortable can be used left- or right-handed.iBayam -Inch Soft-Grip Scissors --  special scissors are suitable for most items that need to be cut. It can also be used as a household scissors for cutting open frozen food bags ready for cooking. Convenient sturdy especially sharp scissors for general use very dura",
          "condition":"New - Open Box",
          "rating":0.5,
@@ -3806,7 +3806,7 @@ const products2 = [
       {
          "item":"Foamily 4 Pack - 12\" x 20\" Premium Hypoallergenic Lumbar Stuffer Pillow Inserts Sham Square Form Polyester, Standard/White",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Pack more cushion to your sofa couch for lumbar support or just decorationOur most resilient decorative throw pillow inserts yet firm yet fluffy filler stuffingMeasurements are seam to seam - After filling the pillow will decrease about  -  in size Order two inches up!Filled with  Hypo allergenic polyester micro fiber pillows - MADE IN USA - use in home or in a outdoor cover by FoamilyUnfortunately this great pillow is too small for an adult sleeping pil",
          "condition":"Used",
          "rating":3.4,
@@ -3818,7 +3818,7 @@ const products2 = [
       {
          "item":"VELCRO Brand Industrial Fasteners Stick-On Adhesive | Professional Grade Heavy Duty Strength | Indoor Outdoor Use, 1 7/8in, Circles 4 Sets",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. PROFESSIONAL GRADE ADHESIVE FASTENERS These industrial strength hook and loop fasteners provide strong holding power designed for heavy-duty applications safely holds up to  poundsWATER RESISTANCE PROVIDES UNMATCHED VERSATILITY With heavy-duty strength these fasteners make the ultimate organization tool for mounting hanging storing or securing items indoors or outdoors adheres to most surfaces in the house and garageLONG LASTING DURABILITY Easy stick-on application is ideal for a broad range of surfaces and applications special sticky back adhesive provides a secure and long-lasting holdDESIGNED FOR TOUGH APPLICATIONS Super strong superior holding power allow these adhesives to securely fasten to smooth surfaces including plastic glass metal and painted wallboardNO TOOLS REQUIRED No hammer drilling nails or epoxy necessary hook and loop industrial strength fasteners feature an easy peel and stick application its the simple solution to organize on many surfaces without putting holes in the ",
          "condition":"New - Open Box",
          "rating":3.9,
@@ -3830,7 +3830,7 @@ const products2 = [
       {
          "item":"Nalgene Tritan Wide Mouth BPA-Free Water Bottle, 32 oz",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. The original. The trailblazer. The Sir Edmund of water bottles. Nalgene's BESTSELLING water bottle for more than  years.For Your Everyday Adventures! Take your Nalgene bottle to the gym office camping exploring and everywhere in between.This Nalgene water bottle is completely leak proof made of virtually indestructible BPA-free Tritan easy to clean and dishwasher safe on the top rack.Suitable for both warm and cold beverages - to  degrees Fahrenheit wide mouth makes cleaning and adding ice cubes easy.Free of BPA BPS and phthalates opening accommodates most water filters marked with milliliters and ounces for easy measurem",
          "condition":"New - Open Box",
          "rating":2.0,
@@ -3842,7 +3842,7 @@ const products2 = [
       {
          "item":"BOSOBO Paint Brushes Set, 2 Pack 20 Pcs Round Pointed Tip Paintbrushes Nylon Hair Artist Acrylic Paint Brushes for Acrylic Oil Watercolor, Face Nail Art, Miniature Detailing & Rock Painting, Blue",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"BOSOBO Art Paint Brushes Set - Share colors to adorn your daily lifePackage contains a large variety of shapes and sizes allowing you to paint anything and everything of your imagination. The painting brushes are designed to meet the requirements of both amateur and artists. Whether you are looking for hobby paint brushes kids paint brushes beginners paint brushes or pro paint brushes this artist brush set will appeal to you.Why You Choose Us. Seamless nickel ferrules won't rust or split. They are double-crimped to last longer and won't come loose after a few uses.. Brushes don't shed hairs. No more frustration trying to get brush hairs off your artwork. Brush bristles return perfect shape after each stroke.. Short wooden handles with a smooth finish perfect for greater control over small details.. Easier to clean and won't deteriorate as quickly. Brush hair stay soft and flexible after each cleaning.Product Applications- Acrylic Watercolor Enamel Oil Cel-vinyl Gouache Water Mixable Oils Painting- Ceramic Models Doll Airplanes War Hammer K Paint by Numbe Miniatures Crafts Rock Leather Gesso Painting- Face Painting Nail Art Painting Body Art PaintingProduct Specifications- Filbert  .cm  .cm- Flat  Shader  .cm  .cm  cm- Round  Script  Rigger  .cm  .cm  .cm- Liner  Detail  .cm  cmThe Paint Brush Maintenance. You do have to get them in water quickly after use or they stiffen up. Be sure to never leave them in water and dry them well.. Cleaning Water based paint-warm soapy water oilsolvent based paints-petroleum essence.. Drying  Storage Flatwise or head upward.What's in the Box? Pcs Paint Brush Set Press \"ADD TO CART\" Now Start Enjoying and Creating Your Masterpi",
          "condition":"Used",
          "rating":2.3,
@@ -3854,7 +3854,7 @@ const products2 = [
       {
          "item":"CAREGY Iron on Heat Transfer Vinyl Roll HTV (12''x5',Black)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"CAREGY's inxft premium quality heat transfer vinyl is easy to weed transfer and not easy to fall off. Work with colleagues to make their own team cohesion logo and slogan. Make your own design with friends. You can also create creative designs while accompanying your family and children. The unique design is only between you.CAREGY Heat Transfer Vinyl is the most trusted heat transfer vinyl brand in the world. Heat transfer vinyl is so durable that when applied properly will outlast the shirts fabric.CAREGY applies at a lower temperature than competitor material backing can be peeled hot or cold and doesnt lift during weeding. Its also extremely durable wash after wash and uses a lower pressure setting for application.CAREGY is thinner than others on the market and offers a one-second tack application thats great for multiple layers. CAREGY has a pressure sensitive carrier that allows you to offer detailed designs on a wide variety of fabrics.Our vinyl is safe and high quality. It supports machine cleaning the first cleaning is in  hours. It's better to wash the reverse side and make creative items for children. You can also make some designs on your pillows bags T-shirt and so on. You can also make some creative designs for pet accessories.NOTE Actual color of vinyl may vary slightly due to differences in monitor disp",
          "condition":"Used",
          "rating":4.1,
@@ -3866,7 +3866,7 @@ const products2 = [
       {
          "item":"Duck 283264 Color Duct Tape Single Roll, 1.88 Inches x 20 Yards, Beige - 1",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. For temporary floor marking removes cleanly up to  weeks. Not for hardwood or direct sunlight.Heavy duty- excellent for repairs crafting  imaginative projects. Comes in a variety of patterns.Heavy duty- excellent for repairs crafting  imaginative projects. Comes in a variety of patterns.Excellent adhesion to a variety of surfaces cloth vinyl leather plastic metal and laminatesMade in the USA with globally sourced materials. Colored Duck Tape measures .\" x  yrds.  roll. ",
          "condition":"Used",
          "rating":4.2,
@@ -3878,7 +3878,7 @@ const products2 = [
       {
          "item":"SunWorks Heavyweight Construction Paper, 9 x 12 Inches, Black, 100 Sheets",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. SunWorks Construction Paper by Pacon the  Teacher Approved Brand!Heavyweight groundwood construction paperSlightly textured sheets that cuts and folds evenly without crackingBright and consistent colorsExcellent value for all arts and craft projectsContains  sh",
          "condition":"Good",
          "rating":1.1,
@@ -3890,7 +3890,7 @@ const products2 = [
       {
          "item":"HTVRONT HTV Vinyl Rolls Heat Transfer Vinyl - 12\" x 8ft Red HTV Vinyl for Shirts, Iron on Vinyl for Cricut & Cameo - Easy to Cut & Weed for Heat Vinyl Design (Red)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This is a really cool product",
          "condition":"New",
          "rating":3.5,
@@ -3902,7 +3902,7 @@ const products2 = [
       {
          "item":"Ring Size Adjuster for Loose Rings - 12 Pack, 2 Sizes - Jewelry Sizer, Mandrel for Making Jewelry Guard, Spacer, Sizer, Fitter - Spiral Silicone Tightener Set with Polishing Cloth",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This is a really cool product",
          "condition":"Good",
          "rating":4.4,
@@ -3914,7 +3914,7 @@ const products2 = [
       {
          "item":"Xinart LightGrip Cutting Mat for Cricut Maker/Explore Air 2/Air/One(12x12 Inch, 3 Mats) Light Adhesive Sticky Blue Quilting Cricket Cutting Mats Replacement Accessories for Cricut",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Xinart cutting mat x inch works perfect for Cricut Maker Cricut Explore Air AirOne. For those who work on crafts and other projects that require a lot of cutting xinart replacement cutting mat will make your dreams come true.Xinart  pieces cutting mats for cricut are made of PVC which is durable and environmental-friendly. Due to the new unique adhesive xinart cutting mats have no bad smell and they last a long time.Xinart x inch cutting mat has just the right amount of sticky. Easy to use when you paste the material on the cutting mat they would hold your designs nicely peel off easily without any tear whatsoever.Xinart lightgrip cutting mat x inch is used for lightweight materials such as scrapbook paper printer paper light cardstock and other thin materials our lightgrip cutting mats offer the no-slip adhesive that actually grips and releases easily.Xinart cutting mats will last more time if you keep the clear film cover on the cutting mat when storing to keep mat free from paper scraps and d",
          "condition":"Good",
          "rating":1.1,
@@ -3926,7 +3926,7 @@ const products2 = [
       {
          "item":"Liquid Dye, 7 Ounce (Apricot Orange)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Get creative and create something unique with an easy dye technique like an ombr dip dyed shibori or tie-dye patternDue to the complexity of dyeing synthetic fabrics you must use this dye in a stainless steel pot on your stove top to maintain a high water temperature throughout the duration of dyeing. Cannot be used in a washing machinePerfect for rejuvenating faded clothing upcycling hiding laundry accidents and so much ",
          "condition":"New",
          "rating":3.1,
@@ -3938,7 +3938,7 @@ const products2 = [
       {
          "item":"Cricut VINYL STRONG GRIP TRANSFER TAPE 12X48, 12x48-Inches, Clear",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Clear with a light printed grid for precise alignment with images and surfaceSpecially designed to transfer glitter vinyl cuts to surfaces with easeCreate removable media covers labels decor and moreUse with all Circuit cutting machinesOne sheet  in. X  in. Transfer ",
          "condition":"Good",
          "rating":3.4,
@@ -3950,7 +3950,7 @@ const products2 = [
       {
          "item":"3 Pack PTFE Teflon Sheet for Heat Press Transfer Sheet Non Stick 16 x 20\" Heat Transfer Paper Reusable Heat Resistant Craft Mat",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This is a really cool product",
          "condition":"Used",
          "rating":4.6,
@@ -3962,7 +3962,7 @@ const products2 = [
       {
          "item":"Luna Bean Keepsake Hands Casting Kit | DIY Plaster Statue Molding Kit | Hand Holding Craft for Couples, Adult & Child, Wedding, Friends, Anniversary",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This is a really cool product",
          "condition":"New",
          "rating":2.5,
@@ -3974,7 +3974,7 @@ const products2 = [
       {
          "item":"Apple Barrel PROMOABI 18pc Matte Finish Acrylic Craft Paint Set, Assorted Colors 1, 18 Count",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This Apple Barrel Acrylic Paint set comes with    oz bottles in the colors White Yellow Flame Bright Yellow Bright Magenta Fuchsia Jack-o-lantern Flag Red Purple Iris Parrot Blue Bimini Blue Bright Blue Too Blue New Shamrock Holly Branch Nutmeg Brown Melted Chocolate Pewter Grey and BlackFormulated for use on all surfaces including wood Styrofoam plaster terra cotta and tinColors glide on smoothly dry quickly and stay beautiful as the day they were paintedCan be brushed stamped stenciled or spongedWater-based non-toxic made in the",
          "condition":"Good",
          "rating":4.0,
@@ -3986,7 +3986,7 @@ const products2 = [
       {
          "item":"Lion Brand Yarn 640-527 Wool-Ease Thick & Quick Yarn, 80 Meters, Abalone",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Wool-easethick  quickis the super bulky member of the wool-ease familySolidsHeatherstwistsprintsstripes Percent Acrylic Percent woolIt has the feel warmth and softness of wool with the easy care of AcrylicMachine wash. Initial water temperature should not exceed C or F. No bleach product may be used. A machine dryer may be regularly used at the hottest available temperature setting. Item may not be smoothed or finished with an ironSolids Heathers twists tweeds  oz.G  yd. M prints stripes  oz.G  yd. M metallic  oz.G  y",
          "condition":"New",
          "rating":1.3,
@@ -3998,7 +3998,7 @@ const products2 = [
       {
          "item":"Cricut StandardGrip Adhesive Cutting Mat 12\"x12\" - For Cricut Explore Air 2/Cricut Maker - 3 Pack",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"The standard grip mat is a multipurpose mat that is perfect for a wide range of medium weight materials including patterned paper vinyl iron on and cardstockIncludes  x Cricut standard grip matsUse with Cricut maker and Cricut explore smart cutting mach",
          "condition":"New - Open Box",
          "rating":2.7,
@@ -4010,7 +4010,7 @@ const products2 = [
       {
          "item":"Coquimbo Sewing Kit for Traveler, Adults, Beginner, Emergency, DIY Sewing Supplies Organizer Filled with Scissors, Thimble, Thread, Sewing Needles, Tape Measure etc (Black, S)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Perfect Sewing Kit  The kit contains all the necessary tools that are required for performing basic repairs - be it a needles threads scissors buttons thimble threader tools seam ripper and all sewing tools everything neatly packaged ready for your use.Easy to Use  Items won't fall out when you open the case needles in separate closed box for safety and other items securely tucked in place with attractive black elastic bands. A kit that in a true sense makes your life easier.Smart and Compact  Compact design making it convenient to carry in style anywhere you travel. With this kit in your bag you will never have to find a tailor for the basic repairs be more self-sufficient and take care of small repairs yourself.A Useful Gift  The sewing kit is an amazing gift for a frequent traveler mother grandmother a backpacker little girls! The kit is equally good for use by both men and women and is definitely something that people would love to use.Enjoy the Fun of Hand Sewing  Using your hand to repair your pet's favorite clothes or your kid's stuffed toys. You may fall in love with the feeling of DIY. Use it to teach your kids to do some beautiful handmade It will be very interest",
          "condition":"New",
          "rating":3.2,
@@ -4022,7 +4022,7 @@ const products2 = [
       {
          "item":"Wausau Creative Collection Classics Specialty Cardstock Starter Kit, 8.5 X 11 Inches, 72 Count Assortment (46407-02)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number.  Sheets each of Royal Blue Colonial Blue Lilac Concord Grape Wisteria Bubble Gum Old Town Red Re-Entry Red Orbit Orange Galaxy Gold Goldenrod Martian Green Gamma Green Kraft Natural Clove White and Eclipse BlackInkjet and laser guaranteedEasy to score and fold and cuts cleanlyAcid and lingin free for great quality that doesn't deteriorate Sh",
          "condition":"Good",
          "rating":4.3,
@@ -4034,7 +4034,7 @@ const products2 = [
       {
          "item":"Strathmore 455-3 400 Series Sketch Pad, 9\"x12\" Wire Bound, 100 Sheets",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Great for graphite pencil colored pencil charcoal sketching stick marker soft pastel mixed media oil pastelMicro-perforated wire bound sheetsHeavyweight sketch paperIntended for practice of techniques quick studies and preliminary drawing with any dry mediaAcid free Made in the",
          "condition":"New - Open Box",
          "rating":4.4,
@@ -4046,7 +4046,7 @@ const products2 = [
       {
          "item":"Goo Gone Original Liquid - 8 Ounce and Sticker Lifter - Surface Safe Adhesive Remover Safely Removes Stickers Labels Decals Residue Tape Chewing Gum Grease Tar Crayon Glue",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Safely Restore Your Surfaces - The surface-safe formula removes the goo without harming your surface. Formulated with citrus cleaning agents and a pleasant citrus scentTrusted  Brand For Removing Gooey Messes  Try it on stickers wax markers crayons glue tar window decals glitter gum labels and so much moreMultiple Uses Around The House  Everything from wine glass label remover scuff eraser window sill cleaner adhesive remover tar cleaner crayon drawing eraser to glue removerGreat For Teachers and Parents - Use this to remove gum tape crayon and sticker residue left behind by kidsPerfect For Collectors and Thrifters - Safely remove price stickers from gifts wine glasses clothing drinking glasses used video games and much ",
          "condition":"New - Open Box",
          "rating":2.3,
@@ -4058,7 +4058,7 @@ const products2 = [
       {
          "item":"Acrylic Paint, 4-oz Tube, Alizarin Crimson",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Thick creamy with satin finish Good pigment loadRetains peaks and brush strokes Ideal for learning color theory and color mixingSize o",
          "condition":"New - Open Box",
          "rating":0.9,
@@ -4070,7 +4070,7 @@ const products2 = [
       {
          "item":"HTVRONT HTV Vinyl Rolls Heat Transfer Vinyl - 12\" x 20ft Red HTV Vinyl for Shirts, Iron on Vinyl for All Cutter Machine - Easy to Cut & Weed for Heat Vinyl Design (Red)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This is a really cool product",
          "condition":"Good",
          "rating":4.9,
@@ -4082,7 +4082,7 @@ const products2 = [
       {
          "item":"DAS Air-Hardening Modeling Clay, 1.1 Lb. Block, Terra Cotta Color (387100)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Great for both classroom and studio useHelps build hand strength and fine motor skillsPerfect for all agesSuper pliabilityDoesn't require oven ba",
          "condition":"New - Open Box",
          "rating":3.7,
@@ -4094,7 +4094,7 @@ const products2 = [
       {
          "item":"200 Pcs Craft Sticks Ice Cream Sticks Natural Wood Popsicle Craft Sticks 4.5 inch Length Treat Sticks Ice Pop Sticks for DIY Crafts",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Great Material High Quality Natural Wood Popsicle Sticks Straight SmoothPackage size Includes  sticks each measuring -\" length  mm thick  mm width The rounded edges makes the craft sticks safe for kids It's an excellent present for your friends or families during the hot summerWide Application Great use in Dessert makingclassroom projects building projects party crafts birthday art party and home decoration Creative Designs Great to use for stirring and perfect for teachersstudents crafters children parentsUsing tipsThis basic wooden popsicle sticks crafts are easy to use. With just a simple gesture perfect production of ice c",
          "condition":"New",
          "rating":4.9,
@@ -4106,7 +4106,7 @@ const products2 = [
       {
          "item":"Artlicious Canvas Panels 12 Pack - 2 inch x 4 inch Super Value Pack - Artist Canvas Boards for Painting",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Super value canvas boards cotton duck canvas grown woven  primed in IndiaSuitable for oils acrylics and temperaAcid free  archival quality boardsNon-t",
          "condition":"Good",
          "rating":3.0,
@@ -4118,7 +4118,7 @@ const products2 = [
       {
          "item":"Adtech Glue Runner Permanent 35Yds Total (4 Pack Each), Single Pack",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Best Bang For Your Buck - AdTech glue runners are more economical than most competing glue runners.Strong and Reliable - Strong reliable double-sided adhesive for creative projects and use in the office.Permanent Bond - Sets to a permanent bond so your projects stay put.Safe for your photos - Acid-free for scrapbooks that will stand the test of time.Easy to Store - AdTech glue runners are easy to store and transport.No Drips No Mess - No mess compared to liquid glues. Just press and pull for a clean dry double-sided t",
          "condition":"New",
          "rating":4.4,
@@ -4130,7 +4130,7 @@ const products2 = [
       {
          "item":"Canson XL Series Watercolor Textured Paper Pad for Paint, Pencil, Ink, Charcoal, Pastel, and Acrylic, Fold Over, 140 Pound, 11 x 15 Inch, 30 Sheets (7022446)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Fold over bound with a cold press textureThe durable surface stands up to repeated washesExcellent quality papers in generous pads offer exceptional value sheets of  pound gramsAcid free  x  inch p",
          "condition":"New",
          "rating":3.7,
@@ -4142,7 +4142,7 @@ const products2 = [
       {
          "item":"Tombow 56429 Fudenosuke Colors Brush Pens, 10-Pack. Hard Tip Fudenosuke Brush Pens in Assorted Colors for Calligraphy and Art Drawings",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. Fudenosuke Brush Pens with flexible brush tips allow easy transition from thick to thin lines by changing pen pressureWater-based pigment allows rich vibrant colors that won't bleed through most papersGreat for beginner brush calligraphy hand lettering and illustrationContains  hard tip Fudenosuke Brush PensMarker colors include Black Gray Red Orange Yellow Green Blue Purple Pink and B",
          "condition":"New - Open Box",
          "rating":0.7,
@@ -4154,7 +4154,7 @@ const products2 = [
       {
          "item":"Cricut 2007468 Easy Press Mini, Raspberry",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Compact size ideal for unusually small or unique heat transfer projectsCustomize unusual projects like hats shoes or stuffed animalsCeramic coated heat plate for dry even edge to edge heat heat settings for every iron on and Infusible Ink project. Maximum input VInsulated safety base and auto shutoff fea",
          "condition":"Good",
          "rating":4.8,
@@ -4166,7 +4166,7 @@ const products2 = [
       {
          "item":"Amazon Basics Sketch and Drawing Art Pencil Kit - 17-Piece Set",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. All-in-one drawing and sketch kit for artists of all skill levelsIncludes a variety of pencils sketch and charcoal sticks erasers and sharpenersCreate dynamic works of art or simply sketch out ideasIdeal who want to experiment with or combine different drawing techniquesHigh grade quality at a great priceConforms to AS",
          "condition":"Good",
          "rating":2.5,
@@ -4178,7 +4178,7 @@ const products2 = [
       {
          "item":"YRYM HT Clear Vinyl Transfer Paper Tape Roll-12 x 50 FT w/Alignment Grid Application Tape for Silhouette Cameo, Cricut Adhesive Vinyl for Decals,Signs, Windows, Stickers",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This is a really cool product",
          "condition":"New",
          "rating":2.9,
@@ -4190,7 +4190,7 @@ const products2 = [
       {
          "item":"ORACAL 651 Permanent Vinyl, 1 Pack, Matte Black",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Genuine Oracal  Matte Permanent Vinyl Roll  Inch X  Feet - Adhesive Back. Mils ThickDistributed By Swing DesignCountry Of Origin  United St",
          "condition":"Good",
          "rating":2.8,
@@ -4202,7 +4202,7 @@ const products2 = [
       {
          "item":"Gel Pens for Adult Coloring Books, 30 Colors Gel Marker Colored Pen with 40% More Ink for Drawing, Doodling Crafts Scrapbooks Bullet Journaling",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"This fits your.Make sure this fits by entering your model number. About Coloring Aen Art Gel Pens set contain  INDIVIDULE colors enjoy vivid color on Amazon! It will bring much more fun for Adult book Coloring Scrap booking Sketching Doodling Drawing Writing and all the other art designs.High Performance Each gel pen writes smoothly and easy to hold as they come with soft grips.  MORE INK for long last and would produce perfect lines for Home-Made Invitations Making Greeting Cards DIY Decor  Letters to Friends  Family etc.Value Gift Set Those  colorful gel pens are divided to  ink groups.  Classic  Flourescent  Pastel  Glitter and  Metal. The possibilities are endless. You can use those pens for shading and lettering as well.Bright Colors Gel Coloring Pens has a full spectrum of distinctive colors. You can choose ink from light to dark colors easily. Acid-free Non-Toxic and lead-free. So our amazing gel pen set will make your pictures shine and sparkle.Customer Service We will handle and solve all the product problems immediately for you. If you are still unhappy we will continue to work with you to solve the is",
          "condition":"Good",
          "rating":1.2,
@@ -4214,7 +4214,7 @@ const products2 = [
       {
          "item":"Mod Podge CS11302 Waterbase Sealer, Glue and Finish, 16 oz, Matte - 1 Pack",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Arts & Crafts",
+         "sub_category":"Arts and Crafts",
          "description":"Multipurpose all-in-one sealant glue and finish. Matte finishQuick-drying for multiple coat build up. Dries clearApply with brush or sponge applicatorDries in approximately - minutes and can be sanded to a smooth finishWater-based non-toxic made in the",
          "condition":"Used",
          "rating":4.2,

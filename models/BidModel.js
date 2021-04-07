@@ -26,7 +26,6 @@ class Bid {
               products.category,
               products.sub_category AS "subCategory",
               products.description,
-              products.condition,
               products.rating,
               products.image_url AS "imageUrl",
               products.auction_end_dt AS "auctionEndDt",

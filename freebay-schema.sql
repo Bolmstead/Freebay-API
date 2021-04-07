@@ -6,7 +6,6 @@ CREATE TABLE products (
   category VARCHAR(100) NOT NULL,
   sub_category VARCHAR(100) NOT NULL,
   description TEXT NOT NULL,
-  condition VARCHAR(50) NOT NULL,
   rating DECIMAL NOT NULL CHECK (rating <= 5.0),
   num_of_ratings INTEGER NOT NULL,
   image_url VARCHAR(2083) NOT NULL,

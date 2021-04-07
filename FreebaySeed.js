@@ -18,7 +18,6 @@ class FreebaySeed{
         category VARCHAR(100) NOT NULL,
         sub_category VARCHAR(100) NOT NULL,
         description TEXT NOT NULL,
-        condition VARCHAR(50) NOT NULL,
         rating DECIMAL NOT NULL CHECK (rating <= 5.0),
         num_of_ratings INTEGER NOT NULL,
         image_url VARCHAR(2083) NOT NULL,
@@ -71,12 +70,6 @@ class FreebaySeed{
       )`
   ))}
 
-  static randomCondition(){
-    const conditions = ["Brand New", "New - Open Box", "Good", "Used"]
-    const condition = conditions[(Math.floor(Math.random() * 4))]
-    return condition
-  }
-
   static randomDate(start, end) {
     let currentDateTime = new Date()
 
@@ -107,16 +100,15 @@ class FreebaySeed{
       starting_bid = Math.round(100*starting_bid)/100
 
 
-      // Grab random rating, number of ratings, and condition
+      // Grab random rating, number of ratings
       const num_of_ratings = FreebaySeed.randomNumberOfRatings()
       const rating = FreebaySeed.randomRating()
-      const condition = FreebaySeed.randomCondition()
 
       const valuesArray =
-        [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
+        [item, category, sub_category, description, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
 
-      await db.query(`INSERT INTO products (name, category, sub_category, description, condition, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
-      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`, valuesArray)
+      await db.query(`INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`, valuesArray)
       }
     
     for (let i = 0; i < products2.length; i++) {
@@ -132,13 +124,12 @@ class FreebaySeed{
       // Grab random rating and number of ratings
       const num_of_ratings = FreebaySeed.randomNumberOfRatings()
       const rating = FreebaySeed.randomRating()
-      const condition = FreebaySeed.randomCondition()
 
       const valuesArray =
-        [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
+        [item, category, sub_category, description, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
 
-      await db.query(`INSERT INTO products (name, category, sub_category, description, condition, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
-      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`, valuesArray)
+      await db.query(`INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`, valuesArray)
       }
 
     for (let i = 0; i < products3.length; i++) {
@@ -154,13 +145,12 @@ class FreebaySeed{
       // Grab random rating and number of ratings
       const num_of_ratings = FreebaySeed.randomNumberOfRatings()
       const rating = FreebaySeed.randomRating()
-      const condition = FreebaySeed.randomCondition()
 
       const valuesArray =
-        [item, category, sub_category, description, condition, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
+        [item, category, sub_category, description, rating, num_of_ratings, image_1, starting_bid, auction_end_dt]
 
-      await db.query(`INSERT INTO products (name, category, sub_category, description, condition, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
-      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`, valuesArray)
+      await db.query(`INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`, valuesArray)
       }
     }
 }

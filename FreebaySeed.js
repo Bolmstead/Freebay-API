@@ -4,6 +4,12 @@ const products1 = require("./products_1");
 const products2 = require("./products_2");
 const products3 = require("./products_3");
 
+const User = require("./models/UserModel")
+const ProductWon = require("./models/ProductWonModel")
+const Bid = require("./models/BidModel")
+
+
+
 const db = require("./db");
 
 
@@ -85,7 +91,7 @@ class FreebaySeed{
   }
 
   /** Method to seed all products into database */
-  static async seed() {
+  static async seedAllProducts() {
     
 
     for (let i = 0; i < products1.length; i++) {
@@ -153,10 +159,111 @@ class FreebaySeed{
       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`, valuesArray)
       }
     }
+
+  static async seedSampleUsers() {
+
+    let userObject1 = {
+      email:  "santa@claus.com",
+      username: "Santa Claus",
+      password: "password",
+      firstName: "Kris",
+      lastName: "Kringle",
+      imageUrl: "https://ec.europa.eu/jrc/sites/jrcsh/files/styles/normal-responsive/public/adobestock_226013143.jpeg?itok=3dbnMDO6",
+      balance: 1000
+      }
+
+    let userObject2 = {
+      email:  "NickCage@gmail.com",
+      username: "NiCkCaGe123",
+      password: "password",
+      firstName: "Nicholas",
+      lastName: "Cage",
+      imageUrl: "https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/02/27181649/Nicolas-Cage-FFF.jpg",
+      balance: 1000
+      }
+
+    let userObject3 = {
+      email:  "MikeTyson@gmail.com",
+      username: "IRON M!KE",
+      password: "password",
+      firstName: "Mike",
+      lastName: "Tyson",
+      imageUrl: "https://s.abcnews.com/images/Sports/mike-tyson-show-gty-jt-200723_1595524132347_hpEmbed_3x2_992.jpg",
+      balance: 1000
+      }
+      
+    const user1Result = await db.query(
+      `INSERT INTO users
+       (email, username, password, first_name, last_name, image_url, balance)
+       VALUES ($1, $2, $3, $4, $5, $6, $7)
+       RETURNING email, username, password, first_name AS firstName, last_name AS lastName, image_url AS imageUrl, balance`,
+      [
+        userObject1.email,
+        userObject1.username,
+        userObject1.password,
+        userObject1.firstName,
+        userObject1.lastName,
+        userObject1.imageUrl,
+        userObject1.balance
+      ]
+    );
+
+    const user2Result = await db.query(
+      `INSERT INTO users
+       (email, username, password, first_name, last_name, image_url, balance)
+       VALUES ($1, $2, $3, $4, $5, $6, $7)
+       RETURNING email, username, password, first_name AS firstName, last_name AS lastName, image_url AS imageUrl, balance`,
+      [
+        userObject2.email,
+        userObject2.username,
+        userObject2.password,
+        userObject2.firstName,
+        userObject2.lastName,
+        userObject2.imageUrl,
+        userObject2.balance
+      ]
+    );
+
+    const user3Result = await db.query(
+      `INSERT INTO users
+       (email, username, password, first_name, last_name, image_url, balance)
+       VALUES ($1, $2, $3, $4, $5, $6, $7)
+       RETURNING email, username, password, first_name AS firstName, last_name AS lastName, image_url AS imageUrl, balance`,
+      [
+        userObject3.email,
+        userObject3.username,
+        userObject3.password,
+        userObject3.firstName,
+        userObject3.lastName,
+        userObject3.imageUrl,
+        userObject3.balance
+      ]
+    );
+
+    const user1 = user1Result.rows[0]
+    const user2 = user2Result.rows[0]
+    const user3 = user3Result.rows[0]
+
+
+    console.log("user1", user1)
+
+      /// This part is not working
+    await ProductWon.newWin(533, user1.email, 30)
+    await ProductWon.newWin(254, user2.email, 35)
+    await ProductWon.newWin(702, user3.email, 7)
+
+    await Bid.addBid(332, user2.email, 80);
+    await Bid.addBid(481, user1.email, 8);
+    await Bid.addBid(856, user3.email, 15);
+    await Bid.addBid(917, user2.email, 3);
+    
+  }
 }
 
 FreebaySeed.createTables()
-FreebaySeed.seed()
+FreebaySeed.seedAllProducts()
+// FreebaySeed.seedSampleUsers()
+
 
 module.exports = FreebaySeed;
 

@@ -16,7 +16,7 @@ class Bid {
     if (!addBidResult) throw new BadRequestError(`product not added!`);
   }
 
-  static async getHighestBids(numOfProducts) {
+  static async getRecentBids(numOfProducts) {
     // Grab all highest bid's product and bidder information
     // ordered by most recent. If numOfProducts has not been
     // passed in, request will grab all bids

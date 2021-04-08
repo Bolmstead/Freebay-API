@@ -1826,7 +1826,7 @@ const products3 = [
       {
          "item":"Amazon Basics Neoprene Coated Dumbbell Hand Weight Set",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Set of  dumbbells for resistance training each dumbbell weighs  poundEasy-grip neoprene coating for a secure holdPrinted weight number on each end cap and color-coded for quick identificationHexagonal shape prevents dumbbells from rolling awayIdeal for fitness classes or at-home workout routines",
          "condition":"Good",
          "rating":1.9,
@@ -1838,7 +1838,7 @@ const products3 = [
       {
          "item":"Letsfit Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":" Resistance Bands Include Comes in  different resistance strength levels X-Light Light Medium Heavy and X-Heavy.Efficient Workout Loop Resistance Bands increase the effectiveness of your exercises. Used for a range of workouts such as Yoga Pilatesetc.Multifunctional The resistance band set can be used to exercise all parts of muscles such as arms abdomen glutes and legs.Gym-in-your-pocket The exercise bands take up little space so that you can use them at home or carry on the way such as in office on a vacation.What's Included  exercise loop bands with color-coded resistance levels portable carry bag and instructions manual.",
          "condition":"New - Open Box",
          "rating":0.6,
@@ -1886,7 +1886,7 @@ const products3 = [
       {
          "item":"CamelBak Chute Mag Water Bottle",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Sport Type Yoga",
          "condition":"New",
          "rating":1.8,
@@ -1898,7 +1898,7 @@ const products3 = [
       {
          "item":"Arctix Men's Essential Insulated Bib Overalls",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":" PolyesterImported grams ThermaTech Insulation offers warmth in a lightweight low bulk garment keeps you warm at temperatures from - to Adjustable comfort suspenders for the perfect fit with elasticized side gussets for maximum motion Denier Ballistic are used to reinforce the ankle scuff and hem guards to hold up against daily wear and tearBoot Zippers for easy on and off along with convenient O-ring for keysgloveslift ticketsBoot Gaiters with Grippers form a seamless integration with boots to keep warmth in and moisture out",
          "condition":"New - Open Box",
          "rating":1.8,
@@ -1910,7 +1910,7 @@ const products3 = [
       {
          "item":"Fit Simplify Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"Resistance Bands -  Loop Fitness Bands Set - Exercise Resistance Loop Bands - Exercise Bands For Legs And Arms - Carry BagAre you ready for the most versatile results producing workout bands on the market?These bands are ideal for- Sports- Fitness- Injury rehabilitation- body shaping- weight loss- physical therapyHow do our bands differ?First our bands are made of high quality latex. They are stronger and able to stretch further. You will feel the same resistance after a dozen reps.Second our bands are comfortable soft and easy on the skin. The only way to achieve that is to let the latex rest for a long time in tightly controlled circumstances such as temperature and humidity before making the bands.Both of these involve a higher investment for us but we think it's worth it to create a better product.What makes our resistance bands special?These bands are rigorously tested to be snap stretch and sweat resistant.You get  resistance bands set and you can combine multiple bands to find your ideal resistance.These bands are so lightweight that they make a great travel fitness kit!This is also a great Christmas Mother's and Father's day gift idea for men women dad or mom.\" ",
          "condition":"New - Open Box",
          "rating":3.6,
@@ -1934,7 +1934,7 @@ const products3 = [
       {
          "item":"OutdoorMaster OTG Ski Goggles - Over Glasses Ski/Snowboard Goggles for Men, Women & Youth - 100% UV Protection",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Otg OVER-THE-GLASSES design - ski goggles that fits over glasses. Suitable for both adults and youth.Anti-fog lens  excellent optical clarity - dual-layer lens technology with anti-fog coated inner lens gives you a fog-free ski experience.Safe  Reliable with UV protection - soft TPU frame with lenses that provide  UV protection and years of reliable use.Universal helmet compatibility - Extra long elastic strap ensures great helmet compatibility with all helmets. Suitable for both adults  teens.What you get  x Outdoormaster Otg Ski Goggles  x Carrying pouch customer-favorite  year and friendly customer service.",
          "condition":"Used",
          "rating":4.6,
@@ -1958,7 +1958,7 @@ const products3 = [
       {
          "item":"SABRE RED Pepper Spray Keychain with Quick Release for Easy Access Max Police Strength OC Spray, Finger Grip for Accurate Aim, 10-Foot (3M) Range",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number.  PEPPER SPRAY BRAND TRUSTED BY POLICE AND CONSUMERS WORLDWIDE Including New York PD Chicago PD and U.S. Marshals RELIABLE  LONG-LASTING -year shelf life X the industry standard for the best self-protection available Made in the USAGUARANTEED MAXIMUM STRENGTH SABRE's professional-grade OC Spray is backed by our in-house HPLC lab testing guaranteeing maximum heat and stopping power in every burst and eliminating the  failure rate experienced with other brands U of Utah studyMAXIMUM STOPPING POWER AT A SAFE DISTANCE  oz container with impressive -foot M range with  bursts up to x other brands delivered in powerful stream to decrease wind blowback plus UV marking dye aids in identifying suspectEASY ACCESS IN STRESSFUL SITUATIONS SABRE is one of the only brands to offer the Quick Release Key Ring providing fast immediate access PREVENTS ACCIDENTAL DISCHARGE with reinforced trigger twist lock for safe storage in purse or backpackSTAY SABRE SAFE WITH FREE TRAINING Feel confident and secure In addition to your defensive spray packaging includes links to free training videos and safety tips to help maximize your personal safety when in the face of danger",
          "condition":"Good",
          "rating":0.6,
@@ -1970,7 +1970,7 @@ const products3 = [
       {
          "item":"Amazon Basics High-Density Exercise, Massage, Muscle Recovery, Round Foam Roller, 12\", 18\", 24\", 36",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. High-density foam roller with molded edgesIdeal for balance strengthening flexibility and rehab exercisesMade in the USA from molded polypropylene to maintain firmnessLightweight easy to clean and transportMeasures approximately  x  x  inches LxWxHAn Amazon Brand",
          "condition":"Used",
          "rating":0.3,
@@ -1982,7 +1982,7 @@ const products3 = [
       {
          "item":"ZIONOR Lagopus Ski Snowboard Goggles UV Protection Anti Fog Snow Goggles for Men Women Youth",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Optimized Performance Ski Goggles - Solid  durable lens enhanced anti-scratch and smart ventilation system.Full Protection for Eyes  Anti-fog and  UV Protection treatment on double layer lens. Crystal view on the slope when skiing and snowboarding.Comfortable  Warm  High density woven strap with great elastic and superior sponge covers your face providing top anti-wind features.Helmet Compatible  OTG  Extra long strap for better helmet compatibility and keep the snow goggles in place.Over the glass designed ski  snowboard goggles to fit small to medium size glasses. Design to fit both youth and adult.Customer Oriented Service - All ZIONOR snow goggles are designed for both men and women we provide swift response customer service if there is anything you need.",
          "condition":"New - Open Box",
          "rating":5.0,
@@ -1994,7 +1994,7 @@ const products3 = [
       {
          "item":"Coppertone Waterbabies Fragrance Free SPF 50 Sunscreen Lotion, Tear Free, Water Resistant, #1 Pediatrician Recommended brand, Broad Spectrum UVA/UVB Protection, 6 Ounce",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":" Pediatrician recommended sunscreen brandHypoallergenic  gentle formula free of fragrance dyes PABAMild non-irritating  Water-resistant  minutes formula for delicate skinDermatologist tested broad spectrum UVAUVB protectionThis pack includes one   ounce SPF  sunscreen lotion.VotedMost Trusted Sunscreen brand byAmericanshoppers based on theBrandSparkAmerican Trust Study",
          "condition":"Used",
          "rating":1.2,
@@ -2006,7 +2006,7 @@ const products3 = [
       {
          "item":"HotHands Hand Warmers - Long Lasting Safe Natural Odorless Air Activated Warmers - Up to 10 Hours of Heat - 40 Pair",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. SAFE NATURAL LONG-LASTING HEAT - Odorless Disposable Single-Use Item Do Not Apply Directly to The Skin. TSA Approved. Made in the USA using domestic and imported materials. No shaking or kneading requiredTO ACTIVATE - Remove warmer from outer package shake to activate. Warmer heats up in - minutes. If heat decreases expose warmer to air and shake. After use dispose with regular garbage. Ingredients will not harm the environment.MULTIPURPOSE WARMERS - Single use air-activated heat packs that provide everyday warmth and are ideal for keeping your body warm when the temperature gets cold. Theyre available in several styles designed for your hands feet and body.WHEN TO USE Tailgating at Events Outdoor Sporting Events Hunting  Fishing Camping  Hiking Working in The Yard Jogging or Taking Your Pet for A Walk. Convenient Compact Portable.",
          "condition":"New",
          "rating":0.0,
@@ -2018,7 +2018,7 @@ const products3 = [
       {
          "item":"Achiou Winter Knit Gloves Touchscreen Warm Thermal Soft Lining Elastic Cuff Texting Anti-Slip 3 Size Choice for Women Men",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Comfortable  Warm  Soft and warm lining design provide warmth and functionality for running hiking or cold-weather commuting. The knit fabric has a four-way stretch so your wiggly digits have the freedom of movement they require and can stay in their natural relaxed position as you log the milesTouch Sensitive  Anti-Slip Palm  The Unique and Practical  Touchscreen Capability designthumb forefinger middle finger that assures you won't have to remove the glove in order to use your phone. Palm large area triangle silicone palm grip keeps that precious phone securePerfectly Fits  Best Gits  Achiou high-quality gloves with excellent elasticity Stretches to fit no matter the size of your hand. The best gift for your friends family or anyone you lovedConvenient  Breathable Material  Living in the technology age Achiou winter knit gloves let you use your phone without having to expose your hands. Breathable material allows the gloves to ventilate in order to decrease sweat accumulationJust Do It  Each pair of gloves undergoes strict inspection at the top of delivery. We will be always with you. Any question we are willing to try our best to solve it without any requirementImportant Tip  Please note that wearing this pair of gloves Please be sure to wear to the top of each finger especially the  touchscreen fingers must be filled with our fingers so that this touchscreen function will be effective. Spot wash by hand in luke warm water with mild detergent. Hang to dry. Do not use hot water. Do not put in dryer",
          "condition":"New - Open Box",
          "rating":2.0,
@@ -2030,7 +2030,7 @@ const products3 = [
       {
          "item":"Gildan Men's Fleece Crewneck Sweatshirt, Style G18000",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":" Cotton  PolyesterImportedPull On closureMachine WashLonger dropped shoulder straighter armhole and wider shorter sleevesThick and hefty fabricDouble-stitching at the hems to make it built to lastSmooth cozy cotton interiorRib cuffs and bottom band with spandex for enhanced stretch and recovery",
          "condition":"Used",
          "rating":2.6,
@@ -2042,7 +2042,7 @@ const products3 = [
       {
          "item":"TRENDOUX Winter Gloves for Men and Women - Upgraded Touch Screen Anti-Slip Silicone Gel - Elastic Cuff - Thermal Soft Wool Lining - Knit Stretchy Material",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This is a really cool product",
          "condition":"New - Open Box",
          "rating":2.5,
@@ -2054,7 +2054,7 @@ const products3 = [
       {
          "item":"Fitbit Inspire 2 Health & Fitness Tracker with a Free 1-Year Fitbit Premium Trial, 24/7 Heart Rate, Black/Black, One Size (S & L Bands Included)",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"Free -year Fitbit Premium trial for new Premium users with personalized guidance insights and motivation to help you reach your goals Free trial may only be activated with device activation. Valid payment method required. Free trial must be activated within  days of device activation. Cancel before free trial ends to avoid subscription fees. New Premium users only. Content and features may vary by language and are subject to change.Earn Active Zone Minutes as you progress toward your weekly  minutes of heart-pumping activity and use  exercise modes to track goals like distance calories burned and moreTrack all-day activity your steps distance hourly activity and calories burnedUse  heart rate to track resting heart rate  better measure calorie burnEnjoy  days of battery life for daily progress without constant charging. Varies with use and other factorsTrack your time in light deep and REM sleep then get a Sleep Score to better understand your sleep quality each nightStay inspired from the shower to the pool with this swimproof tracker water resistant to  meters and motivated by connecting with friends competing in challenges earning badges and celebrating goal milestonesGet call text calendar and smartphone app notifications right on your wrist. Notifications and app alerts are available on-device when your phone is nearby",
          "condition":"New",
          "rating":3.2,
@@ -2066,7 +2066,7 @@ const products3 = [
       {
          "item":"Optix 55 Anti-Fog Spray for Non - Anti Reflective Lenses | Prevents Fogging of Glass or Plastic Windows, Mirrors, Eyewear Lenses, Glasses, Swim Goggles, Ski Masks, Binoculars |Long Lasting Solution",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Discover Instant Clarity  Get this magical little solution bottle that will keep your bathroom mirrors eyeglasses swim goggles sport goggles snorkeling masks Windshields Binoculars Scopes Hockey Shields and endless other surface types fog free and ready to go!Natural Hypoallergenic  Safe  Feel good knowing that youre not being exposed to any chemicals or harmful ingredients. Our all-natural water mist formula is easy on the surface and perfectly safe for your eyes and skin.Quick  Easy Application Apply a small amount of the spray onto both sides of your clean lens or surface. Using your fingers apply evenly in a circular motion on the entire surface and let sit for about  minute. Gently wipe with a dry soft cloth to clear streaks. Let dry completely before using.Safe for Non AR-Coated Lenses  This unique formula will deliver you the clarity you seek. Prescription Transition or Polarized lenses? Weve got you covered for all Non AR-Coated lenses.Works Great on All Glass  Plastic Materials  We found that many defogging sprays will work on one surface type optimally while performing poorly on the rest. Thats why we worked hard to design a formula that would effectively prevent fogging on Polarized UV Iridium Photo-chromatic Polycarbonate Lexan and many other materials.",
          "condition":"Used",
          "rating":3.5,
@@ -2090,7 +2090,7 @@ const products3 = [
       {
          "item":"Iron Flask Sports Water Bottle - 14oz,18oz,22oz,32oz,40oz,64oz,3 Lids (Straw Lid),Vacuum Insulated Stainless Steel, Modern Double Walled, Simple Thermo Mug, Hydro Metal Canteen",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. SPECIAL INTRODUCTORY PRICE! SPORTS WATER BOTTLE INSULATED Goodbye sweat! The double wall insulation makes the Iron Flask sweat-free! It keeps your drink COLD for up to  hours and HOT for up to  hours. NOTE ONLY the  Oz  Oz   Oz fit in cupholders LIDS YES Iron Flask comes with THREE different lids. Carabiner Straw Lid with  Straws Flip Lid and a Stainless Steel Lid! NOTE The stainless steel lid is plastic from inside and stainless steel from outside PREMIUM STAINLESS STEEL The Iron Flask is made of  Stainless steel that is  BPA free and non-toxic. It will never leave a metal taste or rust. HAND WASH ONLY WITH SOAPY HOT WATER!FUNCTIONAL DESIGN The powder coat exterior finish is a classic. It assures that you stand out with a very durable and elegant bottle. Our logo is now LASER ENGRAVED to assure the highest quality as well. SATISFACTION GUARANTEED We guarantee that the high quality Iron Flask bottle will surely please you! If for any reason you are not  satisfied with the Iron Flask we will issue you a full refund or an exchange!",
          "condition":"New - Open Box",
          "rating":2.6,
@@ -2102,7 +2102,7 @@ const products3 = [
       {
          "item":"Sweet Sweat Waist Trimmer for Men & Women Black/Pink | Premium Waist Trainer Sauna Suit, Includes Sample of Sweet Sweat Gel!",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"This fits your.Make sure this fits by entering your model number. Sizing - Small \" Length x \" Width - If you are unsure of your sizing we recommend that you order a size downFree Bonus - Includes breathable carrying bag  sample of our bestselling Sweet Sweat 'Workout Enhancer' Gel. Use Sweet Sweat along with the Trimmer to help maximize your results.Made with extra thick Premium CR Neoprene for an enhanced sweating experience.Contour Design for a comfortable fit  Naturally flexible to adjust to your size and shape.Grid inner lining will not only repel moisture  sweat absorption but also limit slipping and bunching during exercise.",
          "condition":"New - Open Box",
          "rating":2.4,
@@ -2114,7 +2114,7 @@ const products3 = [
       {
          "item":"Arctix Mens Snow Sports Cargo Pants",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":" PolyesterImported grams ThermaTech Insulation offers warmth in a lightweight low bulk garment keeps you warm at temperatures from - to  Denier Ballistic are used to reinforce the ankle scuff and hem guards to hold up against daily wear and tearAdjustable waist for comfortable fitBoot Zippers for easy on and off along with cargo pockets and O-ring for keys gloves andor lift ticketsBoot Gaiters with Grippers form a seamless integration with boots to keep warmth in and moisture out",
          "condition":"New",
          "rating":0.4,
@@ -2126,7 +2126,7 @@ const products3 = [
       {
          "item":"Gash Hao Mens Snow Ski Waterproof Softshell Snowboard Pants Outdoor Hiking Fleece Lined Zipper Bottom Leg",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"ImportedButton closure polyester the exterior is made of waterproof windproof Insulated and quick-drying soft shell fabric and the inner lining is made of granule fleece for warmth.Bottom of legs-Add zippers. During hiking during skiing to avoid snow and coldness go inside the pants. Zippers design to back up the pants to boots.Adjustable stretchy waist allows pants to fit comfortably. Zippered front and rear pockets keep your small items stay safely while moving.  large-capacity zipper side pockets inner plush fabric to prevent the cold caused by metal and zip pocket on the back to protect your valuables.Multi-functional trousers with a soft shell surface layer that is durable and waterproof enough for skiing. If you walk in the rain it can help you stay dry for about - minutes. Excellent wind resistance a special film in the middle of the knee can completely block the wind and water. Protect our knees.Have Mens Winter Outdoor Pants suitable for daily wear hikingcycling skiing climbing traveling camping mountaineering hunting fishing snowboarding snowmobile cycling.. Put on this pair of pants. Let us set off together.",
          "condition":"New - Open Box",
          "rating":4.4,
@@ -2138,7 +2138,7 @@ const products3 = [
       {
          "item":"IUGA High Waist Yoga Pants with Pockets, Tummy Control, Workout Pants for Women 4 Way Stretch Yoga Leggings with Pockets",
          "category":"Sports, Hobbies, & Misc",
-         "sub_category":"Sports  Fitness",
+         "sub_category":"Sports and Fitness",
          "description":"IUGA is a lifestyle brand that combines Style Comfort and Performance. The High Quality Activewear is perfect for Fitness Enthusiasts and Everyday Athleisure as it is Affordable and Accessible. Operating at the cross section between fashion and function IUGA aims to please both The Everyday Fashion Consumer and The Ultimate Exercise Enthusiast.Developed by Yogis for yogis A Wide High-Rise Waistband with Tummy Control and a Hidden Pocket these yoga leggings are perfect for active women. Featuring the Super Soft material the workout leggings are very comfy with Four-way Stretch material that promotes both compression and support. In addition a Gusset Crotch to maximize Free Movement and Interlock Seams to minimize Rubbing and Chafing making these leggings for women become The Perfect Yoga Pants.Ultra-Stretch Fit Enough Thickness  Non-See-Through that Slims and Conforms with each pose movement and contour. Plus a Hidden Waistband Inner Pocket to stash your keys cell phones or any essentials.All IUGA yoga pants are sold with a -day Full-Money-Back Warranty and can be returned with No Arguments. We also offer World Class Customer Service to make your purchase Without Your Worries. Therefore Dont Miss This Chance simply just add these Workout Pants to your cart by clicking the \"Add-to-Cart\" button and BUY IT NOW!ATTENTION Please ensure the leggings that you are purchasing are \"Sold by IUGA\" and \"Fulfilled by Amazon\". Products from SELLERS OTHER THAN \"IUGA\" are not The Same Fits Colors Fabrics and Qualities. And please be notified that so far we still haven't authorized any third parties to sell \"IUGA\" products.",
          "condition":"New",
          "rating":0.7,
@@ -2662,7 +2662,36 @@ const products3 = [
       "sub_category": "Pet Supplies",
       "description":"The best of all chickens! Approved by Colt Steele.",
       "image_1":"https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Cat'chy%20Images,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1539201524/t6qklgng8nh1yepomi8s.jpg"
-   }
+   },
+   {
+      "item":"Godzilla (4K Ultra HD + Blu-ray + Digital)",
+      "category":"Movies, TV, & Games",
+      "sub_category":"Movies and TV",
+      "description":"Godzilla (4K Ultra HD + Blu-ray + Digital)",
+      "rating":4,
+      "num_of_ratings":1656,
+      "image_1":"https://images-na.ssl-images-amazon.com/images/I/91Z4-lZeapL._SX342_.jpg",
+      "starting_bid":24.99,
+    },
+    {
+      "item":"Crocs Unisex-Adult Classic Clog | Water Comfortable Slip on Shoes",
+      "category":"Fashion",
+      "sub_category":"Mens",
+      "description":" SyntheticImportedSynthetic soleCrocs for everyone With a color and style for every personality the Classic Clogs are the Crocs women and men need to start a comfort revolution around the worldLightweight and fun The Crocs for men and women feature lightweight Iconic Crocs Comfort. Ventilation ports add breathability and help shed water and debris quicklyDesigned to fit These slip-on clogs are easy to take on and off while being extremely durable These Crocs even offer pivoting heel straps for a more secure fitWear for any occasion These men's and women's Crocs serve as great house shoes but also ideal for the beach pool gym shower walking or even gardeningCrocs for women and men The Crocs Classic Clogs are not only the most comfortable shoes for women and men but also easy to clean just using soap and water and allowing for a quick dry",
+      "rating":4.9,
+      "num_of_ratings":2770,
+      "image_1":"https://images-na.ssl-images-amazon.com/images/I/71tYPEu0HfL._AC_UX395_.jpg",
+      "market_price":44.95,
+   }, { 
+     "item":"Amazon Basics Neoprene Coated Dumbbell Hand Weight Set",
+      "category":"Sports, Hobbies, & Misc",
+      "sub_category":"Sports and Fitness",
+      "rating":4,
+      "num_of_ratings":1656,
+      "description":"Set of  dumbbells for resistance training each dumbbell weighs  poundEasy-grip neoprene coating for a secure holdPrinted weight number on each end cap and color-coded for quick identificationHexagonal shape prevents dumbbells from rolling awayIdeal for fitness classes or at-home workout routines",
+      "image_1":"https://images-na.ssl-images-amazon.com/images/I/81e7G9oXJCL._AC_SX425_.jpg",
+      "starting_bid":8.99,
+   },
 
 ]
 

@@ -41,6 +41,8 @@ router.get("/:id", async function (req, res, next) {
   try {
     let productResult = await Product.getProduct(req.params.id);
 
+    console.log("productResult", productResult)
+
     let numberOfAuctionsEnded = await checkForEndedAuctions([productResult])
 
     if (numberOfAuctionsEnded > 0) {

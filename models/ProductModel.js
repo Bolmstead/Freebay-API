@@ -135,26 +135,27 @@ class Product {
   static async getProduct(id) {
     const query =     
         `SELECT products.id,
-            products.name,
-            products.category,
-            products.sub_category AS "subCategory",
-            products.description,
-            products.rating,
-            products.num_of_ratings AS "numOfRatings",
-            products.image_url AS "imageUrl",
-            products.starting_bid AS "startingBid",
-            products.auction_end_dt AS "auctionEndDt",
-            products.auction_ended AS "auctionEnded",
-            bids.user_email AS "bidderEmail",
-            bids.bid_price AS "bidPrice",
-            bids.is_highest_bid AS "isHighestBid",
-            bids.bid_id AS "bidId",
-            bids.was_winning_bid AS "wasWinningBid",
-            users.username AS "bidderUsername"
-        FROM products
-        FULL OUTER JOIN bids ON products.id = bids.product_id
-        FULL OUTER JOIN users ON bids.user_email = users.email
-        WHERE id = $1`
+        products.name,
+        products.category,
+        products.sub_category AS "subCategory",
+        products.description,
+        products.rating,
+        products.num_of_ratings AS "numOfRatings",
+        products.image_url AS "imageUrl",
+        products.starting_bid AS "startingBid",
+        products.auction_end_dt AS "auctionEndDt",
+        products.auction_ended AS "auctionEnded",
+        bids.user_email AS "bidderEmail",
+        bids.bid_price AS "bidPrice",
+        bids.is_highest_bid AS "isHighestBid",
+        bids.bid_id AS "bidId",
+        bids.was_winning_bid AS "wasWinningBid",
+        users.username AS "bidderUsername"
+    FROM products
+    FULL OUTER JOIN bids ON products.id = bids.product_id
+    FULL OUTER JOIN users ON bids.user_email = users.email
+	  WHERE products.id = $1
+    ORDER BY bids.is_highest_bid DESC`
 
     const productResult = await db.query(query, [id]);
 

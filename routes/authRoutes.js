@@ -29,10 +29,10 @@ router.post("/token", async function (req, res, next) {
     const user = await User.authenticate(email, password);
 
     // Determine if user is eligible for the daily reward
-    const loggedInOnDifferentDay = User.checkForDifferentDayLogin(user)
+    const loggedInOnDifferentDay = await User.checkForLoginOnDifferentDay(user)
 
     if (loggedInOnDifferentDay) {
-
+      console.log("loggedInOnDifferentDay in /token",loggedInOnDifferentDay)
       // if User logs in on different day, increase their 
       // balance and send notification
       await User.increaseBalance(user.email, 100);

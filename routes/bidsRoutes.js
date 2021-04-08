@@ -19,7 +19,7 @@ const router = new express.Router();
 router.get("/check-all-bids-for-ended-auctions", async function (req, res, next) {
   try {
     
-    const highestBids = await Bid.getHighestBids();
+    const highestBids = await Bid.getRecentBids();
     console.log("highestBids",highestBids)
     const numberOfAuctionsEnded = await checkForEndedAuctions(highestBids)
 
@@ -37,7 +37,7 @@ router.get("/check-all-bids-for-ended-auctions", async function (req, res, next)
 router.get("/recent/:num", async function (req, res, next) {
   try {
     const numOfProducts = req.params.num;
-    const highestBids = await Bid.getHighestBids(numOfProducts);
+    const highestBids = await Bid.getRecentBids(numOfProducts);
 
     return res.json( highestBids );
   } catch (err) {

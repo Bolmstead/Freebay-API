@@ -23,7 +23,6 @@ class ProductsWon {
     if (!productWonRes) throw new NotFoundError(
       `Winning Product not added to Products Won table`
     );
-    console.log("product won")
 
   }
 

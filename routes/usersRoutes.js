@@ -13,7 +13,6 @@ router.get("/:username", async function (req, res, next) {
   try {
     if (req.params.username){
     let user = await User.get(req.params.username);
-    console.log("user in users/:username", user)
     let numberOfAuctionsEnded = await checkForEndedAuctions(user.bids)
     
     // if the user won any of their bids, grab the most recent user info

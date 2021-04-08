@@ -32,7 +32,6 @@ router.post("/token", async function (req, res, next) {
     const loggedInOnDifferentDay = await User.checkForLoginOnDifferentDay(user)
 
     if (loggedInOnDifferentDay) {
-      console.log("loggedInOnDifferentDay in /token",loggedInOnDifferentDay)
       // if User logs in on different day, increase their 
       // balance and send notification
       await User.increaseBalance(user.email, 100);

@@ -20,7 +20,6 @@ router.get("/check-all-bids-for-ended-auctions", async function (req, res, next)
   try {
     
     const highestBids = await Bid.getRecentBids();
-    console.log("highestBids",highestBids)
     const numberOfAuctionsEnded = await checkForEndedAuctions(highestBids)
 
     return res.json( `All bids check for ended auctions. ${numberOfAuctionsEnded} auctions have ended` );
@@ -52,14 +51,9 @@ router.get("/recent/:num", async function (req, res, next) {
 router.post("/:productId/placeBid/:amount", ensureLoggedIn, async function (req, res, next) {
   try {
     // grab the user saved in local storage and pull information of that user from API
-    console.log("res.locals",res.locals)
     const user = await User.get(res.locals.user.username)
     const productId = req.params.productId;
     const product = await Product.getProduct(productId)
-    console.log("product in bids route", product)
-    console.log("user in bids route", user)
-
-
     const newBidAmount = req.params.amount;
     const newBidInteger = parseInt(newBidAmount)
 

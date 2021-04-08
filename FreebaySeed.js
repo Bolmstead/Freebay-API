@@ -244,9 +244,6 @@ class FreebaySeed{
     const user2 = user2Result.rows[0]
     const user3 = user3Result.rows[0]
 
-
-    console.log("user1", user1)
-
       /// This part is not working
     await ProductWon.newWin(533, user1.email, 30)
     await ProductWon.newWin(254, user2.email, 35)

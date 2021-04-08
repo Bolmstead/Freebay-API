@@ -40,9 +40,6 @@ router.get("/", async function (req, res, next) {
 router.get("/:id", async function (req, res, next) {
   try {
     let productResult = await Product.getProduct(req.params.id);
-
-    console.log("productResult", productResult)
-
     let numberOfAuctionsEnded = await checkForEndedAuctions([productResult])
 
     if (numberOfAuctionsEnded > 0) {
@@ -55,7 +52,6 @@ router.get("/:id", async function (req, res, next) {
         productResult["numOfBids"] = 0
       }
     }
-    console.log("productResult in products/:id", productResult)
     return res.json({ productResult});
   } catch (err) {
     return next(err);

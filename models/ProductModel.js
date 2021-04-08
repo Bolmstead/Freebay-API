@@ -11,7 +11,6 @@ class Product {
   // Grabs products and their bidder info based on search query parameters.
   // Utilizes pagination with a max number of products in each query. 
   static async getProducts(q, pagination = false) {
-    console.log("q",q)
     let query = `SELECT products.id,
                         products.name,
                         products.category,
@@ -85,7 +84,6 @@ class Product {
     whereExpressions.push(`auction_ended = false`);
     query += " WHERE " + whereExpressions.join(" AND ");
 
-    console.log("query", query)
     // Send query for all products. 
     const allProductsResult = await db.query(query, queryValues);
     if(!allProductsResult) {

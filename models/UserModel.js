@@ -42,10 +42,8 @@ class User {
 
   // Check if user logged in on a different day. Returns True if so
   static async checkForLoginOnDifferentDay(user) {
-    console.log("type of user.email", typeof user.email)
     // Grab the last login datetime object
     let lastLogin = user.lastLogin
-    console.log("user.lastLogin", user.lastLogin)
     // Update a users last login with current datetime.
     let updateLastLoginResult = await db.query(
         `UPDATE users 
@@ -57,9 +55,6 @@ class User {
     if (!updateLastLoginResult) throw new BadRequestError(`Unable to update the last login for user: ${user.email}`);
     
     let newLogin = updateLastLoginResult.rows[0].lastLogin
-    console.log("newLogin", newLogin)
-
-
     // Function returns false if the previous login datetime 
     // is on a different day than the new login datetime. 
     // If logins are on same day, returns true.
@@ -69,11 +64,7 @@ class User {
       lastLogin.getDate() === newLogin.getDate()
     )
 
-    console.log("lastLoginSameDayAsNewLogin",lastLoginSameDayAsNewLogin)
-
     const loggedInOnDifferentDay = !lastLoginSameDayAsNewLogin
-    console.log("loggedInOnDifferentDay",loggedInOnDifferentDay)
-
 
     return loggedInOnDifferentDay
   }

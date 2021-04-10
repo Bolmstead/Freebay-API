@@ -36,7 +36,7 @@ router.post("/token", async function (req, res, next) {
       // balance and send notification
       await User.increaseBalance(user.email, 100);
       await Notification.add(user.email,
-        "Welcome back! Here's your daily $100 freeBay bucks", "gift")
+        "Welcome back! Here's $100 freeBay bucks", "gift")
     }
 
     const token = createToken(user);
@@ -66,7 +66,7 @@ router.post("/register", async function (req, res, next) {
 
     if (newUser) {
       Notification.add(newUser.email, 
-        `Welcome to freeBay! As a gift, we've deposited $100 freeBay bucks into your account!`,"gift")
+        `Welcome! Here's $100 freeBay bucks to get started!`,"gift")
     }
 
     const token = createToken(newUser);

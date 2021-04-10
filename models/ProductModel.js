@@ -81,7 +81,10 @@ class Product {
 
     // add only products that are in auction to query along 
     // with the where expressions
-    whereExpressions.push(`auction_ended = false`);
+    whereExpressions.push(`
+    products.auction_ended = false 
+      AND (bids.is_highest_bid = true 
+      OR bids.is_highest_bid IS NULL)`);
     query += " WHERE " + whereExpressions.join(" AND ");
 
     // Send query for all products. 
@@ -117,6 +120,10 @@ class Product {
 
       // Send query with pagination
       const queryWithPagination = query + paginationQuery
+
+      console.log("query", query)
+      console.log("paginationQuery",paginationQuery)
+
       const paginatedProductsResult = await db.query(queryWithPagination, queryValues);
 
       if(!paginatedProductsResult) {

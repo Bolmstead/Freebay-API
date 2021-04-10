@@ -3,7 +3,9 @@
 process.env.NODE_ENV = "test";
 
 const db = require("../db.js");
+const bcrypt = require("bcrypt");
 const { createToken } = require("../helpers/tokens");
+const { BCRYPT_WORK_FACTOR } = require("../config");
 
 const testProducts = [];
 const testUsers = [];

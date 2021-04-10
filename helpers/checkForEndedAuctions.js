@@ -10,22 +10,15 @@ async function checkForEndedAuctions(products) {
     const currentDateTime = new Date()
 
     for ( const p of products) {
-        console.log("checking for ", p.name)
 
         if (!p.auctionEnded) {
             // const endDt = new Date(p.auctionEndDt)
-            console.log("product's auction ended is false and is the highest bid!!!!!!")
             const endDt = new Date(p.auctionEndDt)
-            console.log("endDt", endDt)
-            console.log("currentDateTime", currentDateTime)
-            console.log("currentDateTime - endDt", currentDateTime - endDt)
 
 
             if ((endDt - currentDateTime) < 0){
-                console.log("endDt minus the currentDateTime is less than 0!!!!!!!!!!1")
+
                 if (p.isHighestBid){
-                    console.log("there is a bid")
-                    console.log("p.id, p.bidderEmail, p.bidPrice",p.id, p.bidderEmail, p.bidPrice)
                     await ProductWon.newWin(p.id, p.bidderEmail, p.bidPrice)
                     await Bid.updateBidAsWinningBid(p.bidId)
                     await Notification.add(

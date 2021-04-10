@@ -26,7 +26,7 @@ class FreebaySeed{
         description TEXT NOT NULL,
         rating DECIMAL NOT NULL CHECK (rating <= 5.0),
         num_of_ratings INTEGER NOT NULL,
-        image_url VARCHAR(2083) NOT NULL,
+        image_url VARCHAR(2083),
         starting_bid DECIMAL NOT NULL,
         auction_end_dt TIMESTAMP NOT NULL,
         auction_ended BOOLEAN DEFAULT false
@@ -39,7 +39,7 @@ class FreebaySeed{
         first_name VARCHAR(50) NOT NULL,
         last_name VARCHAR(50) NOT NULL,
         balance DECIMAL NOT NULL,
-        image_url VARCHAR(2083) NOT NULL,
+        image_url VARCHAR(2083),
         last_login TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
       );
       

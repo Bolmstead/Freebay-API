@@ -169,7 +169,9 @@ class Product {
     const auctionEndedResult = await db.query(
       `UPDATE products 
         SET auction_ended = true
-        WHERE id = $1`,[productId]
+        WHERE id = $1
+        RETURNING auction_ended AS "auctionEnded"
+        `,[productId]
     );
 
     if (!auctionEndedResult) throw new BadRequestError(`productauctionEnded boolean value unchanged ${auctionEndedResult}`);

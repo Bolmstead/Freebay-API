@@ -3,7 +3,6 @@ const request = require("supertest");
 
 // app imports
 const app = require("../app");
-const Product = require("../models/productModel");
 
 const {
   commonBeforeAll,
@@ -50,7 +49,6 @@ describe("GET /products", function () {
             }
           ],
     });
-    console.log("resp.body in getallproducts!!!!!!!!!!!!1", resp.body)
 
   });
 
@@ -74,7 +72,6 @@ describe("GET /products", function () {
           }
         ],
     });
-    console.log("resp.body in works: filtering!!!!!!!!!!!!1", resp.body)
   });
 
   test("works: filtering on multiple filters", async function () {
@@ -97,7 +94,6 @@ describe("GET /products", function () {
           }
         ],
     });
-    console.log("resp.body in filtering multiple filters!!!!!!!!!!!!!!!!!!!!!1", resp.body)
   });
 });
 

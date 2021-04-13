@@ -120,11 +120,9 @@ class Product {
 
       // Send query with pagination
       const queryWithPagination = query + paginationQuery
-
-      console.log("query", query)
-      console.log("paginationQuery",paginationQuery)
-
       const paginatedProductsResult = await db.query(queryWithPagination, queryValues);
+
+      console.log("paginatedProductsResult.rows",paginatedProductsResult.rows)
 
       if(!paginatedProductsResult) {
         throw new BadRequestError(`Unable to make request for products in Products.getProducts()`);

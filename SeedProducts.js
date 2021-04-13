@@ -17,6 +17,7 @@ class FreebaySeed{
 
   static randomDate(start, end) {
     let currentDateTime = new Date()
+    // 14 days?
     return new Date(currentDateTime.getTime() + Math.random() * (1500000000));
   }
 

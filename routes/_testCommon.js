@@ -74,8 +74,6 @@ async function commonBeforeAll() {
     CURRENT_TIMESTAMP
   )`);
 
-    console.log("test1")
-
   const user1Result = await db.query(
     `INSERT INTO users
      (email, username, password, first_name, last_name, image_url, balance)
@@ -91,8 +89,6 @@ async function commonBeforeAll() {
       1000
     ]
   );
-
-  console.log("test2")
 
 
   const user2Result = await db.query(
@@ -111,9 +107,6 @@ async function commonBeforeAll() {
     ]
   );
 
-  console.log("test3")
-
-
   const user1 = user1Result.rows[0]
   const user2 = user2Result.rows[0]
 
@@ -125,8 +118,6 @@ async function commonBeforeAll() {
 
   testTokens[0] = u1Token;
   testTokens[1] = u2Token;
-
-  console.log("test4")
 
 
   const product1Result = await db.query(
@@ -159,17 +150,12 @@ async function commonBeforeAll() {
     ]
   );
 
-  console.log("test5")
-
 
   const product1 = product1Result.rows[0]
   const product2 = product2Result.rows[0]
 
   testProducts[0] = product1;
   testProducts[1] = product2;
-
-  console.log("test6")
-
 
 }
 

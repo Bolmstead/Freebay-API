@@ -6,11 +6,15 @@
 </p>
   
 
-## The REST API for the FreeBay Web App 
+  <p align="center">
+    The REST API for the FreeBay Web App 
+    <br /> 
+       <br />
+  </p>
 
 # Table of Contents
-1. [Authorization Routes](#Authorization-Routes)
-2. [Products Routes](#Products-Routes)
+1. [Products Routes](#Products-Routes)
+2. [Authorization Routes](#Authorization-Routes)
 3. [User Route](#User-Route)
 4. [Notifications Route](#Notifications-Route)
 5. [Bids Routes](#Bids-Routes)
@@ -18,35 +22,6 @@
 7. [How to Run a Local Copy](#How-to-Run-a-Local-Copy)
 8. [Roadmap](#Roadmap)
 9. [Contact](#Contact)
-
-# Authorization Routes
-
-### Register User
-
-`POST /auth/register/`
-#### Request:
-    {
-      "email":  "email@email.com",
-      "username": "username",
-      "password": "password",
-      "firstName": "first",
-      "lastName": "last"
-    }
-#### Response:
-    { "token":"abcd123" }
-
-### Login User
-
-`POST /auth/login/`
-
-#### Request:
-    {
-      "email":  "email@email.com",
-      "username": "username"
-    }
-
-#### Response:
-    { "token":"abcd123" }
 
 # Products Routes
 
@@ -122,6 +97,36 @@
           "numOfBids":"2"
         }
     }
+
+
+# Authorization Routes
+
+### Register User
+
+`POST /auth/register/`
+#### Request:
+    {
+      "email":  "email@email.com",
+      "username": "username",
+      "password": "password",
+      "firstName": "first",
+      "lastName": "last"
+    }
+#### Response:
+    { "token":"abcd123" }
+
+### Login User
+
+`POST /auth/login/`
+
+#### Request:
+    {
+      "email":  "email@email.com",
+      "username": "username"
+    }
+
+#### Response:
+    { "token":"abcd123" }
 
 # User Route
 

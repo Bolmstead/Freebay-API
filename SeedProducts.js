@@ -4,11 +4,10 @@ const products1 = require("./products_1");
 const products2 = require("./products_2");
 const products3 = require("./products_3");
 
-const User = require("./models/UserModel")
 const ProductWon = require("./models/ProductWonModel")
 const Bid = require("./models/BidModel")
 
-
+// Seed file to add all products to database. 
 
 const db = require("./db");
 
@@ -17,8 +16,9 @@ class FreebaySeed{
 
   static randomDate(start, end) {
     let currentDateTime = new Date()
-    // 14 days?
-    return new Date(currentDateTime.getTime() + Math.random() * (1500000000));
+    // number of milliseconds from now to the latest time of the auction
+    let limit = 9000000000
+    return new Date(currentDateTime.getTime() + Math.random() * (limit));
   }
 
   static randomRating() {

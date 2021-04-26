@@ -127,10 +127,14 @@ async function commonBeforeAll() {
   testTokens[0] = u1Token;
   testTokens[1] = u2Token;
 
+  console.log("u1Token,", u1Token)
+  console.log("u2Token,", u2Token)
+
+
   const product1Result = await db.query(
     `INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
-    RETURNING (name, category, sub_category AS subCategory, description, rating, numOfRatings, imageUrl, startingBid, auctionEndDt)`,
+    RETURNING (name, category, sub_category AS subCategory, description, rating, num_of_ratings AS numOfRatings, image_url AS imageUrl, startingBid, auctionEndDt)`,
     [ "iPhone",
       "Electronics",
       "Cell Phones and Accessories",

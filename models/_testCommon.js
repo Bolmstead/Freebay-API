@@ -76,8 +76,6 @@ async function commonBeforeAll() {
     CURRENT_TIMESTAMP
   )`);
 
-    console.log("test1")
-
   const user1Result = await db.query(
     `INSERT INTO users
      (email, username, password, first_name, last_name, image_url, balance)
@@ -94,7 +92,6 @@ async function commonBeforeAll() {
     ]
   );
 
-  console.log("test2")
 
 
   const user2Result = await db.query(
@@ -113,11 +110,13 @@ async function commonBeforeAll() {
     ]
   );
 
-  console.log("test3")
-
 
   const user1 = user1Result.rows[0]
   const user2 = user2Result.rows[0]
+
+  console.log("user1,", user1)
+  console.log("user2,", user2)
+
 
   testUsers[0] = user1;
   testUsers[1] = user2;
@@ -128,12 +127,14 @@ async function commonBeforeAll() {
   testTokens[0] = u1Token;
   testTokens[1] = u2Token;
 
-  console.log("test4")
+  console.log("u1Token,", u1Token)
+  console.log("u2Token,", u2Token)
 
 
   const product1Result = await db.query(
     `INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`,
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+    RETURNING (name, category, sub_category AS subCategory, description, rating, numOfRatings, imageUrl, startingBid, auctionEndDt)`,
     [ "iPhone",
       "Electronics",
       "Cell Phones and Accessories",
@@ -148,7 +149,8 @@ async function commonBeforeAll() {
 
   const product2Result = await db.query(
     `INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`,
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+    RETURNING (name, category, sub_category AS subCategory, description, rating, numOfRatings, imageUrl, startingBid, auctionEndDt)`,
     [ "Candy Bar",
       "Misc.",
       "Grocery",
@@ -161,16 +163,15 @@ async function commonBeforeAll() {
     ]
   );
 
-  console.log("test5")
-
-
   const product1 = product1Result.rows[0]
   const product2 = product2Result.rows[0]
 
+  console.log("product1,", product1)
+  console.log("product2,", product2)
+
+
   testProducts[0] = product1;
   testProducts[1] = product2;
-
-  console.log("test6")
 
 
 }

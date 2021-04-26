@@ -40,7 +40,7 @@ class Product {
     let queryValues = []; 
 
     let { page, name, category, subCategory, description, 
-      rating, numOfRatings, auctionEndDt} = q;
+      rating, numOfRatings} = q;
 
     // For each possible search term, add to whereExpressions and 
     // queryValues to grab desired products.
@@ -72,11 +72,6 @@ class Product {
     if (numOfRatings !== undefined) {
       queryValues.push(numOfRatings);
       whereExpressions.push(`num_of_ratings >= $${queryValues.length}`);
-    }
-
-    if (auctionEndDt !== undefined) {
-      queryValues.push(auctionEndDt);
-      whereExpressions.push(`auction_end_dt >= $${queryValues.length}`);
     }
 
     // add only products that are in auction to query along 
@@ -121,8 +116,6 @@ class Product {
       // Send query with pagination
       const queryWithPagination = query + paginationQuery
       const paginatedProductsResult = await db.query(queryWithPagination, queryValues);
-
-      console.log("paginatedProductsResult.rows",paginatedProductsResult.rows)
 
       if(!paginatedProductsResult) {
         throw new BadRequestError(`Unable to make request for products in Products.getProducts()`);

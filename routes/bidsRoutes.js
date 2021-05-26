@@ -30,7 +30,6 @@ router.get("/check-all-bids-for-ended-auctions", async function (req, res, next)
 });
 
 
-// WORKSSS!!!!!!!
 // called to grab product and bidder information 
 // of products that have most recently been bidded on
 router.get("/recent/:num", async function (req, res, next) {
@@ -45,8 +44,7 @@ router.get("/recent/:num", async function (req, res, next) {
 
 });
 
-// CHECK ON FRONTEND TO SEE IF WORKS. RES.LOCALS.USER NOT PULLING USER
-// NEED TO PUT IN MIDDLEWARE
+
 // Route for submitting bid on product
 router.post("/:productId/placeBid/:amount", ensureLoggedIn, async function (req, res, next) {
   try {

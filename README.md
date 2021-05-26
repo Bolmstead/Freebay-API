@@ -20,7 +20,6 @@
 5. [Bids Routes](#Bids-Routes)
 6. [Products Won Routes](#Products-Won-Routes)
 7. [How to Run a Local Copy](#How-to-Run-a-Local-Copy)
-8. [Roadmap](#Roadmap)
 9. [Contact](#Contact)
 
 # Products Routes
@@ -278,14 +277,6 @@ To get a local copy of the API up and running follow these steps:
     ```
 
 7. Start your server in the appropriate directory and you are done!
-
-
-# Roadmap
-
-Stretch goals for this project:
-* Search filter box for a list of searched products.
-* Users add their own products and ratings for products they've won.
-* Websocket chat feature.
 
 # Contact
 

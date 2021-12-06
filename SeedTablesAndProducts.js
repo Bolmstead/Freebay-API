@@ -74,8 +74,8 @@ class FreebaySeed {
 
   static randomDate(start, end) {
     let currentDateTime = new Date();
-    // 4 days
-    return new Date(currentDateTime.getTime() + Math.random() * 345600000);
+    // 1 monthish
+    return new Date(currentDateTime.getTime() + Math.random() * 3000000000);
   }
 
   static randomRating() {
@@ -115,6 +115,9 @@ class FreebaySeed {
         "🚀 ~ file: SeedTablesAndProducts.js ~ line 105 ~ FreebaySeed ~ seedAllProducts ~ starting_bid",
         starting_bid
       );
+      if (!starting_bid) {
+        starting_bid = 5;
+      }
 
       // Grab random rating, number of ratings
       const num_of_ratings = FreebaySeed.randomNumberOfRatings();
@@ -167,6 +170,10 @@ class FreebaySeed {
       let starting_bid = market_price * 0.5;
       starting_bid = Math.round(100 * starting_bid) / 100;
 
+      if (!starting_bid) {
+        starting_bid = 5;
+      }
+
       // Grab random rating and number of ratings
       const num_of_ratings = FreebaySeed.randomNumberOfRatings();
       const rating = FreebaySeed.randomRating();
@@ -183,10 +190,7 @@ class FreebaySeed {
         auction_end_dt,
       ];
 
-      console.log(
-        "🚀 ~ second loop ~ valuesArray",
-        valuesArray
-      );
+      console.log("🚀 ~ second loop ~ valuesArray", valuesArray);
 
       await db.query(
         `INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
@@ -214,6 +218,9 @@ class FreebaySeed {
       // Create starting price as half of the product's actual price
       let starting_bid = market_price * 0.5;
       starting_bid = Math.round(100 * starting_bid) / 100;
+      if (!starting_bid) {
+        starting_bid = 5;
+      }
 
       // Grab random rating and number of ratings
       const num_of_ratings = FreebaySeed.randomNumberOfRatings();
@@ -231,10 +238,7 @@ class FreebaySeed {
         auction_end_dt,
       ];
 
-      console.log(
-        "🚀 ~ 3rd loop valuesArray",
-        valuesArray
-      );
+      console.log("🚀 ~ 3rd loop valuesArray", valuesArray);
 
       await db.query(
         `INSERT INTO products (name, category, sub_category, description, rating, num_of_ratings, image_url, starting_bid, auction_end_dt) 
@@ -243,7 +247,7 @@ class FreebaySeed {
       );
     }
 
-    console.log("made it through the loops!")
+    console.log("made it through the loops!");
   }
 }
 

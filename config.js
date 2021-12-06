@@ -5,7 +5,7 @@
 require("dotenv").config();
 require("colors");
 
-const SECRET_KEY = process.env.SECRET_KEY || "secret-key333";
+const SECRET_KEY = "secret-key333";
 
 const PORT = process.env.PORT || 3001;
 

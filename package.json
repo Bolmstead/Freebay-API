@@ -26,12 +26,12 @@
     "express": "^4.17.1",
     "heroku": "^7.51.0",
     "jest": "^26.6.3",
+    "jest-environment-node-debug": "^2.0.0",
     "jsonschema": "^1.2.6",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
-    "pg": "^8.3.0",
+    "pg": "^8.11.0",
     "strftime": "^0.10.0",
-    "jest-environment-node-debug": "^2.0.0",
     "supertest": "^5.0.0"
   }
 }

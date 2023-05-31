@@ -12,7 +12,6 @@ const db = require("./db");
 
 class FreebaySeed {
   static async createTables() {
-    console.log("started")
     await db.query(`DROP TABLE IF EXISTS products, users, products_won, bids, notifications;
 
       CREATE TABLE products (
@@ -252,8 +251,8 @@ class FreebaySeed {
   }
 }
 
-FreebaySeed.createTables();
-FreebaySeed.seedAllProducts();
+// FreebaySeed.createTables();
+// FreebaySeed.seedAllProducts();
 // FreebaySeed.seedSampleUsers()
 
 module.exports = FreebaySeed;

@@ -14,12 +14,10 @@ const productsWonRoutes = require("./routes/productsWonRoutes");
 const notificationsRoutes = require("./routes/notificationsRoutes");
 const testRoute = require("./routes/testRoute");
 
-
-
 const morgan = require("morgan");
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(morgan("tiny"));
 app.use(authenticateJWT);
@@ -31,11 +29,6 @@ app.use("/bids", bidsRoutes);
 app.use("/products-won", productsWonRoutes);
 app.use("/notifications", notificationsRoutes);
 app.use("/test", testRoute);
-
-
-
-
-
 
 /** Handle 404 errors -- this matches everything */
 app.use(function (req, res, next) {

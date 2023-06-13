@@ -4,14 +4,21 @@ const products1 = require("./products_1");
 const products2 = require("./products_2");
 const products3 = require("./products_3");
 
+console.log("made it past products");
+
 const ProductWon = require("./models/ProductWonModel");
 const Bid = require("./models/BidModel");
+console.log("made it before db");
+
 const db = require("./db");
+console.log("made it after db");
 
 // Seed file to delete all tables and add all products to database.
 
 class FreebaySeed {
   static async createTables() {
+    console.log("made it to create tables");
+
     await db.query(`DROP TABLE IF EXISTS products, users, products_won, bids, notifications;
 
       CREATE TABLE products (
@@ -251,8 +258,8 @@ class FreebaySeed {
   }
 }
 
-// FreebaySeed.createTables();
-// FreebaySeed.seedAllProducts();
+FreebaySeed.createTables();
+FreebaySeed.seedAllProducts();
 // FreebaySeed.seedSampleUsers()
 
 module.exports = FreebaySeed;

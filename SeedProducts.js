@@ -1,4 +1,5 @@
 "use strict";
+const db = require("./db");
 
 const products1 = require("./products_1");
 const products2 = require("./products_2");
@@ -6,7 +7,6 @@ const products3 = require("./products_3");
 
 const ProductWon = require("./models/ProductWonModel");
 const Bid = require("./models/BidModel");
-const db = require("./db");
 
 // Seed file to delete all tables and add all products to database.
 

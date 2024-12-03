@@ -20,7 +20,7 @@ const app = express();
 // Allow requests from your Netlify domain
 app.use(
   cors({
-    origin: "https://freebay.netlify.app", // Replace with your frontend domain
+    origin: ["https://freebay.netlify.app", "http://localhost:3001"], // Replace with your frontend domain
     methods: ["GET", "POST", "PUT", "DELETE"], // Specify allowed HTTP methods
     credentials: true, // Include cookies if necessary
   })

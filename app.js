@@ -17,7 +17,14 @@ const testRoute = require("./routes/testRoute");
 const morgan = require("morgan");
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://localhost:4200", "https://freebay.netlify.app/"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use(morgan("tiny"));
 app.use(authenticateJWT);

@@ -7,7 +7,7 @@ require("colors");
 
 const SECRET_KEY = "secret-key333";
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3003;
 
 // Speed up bcrypt during tests, since the algorithm safety isn't being tested
 //

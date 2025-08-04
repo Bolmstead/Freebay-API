@@ -1,6 +1,7 @@
 const { Client } = require("pg");
+const dotenv = require("dotenv");
 
-// console.log("process.env.DATABASE_URL", process.env.DATABASE_URL);
+dotenv.config();
 
 const db = new Client({
   connectionString: process.env.HEROKU_DATABASE_URL,

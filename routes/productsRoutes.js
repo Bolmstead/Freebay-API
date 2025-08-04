@@ -6,10 +6,10 @@ const { authenticateJWT } = require("../middleware/auth");
 const Product = require("../models/ProductModel");
 const Bid = require("../models/BidModel");
 const ProductWon = require("../models/ProductWonModel");
-const { checkForEndedAuctions } = require("../helpers/checkForEndedAuctions.js");
-
-
-
+const FreebaySeed = require("../SeedProducts");
+const {
+  checkForEndedAuctions,
+} = require("../helpers/checkForEndedAuctions.js");
 
 const router = new express.Router();
 
@@ -22,46 +22,50 @@ router.get("/", async function (req, res, next) {
 
     // Check all queried products if their auction has ended.
     // If so, execute newWin method and add one to numberOfAuctionsEnded.
-    let numberOfAuctionsEnded = await checkForEndedAuctions(allProducts)
-    
+    let numberOfAuctionsEnded = await checkForEndedAuctions(allProducts);
 
-    const paginatedProducts = await Product.getProducts(q, pagination = true)
-    return  res.json({
+    const paginatedProducts = await Product.getProducts(q, (pagination = true));
+    return res.json({
       products: paginatedProducts,
-      numOfProductsInAuction: (allProducts.length - numberOfAuctionsEnded)
-    })
-  } catch (err){
-    return next(err)
+      numOfProductsInAuction: allProducts.length - numberOfAuctionsEnded,
+    });
+  } catch (err) {
+    return next(err);
   }
+});
 
+// Seeds all Products to Database
+router.get("/seed", async function (req, res, next) {
+  try {
+    console.log("FreebaySeed");
+    console.log("made it 🙅🏻‍♂️🙅🏻‍♂️🙅🏻‍♂️🙅🏻‍♂️🙅🏻‍♂️🙅🏻‍♂️🙅🏻‍♂️");
+    await FreebaySeed.seedAllProducts();
+    return res.json("made it");
+  } catch (err) {
+    return next(err);
+  }
 });
 
 // Grabs information about the product and bidder
 router.get("/:id", async function (req, res, next) {
   try {
     let productResult = await Product.getProduct(req.params.id);
-    let numberOfAuctionsEnded = await checkForEndedAuctions([productResult])
+    let numberOfAuctionsEnded = await checkForEndedAuctions([productResult]);
 
     if (numberOfAuctionsEnded > 0) {
-      productResult = await Product.getProduct(req.params.id)
+      productResult = await Product.getProduct(req.params.id);
     } else {
       if (productResult.bidId) {
-        const numOfBids = await Bid.getBidCount(req.params.id)
-        productResult["numOfBids"] = numOfBids
+        const numOfBids = await Bid.getBidCount(req.params.id);
+        productResult["numOfBids"] = numOfBids;
       } else {
-        productResult["numOfBids"] = 0
+        productResult["numOfBids"] = 0;
       }
     }
-    return res.json({ productResult});
+    return res.json({ productResult });
   } catch (err) {
     return next(err);
   }
-
 });
-
-
-
-
-
 
 module.exports = router;

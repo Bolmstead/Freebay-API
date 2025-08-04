@@ -4,12 +4,11 @@ const db = require("../db");
 const { BadRequestError } = require("../expressError");
 const ProductWon = require("./ProductWonModel");
 
-
 /** Related functions for products. */
 
 class Product {
   // Grabs products and their bidder info based on search query parameters.
-  // Utilizes pagination with a max number of products in each query. 
+  // Utilizes pagination with a max number of products in each query.
   static async getProducts(q, pagination = false) {
     let query = `SELECT products.id,
                         products.name,
@@ -37,12 +36,19 @@ class Product {
 
     // whereExpressions, queryValues, and paginationQuery that will be inserted into query
     let whereExpressions = [];
-    let queryValues = []; 
+    let queryValues = [];
 
-    let { page, name, category, subCategory, description, 
-      rating, numOfRatings} = q;
+    let {
+      page,
+      name,
+      category,
+      subCategory,
+      description,
+      rating,
+      numOfRatings,
+    } = q;
 
-    // For each possible search term, add to whereExpressions and 
+    // For each possible search term, add to whereExpressions and
     // queryValues to grab desired products.
     if (name !== undefined) {
       queryValues.push(`%${name}%`);
@@ -74,7 +80,7 @@ class Product {
       whereExpressions.push(`num_of_ratings >= $${queryValues.length}`);
     }
 
-    // add only products that are in auction to query along 
+    // add only products that are in auction to query along
     // with the where expressions
     whereExpressions.push(`
     products.auction_ended = false 
@@ -82,43 +88,48 @@ class Product {
       OR bids.is_highest_bid IS NULL)`);
     query += " WHERE " + whereExpressions.join(" AND ");
 
-    // Send query for all products. 
+    // Send query for all products.
     const allProductsResult = await db.query(query, queryValues);
-    if(!allProductsResult) {
-      throw new BadRequestError(`Unable to make request for all products in Products.getProducts()`);
+    if (!allProductsResult) {
+      throw new BadRequestError(
+        `Unable to make request for all products in Products.getProducts()`
+      );
     }
 
     // If pagination parameter has not been passed into function, return all products
     if (!pagination) {
-      return allProductsResult.rows
+      return allProductsResult.rows;
     } else {
-
       // Otherwise, return paginated results
       let paginationQuery = " limit 24 OFFSET ";
-      let numberOfProductsPerPage = 24
+      let numberOfProductsPerPage = 24;
 
       // Number to be placed in the OFFSET portion of query.
       let offsetNumber;
 
       // If page is not defined in query, set offset number to zero.
       if (!page) {
-        offsetNumber = 0
-      }
-      else {
-        // Otherwise convert page to integer and determine how many 
+        offsetNumber = 0;
+      } else {
+        // Otherwise convert page to integer and determine how many
         // products user has seen to offset query.
-        let pageNum = parseInt(page)
-        offsetNumber = (pageNum - 1) * numberOfProductsPerPage
+        let pageNum = parseInt(page);
+        offsetNumber = (pageNum - 1) * numberOfProductsPerPage;
       }
 
-      paginationQuery += offsetNumber
+      paginationQuery += offsetNumber;
 
       // Send query with pagination
-      const queryWithPagination = query + paginationQuery
-      const paginatedProductsResult = await db.query(queryWithPagination, queryValues);
+      const queryWithPagination = query + paginationQuery;
+      const paginatedProductsResult = await db.query(
+        queryWithPagination,
+        queryValues
+      );
 
-      if(!paginatedProductsResult) {
-        throw new BadRequestError(`Unable to make request for products in Products.getProducts()`);
+      if (!paginatedProductsResult) {
+        throw new BadRequestError(
+          `Unable to make request for products in Products.getProducts()`
+        );
       }
 
       return paginatedProductsResult.rows;
@@ -129,8 +140,7 @@ class Product {
    * Throws NotFoundError if not found.**/
 
   static async getProduct(id) {
-    const query =     
-        `SELECT products.id,
+    const query = `SELECT products.id,
         products.name,
         products.category,
         products.sub_category AS "subCategory",
@@ -151,13 +161,13 @@ class Product {
     FULL OUTER JOIN bids ON products.id = bids.product_id
     FULL OUTER JOIN users ON bids.user_email = users.email
 	  WHERE products.id = $1
-    ORDER BY bids.is_highest_bid DESC`
+    ORDER BY bids.is_highest_bid DESC`;
 
     const productResult = await db.query(query, [id]);
 
     if (!productResult) throw new BadRequestError(`Unable to get product`);
-    
-    const product = productResult.rows[0]
+
+    const product = productResult.rows[0];
 
     return product;
   }
@@ -169,10 +179,14 @@ class Product {
         SET auction_ended = true
         WHERE id = $1
         RETURNING auction_ended AS "auctionEnded"
-        `,[productId]
+        `,
+      [productId]
     );
 
-    if (!auctionEndedResult) throw new BadRequestError(`productauctionEnded boolean value unchanged ${auctionEndedResult}`);
+    if (!auctionEndedResult)
+      throw new BadRequestError(
+        `productauctionEnded boolean value unchanged ${auctionEndedResult}`
+      );
   }
 }
 

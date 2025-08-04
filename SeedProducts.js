@@ -252,7 +252,7 @@ class FreebaySeed {
 }
 
 // FreebaySeed.createTables();
-FreebaySeed.seedAllProducts();
+// FreebaySeed.seedAllProducts();
 // FreebaySeed.seedSampleUsers()
 
 module.exports = FreebaySeed;

@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const db = new Client({
-  connectionString: process.env.HEROKU_DATABASE_URL,
+  connectionString: process.env.DATABASE_URL,
   password: process.env.HEROKU_DATABASE_PASSWORD,
   ssl: { rejectUnauthorized: false },
 });

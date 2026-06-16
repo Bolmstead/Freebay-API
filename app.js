@@ -12,6 +12,7 @@ const authRoutes = require("./routes/authRoutes");
 const bidsRoutes = require("./routes/bidsRoutes");
 const productsWonRoutes = require("./routes/productsWonRoutes");
 const notificationsRoutes = require("./routes/notificationsRoutes");
+const invoiceRoutes = require("./routes/invoiceRoutes");
 const testRoute = require("./routes/testRoute");
 
 const morgan = require("morgan");
@@ -35,6 +36,7 @@ app.use("/auth", authRoutes);
 app.use("/bids", bidsRoutes);
 app.use("/products-won", productsWonRoutes);
 app.use("/notifications", notificationsRoutes);
+app.use("/invoice", invoiceRoutes);
 app.use("/test", testRoute);
 
 /** Handle 404 errors -- this matches everything */

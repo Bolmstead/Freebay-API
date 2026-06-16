@@ -1,61 +1,59 @@
 "use strict";
 
-const db = require("../db");
-const { NotFoundError, BadRequestError } = require("../expressError");
-const Notification = require("./NotificationModel");
-const Product = require("./ProductModel");
+const { mongoose } = require("../db");
+const { BadRequestError } = require("../expressError");
+const { formatProductWon } = require("../helpers/modelFormatters");
 
+const productWonSchema = new mongoose.Schema({
+  product: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Product",
+    required: true,
+    index: true,
+  },
+  userEmail: { type: String, required: true, index: true },
+  bidPrice: { type: Number, required: true, min: 0 },
+  wonTime: { type: Date, default: Date.now, index: true },
+  invoice: { type: mongoose.Schema.Types.ObjectId, ref: "Invoice" },
+});
 
-/** Related functions for products_won. */
+productWonSchema.index({ product: 1, userEmail: 1 }, { unique: true });
 
-class ProductsWon {
+productWonSchema.statics.newWin = async function (productId, userEmail, bidPrice) {
+  let productWon = await this.findOne({ product: productId, userEmail });
+  if (productWon) return productWon;
 
-  // Method to be executed when a user wins a product
-  static async newWin(productId, userEmail, bidPrice){
+  productWon = await this.create({
+    product: productId,
+    userEmail,
+    bidPrice: Number(bidPrice),
+  });
 
-    // Insert into products_won table 
-    const productWonRes = await db.query(
-    `INSERT INTO products_won (product_id, user_email, bid_price)
-    VALUES ($1, $2, $3)
-    RETURNING product_id AS "productId", user_email AS "userEmail", bid_price AS "bidPrice"`,
-     [productId, userEmail, bidPrice]);
+  if (!productWon) throw new BadRequestError("Winning product not added");
+  return productWon;
+};
 
-    if (!productWonRes) throw new NotFoundError(
-      `Winning Product not added to Products Won table`
-    );
+productWonSchema.statics.attachInvoice = async function (productWonId, invoiceId) {
+  return this.findByIdAndUpdate(productWonId, { invoice: invoiceId }, { new: true });
+};
 
-  }
+productWonSchema.statics.getRecentWins = async function (numOfProducts) {
+  const User = require("./UserModel");
 
-  // Method to grab the product and bidder information 
-  // of products most recently won.
-  static async getRecentWins(numOfProducts) {
-    // Only query products that have a bid and the auction has ended
-    const winsFeedRes = await db.query(
-      `SELECT products.id,
-              products.name,
-              products.category,
-              products.sub_category AS "subCategory",
-              products.description,
-              products.rating,
-              products.image_url AS "imageUrl",
-              products.auction_end_dt AS "auctionEndDt",
-              products.auction_ended AS "auctionEnded",
-              products_won.bid_price AS "bidPrice",
-              products_won.won_time AS "wonTime",
-              users.username,
-              users.email,
-              users.image_url AS "userImageUrl"
-        FROM products_won
-        FULL OUTER JOIN products ON products_won.product_id = products.id
-        FULL OUTER JOIN users ON products_won.user_email = users.email
-        WHERE products.auction_ended = true AND products_won.bid_price > 1
-        ORDER BY products_won.won_time DESC
-        LIMIT ${numOfProducts}`);
+  const wins = await this.find({ bidPrice: { $gt: 1 } })
+    .sort({ wonTime: -1 })
+    .limit(Number(numOfProducts) || 10)
+    .populate("product")
+    .populate("invoice");
 
-    if (!winsFeedRes) throw new BadRequestError(`Unable to getBids in userModel.js`);
+  const filteredWins = wins.filter((win) => win.product && win.product.auctionEnded);
+  const emails = [...new Set(filteredWins.map((win) => win.userEmail))];
+  const users = await User.find({ email: { $in: emails } });
+  const usersByEmail = new Map(users.map((user) => [user.email, user]));
 
-    return winsFeedRes.rows
-    }
-}
+  return filteredWins.map((win) =>
+    formatProductWon(win, win.product, usersByEmail.get(win.userEmail), win.invoice)
+  );
+};
 
-module.exports = ProductsWon;
+module.exports = mongoose.model("ProductWon", productWonSchema);

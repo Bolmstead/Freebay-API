@@ -1,98 +1,66 @@
-const db = require("../db");
-const { BadRequestError, ForbiddenError } = require("../expressError");
+"use strict";
 
+const { mongoose } = require("../db");
+const { BadRequestError } = require("../expressError");
+const { formatBidProduct } = require("../helpers/modelFormatters");
 
+const bidSchema = new mongoose.Schema({
+  product: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Product",
+    required: true,
+    index: true,
+  },
+  userEmail: { type: String, required: true, index: true },
+  bidPrice: { type: Number, required: true, min: 0 },
+  isHighestBid: { type: Boolean, default: true, index: true },
+  wasWinningBid: { type: Boolean, default: false, index: true },
+  bidTime: { type: Date, default: Date.now, index: true },
+});
 
-/** Related functions for the bids table. */
+bidSchema.statics.addBid = async function (productId, userEmail, newBid) {
+  const bid = await this.create({
+    product: productId,
+    userEmail,
+    bidPrice: Number(newBid),
+  });
 
-class Bid {
+  if (!bid) throw new BadRequestError("Bid not added");
+  return bid;
+};
 
-  static async addBid(productId, userEmail, newBid) {
-    // add bid from the bids table.
-    const addBidResult = await db.query(
-      `INSERT INTO bids (product_id, user_email, bid_price)
-      VALUES ($1, $2, $3)
-      RETURNING product_id AS "productId", user_email AS "newBidderEmail", bid_price AS "bidPrice"`, [productId, userEmail, newBid]);
-    if (!addBidResult) throw new BadRequestError(`product not added!`);
-  }
+bidSchema.statics.getRecentBids = async function (numOfProducts) {
+  const User = require("./UserModel");
 
-  static async getRecentBids(numOfProducts) {
-    // Grab all highest bid's product and bidder information
-    // ordered by most recent. If numOfProducts has not been
-    // passed in, request will grab all bids
-    let query =
-      `SELECT products.id,
-              products.name,
-              products.category,
-              products.sub_category AS "subCategory",
-              products.description,
-              products.rating,
-              products.image_url AS "imageUrl",
-              products.auction_end_dt AS "auctionEndDt",
-              products.auction_ended AS "auctionEnded",
-              bids.bid_id AS "bidId",
-              bids.bid_price AS "bidPrice",
-              bids.bid_time AS "bidTime",
-              bids.is_highest_bid AS "isHighestBid",
-              bids.was_winning_bid AS "wasWinningBid",
-              bids.user_email AS "bidderEmail",
-              users.username,
-              users.email
-        FROM bids
-        FULL OUTER JOIN products ON bids.product_id = products.id
-        FULL OUTER JOIN users ON bids.user_email = users.email
-        WHERE bids.is_highest_bid = true AND bids.was_winning_bid = false AND products.auction_ended = false
-        ORDER BY bids.bid_time DESC`;
+  const bids = await this.find({ isHighestBid: true, wasWinningBid: false })
+    .sort({ bidTime: -1 })
+    .populate("product");
 
-    // if number parameter passed in, add limit to query.
-    // Otherwise return all bids
-    if (numOfProducts) {
-      query += ` LIMIT ${numOfProducts}`
-    }
+  const activeBids = bids.filter((bid) => bid.product && !bid.product.auctionEnded);
+  const limitedBids = numOfProducts ? activeBids.slice(0, Number(numOfProducts)) : activeBids;
+  const emails = [...new Set(limitedBids.map((bid) => bid.userEmail))];
+  const users = await User.find({ email: { $in: emails } });
+  const usersByEmail = new Map(users.map((user) => [user.email, user]));
 
-    const bidsRes = await db.query(query)
+  return limitedBids.map((bid) =>
+    formatBidProduct(bid, bid.product, usersByEmail.get(bid.userEmail))
+  );
+};
 
-    if (!bidsRes) throw new BadRequestError(`Unable to getBids in bidModel.js`);
+bidSchema.statics.setIsHighestBidToFalse = async function (bidId) {
+  const bid = await this.findByIdAndUpdate(bidId, { isHighestBid: false }, { new: true });
+  if (!bid) throw new BadRequestError(`Bid not found: ${bidId}`);
+  return bid;
+};
 
-    return bidsRes.rows
-  }
+bidSchema.statics.updateBidAsWinningBid = async function (bidId) {
+  const bid = await this.findByIdAndUpdate(bidId, { wasWinningBid: true }, { new: true });
+  if (!bid) throw new BadRequestError(`Bid not found: ${bidId}`);
+  return bid;
+};
 
-  static async setIsHighestBidToFalse(bidId) {
-    // sets the is_highest_bid column to false for a certain product
-    const updateBidRes = await db.query(
-      `UPDATE bids
-      SET is_highest_bid = false
-      WHERE bid_id = $1`, 
-      [bidId]);
-    if (!updateBidRes) throw new BadRequestError(`product not added!`);
-  }
+bidSchema.statics.getBidCount = async function (productId) {
+  return this.countDocuments({ product: productId });
+};
 
-  static async updateBidAsWinningBid(bidId) {
-    // sets the was_winning_bid column to false for a certain product
-    const updateBidRes = await db.query(
-      `UPDATE bids
-      SET was_winning_bid = true
-      WHERE bid_id = $1`, 
-      [bidId]);
-    if (!updateBidRes) throw new BadRequestError(`product not added!`);
-  }
-
-  static async getBidCount(productId) {
-    // Grab number of total bids a product has
-    let query =
-      `SELECT COUNT(*) 
-      FROM bids
-      WHERE product_id = $1`
-
-    const bidsRes = await db.query(query,[productId])
-
-    if (!bidsRes) throw new BadRequestError(`Unable to getBidCount in bidModel.js`);
-
-    return bidsRes.rows[0].count
-  }
-
-}
-
-
-
-module.exports = Bid;
+module.exports = mongoose.model("Bid", bidSchema);

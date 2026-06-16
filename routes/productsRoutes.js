@@ -2,10 +2,9 @@
 
 // const jsonschema = require("jsonschema");
 const express = require("express");
-const { authenticateJWT } = require("../middleware/auth");
 const Product = require("../models/ProductModel");
 const Bid = require("../models/BidModel");
-const ProductWon = require("../models/ProductWonModel");
+const FreebaySeed = require("../SeedTablesAndProducts");
 const { checkForEndedAuctions } = require("../helpers/checkForEndedAuctions.js");
 
 
@@ -25,7 +24,7 @@ router.get("/", async function (req, res, next) {
     let numberOfAuctionsEnded = await checkForEndedAuctions(allProducts)
     
 
-    const paginatedProducts = await Product.getProducts(q, pagination = true)
+    const paginatedProducts = await Product.getProducts(q, true)
     return  res.json({
       products: paginatedProducts,
       numOfProductsInAuction: (allProducts.length - numberOfAuctionsEnded)
@@ -34,6 +33,15 @@ router.get("/", async function (req, res, next) {
     return next(err)
   }
 
+});
+
+router.get("/seed", async function (req, res, next) {
+  try {
+    await FreebaySeed.seedAll();
+    return res.json({ result: "success" });
+  } catch (err) {
+    return next(err);
+  }
 });
 
 // Grabs information about the product and bidder

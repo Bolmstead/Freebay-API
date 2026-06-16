@@ -2,14 +2,13 @@
 
 // const jsonschema = require("jsonschema");
 const express = require("express");
-const { authenticateJWT } = require("../middleware/auth");
 const User = require("../models/UserModel");
 const Product = require("../models/ProductModel");
-const ProductWon = require("../models/ProductWonModel");
 const Notification = require("../models/NotificationModel");
 const {checkForEndedAuctions} = require("../helpers/checkForEndedAuctions")
 const Bid = require("../models/BidModel");
 const {ensureLoggedIn} = require("../middleware/auth")
+const { BadRequestError } = require("../expressError");
 
 
 const router = new express.Router();
@@ -53,22 +52,26 @@ router.post("/:productId/placeBid/:amount", ensureLoggedIn, async function (req,
     const productId = req.params.productId;
     const product = await Product.getProduct(productId)
     const newBidAmount = req.params.amount;
-    const newBidInteger = parseInt(newBidAmount)
+    const newBidInteger = Number(newBidAmount)
 
-    if (newBidInteger > user.balance) {
-      throw new ForbiddenError(`Insufficient funds`);
+    if (!Number.isFinite(newBidInteger) || newBidInteger <= 0) {
+      throw new BadRequestError(`Please submit a real bid`);
+    }
+
+    if (product.auctionEnded) {
+      throw new BadRequestError(`This auction has ended`);
     }
 
     // If product already has a bid placed
     if (product.bidPrice) {
 
       // convert bid strings to integers
-      const oldBidInteger = parseInt(product.bidPrice)
+      const oldBidInteger = Number(product.bidPrice)
 
       // If the new bid is greater than the current bid
       if (newBidInteger > oldBidInteger) {
         // set the is_highest_bid column to false for the old Bid 
-        Bid.setIsHighestBidToFalse(product.bidId)
+        await Bid.setIsHighestBidToFalse(product.bidId)
 
         // if previous bidder is different from the new bidder, 
         // send notification to previous bidder
@@ -78,27 +81,22 @@ router.post("/:productId/placeBid/:amount", ensureLoggedIn, async function (req,
             "outbid", product.id )
         } 
 
-        // Refill previous bidder's balance by previous bid amount
-        await User.increaseBalance(product.bidderEmail, oldBidInteger)
-
       } else {
         throw new BadRequestError(
-          `Your bid of ${newBid} is not higher than the previous bid of 
-          ${bidPrice}`);
+          `Your bid of ${newBidInteger} is not higher than the previous bid of 
+          ${oldBidInteger}`);
       }
     } else {
         // If no bid placed and the new bid is less than the starting bid
-        if (newBidInteger < parseInt(product.startingBid)) {
+        if (newBidInteger < Number(product.startingBid)) {
           throw new BadRequestError(
-            `Your bid of ${newBid} is not higher than the starting bid of 
+            `Your bid of ${newBidInteger} is not higher than the starting bid of 
             ${product.startingBid}`);
         }
     }
 
     // Add the highest bidder email and price to bids table
     await Bid.addBid(product.id, user.email, newBidInteger);
-    // decrease user's balance by the bid amount 
-    await User.decreaseBalance(user.email, newBidInteger)
     // Send notification to the new bidder to confirm a bid has been placed
     await Notification.add(user.email, 
       `You have placed a bid on ${product.name}`, 

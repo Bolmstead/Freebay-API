@@ -1,30 +1,27 @@
-const db = require("../db");
+"use strict";
 
-/** Related functions for notifications. */
+const { mongoose } = require("../db");
 
-class Notification {
-  // When a user views their notifications, set all their 
-  // notfication's was_viewed columns to true
-  static async wasViewed(email) {
-    await db.query(
-      `UPDATE notifications
-      SET was_viewed = true
-      WHERE user_email = $1
-      `, [email]);
-  }
+const notificationSchema = new mongoose.Schema({
+  userEmail: { type: String, required: true, index: true },
+  text: { type: String, required: true },
+  relatedProductId: { type: String },
+  wasViewed: { type: Boolean, default: false },
+  category: { type: String },
+  notificationTime: { type: Date, default: Date.now, index: true },
+});
 
-  // Inserts a new notification.
-  // - category parameter informs frontend which notification icon to display in list item.
-  // - relatedProductId parameter to be passed in if notification is about a certain product. 
-  // Lets front end use product's ID in url link to the product's detail page.
-  static async add(userEmail, text, category, relatedProductId ) {
-  await db.query(
-    `INSERT INTO notifications (user_email, text, category, related_product_id)
-    VALUES ($1, $2, $3, $4)
-    `, [userEmail, text, category, relatedProductId]);
-  }
-}
+notificationSchema.statics.wasViewed = async function (email) {
+  await this.updateMany({ userEmail: email }, { wasViewed: true });
+};
 
+notificationSchema.statics.add = async function (userEmail, text, category, relatedProductId) {
+  return this.create({
+    userEmail,
+    text,
+    category,
+    relatedProductId: relatedProductId ? relatedProductId.toString() : undefined,
+  });
+};
 
-
-module.exports = Notification;
+module.exports = mongoose.model("Notification", notificationSchema);

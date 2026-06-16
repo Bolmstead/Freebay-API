@@ -28,16 +28,7 @@ router.post("/token", async function (req, res, next) {
     const { email, password } = req.body;
     const user = await User.authenticate(email, password);
 
-    // Determine if user is eligible for the daily reward
-    const loggedInOnDifferentDay = await User.checkForLoginOnDifferentDay(user)
-
-    if (loggedInOnDifferentDay) {
-      // if User logs in on different day, increase their 
-      // balance and send notification
-      await User.increaseBalance(user.email, 100);
-      await Notification.add(user.email,
-        "Welcome back! Here's $100 freeBay bucks", "gift")
-    }
+    await User.checkForLoginOnDifferentDay(user)
 
     const token = createToken(user);
     return res.json({ token });
@@ -66,7 +57,7 @@ router.post("/register", async function (req, res, next) {
 
     if (newUser) {
       Notification.add(newUser.email, 
-        `Welcome! Here's $100 freeBay bucks!`,"gift")
+        `Welcome to FreeBay. Connect Phantom to pay for auctions you win.`,"wallet")
     }
 
     const token = createToken(newUser);
